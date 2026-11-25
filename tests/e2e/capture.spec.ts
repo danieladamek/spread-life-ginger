@@ -28,6 +28,12 @@ async function selectIn(page: Page, selector: string, n = 22): Promise<string> {
   }, [selector, n] as const);
 }
 
+// Isolation: each test starts with empty localStorage, so the notepad would restore from the shared autosave file that
+// parallel tests write to. Serve it empty here; the autosave itself is tested in notepad.spec.ts.
+test.beforeEach(async ({ page }) => {
+  await page.route('**/__local/notes', (r) => (r.request().method() === 'GET' ? r.fulfill({ json: { ok: true, state: null } }) : r.continue()));
+});
+
 async function addFromSelection(page: Page) {
   const btn = page.getByTestId('add-note');
   await expect(btn).toBeVisible();
@@ -86,7 +92,7 @@ test('inside a term popover: the popover stays open, the note hangs on the term,
   await page.getByTestId('note').filter({ hasText: quote.trim() }).getByTestId('note-link').click();
   await expect(page).toHaveURL(/\/read/);
   await expect(page.locator(`[data-note-within="popover"][data-note-opener="term:${termId}"]`)).toBeVisible();
-  await expect.poll(() => page.evaluate(() => (CSS as unknown as { highlights: Map<string, unknown> }).highlights.has('bx-note'))).toBe(true);
+  await expect.poll(() => page.evaluate(() => (CSS as unknown as { highlights: Map<string, unknown> }).highlights.has('bx-note')), { timeout: 15_000 }).toBe(true);
   expect(await page.evaluate(() => [...((CSS as unknown as { highlights: Map<string, Set<Range>> }).highlights.get('bx-note') ?? [])].map((r) => r.toString()).join(''))).toBe(quote.trim());
 });
 

@@ -3,6 +3,12 @@ import path from 'node:path';
 import { expect, test } from '@playwright/test';
 import { NOTES_DIR, OFFLINE_HOST } from '../../playwright.config';
 
+// Isolation: a fresh browser would restore from the shared autosave file other parallel tests write to; serve it empty
+// (localhost only, so the other-host test still sees no endpoint). The autosave PUT is untouched and tested below.
+test.beforeEach(async ({ page }) => {
+  await page.route(/localhost:\d+\/__local\/notes/, (r) => (r.request().method() === 'GET' ? r.fulfill({ json: { ok: true, state: null } }) : r.continue()));
+});
+
 const BROWSER_ONLY = 'Saved in this browser only — export to keep a copy.';
 
 test('notepad: write → reload → persists → export downloads a section-ordered .md → import reads it back', async ({ page }) => {

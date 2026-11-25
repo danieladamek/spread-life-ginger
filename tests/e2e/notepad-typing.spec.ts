@@ -5,6 +5,10 @@ import { expect, test, type Page } from '@playwright/test';
  * effect re-ran on every render because callers pass an inline onClose). The other notepad tests use fill(), which
  * sets the value in one step and cannot see this; these type key by key, the way a reader does.
  */
+test.beforeEach(async ({ page }) => {
+  await page.route('**/__local/notes', (r) => (r.request().method() === 'GET' ? r.fulfill({ json: { ok: true, state: null } }) : r.continue()));
+});
+
 const SENTENCE = 'The trials gave dried ginger in capsules, which is not what a fresh-rhizome tea contains.';
 
 async function typeIntoNewNote(page: Page) {
