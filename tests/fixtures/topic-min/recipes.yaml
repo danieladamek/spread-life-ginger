@@ -1,0 +1,40 @@
+as_of: 2026-11-24
+status: "2 fixture recipes"
+recipes:
+  - id: sauce
+    title: "A sauce"
+    kind: culinary
+    date: "about 1390"
+    place: "England"
+    source_ref: 1
+    source_note: "Public domain edition."
+    original_text: "Take gyngur and salt."
+    original_language: "Middle English"
+    gloss: "Ginger and salt."
+    gloss_by: "builder"
+    ingredients: ["ginger", "salt"]
+    ginger_form: dried-powdered
+    heated: false
+    links:
+      sections: ["1-the-plant", "2-the-chemistry"]
+      compounds: ["6-gingerol"]
+    science_note: "Dried ginger has shogaols [2]."
+    safety_note: "A historical document."
+  - id: remedy
+    title: "A remedy"
+    kind: medicinal
+    date: "medieval"
+    place: "Ireland"
+    source_ref: 1
+    source_note: "Modern translation, in copyright; paraphrased."
+    original_text: null
+    gloss: "Boil it in ale."
+    gloss_by: "builder"
+    ingredients: ["ginger", "ale"]
+    ginger_form: unspecified
+    heated: true
+    links:
+      sections: ["2-the-chemistry"]
+      compounds: ["6-shogaol"]
+    science_note: "Boiling converts gingerol [2]."
+    safety_note: "A historical document, not advice."

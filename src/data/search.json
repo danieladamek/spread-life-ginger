@@ -1,0 +1,378 @@
+[
+ {
+  "kind": "term",
+  "id": "rhizome",
+  "title": "Rhizome",
+  "subtitle": "An underground stem that grows horizontally; the part of ginger that is harvested.",
+  "to": "/glossary#rhizome",
+  "hay": "rhizome rhizomes an underground stem that grows horizontally; the part of ginger that is harvested."
+ },
+ {
+  "kind": "term",
+  "id": "cultigen",
+  "title": "Cultigen",
+  "subtitle": "A plant known only in cultivation, with no wild population.",
+  "to": "/glossary#cultigen",
+  "hay": "cultigen sterile cultigen a plant known only in cultivation, with no wild population."
+ },
+ {
+  "kind": "term",
+  "id": "haplotype",
+  "title": "Haplotype",
+  "subtitle": "One of the two sets of chromosomes an organism inherits; a haplotype-resolved genome separates them.",
+  "to": "/glossary#haplotype",
+  "hay": "haplotype haplotypes haplotype-resolved one of the two sets of chromosomes an organism inherits; a haplotype-resolved genome separates them."
+ },
+ {
+  "kind": "term",
+  "id": "gingerol",
+  "title": "Gingerol",
+  "subtitle": "The main pungent compounds of fresh ginger; 6-gingerol is the most abundant.",
+  "to": "/glossary#gingerol",
+  "hay": "gingerol gingerols 6-gingerol 8-gingerol 10-gingerol the main pungent compounds of fresh ginger; 6-gingerol is the most abundant."
+ },
+ {
+  "kind": "term",
+  "id": "shogaol",
+  "title": "Shogaol",
+  "subtitle": "Pungent compounds formed from gingerols when ginger is dried or heated.",
+  "to": "/glossary#shogaol",
+  "hay": "shogaol shogaols 6-shogaol 10-shogaol pungent compounds formed from gingerols when ginger is dried or heated."
+ },
+ {
+  "kind": "term",
+  "id": "zingibain",
+  "title": "Zingibain",
+  "subtitle": "A protein-digesting enzyme in ginger rhizome that tenderises meat.",
+  "to": "/glossary#zingibain",
+  "hay": "zingibain ginger protease a protein-digesting enzyme in ginger rhizome that tenderises meat."
+ },
+ {
+  "kind": "term",
+  "id": "trpv1",
+  "title": "TRPV1",
+  "subtitle": "A receptor on sensory nerves that responds to heat and to pungent compounds such as capsaicin and gingerols.",
+  "to": "/glossary#trpv1",
+  "hay": "trpv1 trpv1 receptor trpv1 channel a receptor on sensory nerves that responds to heat and to pungent compounds such as capsaicin and gingerols."
+ },
+ {
+  "kind": "term",
+  "id": "5-ht3",
+  "title": "5-HT3 receptor",
+  "subtitle": "A serotonin receptor in the gut and brain that standard anti-nausea drugs block.",
+  "to": "/glossary#5-ht3",
+  "hay": "5-ht3 receptor 5-ht3 5-ht3 receptors a serotonin receptor in the gut and brain that standard anti-nausea drugs block."
+ },
+ {
+  "kind": "term",
+  "id": "glucuronide",
+  "title": "Glucuronide conjugate",
+  "subtitle": "A compound to which the body has attached a sugar acid, usually making it easier to excrete.",
+  "to": "/glossary#glucuronide",
+  "hay": "glucuronide conjugate glucuronides conjugates glucuronide conjugation a compound to which the body has attached a sugar acid, usually making it easier to excrete."
+ },
+ {
+  "kind": "term",
+  "id": "first-pass",
+  "title": "First-pass metabolism",
+  "subtitle": "Breakdown of a swallowed compound in the gut wall and liver before it reaches the general circulation.",
+  "to": "/glossary#first-pass",
+  "hay": "first-pass metabolism first-pass breakdown of a swallowed compound in the gut wall and liver before it reaches the general circulation."
+ },
+ {
+  "kind": "term",
+  "id": "meta-analysis",
+  "title": "Meta-analysis",
+  "subtitle": "A statistical pooling of the results of several studies of the same question.",
+  "to": "/glossary#meta-analysis",
+  "hay": "meta-analysis meta-analyses pooled analysis a statistical pooling of the results of several studies of the same question."
+ },
+ {
+  "kind": "term",
+  "id": "umbrella-review",
+  "title": "Umbrella review",
+  "subtitle": "A review of systematic reviews and meta-analyses.",
+  "to": "/glossary#umbrella-review",
+  "hay": "umbrella review umbrella reviews overview of systematic reviews a review of systematic reviews and meta-analyses."
+ },
+ {
+  "kind": "term",
+  "id": "grade",
+  "title": "GRADE",
+  "subtitle": "A system for rating how certain a body of evidence is, from very low to high.",
+  "to": "/glossary#grade",
+  "hay": "grade grade rating a system for rating how certain a body of evidence is, from very low to high."
+ },
+ {
+  "kind": "term",
+  "id": "heterogeneity",
+  "title": "Heterogeneity",
+  "subtitle": "The extent to which pooled studies disagree with one another, often reported as I².",
+  "to": "/glossary#heterogeneity",
+  "hay": "heterogeneity i² the extent to which pooled studies disagree with one another, often reported as i²."
+ },
+ {
+  "kind": "term",
+  "id": "confidence-interval",
+  "title": "Confidence interval",
+  "subtitle": "The range of values compatible with a study's data; a wide interval means an imprecise estimate.",
+  "to": "/glossary#confidence-interval",
+  "hay": "confidence interval 95% confidence interval confidence intervals the range of values compatible with a study's data; a wide interval means an imprecise estimate."
+ },
+ {
+  "kind": "term",
+  "id": "humoral-theory",
+  "title": "Humoral theory",
+  "subtitle": "The pre-modern medical doctrine that health is a balance of four humours with qualities of hot, cold, wet and dry.",
+  "to": "/glossary#humoral-theory",
+  "hay": "humoral theory humours humoral the pre-modern medical doctrine that health is a balance of four humours with qualities of hot, cold, wet and dry."
+ },
+ {
+  "kind": "term",
+  "id": "test-article",
+  "title": "Test article",
+  "subtitle": "The exact preparation a study gave its participants.",
+  "to": "/glossary#test-article",
+  "hay": "test article test articles the exact preparation a study gave its participants."
+ },
+ {
+  "kind": "concept",
+  "id": "ginger-in-the-record",
+  "title": "Ginger in the historical record",
+  "subtitle": "Why a medieval physician prescribed ginger, and what that does and does not tell us.",
+  "to": "/concepts/ginger-in-the-record",
+  "hay": "ginger in the historical record why a medieval physician prescribed ginger, and what that does and does not tell us. ginger-in-the-record"
+ },
+ {
+  "kind": "concept",
+  "id": "gingerols-and-shogaols",
+  "title": "Gingerols and shogaols",
+  "subtitle": "Fresh ginger's pungent compounds, and what heat and drying turn them into.",
+  "to": "/concepts/gingerols-and-shogaols",
+  "hay": "gingerols and shogaols fresh ginger's pungent compounds, and what heat and drying turn them into. gingerols-and-shogaols"
+ },
+ {
+  "kind": "concept",
+  "id": "how-ginger-might-work",
+  "title": "How ginger might work",
+  "subtitle": "Receptors in the gut, and the problem of what reaches the blood.",
+  "to": "/concepts/how-ginger-might-work",
+  "hay": "how ginger might work receptors in the gut, and the problem of what reaches the blood. how-ginger-might-work"
+ },
+ {
+  "kind": "concept",
+  "id": "reading-the-trials",
+  "title": "Reading the trials",
+  "subtitle": "What a meta-analysis, a GRADE rating and a confidence interval do and do not tell you.",
+  "to": "/concepts/reading-the-trials",
+  "hay": "reading the trials what a meta-analysis, a grade rating and a confidence interval do and do not tell you. reading-the-trials"
+ },
+ {
+  "kind": "concept",
+  "id": "the-ginger-plant",
+  "title": "The ginger plant",
+  "subtitle": "A sterile, clonally grown member of a large tropical family.",
+  "to": "/concepts/the-ginger-plant",
+  "hay": "the ginger plant a sterile, clonally grown member of a large tropical family. the-ginger-plant"
+ },
+ {
+  "kind": "concept",
+  "id": "what-compounds-do-for-plants",
+  "title": "What a plant's compounds are for",
+  "subtitle": "Why 'it kills microbes in a dish' is not the same as 'it defends the plant'.",
+  "to": "/concepts/what-compounds-do-for-plants",
+  "hay": "what a plant's compounds are for why 'it kills microbes in a dish' is not the same as 'it defends the plant'. what-compounds-do-for-plants"
+ },
+ {
+  "kind": "figure",
+  "id": "fig-gastric",
+  "title": "Figure 1: Gastric half-emptying time after ginger or placebo, in two small studies",
+  "subtitle": "chart · synthesised from data",
+  "to": "/figures/fig-gastric",
+  "hay": "figure 1 gastric half-emptying time after ginger or placebo, in two small studies fig-gastric"
+ },
+ {
+  "kind": "figure",
+  "id": "fig-cmax",
+  "title": "Figure 2: Peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose",
+  "subtitle": "chart · synthesised from data",
+  "to": "/figures/fig-cmax",
+  "hay": "figure 2 peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose fig-cmax"
+ },
+ {
+  "kind": "figure",
+  "id": "fig-drying",
+  "title": "Figure 3: What drying does to ginger's pungent compounds",
+  "subtitle": "table · synthesised from data",
+  "to": "/figures/fig-drying",
+  "hay": "figure 3 what drying does to ginger's pungent compounds fig-drying"
+ },
+ {
+  "kind": "section",
+  "id": "abstract",
+  "title": "Abstract",
+  "subtitle": "168 words",
+  "to": "/read#abstract",
+  "hay": "abstract abstract"
+ },
+ {
+  "kind": "section",
+  "id": "1-why-three-records",
+  "title": "1. Why ginger, and why three records at once",
+  "subtitle": "113 words",
+  "to": "/read#1-why-three-records",
+  "hay": "1. why ginger, and why three records at once 1-why-three-records"
+ },
+ {
+  "kind": "section",
+  "id": "2-the-plant-in-brief",
+  "title": "2. The plant in brief",
+  "subtitle": "309 words",
+  "to": "/read#2-the-plant-in-brief",
+  "hay": "2. the plant in brief 2-the-plant-in-brief"
+ },
+ {
+  "kind": "section",
+  "id": "3-the-chemistry-in-brief",
+  "title": "3. The chemistry in brief",
+  "subtitle": "354 words",
+  "to": "/read#3-the-chemistry-in-brief",
+  "hay": "3. the chemistry in brief 3-the-chemistry-in-brief"
+ },
+ {
+  "kind": "section",
+  "id": "4-origin-and-dispersal",
+  "title": "4. Origin and dispersal",
+  "subtitle": "188 words",
+  "to": "/read#4-origin-and-dispersal",
+  "hay": "4. origin and dispersal 4-origin-and-dispersal"
+ },
+ {
+  "kind": "section",
+  "id": "5-the-old-world-record",
+  "title": "5. The old-world record",
+  "subtitle": "283 words",
+  "to": "/read#5-the-old-world-record",
+  "hay": "5. the old-world record 5-the-old-world-record"
+ },
+ {
+  "kind": "section",
+  "id": "6-europe-to-the-americas",
+  "title": "6. Europe to the Americas",
+  "subtitle": "374 words",
+  "to": "/read#6-europe-to-the-americas",
+  "hay": "6. europe to the americas 6-europe-to-the-americas"
+ },
+ {
+  "kind": "section",
+  "id": "7-why-people-spice-food",
+  "title": "7. Why people spice food",
+  "subtitle": "197 words",
+  "to": "/read#7-why-people-spice-food",
+  "hay": "7. why people spice food 7-why-people-spice-food"
+ },
+ {
+  "kind": "section",
+  "id": "8-nausea-and-vomiting",
+  "title": "8. Nausea and vomiting",
+  "subtitle": "612 words",
+  "to": "/read#8-nausea-and-vomiting",
+  "hay": "8. nausea and vomiting 8-nausea-and-vomiting"
+ },
+ {
+  "kind": "section",
+  "id": "9-pain-inflammation-and-metabolic-outcomes",
+  "title": "9. Pain, inflammation and metabolic outcomes",
+  "subtitle": "545 words",
+  "to": "/read#9-pain-inflammation-and-metabolic-outcomes",
+  "hay": "9. pain, inflammation and metabolic outcomes 9-pain-inflammation-and-metabolic-outcomes"
+ },
+ {
+  "kind": "section",
+  "id": "10-safety-interactions-and-pregnancy",
+  "title": "10. Safety, interactions and pregnancy",
+  "subtitle": "394 words",
+  "to": "/read#10-safety-interactions-and-pregnancy",
+  "hay": "10. safety, interactions and pregnancy 10-safety-interactions-and-pregnancy"
+ },
+ {
+  "kind": "section",
+  "id": "11-how-it-might-work-and-the-bioavailability-problem",
+  "title": "11. How it might work, and the bioavailability problem",
+  "subtitle": "466 words",
+  "to": "/read#11-how-it-might-work-and-the-bioavailability-problem",
+  "hay": "11. how it might work, and the bioavailability problem 11-how-it-might-work-and-the-bioavailability-problem"
+ },
+ {
+  "kind": "section",
+  "id": "12-the-genome-and-the-making-of-gingerols",
+  "title": "12. The genome and the making of gingerols",
+  "subtitle": "490 words",
+  "to": "/read#12-the-genome-and-the-making-of-gingerols",
+  "hay": "12. the genome and the making of gingerols 12-the-genome-and-the-making-of-gingerols"
+ },
+ {
+  "kind": "section",
+  "id": "13-what-the-compounds-do-for-the-plant",
+  "title": "13. What the compounds do for the plant",
+  "subtitle": "433 words",
+  "to": "/read#13-what-the-compounds-do-for-the-plant",
+  "hay": "13. what the compounds do for the plant 13-what-the-compounds-do-for-the-plant"
+ },
+ {
+  "kind": "section",
+  "id": "14-growing-ginger-under-glass",
+  "title": "14. Growing ginger under glass",
+  "subtitle": "337 words",
+  "to": "/read#14-growing-ginger-under-glass",
+  "hay": "14. growing ginger under glass 14-growing-ginger-under-glass"
+ },
+ {
+  "kind": "section",
+  "id": "15-from-rhizome-to-kitchen",
+  "title": "15. From rhizome to kitchen",
+  "subtitle": "290 words",
+  "to": "/read#15-from-rhizome-to-kitchen",
+  "hay": "15. from rhizome to kitchen 15-from-rhizome-to-kitchen"
+ },
+ {
+  "kind": "section",
+  "id": "16-methods-of-the-field",
+  "title": "16. Methods of the field",
+  "subtitle": "201 words",
+  "to": "/read#16-methods-of-the-field",
+  "hay": "16. methods of the field 16-methods-of-the-field"
+ },
+ {
+  "kind": "section",
+  "id": "17-open-questions",
+  "title": "17. Open questions",
+  "subtitle": "161 words",
+  "to": "/read#17-open-questions",
+  "hay": "17. open questions 17-open-questions"
+ },
+ {
+  "kind": "section",
+  "id": "18-how-to-read-this-literature",
+  "title": "18. How to read this literature",
+  "subtitle": "128 words",
+  "to": "/read#18-how-to-read-this-literature",
+  "hay": "18. how to read this literature 18-how-to-read-this-literature"
+ },
+ {
+  "kind": "recipe",
+  "id": "gyngener",
+  "title": "Gyngener (a ginger sauce)",
+  "subtitle": "culinary · about 1390 · England, the royal household of Richard II",
+  "to": "/recipes/gyngener",
+  "hay": "gyngener (a ginger sauce) culinary england, the royal household of richard ii white bread (payndemayn) vinegar powdered ginger salt"
+ },
+ {
+  "kind": "recipe",
+  "id": "irish-materia-medica-zinciber",
+  "title": "Ginger boiled in wine or ale, for the stomach",
+  "subtitle": "medicinal · medieval; date of the text to be confirmed from the edition · Ireland",
+  "to": "/recipes/irish-materia-medica-zinciber",
+  "hay": "ginger boiled in wine or ale, for the stomach medicinal ireland ginger wine or ale"
+ }
+]

@@ -1,0 +1,36 @@
+- id: rhizome
+  term: Rhizome
+  kind: science
+  variants: [rhizomes]
+  short: An underground stem.
+  definition: An underground stem.
+  concept: the-plant
+  see: []
+  sources: [1]
+- id: gingerol
+  term: Gingerol
+  kind: science
+  variants: [gingerols, 6-gingerol]
+  short: A pungent compound.
+  definition: A pungent compound.
+  concept: the-plant
+  see: [shogaol]
+  sources: [1]
+- id: shogaol
+  term: Shogaol
+  kind: science
+  variants: [shogaols, 6-shogaol]
+  short: A compound formed on drying.
+  definition: A compound formed on drying.
+  concept: the-plant
+  see: []
+  sources: [2]
+- id: meta-analysis
+  term: Meta-analysis
+  kind: statistics
+  variants: [meta-analyses]
+  short: Pooling of studies.
+  definition: Pooling of studies.
+  concept: null
+  see: []
+  sources: []

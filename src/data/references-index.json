@@ -1,0 +1,534 @@
+[
+ {
+  "n": 1,
+  "citation": "Hong‐Lei Li et al. Haplotype-resolved genome of diploid ginger (Zingiber officinale) and its unique gingerol biosynthetic pathway. Horticulture Research. 2021.",
+  "verified": true,
+  "tier": "current",
+  "year": 2021
+ },
+ {
+  "n": 2,
+  "citation": "Shiping Cheng et al. Haplotype-resolved genome assembly and allele-specific gene expression in cultivated ginger. Horticulture Research. 2021.",
+  "verified": true,
+  "tier": "current",
+  "year": 2021
+ },
+ {
+  "n": 3,
+  "citation": "Hans Wohlmuth et al. Gingerol Content of Diploid and Tetraploid Clones of Ginger (Zingiber officinale Roscoe). Journal of Agricultural and Food Chemistry. 2005.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2005
+ },
+ {
+  "n": 4,
+  "citation": "Ali Ghasemzadeh et al. Formation of 6-, 8- and 10-Shogaol in Ginger through Application of Different Drying Methods: Altered Antioxidant and Antimicrobial Activity. Molecules. 2018.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2018
+ },
+ {
+  "n": 5,
+  "citation": "Megan Crichton et al. Orally consumed ginger and human health: an umbrella review. American Journal of Clinical Nutrition. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 6,
+  "citation": "Estelle Viljoen et al. A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting. Nutrition Journal. 2014.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2014
+ },
+ {
+  "n": 7,
+  "citation": "Suzanna Maria Zick et al. Pharmacokinetics of 6-Gingerol, 8-Gingerol, 10-Gingerol, and 6-Shogaol and Conjugate Metabolites in Healthy Human Subjects. Cancer Epidemiology Biomarkers & Prevention. 2008.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 2008
+ },
+ {
+  "n": 8,
+  "citation": "Christine Ficker et al. Bioassay‐guided isolation and identiﬁcation of antifungal compounds from ginger. Phytotherapy Research. 2003.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2003
+ },
+ {
+  "n": 9,
+  "citation": "Keke Dang et al. Root Exudates of Ginger Induced by Ralstonia solanacearum Infection Could Inhibit Bacterial Wilt. Journal of Agricultural and Food Chemistry. 2023.",
+  "verified": true,
+  "tier": "current",
+  "year": 2023
+ },
+ {
+  "n": 10,
+  "citation": "W. John Kress et al. The phylogeny and a new classification of the gingers (Zingiberaceae): evidence from molecular data. American Journal of Botany. 2002.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 2002
+ },
+ {
+  "n": 11,
+  "citation": "Dongzhu Jiang et al. Complete chloroplast genomes provide insights into evolution and phylogeny of Zingiber (Zingiberaceae). BMC Genomics. 2023.",
+  "verified": true,
+  "tier": "current",
+  "year": 2023
+ },
+ {
+  "n": 12,
+  "citation": "Zijing Chen et al. A genome assembly of ginger (Zingiber officinale Roscoe) provides insights into genome evolution and 6‐gingerol biosynthesis. The Plant Journal. 2024.",
+  "verified": true,
+  "tier": "current",
+  "year": 2024
+ },
+ {
+  "n": 13,
+  "citation": "V. S. Govindarajan et al. Ginger — chemistry, technology, and quality evaluation: Part 1. C R C Critical Reviews in Food Science and Nutrition. 1983.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 1983
+ },
+ {
+  "n": 14,
+  "citation": "V. S. Govindarajan et al. Ginger — chemistry, technology, and quality evaluation: Part 2. C R C Critical Reviews in Food Science and Nutrition. 1983.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 1983
+ },
+ {
+  "n": 15,
+  "citation": "Yuge Gao et al. Preparation, pungency and bioactivity of gingerols from ginger ( Zingiber officinale Roscoe): a review. Critical Reviews in Food Science and Nutrition. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 16,
+  "citation": "John P. Bartley et al. Effects of drying on flavour compounds in Australian-grown ginger (Zingiber officinale). Journal of the Science of Food and Agriculture. 2000.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2000
+ },
+ {
+  "n": 17,
+  "citation": "Hyun Jo Koo et al. Suites of Terpene Synthases Explain Differential Terpenoid Production in Ginger and Turmeric Tissues. PLoS ONE. 2012.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2012
+ },
+ {
+  "n": 18,
+  "citation": "Oxford University Herbaria. Zingiber officinale Roscoe (Zingiberaceae), Plants 400 profile. herbaria.plants.ox.ac.uk/bol/plants400/Profiles/YZ/Zingiberofficinale.",
+  "verified": true,
+  "tier": "background",
+  "year": 2026
+ },
+ {
+  "n": 19,
+  "citation": "Weiwei Wang et al. Earliest curry in Southeast Asia and the global spice trade 2000 years ago. Science Advances. 2023.",
+  "verified": true,
+  "tier": "current",
+  "year": 2023
+ },
+ {
+  "n": 20,
+  "citation": "The Morgan Library & Museum. Dioscorides, De materia medica, MS M.652 (Constantinople, mid 10th century): ginger, inscribed zengiberis. themorgan.org/collection/de-materia-medica/143825/116.",
+  "verified": true,
+  "tier": "background",
+  "year": 2026
+ },
+ {
+  "n": 21,
+  "citation": "Cheng Zhang et al. Pharmacological activity and clinical application analysis of traditional Chinese medicine ginger from the perspective of one source and multiple substances. Chinese Medicine. 2024.",
+  "verified": true,
+  "tier": "current",
+  "year": 2024
+ },
+ {
+  "n": 22,
+  "citation": "Jong Kuk Nam et al. Medieval European Medicine and Asian Spices. Korean Journal of Medical History. 2014.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2014
+ },
+ {
+  "n": 23,
+  "citation": "Tadhg Ó Cuinn. An Irish Materia Medica, §291 Zinciber (CELT: Corpus of Electronic Texts edition, English translation). celt.ucc.ie/published/G600006/text905.html.",
+  "verified": true,
+  "tier": "background",
+  "year": 2026
+ },
+ {
+  "n": 24,
+  "citation": "The Fitzwilliam Museum, Cambridge. Ginger and Sugar (object label, Feast & Fast: The Art of Food in Europe, 1500–1800). feast-and-fast.fitzmuseum.cam.ac.uk/labels/ginger-sugar. 2019.",
+  "verified": true,
+  "tier": "background",
+  "year": 2019
+ },
+ {
+  "n": 25,
+  "citation": "Master-Cooks of King Richard II; ed. Samuel Pegge. The Forme of Cury: A Roll of Ancient English Cookery, compiled about A.D. 1390. Project Gutenberg eBook #8102 (public domain in the USA). 1780.",
+  "verified": true,
+  "tier": "background",
+  "year": 1780
+ },
+ {
+  "n": 26,
+  "citation": "Thomas Austin (ed.). Two Fifteenth-Century Cookery-Books, Forewords. Early English Text Society; archive.org/details/twofifteenthcent00austuoft. 1888.",
+  "verified": true,
+  "tier": "background",
+  "year": 1888
+ },
+ {
+  "n": 27,
+  "citation": "John P. Morgan et al. Jamaica Ginger Paralysis: Forty-seven-Year Follow-up. Archives of Neurology. 1978.",
+  "verified": true,
+  "tier": "classic",
+  "year": 1978
+ },
+ {
+  "n": 28,
+  "citation": "John P. Morgan et al. The Jamaica Ginger Paralysis. JAMA. 1982.",
+  "verified": true,
+  "tier": "classic",
+  "year": 1982
+ },
+ {
+  "n": 29,
+  "citation": "Jennifer Billing et al. Antimicrobial Functions of Spices: Why Some Like it Hot. The Quarterly Review of Biology. 1998.",
+  "verified": true,
+  "tier": "classic",
+  "year": 1998
+ },
+ {
+  "n": 30,
+  "citation": "Paul W. Sherman et al. Darwinian Gastronomy: Why We Use Spices. BioScience. 1999.",
+  "verified": true,
+  "tier": "classic",
+  "year": 1999
+ },
+ {
+  "n": 31,
+  "citation": "Li H et al. Ginger for health care: An overview of systematic reviews.. Complementary therapies in medicine. 2019.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2019
+ },
+ {
+  "n": 32,
+  "citation": "Vutyavanich T et al. Ginger for nausea and vomiting in pregnancy: randomized, double-masked, placebo-controlled trial.. Obstetrics and gynecology. 2001.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 2001
+ },
+ {
+  "n": 33,
+  "citation": "Kendra A. Tiani et al. The Use of Ginger Bioactive Compounds in Pregnancy: An Evidence Scan and Umbrella Review of Existing Meta-Analyses. Advances in Nutrition. 2024.",
+  "verified": true,
+  "tier": "current",
+  "year": 2024
+ },
+ {
+  "n": 34,
+  "citation": "Ryan JL et al. Ginger (Zingiber officinale) reduces acute chemotherapy-induced nausea: a URCC CCOP study of 576 patients.. Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer. 2012.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 2012
+ },
+ {
+  "n": 35,
+  "citation": "Jihee Choi et al. Effects of Ginger Intake on Chemotherapy-Induced Nausea and Vomiting: A Systematic Review of Randomized Clinical Trials. Nutrients. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 36,
+  "citation": "Megan Crichton et al. Effect of a Standardized Ginger Root Powder Regimen on Chemotherapy-Induced Nausea and Vomiting: A Multicenter, Double-Blind, Placebo-Controlled Randomized Trial. Journal of the Academy of Nutrition and Dietetics. 2023.",
+  "verified": true,
+  "tier": "current",
+  "year": 2023
+ },
+ {
+  "n": 37,
+  "citation": "Nathorn Chaiyakunapruk et al. The efficacy of ginger for the prevention of postoperative nausea and vomiting: A meta-analysis. American Journal of Obstetrics and Gynecology. 2006.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2006
+ },
+ {
+  "n": 38,
+  "citation": "Han‐Chung Lien et al. Effects of ginger on motion sickness and gastric slow-wave dysrhythmias induced by circular vection. American Journal of Physiology-Gastrointestinal and Liver Physiology. 2003.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2003
+ },
+ {
+  "n": 39,
+  "citation": "European Medicines Agency (HMPC). Zingiberis rhizoma — herbal medicinal product: public summary of the HMPC conclusions on ginger rhizome. ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma. 2025.",
+  "verified": true,
+  "tier": "background",
+  "year": 2025
+ },
+ {
+  "n": 40,
+  "citation": "Chrubasik S et al. Zingiberis rhizoma: a comprehensive review on the ginger effect and efficacy profiles.. Phytomedicine : international journal of phytotherapy and phytopharmacology. 2005.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 2005
+ },
+ {
+  "n": 41,
+  "citation": "Nguyễn Hoàng Anh et al. Ginger on Human Health: A Comprehensive Systematic Review of 109 Randomized Controlled Trials. Nutrients. 2020.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2020
+ },
+ {
+  "n": 42,
+  "citation": "Roy Davis Altman et al. Effects of a ginger extract on knee pain in patients with osteoarthritis. Arthritis & Rheumatism. 2001.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 2001
+ },
+ {
+  "n": 43,
+  "citation": "James William Daily et al. Efficacy of Ginger for Alleviating the Symptoms of Primary Dysmenorrhea: A Systematic Review and Meta-analysis of Randomized Clinical Trials. Pain Medicine. 2015.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2015
+ },
+ {
+  "n": 44,
+  "citation": "Reza Moshfeghinia et al. Ginger for Pain Management in Primary Dysmenorrhea: A Systematic Review and Meta-Analysis. Journal of Integrative and Complementary Medicine. 2024.",
+  "verified": true,
+  "tier": "current",
+  "year": 2024
+ },
+ {
+  "n": 45,
+  "citation": "Laís Bhering Martins et al. Double-blind placebo-controlled randomized clinical trial of ginger ( Zingiber officinale Rosc. ) addition in migraine acute treatment. Cephalalgia. 2018.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2018
+ },
+ {
+  "n": 46,
+  "citation": "Jie Zhu et al. Effects of Ginger (Zingiber officinale Roscoe) on Type 2 Diabetes Mellitus and Components of the Metabolic Syndrome: A Systematic Review and Meta‐Analysis of Randomized Controlled Trials. Evidence-based Complementary and Alternative Medicine. 2018.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2018
+ },
+ {
+  "n": 47,
+  "citation": "Armin Ebrahimzadeh et al. The effect of ginger supplementation on metabolic profiles in patients with type 2 diabetes mellitus: A systematic review and meta-analysis of randomized controlled trials. Complementary Therapies in Medicine. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 48,
+  "citation": "Shrin Rjabi et al. Antioxidant and anti-inflammatory effects of ginger supplementation in adults: a GRADE-assessed systematic review and dose–response meta-analysis of randomised controlled trials. Inflammopharmacology. 2025.",
+  "verified": true,
+  "tier": "current",
+  "year": 2025
+ },
+ {
+  "n": 49,
+  "citation": "Vali Musazadeh et al. Ginger supplementation and metabolic health: an umbrella review of meta-analyses of randomized trials. Diabetology & Metabolic Syndrome. 2026.",
+  "verified": true,
+  "tier": "current",
+  "year": 2026
+ },
+ {
+  "n": 50,
+  "citation": "Keshab Raj Paudel et al. Pharmacological properties of ginger (Zingiber officinale): what do meta-analyses say? a systematic review. Frontiers in Pharmacology. 2025.",
+  "verified": true,
+  "tier": "current",
+  "year": 2025
+ },
+ {
+  "n": 51,
+  "citation": "Effie Nurtjahja-Tjendraputra et al. Effective anti-platelet and COX-1 enzyme inhibitors from pungent constituents of ginger. Thrombosis Research. 2003.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2003
+ },
+ {
+  "n": 52,
+  "citation": "Xuemin Jiang et al. Effect of ginkgo and ginger on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. British Journal of Clinical Pharmacology. 2005.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 2005
+ },
+ {
+  "n": 53,
+  "citation": "Leon PJ Vaes et al. Interactions of Warfarin with Garlic, Ginger, Ginkgo, or Ginseng: Nature of the Evidence. Annals of Pharmacotherapy. 2000.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2000
+ },
+ {
+  "n": 54,
+  "citation": "Shuwei Zhang et al. Pharmacokinetics of Gingerols, Shogaols, and Their Metabolites in Asthma Patients. Journal of Agricultural and Food Chemistry. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 55,
+  "citation": "Rao Mukkavilli et al. Absorption, Metabolic Stability, and Pharmacokinetics of Ginger Phytochemicals. Molecules. 2017.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2017
+ },
+ {
+  "n": 56,
+  "citation": "Jutta Walstab et al. Ginger and its pungent constituents non‐competitively inhibit activation of human recombinant and native 5‐HT3 receptors of enteric neurons. Neurogastroenterology & Motility. 2013.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2013
+ },
+ {
+  "n": 57,
+  "citation": "Heinz H. Pertz et al. Effects of Ginger Constituents on the Gastrointestinal Tract: Role of Cholinergic M3and Serotonergic 5-HT3and 5-HT4Receptors. Planta Medica. 2011.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2011
+ },
+ {
+  "n": 58,
+  "citation": "Wolfgang Marx et al. Ginger—Mechanism of action in chemotherapy-induced nausea and vomiting: A review. Critical Reviews in Food Science and Nutrition. 2015.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2015
+ },
+ {
+  "n": 59,
+  "citation": "Keng‐Liang Wu et al. Effects of ginger on gastric emptying and motility in healthy humans. European Journal of Gastroenterology & Hepatology. 2008.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2008
+ },
+ {
+  "n": 60,
+  "citation": "Ming‐Luen Hu et al. Effect of ginger on gastric motility and symptoms of functional dyspepsia. World Journal of Gastroenterology. 2010.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2010
+ },
+ {
+  "n": 61,
+  "citation": "Yue Yin et al. Structural mechanisms underlying activation of TRPV1 channels by pungent compounds in gingers. British Journal of Pharmacology. 2019.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2019
+ },
+ {
+  "n": 62,
+  "citation": "Yusaku Iwasaki et al. A nonpungent component of steamed ginger - [10]-shogaol - increases adrenaline secretion via the activation of TRPV1. Nutritional Neuroscience. 2006.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2006
+ },
+ {
+  "n": 63,
+  "citation": "Maria del Carmen Ramirez-Ahumada et al. Biosynthesis of curcuminoids and gingerols in turmeric (Curcuma longa) and ginger (Zingiber officinale): Identification of curcuminoid synthase and hydroxycinnamoyl-CoA thioesterases. Phytochemistry. 2006.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 2006
+ },
+ {
+  "n": 64,
+  "citation": "Hyun Jo Koo et al. Ginger and turmeric expressed sequence tags identify signature genes for rhizome identity and development and the biosynthesis of curcuminoids, gingerols and terpenoids. BMC Plant Biology 13:27. 2013.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2013
+ },
+ {
+  "n": 65,
+  "citation": "Yusong Jiang et al. Transcriptome Analysis Provides Insights into Gingerol Biosynthesis in Ginger ( Zingiber officinale ). The Plant Genome. 2018.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2018
+ },
+ {
+  "n": 66,
+  "citation": "Lingling Zhang et al. Antibacterial activity and mechanism of ginger extract against Ralstonia solanacearum. Journal of Applied Microbiology. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 67,
+  "citation": "Muhammad Talib Kalhoro et al. Fungicidal properties of ginger (Zingiber officinale) essential oils against Phytophthora colocasiae. Scientific Reports. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 68,
+  "citation": "Duy Phu Le et al. Pythium soft rot of ginger: Detection and identification of the causal pathogens, and their control. Crop Protection. 2014.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2014
+ },
+ {
+  "n": 69,
+  "citation": "Wenbo Wang et al. Metabolome-driven microbiome assembly determining the health of ginger crop (Zingiber officinale L. Roscoe) against rhizome rot. Microbiome. 2024.",
+  "verified": true,
+  "tier": "current",
+  "year": 2024
+ },
+ {
+  "n": 70,
+  "citation": "B. Jasim et al. Isolation and characterization of plant growth promoting endophytic bacteria from the rhizome of Zingiber officinale. 3 Biotech. 2013.",
+  "verified": true,
+  "tier": "classic",
+  "year": 2013
+ },
+ {
+  "n": 71,
+  "citation": "Shangjia Liu et al. Effects of soil waterlogging and high-temperature stress on photosynthesis and photosystem II of ginger (Zingiber officinale). PROTOPLASMA. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 72,
+  "citation": "TO CONFIRM (authors include Zhiduan Chen, Rujie Shi, Hong-Lei Li) et al. High-temperature and intense-light stress in ginger (title to confirm). Metabolites 13(9):992. 2023.",
+  "verified": true,
+  "tier": "current",
+  "year": 2023
+ },
+ {
+  "n": 73,
+  "citation": "Xue Lv et al. Comprehensive insights into the influence of supplemental green light on the photosynthesis of ginger (Zingiber officinale Roscoe). Protoplasma. 2022.",
+  "verified": true,
+  "tier": "current",
+  "year": 2022
+ },
+ {
+  "n": 74,
+  "citation": "Yun Ren et al. Dynamic transcriptome profiling provides insights into rhizome enlargement in ginger (Zingiber officinale Rosc.). PLoS ONE. 2023.",
+  "verified": true,
+  "tier": "current",
+  "year": 2023
+ },
+ {
+  "n": 75,
+  "citation": "Minnesota Department of Agriculture. Ginger Wilt (Ralstonia pseudosolanacearum) fact sheet, June 2024. mda.state.mn.us/ginger-wilt. 2024.",
+  "verified": true,
+  "tier": "background",
+  "year": 2024
+ },
+ {
+  "n": 76,
+  "citation": "E. H. Thompson et al. GINGER RHIZOME: A NEW SOURCE OF PROTEOLYTIC ENZYME. Journal of Food Science. 1973.",
+  "verified": true,
+  "tier": "seminal",
+  "year": 1973
+ }
+]

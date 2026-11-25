@@ -1,0 +1,539 @@
+[
+ {
+  "id": "rhizome",
+  "term": "Rhizome",
+  "kind": "science",
+  "variants": [
+   "rhizomes"
+  ],
+  "short": "An underground stem that grows horizontally; the part of ginger that is harvested.",
+  "definition": "An underground stem that grows horizontally; the part of ginger that is harvested.",
+  "concept": "the-ginger-plant",
+  "see": [],
+  "sources": [
+   3
+  ],
+  "appears_in": [
+   "1-why-three-records",
+   "2-the-plant-in-brief",
+   "3-the-chemistry-in-brief",
+   "4-origin-and-dispersal",
+   "5-the-old-world-record",
+   "8-nausea-and-vomiting",
+   "12-the-genome-and-the-making-of-gingerols",
+   "13-what-the-compounds-do-for-the-plant",
+   "14-growing-ginger-under-glass",
+   "15-from-rhizome-to-kitchen",
+   "17-open-questions",
+   "18-how-to-read-this-literature"
+  ],
+  "figures": [],
+  "units": [
+   "gingerols-and-shogaols",
+   "the-ginger-plant"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   3
+  ],
+  "source_links": []
+ },
+ {
+  "id": "cultigen",
+  "term": "Cultigen",
+  "kind": "science",
+  "variants": [
+   "sterile cultigen"
+  ],
+  "short": "A plant known only in cultivation, with no wild population.",
+  "definition": "A plant known only in cultivation, with no wild population.",
+  "concept": "the-ginger-plant",
+  "see": [],
+  "sources": [
+   3,
+   18
+  ],
+  "appears_in": [
+   "abstract",
+   "2-the-plant-in-brief",
+   "4-origin-and-dispersal"
+  ],
+  "figures": [],
+  "units": [
+   "the-ginger-plant"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   3,
+   18
+  ],
+  "source_links": []
+ },
+ {
+  "id": "haplotype",
+  "term": "Haplotype",
+  "kind": "science",
+  "variants": [
+   "haplotypes",
+   "haplotype-resolved"
+  ],
+  "short": "One of the two sets of chromosomes an organism inherits; a haplotype-resolved genome separates them.",
+  "definition": "One of the two sets of chromosomes an organism inherits; a haplotype-resolved genome separates them.",
+  "concept": "the-ginger-plant",
+  "see": [],
+  "sources": [
+   1,
+   2
+  ],
+  "appears_in": [
+   "2-the-plant-in-brief"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   1,
+   2
+  ],
+  "source_links": []
+ },
+ {
+  "id": "gingerol",
+  "term": "Gingerol",
+  "kind": "science",
+  "variants": [
+   "gingerols",
+   "6-gingerol",
+   "8-gingerol",
+   "10-gingerol"
+  ],
+  "short": "The main pungent compounds of fresh ginger; 6-gingerol is the most abundant.",
+  "definition": "The main pungent compounds of fresh ginger; 6-gingerol is the most abundant.",
+  "concept": "gingerols-and-shogaols",
+  "see": [],
+  "sources": [
+   3
+  ],
+  "appears_in": [
+   "abstract",
+   "3-the-chemistry-in-brief",
+   "10-safety-interactions-and-pregnancy",
+   "11-how-it-might-work-and-the-bioavailability-problem",
+   "12-the-genome-and-the-making-of-gingerols",
+   "13-what-the-compounds-do-for-the-plant",
+   "14-growing-ginger-under-glass",
+   "15-from-rhizome-to-kitchen",
+   "17-open-questions"
+  ],
+  "figures": [],
+  "units": [
+   "gingerols-and-shogaols",
+   "what-compounds-do-for-plants"
+  ],
+  "in_review": true,
+  "recipes": [
+   "gyngener",
+   "irish-materia-medica-zinciber"
+  ],
+  "source_refs": [
+   3
+  ],
+  "source_links": []
+ },
+ {
+  "id": "shogaol",
+  "term": "Shogaol",
+  "kind": "science",
+  "variants": [
+   "shogaols",
+   "6-shogaol",
+   "10-shogaol"
+  ],
+  "short": "Pungent compounds formed from gingerols when ginger is dried or heated.",
+  "definition": "Pungent compounds formed from gingerols when ginger is dried or heated.",
+  "concept": "gingerols-and-shogaols",
+  "see": [],
+  "sources": [
+   3,
+   4
+  ],
+  "appears_in": [
+   "abstract",
+   "3-the-chemistry-in-brief",
+   "11-how-it-might-work-and-the-bioavailability-problem",
+   "15-from-rhizome-to-kitchen"
+  ],
+  "figures": [
+   "fig-drying"
+  ],
+  "units": [
+   "gingerols-and-shogaols"
+  ],
+  "in_review": true,
+  "recipes": [
+   "gyngener",
+   "irish-materia-medica-zinciber"
+  ],
+  "source_refs": [
+   3,
+   4
+  ],
+  "source_links": []
+ },
+ {
+  "id": "zingibain",
+  "term": "Zingibain",
+  "kind": "science",
+  "variants": [
+   "ginger protease"
+  ],
+  "short": "A protein-digesting enzyme in ginger rhizome that tenderises meat.",
+  "definition": "A protein-digesting enzyme in ginger rhizome that tenderises meat.",
+  "concept": "gingerols-and-shogaols",
+  "see": [],
+  "sources": [
+   76
+  ],
+  "appears_in": [
+   "15-from-rhizome-to-kitchen"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   76
+  ],
+  "source_links": []
+ },
+ {
+  "id": "trpv1",
+  "term": "TRPV1",
+  "kind": "science",
+  "variants": [
+   "TRPV1 receptor",
+   "TRPV1 channel"
+  ],
+  "short": "A receptor on sensory nerves that responds to heat and to pungent compounds such as capsaicin and gingerols.",
+  "definition": "A receptor on sensory nerves that responds to heat and to pungent compounds such as capsaicin and gingerols.",
+  "concept": "how-ginger-might-work",
+  "see": [],
+  "sources": [
+   61
+  ],
+  "appears_in": [
+   "3-the-chemistry-in-brief",
+   "11-how-it-might-work-and-the-bioavailability-problem",
+   "15-from-rhizome-to-kitchen"
+  ],
+  "figures": [],
+  "units": [
+   "how-ginger-might-work"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   61
+  ],
+  "source_links": []
+ },
+ {
+  "id": "5-ht3",
+  "term": "5-HT3 receptor",
+  "kind": "science",
+  "variants": [
+   "5-HT3",
+   "5-HT3 receptors"
+  ],
+  "short": "A serotonin receptor in the gut and brain that standard anti-nausea drugs block.",
+  "definition": "A serotonin receptor in the gut and brain that standard anti-nausea drugs block.",
+  "concept": "how-ginger-might-work",
+  "see": [],
+  "sources": [
+   56
+  ],
+  "appears_in": [
+   "11-how-it-might-work-and-the-bioavailability-problem"
+  ],
+  "figures": [],
+  "units": [
+   "how-ginger-might-work"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   56
+  ],
+  "source_links": []
+ },
+ {
+  "id": "glucuronide",
+  "term": "Glucuronide conjugate",
+  "kind": "science",
+  "variants": [
+   "glucuronides",
+   "conjugates",
+   "glucuronide conjugation"
+  ],
+  "short": "A compound to which the body has attached a sugar acid, usually making it easier to excrete.",
+  "definition": "A compound to which the body has attached a sugar acid, usually making it easier to excrete.",
+  "concept": "how-ginger-might-work",
+  "see": [],
+  "sources": [
+   7
+  ],
+  "appears_in": [
+   "11-how-it-might-work-and-the-bioavailability-problem",
+   "16-methods-of-the-field"
+  ],
+  "figures": [
+   "fig-cmax"
+  ],
+  "units": [
+   "how-ginger-might-work"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   7
+  ],
+  "source_links": []
+ },
+ {
+  "id": "first-pass",
+  "term": "First-pass metabolism",
+  "kind": "science",
+  "variants": [
+   "first-pass"
+  ],
+  "short": "Breakdown of a swallowed compound in the gut wall and liver before it reaches the general circulation.",
+  "definition": "Breakdown of a swallowed compound in the gut wall and liver before it reaches the general circulation.",
+  "concept": "how-ginger-might-work",
+  "see": [],
+  "sources": [
+   55
+  ],
+  "appears_in": [
+   "11-how-it-might-work-and-the-bioavailability-problem"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   55
+  ],
+  "source_links": []
+ },
+ {
+  "id": "meta-analysis",
+  "term": "Meta-analysis",
+  "kind": "methods",
+  "variants": [
+   "meta-analyses",
+   "pooled analysis"
+  ],
+  "short": "A statistical pooling of the results of several studies of the same question.",
+  "definition": "A statistical pooling of the results of several studies of the same question.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   6
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting",
+   "9-pain-inflammation-and-metabolic-outcomes",
+   "10-safety-interactions-and-pregnancy",
+   "16-methods-of-the-field",
+   "17-open-questions"
+  ],
+  "figures": [],
+  "units": [
+   "reading-the-trials"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   6
+  ],
+  "source_links": []
+ },
+ {
+  "id": "umbrella-review",
+  "term": "Umbrella review",
+  "kind": "methods",
+  "variants": [
+   "umbrella reviews",
+   "overview of systematic reviews"
+  ],
+  "short": "A review of systematic reviews and meta-analyses.",
+  "definition": "A review of systematic reviews and meta-analyses.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   5
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting",
+   "9-pain-inflammation-and-metabolic-outcomes",
+   "10-safety-interactions-and-pregnancy",
+   "16-methods-of-the-field",
+   "18-how-to-read-this-literature"
+  ],
+  "figures": [],
+  "units": [
+   "reading-the-trials"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   5
+  ],
+  "source_links": []
+ },
+ {
+  "id": "grade",
+  "term": "GRADE",
+  "kind": "methods",
+  "variants": [
+   "GRADE rating"
+  ],
+  "short": "A system for rating how certain a body of evidence is, from very low to high.",
+  "definition": "A system for rating how certain a body of evidence is, from very low to high.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   5
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting"
+  ],
+  "figures": [],
+  "units": [
+   "reading-the-trials"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   5
+  ],
+  "source_links": []
+ },
+ {
+  "id": "heterogeneity",
+  "term": "Heterogeneity",
+  "kind": "methods",
+  "variants": [
+   "I²"
+  ],
+  "short": "The extent to which pooled studies disagree with one another, often reported as I².",
+  "definition": "The extent to which pooled studies disagree with one another, often reported as I².",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   47
+  ],
+  "appears_in": [
+   "9-pain-inflammation-and-metabolic-outcomes",
+   "16-methods-of-the-field"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   47
+  ],
+  "source_links": []
+ },
+ {
+  "id": "confidence-interval",
+  "term": "Confidence interval",
+  "kind": "methods",
+  "variants": [
+   "95% confidence interval",
+   "confidence intervals"
+  ],
+  "short": "The range of values compatible with a study's data; a wide interval means an imprecise estimate.",
+  "definition": "The range of values compatible with a study's data; a wide interval means an imprecise estimate.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   6
+  ],
+  "appears_in": [
+   "10-safety-interactions-and-pregnancy"
+  ],
+  "figures": [],
+  "units": [
+   "reading-the-trials"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   6
+  ],
+  "source_links": []
+ },
+ {
+  "id": "humoral-theory",
+  "term": "Humoral theory",
+  "kind": "science",
+  "variants": [
+   "humours",
+   "humoral"
+  ],
+  "short": "The pre-modern medical doctrine that health is a balance of four humours with qualities of hot, cold, wet and dry.",
+  "definition": "The pre-modern medical doctrine that health is a balance of four humours with qualities of hot, cold, wet and dry.",
+  "concept": "ginger-in-the-record",
+  "see": [],
+  "sources": [
+   22
+  ],
+  "appears_in": [
+   "6-europe-to-the-americas",
+   "7-why-people-spice-food"
+  ],
+  "figures": [],
+  "units": [
+   "ginger-in-the-record"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   22
+  ],
+  "source_links": []
+ },
+ {
+  "id": "test-article",
+  "term": "Test article",
+  "kind": "methods",
+  "variants": [
+   "test articles"
+  ],
+  "short": "The exact preparation a study gave its participants.",
+  "definition": "The exact preparation a study gave its participants.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   42
+  ],
+  "appears_in": [
+   "18-how-to-read-this-literature"
+  ],
+  "figures": [
+   "fig-gastric"
+  ],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   42
+  ],
+  "source_links": []
+ }
+]

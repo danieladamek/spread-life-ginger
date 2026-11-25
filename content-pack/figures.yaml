@@ -1,0 +1,77 @@
+- id: fig-gastric
+  label: Figure 1
+  title: Gastric half-emptying time after ginger or placebo, in two small studies
+  kind: chart
+  synthesis: data
+  refs:
+  - 59
+  - 60
+  chart:
+    type: bar
+    x:
+      field: study
+      label: Study
+    y:
+      field: half_emptying_min
+      label: Half-emptying time (min)
+    series: group
+  data: figures/data/fig-gastric.csv
+  caption: Values as each study reported them (mean in healthy volunteers, median in dyspepsia patients); not pooled and not directly comparable.
+  how_to_read: Each pair of bars is one study; a shorter bar means the stomach emptied faster. Neither study found a difference in symptoms.
+  explain:
+  - 'on': ginger bars
+    text: Faster emptying after 1.2 g of ginger in capsules, the test article in both studies.
+    term: test-article
+  concepts:
+  - reading-the-trials
+  discussed_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  source: Extracted by the builder from the abstracts of the two studies; as published, not re-analysed.
+- id: fig-cmax
+  label: Figure 2
+  title: Peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose
+  kind: chart
+  synthesis: data
+  refs:
+  - 7
+  chart:
+    type: bar
+    x:
+      field: compound
+      label: Compound
+    y:
+      field: cmax_ug_per_ml
+      label: Peak concentration (µg/mL)
+  data: figures/data/fig-cmax.csv
+  caption: Estimated means at the 2.0 g dose; the compounds were detected only as glucuronide or sulfate conjugates, never free.
+  how_to_read: Each bar is one compound. The values are for conjugated forms; no free compound was detectable at any dose.
+  explain:
+  - 'on': all bars
+    text: These are conjugates made by the body, not the compounds as eaten.
+    term: glucuronide
+  concepts:
+  - how-ginger-might-work
+  discussed_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  source: Extracted by the builder from the abstract of the cited study; as published.
+- id: fig-drying
+  label: Figure 3
+  title: What drying does to ginger's pungent compounds
+  kind: table
+  synthesis: data
+  refs:
+  - 3
+  - 4
+  data: figures/data/fig-drying.csv
+  caption: Qualitative findings as reported; the two studies used different material and methods.
+  how_to_read: Each row is a kind of ginger; the columns say what was found for gingerols and for shogaols.
+  explain:
+  - 'on': shogaols column
+    text: Shogaols form from gingerols on heating and drying.
+    term: shogaol
+  concepts:
+  - gingerols-and-shogaols
+  discussed_in:
+  - 3-the-chemistry-in-brief
+  - 15-from-rhizome-to-kitchen
+  source: Summarised by the builder from the abstracts of the two cited studies.

@@ -1,0 +1,1741 @@
+status: 76 of 101 verified at abstract or fragment level as of 2026-11-24; 5 dropped; the rest unread and uncited
+selected_on: '2026-11-24'
+by_strand:
+  health: 31
+  mechanism: 10
+  plant: 25
+  kitchen: 10
+  history: 14
+by_tier:
+  current: 27
+  classic: 46
+  seminal: 14
+  background: 3
+references:
+- n: 1
+  strand: health
+  tier: current
+  anchor: true
+  first_author: Megan Crichton
+  year: 2022
+  title: 'Orally consumed ginger and human health: an umbrella review'
+  venue: American Journal of Clinical Nutrition
+  doi: 10.1093/ajcn/nqac035
+  pmid: '35147170'
+  cited_by: 77
+  abstract_in_hand: true
+  found_by:
+  - h01
+  - h03
+  - h04
+  - h06
+  - h07
+  - h13
+  - h18
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 2
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Li H
+  year: 2019
+  title: 'Ginger for health care: An overview of systematic reviews.'
+  venue: Complementary therapies in medicine
+  doi: 10.1016/j.ctim.2019.06.002
+  pmid: '31331547'
+  cited_by: 131
+  abstract_in_hand: true
+  found_by:
+  - h01
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 3
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Nguyễn Hoàng Anh
+  year: 2020
+  title: 'Ginger on Human Health: A Comprehensive Systematic Review of 109 Randomized Controlled Trials'
+  venue: Nutrients
+  doi: 10.3390/nu12010157
+  pmid: '31935866'
+  cited_by: 297
+  abstract_in_hand: true
+  found_by:
+  - h02
+  - h13
+  - h18
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 4
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Vali Musazadeh
+  year: 2026
+  title: 'Ginger supplementation and metabolic health: an umbrella review of meta-analyses of randomized trials'
+  venue: Diabetology & Metabolic Syndrome
+  doi: 10.1186/s13098-026-02150-y
+  pmid: '42178586'
+  cited_by: 183
+  abstract_in_hand: true
+  found_by:
+  - h01
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 5
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Keshab Raj Paudel
+  year: 2025
+  title: 'Pharmacological properties of ginger (Zingiber officinale): what do meta-analyses say? a systematic review'
+  venue: Frontiers in Pharmacology
+  doi: 10.3389/fphar.2025.1619655
+  pmid: '40808693'
+  cited_by: 37
+  abstract_in_hand: true
+  found_by:
+  - h02
+  - h18
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 6
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Kendra A. Tiani
+  year: 2024
+  title: 'The Use of Ginger Bioactive Compounds in Pregnancy: An Evidence Scan and Umbrella Review of Existing Meta-Analyses'
+  venue: Advances in Nutrition
+  doi: 10.1016/j.advnut.2024.100308
+  pmid: '39343171'
+  cited_by: 23
+  abstract_in_hand: true
+  found_by:
+  - h01
+  - h02
+  - h13
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 7
+  strand: health
+  tier: seminal
+  anchor: false
+  first_author: Chrubasik S
+  year: 2005
+  title: 'Zingiberis rhizoma: a comprehensive review on the ginger effect and efficacy profiles.'
+  venue: 'Phytomedicine : international journal of phytotherapy and phytopharmacology'
+  doi: 10.1016/j.phymed.2004.07.009
+  pmid: '16194058'
+  cited_by: 795
+  abstract_in_hand: true
+  found_by:
+  - h04
+  - h05
+  - h12
+  - h13
+  - h14
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 8
+  strand: health
+  tier: seminal
+  anchor: false
+  first_author: E Ernst
+  year: 2000
+  title: 'Efficacy of ginger for nausea and vomiting: a systematic review of randomized clinical trials'
+  venue: British Journal of Anaesthesia
+  doi: 10.1093/oxfordjournals.bja.a013442
+  pmid: '10793599'
+  cited_by: 556
+  abstract_in_hand: false
+  found_by:
+  - h03
+  - h04
+  verified: false
+- n: 9
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Estelle Viljoen
+  year: 2014
+  title: A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting
+  venue: Nutrition Journal
+  doi: 10.1186/1475-2891-13-20
+  pmid: '24642205'
+  cited_by: 363
+  abstract_in_hand: true
+  found_by:
+  - h02
+  - h13
+  - h18
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 10
+  strand: health
+  tier: seminal
+  anchor: false
+  first_author: Vutyavanich T
+  year: 2001
+  title: 'Ginger for nausea and vomiting in pregnancy: randomized, double-masked, placebo-controlled trial.'
+  venue: Obstetrics and gynecology
+  doi: 10.1016/s0029-7844(00)01228-x
+  pmid: '11275030'
+  cited_by: 137
+  abstract_in_hand: true
+  found_by:
+  - h13
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 11
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Kristine Heitmann
+  year: 2012
+  title: 'Safety of ginger use in pregnancy: results from a large population-based cohort study'
+  venue: European Journal of Clinical Pharmacology
+  doi: 10.1007/s00228-012-1331-5
+  pmid: '22706624'
+  cited_by: 106
+  abstract_in_hand: false
+  found_by:
+  - h13
+  verified: false
+- n: 12
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Denise Tiran
+  year: 2011
+  title: 'Ginger to reduce nausea and vomiting during pregnancy: Evidence of effectiveness is not the same as proof of safety'
+  venue: Complementary Therapies in Clinical Practice
+  doi: 10.1016/j.ctcp.2011.08.007
+  pmid: '22196569'
+  cited_by: 79
+  abstract_in_hand: false
+  found_by:
+  - h13
+  verified: false
+- n: 13
+  strand: health
+  tier: seminal
+  anchor: false
+  first_author: Ryan JL
+  year: 2012
+  title: 'Ginger (Zingiber officinale) reduces acute chemotherapy-induced nausea: a URCC CCOP study of 576 patients.'
+  venue: 'Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer'
+  doi: 10.1007/s00520-011-1236-3
+  pmid: '21818642'
+  cited_by: 325
+  abstract_in_hand: true
+  found_by:
+  - h03
+  - h12
+  - h13
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 14
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Jihee Choi
+  year: 2022
+  title: 'Effects of Ginger Intake on Chemotherapy-Induced Nausea and Vomiting: A Systematic Review of Randomized Clinical Trials'
+  venue: Nutrients
+  doi: 10.3390/nu14234982
+  pmid: '36501010'
+  cited_by: 69
+  abstract_in_hand: true
+  found_by:
+  - h03
+  - h18
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 15
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Megan Crichton
+  year: 2023
+  title: 'Effect of a Standardized Ginger Root Powder Regimen on Chemotherapy-Induced Nausea and Vomiting: A Multicenter, Double-Blind, Placebo-Controlled Randomized Trial'
+  venue: Journal of the Academy of Nutrition and Dietetics
+  doi: 10.1016/j.jand.2023.09.003
+  pmid: '37699474'
+  cited_by: 53
+  abstract_in_hand: true
+  found_by:
+  - h03
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 16
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Wolfgang Marx
+  year: 2015
+  title: 'Ginger—Mechanism of action in chemotherapy-induced nausea and vomiting: A review'
+  venue: Critical Reviews in Food Science and Nutrition
+  doi: 10.1080/10408398.2013.865590
+  pmid: '25848702'
+  cited_by: 169
+  abstract_in_hand: true
+  found_by:
+  - h03
+  - h15
+  - h17
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 17
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Nathorn Chaiyakunapruk
+  year: 2006
+  title: 'The efficacy of ginger for the prevention of postoperative nausea and vomiting: A meta-analysis'
+  venue: American Journal of Obstetrics and Gynecology
+  doi: 10.1016/j.ajog.2005.06.046
+  pmid: '16389016'
+  cited_by: 266
+  abstract_in_hand: true
+  found_by:
+  - h04
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 18
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Chunyang Zhao
+  year: 2023
+  title: 'Ginger (Zingiber officinale Roscoe) preparations for prophylaxis of postoperative nausea and vomiting: A Bayesian network meta-analysis'
+  venue: Journal of Ethnopharmacology
+  doi: 10.1016/j.jep.2023.116791
+  pmid: '37379959'
+  cited_by: 19
+  abstract_in_hand: false
+  found_by:
+  - h04
+  verified: false
+- n: 19
+  strand: health
+  tier: seminal
+  anchor: false
+  first_author: DanielB. Mowrey
+  year: 1982
+  title: MOTION SICKNESS, GINGER, AND PSYCHOPHYSICS
+  venue: The Lancet
+  doi: 10.1016/s0140-6736(82)92205-x
+  pmid: '6121968'
+  cited_by: 231
+  abstract_in_hand: false
+  found_by:
+  - h05
+  verified: false
+- n: 20
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Han‐Chung Lien
+  year: 2003
+  title: Effects of ginger on motion sickness and gastric slow-wave dysrhythmias induced by circular vection
+  venue: American Journal of Physiology-Gastrointestinal and Liver Physiology
+  doi: 10.1152/ajpgi.00164.2002
+  pmid: '12576305'
+  cited_by: 212
+  abstract_in_hand: true
+  found_by:
+  - h05
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 21
+  strand: health
+  tier: seminal
+  anchor: false
+  first_author: Roy Davis Altman
+  year: 2001
+  title: Effects of a ginger extract on knee pain in patients with osteoarthritis
+  venue: Arthritis & Rheumatism
+  doi: 10.1002/1529-0131(200111)44:11<2531::aid-art433>3.0.co;2-j
+  pmid: '11710709'
+  cited_by: 594
+  abstract_in_hand: true
+  found_by:
+  - h06
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 22
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: James William Daily
+  year: 2015
+  title: 'Efficacy of Ginger for Alleviating the Symptoms of Primary Dysmenorrhea: A Systematic Review and Meta-analysis of Randomized Clinical Trials'
+  venue: Pain Medicine
+  doi: 10.1111/pme.12853
+  pmid: '26177393'
+  cited_by: 147
+  abstract_in_hand: true
+  found_by:
+  - h07
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 23
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Reza Moshfeghinia
+  year: 2024
+  title: 'Ginger for Pain Management in Primary Dysmenorrhea: A Systematic Review and Meta-Analysis'
+  venue: Journal of Integrative and Complementary Medicine
+  doi: 10.1089/jicm.2023.0799
+  pmid: '38770631'
+  cited_by: 18
+  abstract_in_hand: true
+  found_by:
+  - h07
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 24
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Jie Zhu
+  year: 2018
+  title: 'Effects of Ginger (Zingiber officinale Roscoe) on Type 2 Diabetes Mellitus and Components of the Metabolic Syndrome: A Systematic Review and Meta‐Analysis of Randomized Controlled Trials'
+  venue: Evidence-based Complementary and Alternative Medicine
+  doi: 10.1155/2018/5692962
+  pmid: '29541142'
+  cited_by: 346
+  abstract_in_hand: true
+  found_by:
+  - h08
+  - h09
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 25
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Armin Ebrahimzadeh
+  year: 2022
+  title: 'The effect of ginger supplementation on metabolic profiles in patients with type 2 diabetes mellitus: A systematic review and meta-analysis of randomized controlled trials'
+  venue: Complementary Therapies in Medicine
+  doi: 10.1016/j.ctim.2022.102802
+  pmid: '35031435'
+  cited_by: 49
+  abstract_in_hand: true
+  found_by:
+  - h08
+  - h09
+  - h18
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 26
+  strand: health
+  tier: current
+  anchor: false
+  first_author: Shrin Rjabi
+  year: 2025
+  title: 'Antioxidant and anti-inflammatory effects of ginger supplementation in adults: a GRADE-assessed systematic review and dose–response meta-analysis of randomised controlled trials'
+  venue: Inflammopharmacology
+  doi: 10.1007/s10787-025-01994-6
+  pmid: '41123858'
+  cited_by: 188
+  abstract_in_hand: true
+  found_by:
+  - h10
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 27
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Laís Bhering Martins
+  year: 2018
+  title: Double-blind placebo-controlled randomized clinical trial of ginger ( Zingiber officinale Rosc. ) addition in migraine acute treatment
+  venue: Cephalalgia
+  doi: 10.1177/0333102418776016
+  pmid: '29768938'
+  cited_by: 68
+  abstract_in_hand: true
+  found_by:
+  - h11
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 28
+  strand: health
+  tier: seminal
+  anchor: false
+  first_author: Xuemin Jiang
+  year: 2005
+  title: Effect of ginkgo and ginger on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects
+  venue: British Journal of Clinical Pharmacology
+  doi: 10.1111/j.1365-2125.2005.02322.x
+  pmid: '15801937'
+  cited_by: 256
+  abstract_in_hand: true
+  found_by:
+  - h12
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 29
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Leon PJ Vaes
+  year: 2000
+  title: 'Interactions of Warfarin with Garlic, Ginger, Ginkgo, or Ginseng: Nature of the Evidence'
+  venue: Annals of Pharmacotherapy
+  doi: 10.1345/aph.10031
+  pmid: '11144706'
+  cited_by: 247
+  abstract_in_hand: true
+  found_by:
+  - h12
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 30
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Ming‐Luen Hu
+  year: 2010
+  title: Effect of ginger on gastric motility and symptoms of functional dyspepsia
+  venue: World Journal of Gastroenterology
+  doi: 10.3748/wjg.v17.i1.105
+  pmid: '21218090'
+  cited_by: 193
+  abstract_in_hand: true
+  found_by:
+  - h17
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 31
+  strand: health
+  tier: classic
+  anchor: false
+  first_author: Keng‐Liang Wu
+  year: 2008
+  title: Effects of ginger on gastric emptying and motility in healthy humans
+  venue: European Journal of Gastroenterology & Hepatology
+  doi: 10.1097/meg.0b013e3282f4b224
+  pmid: '18403946'
+  cited_by: 144
+  abstract_in_hand: true
+  found_by:
+  - h17
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 32
+  strand: mechanism
+  tier: seminal
+  anchor: true
+  first_author: Suzanna Maria Zick
+  year: 2008
+  title: Pharmacokinetics of 6-Gingerol, 8-Gingerol, 10-Gingerol, and 6-Shogaol and Conjugate Metabolites in Healthy Human Subjects
+  venue: Cancer Epidemiology Biomarkers & Prevention
+  doi: 10.1158/1055-9965.epi-07-2934
+  pmid: '18708382'
+  cited_by: 395
+  abstract_in_hand: true
+  found_by:
+  - h14
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 33
+  strand: mechanism
+  tier: classic
+  anchor: false
+  first_author: Yanke Yu
+  year: 2011
+  title: Examination of the Pharmacokinetics of Active Ingredients of Ginger in Humans
+  venue: The AAPS Journal
+  doi: 10.1208/s12248-011-9286-5
+  pmid: '21638149'
+  cited_by: 131
+  abstract_in_hand: false
+  found_by:
+  - h14
+  verified: false
+- n: 34
+  strand: mechanism
+  tier: current
+  anchor: false
+  first_author: Shuwei Zhang
+  year: 2022
+  title: Pharmacokinetics of Gingerols, Shogaols, and Their Metabolites in Asthma Patients
+  venue: Journal of Agricultural and Food Chemistry
+  doi: 10.1021/acs.jafc.2c03150
+  pmid: '35916113'
+  cited_by: 29
+  abstract_in_hand: true
+  found_by:
+  - h14
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 35
+  strand: mechanism
+  tier: classic
+  anchor: false
+  first_author: Rao Mukkavilli
+  year: 2017
+  title: Absorption, Metabolic Stability, and Pharmacokinetics of Ginger Phytochemicals
+  venue: Molecules
+  doi: 10.3390/molecules22040553
+  pmid: '28358331'
+  cited_by: 76
+  abstract_in_hand: true
+  found_by:
+  - h14
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 36
+  strand: mechanism
+  tier: seminal
+  anchor: false
+  first_author: H Abdel-Aziz
+  year: 2006
+  title: 'Mode of action of gingerols and shogaols on 5-HT3 receptors: Binding studies, cation uptake by the receptor channel and contraction of isolated guinea-pig ileum'
+  venue: European Journal of Pharmacology
+  doi: 10.1016/j.ejphar.2005.10.049
+  pmid: '16364290'
+  cited_by: 195
+  abstract_in_hand: false
+  found_by:
+  - h15
+  verified: false
+- n: 37
+  strand: mechanism
+  tier: classic
+  anchor: false
+  first_author: Jutta Walstab
+  year: 2013
+  title: Ginger and its pungent constituents non‐competitively inhibit activation of human recombinant and native 5‐HT3 receptors of enteric neurons
+  venue: Neurogastroenterology & Motility
+  doi: 10.1111/nmo.12107
+  pmid: '23490018'
+  cited_by: 112
+  abstract_in_hand: true
+  found_by:
+  - h15
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 38
+  strand: mechanism
+  tier: classic
+  anchor: false
+  first_author: Heinz H. Pertz
+  year: 2011
+  title: 'Effects of Ginger Constituents on the Gastrointestinal Tract: Role of Cholinergic M3and Serotonergic 5-HT3and 5-HT4Receptors'
+  venue: Planta Medica
+  doi: 10.1055/s-0030-1270747
+  pmid: '21305447'
+  cited_by: 110
+  abstract_in_hand: true
+  found_by:
+  - h17
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 39
+  strand: mechanism
+  tier: classic
+  anchor: false
+  first_author: Yue Yin
+  year: 2019
+  title: Structural mechanisms underlying activation of TRPV1 channels by pungent compounds in gingers
+  venue: British Journal of Pharmacology
+  doi: 10.1111/bph.14766
+  pmid: '31207668'
+  cited_by: 72
+  abstract_in_hand: true
+  found_by:
+  - h16
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 40
+  strand: mechanism
+  tier: classic
+  anchor: false
+  first_author: Yusaku Iwasaki
+  year: 2006
+  title: A nonpungent component of steamed ginger - [10]-shogaol - increases adrenaline secretion via the activation of TRPV1
+  venue: Nutritional Neuroscience
+  doi: 10.1080/110284150600955164
+  pmid: '17176640'
+  cited_by: 152
+  abstract_in_hand: true
+  found_by:
+  - h16
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 41
+  strand: mechanism
+  tier: classic
+  anchor: false
+  first_author: Effie Nurtjahja-Tjendraputra
+  year: 2003
+  title: Effective anti-platelet and COX-1 enzyme inhibitors from pungent constituents of ginger
+  venue: Thrombosis Research
+  doi: 10.1016/j.thromres.2003.09.009
+  pmid: '14693173'
+  cited_by: 299
+  abstract_in_hand: true
+  found_by:
+  - h12
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 42
+  strand: plant
+  tier: current
+  anchor: true
+  first_author: Hong‐Lei Li
+  year: 2021
+  title: Haplotype-resolved genome of diploid ginger (Zingiber officinale) and its unique gingerol biosynthetic pathway
+  venue: Horticulture Research
+  doi: 10.1038/s41438-021-00627-7
+  pmid: '34354044'
+  cited_by: 146
+  abstract_in_hand: true
+  found_by:
+  - p01
+  - p02
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 43
+  strand: plant
+  tier: current
+  anchor: true
+  first_author: Shiping Cheng
+  year: 2021
+  title: Haplotype-resolved genome assembly and allele-specific gene expression in cultivated ginger
+  venue: Horticulture Research
+  doi: 10.1038/s41438-021-00599-8
+  pmid: '34354050'
+  cited_by: 75
+  abstract_in_hand: true
+  found_by:
+  - p01
+  - p02
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 44
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Zijing Chen
+  year: 2024
+  title: A genome assembly of ginger (Zingiber officinale Roscoe) provides insights into genome evolution and 6‐gingerol biosynthesis
+  venue: The Plant Journal
+  doi: 10.1111/tpj.16625
+  pmid: '38251816'
+  cited_by: 22
+  abstract_in_hand: true
+  found_by:
+  - p01
+  - p12
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 45
+  strand: plant
+  tier: seminal
+  anchor: false
+  first_author: Maria del Carmen Ramirez-Ahumada
+  year: 2006
+  title: 'Biosynthesis of curcuminoids and gingerols in turmeric (Curcuma longa) and ginger (Zingiber officinale): Identification of curcuminoid synthase and hydroxycinnamoyl-CoA thioesterases'
+  venue: Phytochemistry
+  doi: 10.1016/j.phytochem.2006.06.028
+  pmid: '16890967'
+  cited_by: 162
+  abstract_in_hand: false
+  found_by:
+  - p02
+  verified: true
+  verified_level: abstract fragment
+  verified_on: '2026-11-24'
+- n: 46
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Yusong Jiang
+  year: 2018
+  title: Transcriptome Analysis Provides Insights into Gingerol Biosynthesis in Ginger ( Zingiber officinale )
+  venue: The Plant Genome
+  doi: 10.3835/plantgenome2018.06.0034
+  pmid: '30512040'
+  cited_by: 50
+  abstract_in_hand: true
+  found_by:
+  - p12
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 47
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Hyun Jo Koo
+  year: 2012
+  title: Suites of Terpene Synthases Explain Differential Terpenoid Production in Ginger and Turmeric Tissues
+  venue: PLoS ONE
+  doi: 10.1371/journal.pone.0051481
+  pmid: '23272109'
+  cited_by: 57
+  abstract_in_hand: true
+  found_by:
+  - p13
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 48
+  strand: plant
+  tier: seminal
+  anchor: false
+  first_author: W. John Kress
+  year: 2002
+  title: 'The phylogeny and a new classification of the gingers (Zingiberaceae): evidence from molecular data'
+  venue: American Journal of Botany
+  doi: 10.3732/ajb.89.10.1682
+  pmid: '21665595'
+  cited_by: 691
+  abstract_in_hand: true
+  found_by:
+  - p07
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 49
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Dongzhu Jiang
+  year: 2023
+  title: Complete chloroplast genomes provide insights into evolution and phylogeny of Zingiber (Zingiberaceae)
+  venue: BMC Genomics
+  doi: 10.1186/s12864-023-09115-9
+  pmid: '36653780'
+  cited_by: 98
+  abstract_in_hand: true
+  found_by:
+  - p07
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 50
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Hans Wohlmuth
+  year: 2005
+  title: Gingerol Content of Diploid and Tetraploid Clones of Ginger (Zingiber officinale Roscoe)
+  venue: Journal of Agricultural and Food Chemistry
+  doi: 10.1021/jf050435b
+  pmid: '15998147'
+  cited_by: 188
+  abstract_in_hand: true
+  found_by:
+  - p08
+  - p14
+  - y06
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 51
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Shinichi Adaniya
+  year: 2001
+  title: In vitro induction of tetraploid ginger (Zingiber officinale Roscoe) and its pollen fertility and germinability
+  venue: Scientia Horticulturae
+  doi: 10.1016/s0304-4238(00)00212-0
+  pmid: null
+  cited_by: 115
+  abstract_in_hand: false
+  found_by:
+  - p08
+  verified: false
+- n: 52
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Hongliang Jiang
+  year: 2005
+  title: 'Metabolic profiling and phylogenetic analysis of medicinal Zingiber species: Tools for authentication of ginger (Zingiber officinale Rosc.)'
+  venue: Phytochemistry
+  doi: 10.1016/j.phytochem.2005.08.001
+  pmid: '16169024'
+  cited_by: 210
+  abstract_in_hand: false
+  found_by:
+  - p06
+  verified: false
+- n: 53
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Christine Ficker
+  year: 2003
+  title: Bioassay‐guided isolation and identiﬁcation of antifungal compounds from ginger
+  venue: Phytotherapy Research
+  doi: 10.1002/ptr.1335
+  pmid: '13680820'
+  cited_by: 163
+  abstract_in_hand: true
+  found_by:
+  - p14
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 54
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Keke Dang
+  year: 2023
+  title: Root Exudates of Ginger Induced by Ralstonia solanacearum Infection Could Inhibit Bacterial Wilt
+  venue: Journal of Agricultural and Food Chemistry
+  doi: 10.1021/acs.jafc.2c06708
+  pmid: '36688926'
+  cited_by: 29
+  abstract_in_hand: true
+  found_by:
+  - p04
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 55
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Wenbo Wang
+  year: 2024
+  title: Metabolome-driven microbiome assembly determining the health of ginger crop (Zingiber officinale L. Roscoe) against rhizome rot
+  venue: Microbiome
+  doi: 10.1186/s40168-024-01885-y
+  pmid: '39244625'
+  cited_by: 63
+  abstract_in_hand: true
+  found_by:
+  - p03
+  - p05
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 56
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Duy Phu Le
+  year: 2014
+  title: 'Pythium soft rot of ginger: Detection and identification of the causal pathogens, and their control'
+  venue: Crop Protection
+  doi: 10.1016/j.cropro.2014.07.021
+  pmid: null
+  cited_by: 76
+  abstract_in_hand: false
+  found_by:
+  - p03
+  verified: true
+  verified_level: abstract fragment
+  verified_on: '2026-11-24'
+- n: 57
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: G. R. Stirling
+  year: 2009
+  title: Rhizome rot of ginger ( Zingiber officinale ) caused by Pythium myriotylum in Fiji and Australia
+  venue: Australasian Plant Pathology
+  doi: 10.1071/ap09023
+  pmid: null
+  cited_by: 82
+  abstract_in_hand: false
+  found_by:
+  - p03
+  verified: false
+- n: 58
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Mathews L. Paret
+  year: 2010
+  title: Effect of Plant Essential Oils on Ralstonia solanacearum Race 4 and Bacterial Wilt of Edible Ginger
+  venue: Plant Disease
+  doi: 10.1094/pdis-94-5-0521
+  pmid: '30754476'
+  cited_by: 132
+  abstract_in_hand: true
+  found_by:
+  - p04
+  verified: false
+  dropped: true
+  dropped_why: 'read 2026-11-24: tests other plants'' essential oils against ginger wilt; says nothing about ginger''s own chemistry'
+- n: 59
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Lingling Zhang
+  year: 2022
+  title: Antibacterial activity and mechanism of ginger extract against Ralstonia solanacearum
+  venue: Journal of Applied Microbiology
+  doi: 10.1111/jam.15733
+  pmid: '35892189'
+  cited_by: 34
+  abstract_in_hand: true
+  found_by:
+  - p04
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 60
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: B. Jasim
+  year: 2013
+  title: Isolation and characterization of plant growth promoting endophytic bacteria from the rhizome of Zingiber officinale
+  venue: 3 Biotech
+  doi: 10.1007/s13205-013-0143-3
+  pmid: '28324450'
+  cited_by: 239
+  abstract_in_hand: true
+  found_by:
+  - p05
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 61
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Shangjia Liu
+  year: 2022
+  title: Effects of soil waterlogging and high-temperature stress on photosynthesis and photosystem II of ginger (Zingiber officinale)
+  venue: PROTOPLASMA
+  doi: 10.1007/s00709-022-01783-w
+  pmid: '35726036'
+  cited_by: 41
+  abstract_in_hand: false
+  found_by:
+  - p10
+  verified: true
+  verified_level: abstract fragment
+  verified_on: '2026-11-24'
+- n: 62
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Bili Cao
+  year: 2021
+  title: Supplementing green light under strong sunlight improves growth and functional ingredients of ginger (Zingiber officinale Rosc.) in summer
+  venue: Industrial Crops and Products
+  doi: 10.1016/j.indcrop.2021.113527
+  pmid: null
+  cited_by: 28
+  abstract_in_hand: false
+  found_by:
+  - p10
+  verified: false
+  dropped: true
+  dropped_why: abstract not readable; replaced by ref 91 on the same question
+- n: 63
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Zexiong Chen
+  year: 2020
+  title: Genome-wide transcriptomic analysis during rhizome development of ginger (Zingiber officinale Roscoe.) reveals hormone and transcriptional regulation involved in cellulose production
+  venue: Scientia Horticulturae
+  doi: 10.1016/j.scienta.2019.109154
+  pmid: null
+  cited_by: 18
+  abstract_in_hand: false
+  found_by:
+  - p12
+  verified: false
+- n: 64
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Yun Ren
+  year: 2023
+  title: Dynamic transcriptome profiling provides insights into rhizome enlargement in ginger (Zingiber officinale Rosc.)
+  venue: PLoS ONE
+  doi: 10.1371/journal.pone.0287969
+  pmid: '37450442'
+  cited_by: 7
+  abstract_in_hand: true
+  found_by:
+  - p12
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 65
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Pan Zhang
+  year: 2023
+  title: Transcriptomic and physiological analyses reveal changes in secondary metabolite and endogenous hormone in ginger (Zingiber officinale Rosc.) in response to postharvest chilling stress
+  venue: Plant Physiology and Biochemistry
+  doi: 10.1016/j.plaphy.2023.107799
+  pmid: '37271022'
+  cited_by: 25
+  abstract_in_hand: false
+  found_by:
+  - p14
+  verified: false
+- n: 66
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Muhammad Talib Kalhoro
+  year: 2022
+  title: Fungicidal properties of ginger (Zingiber officinale) essential oils against Phytophthora colocasiae
+  venue: Scientific Reports
+  doi: 10.1038/s41598-022-06321-5
+  pmid: '35140298'
+  cited_by: 86
+  abstract_in_hand: true
+  found_by:
+  - p09
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 67
+  strand: kitchen
+  tier: seminal
+  anchor: false
+  first_author: V. S. Govindarajan
+  year: 1983
+  title: 'Ginger — chemistry, technology, and quality evaluation: Part 1'
+  venue: C R C Critical Reviews in Food Science and Nutrition
+  doi: 10.1080/10408398209527343
+  pmid: '7049579'
+  cited_by: 435
+  abstract_in_hand: true
+  found_by:
+  - k02
+  - y05
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 68
+  strand: kitchen
+  tier: seminal
+  anchor: false
+  first_author: V. S. Govindarajan
+  year: 1983
+  title: 'Ginger — chemistry, technology, and quality evaluation: Part 2'
+  venue: C R C Critical Reviews in Food Science and Nutrition
+  doi: 10.1080/10408398209527348
+  pmid: '6756789'
+  cited_by: 184
+  abstract_in_hand: true
+  found_by:
+  - k02
+  - y05
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 69
+  strand: kitchen
+  tier: classic
+  anchor: false
+  first_author: Sushila Bhattarai
+  year: 2001
+  title: The Stability of Gingerol and Shogaol in Aqueous Solutions
+  venue: Journal of Pharmaceutical Sciences
+  doi: 10.1002/jps.1116
+  pmid: '11745724'
+  cited_by: 263
+  abstract_in_hand: false
+  found_by:
+  - k01
+  verified: false
+- n: 70
+  strand: kitchen
+  tier: classic
+  anchor: false
+  first_author: Shivanand D. Jolad
+  year: 2004
+  title: 'Fresh organically grown ginger (Zingiber officinale): composition and effects on LPS-induced PGE2 production'
+  venue: Phytochemistry
+  doi: 10.1016/j.phytochem.2004.06.008
+  pmid: '15280001'
+  cited_by: 354
+  abstract_in_hand: false
+  found_by:
+  - k01
+  - k02
+  verified: false
+- n: 71
+  strand: kitchen
+  tier: classic
+  anchor: false
+  first_author: Shivanand D. Jolad
+  year: 2005
+  title: 'Commercially processed dry ginger (Zingiber officinale): Composition and effects on LPS-stimulated PGE2 production'
+  venue: Phytochemistry
+  doi: 10.1016/j.phytochem.2005.05.007
+  pmid: '15996695'
+  cited_by: 277
+  abstract_in_hand: false
+  found_by:
+  - k01
+  verified: false
+- n: 72
+  strand: kitchen
+  tier: classic
+  anchor: false
+  first_author: John P. Bartley
+  year: 2000
+  title: Effects of drying on flavour compounds in Australian-grown ginger (Zingiber officinale)
+  venue: Journal of the Science of Food and Agriculture
+  doi: 10.1002/(sici)1097-0010(20000115)80:2<209::aid-jsfa516>3.0.co;2-8
+  pmid: null
+  cited_by: 289
+  abstract_in_hand: true
+  found_by:
+  - k02
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 73
+  strand: kitchen
+  tier: classic
+  anchor: false
+  first_author: Ali Ghasemzadeh
+  year: 2018
+  title: 'Formation of 6-, 8- and 10-Shogaol in Ginger through Application of Different Drying Methods: Altered Antioxidant and Antimicrobial Activity'
+  venue: Molecules
+  doi: 10.3390/molecules23071646
+  pmid: '29976903'
+  cited_by: 112
+  abstract_in_hand: true
+  found_by:
+  - p11
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 74
+  strand: kitchen
+  tier: seminal
+  anchor: false
+  first_author: E. H. Thompson
+  year: 1973
+  title: 'GINGER RHIZOME: A NEW SOURCE OF PROTEOLYTIC ENZYME'
+  venue: Journal of Food Science
+  doi: 10.1111/j.1365-2621.1973.tb02836.x
+  pmid: null
+  cited_by: 138
+  abstract_in_hand: true
+  found_by:
+  - k03
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 75
+  strand: kitchen
+  tier: current
+  anchor: false
+  first_author: Yuge Gao
+  year: 2022
+  title: 'Preparation, pungency and bioactivity of gingerols from ginger ( Zingiber officinale Roscoe): a review'
+  venue: Critical Reviews in Food Science and Nutrition
+  doi: 10.1080/10408398.2022.2124951
+  pmid: '36135317'
+  cited_by: 85
+  abstract_in_hand: true
+  found_by:
+  - h16
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 76
+  strand: kitchen
+  tier: background
+  anchor: false
+  first_author: Ruchi Badoni Semwal
+  year: 2015
+  title: 'Gingerols and shogaols: Important nutraceutical principles from ginger'
+  venue: Phytochemistry
+  doi: 10.1016/j.phytochem.2015.07.012
+  pmid: '26228533'
+  cited_by: 759
+  abstract_in_hand: false
+  found_by:
+  - k01
+  - p02
+  - y07
+  verified: false
+- n: 77
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: E Langner
+  year: 1998
+  title: 'Ginger: history and use.'
+  venue: PubMed
+  doi: null
+  pmid: '10178636'
+  cited_by: 306
+  abstract_in_hand: false
+  found_by:
+  - h04
+  - h05
+  - y06
+  verified: false
+- n: 78
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: Marijke van der Veen
+  year: 2014
+  title: 'The Roman and Islamic spice trade: New archaeological evidence'
+  venue: Journal of Ethnopharmacology
+  doi: 10.1016/j.jep.2014.09.036
+  pmid: '25278182'
+  cited_by: 100
+  abstract_in_hand: false
+  found_by:
+  - y04
+  - y08
+  verified: false
+- n: 79
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: Alexandra Livarda
+  year: 2010
+  title: 'Spicing up life in northwestern Europe: exotic food plant imports in the Roman and medieval world'
+  venue: Vegetation History and Archaeobotany
+  doi: 10.1007/s00334-010-0273-z
+  pmid: null
+  cited_by: 124
+  abstract_in_hand: false
+  found_by:
+  - y04
+  verified: false
+- n: 80
+  strand: history
+  tier: current
+  anchor: false
+  first_author: Weiwei Wang
+  year: 2023
+  title: Earliest curry in Southeast Asia and the global spice trade 2000 years ago
+  venue: Science Advances
+  doi: 10.1126/sciadv.adh5517
+  pmid: '37478176'
+  cited_by: 31
+  abstract_in_hand: true
+  found_by:
+  - y04
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 81
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: Eleanor Kingwell-Banham
+  year: 2018
+  title: 'Spice and rice: pepper, cloves and everyday cereal foods at the ancient port of Mantai, Sri Lanka'
+  venue: Antiquity
+  doi: 10.15184/aqy.2018.168
+  pmid: null
+  cited_by: 33
+  abstract_in_hand: true
+  found_by:
+  - y04
+  verified: false
+  dropped: true
+  dropped_why: 'read 2026-11-24: the abstract says nothing specific about ginger'
+- n: 82
+  strand: history
+  tier: background
+  anchor: false
+  first_author: Steven E. Sidebotham
+  year: 2011
+  title: Berenike and the Ancient Maritime Spice Route
+  venue: University of California Press eBooks
+  doi: 10.1525/9780520948389
+  pmid: null
+  cited_by: 502
+  abstract_in_hand: true
+  found_by:
+  - y01
+  - y02
+  - y05
+  verified: false
+  dropped: true
+  dropped_why: 'read 2026-11-24: the abstract says nothing specific about ginger'
+- n: 83
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: Jong Kuk Nam
+  year: 2014
+  title: Medieval European Medicine and Asian Spices
+  venue: Korean Journal of Medical History
+  doi: 10.13081/kjmh.2014.23.319
+  pmid: '25223223'
+  cited_by: 42
+  abstract_in_hand: true
+  found_by:
+  - y03
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 84
+  strand: history
+  tier: background
+  anchor: false
+  first_author: Shahid Akbar
+  year: 2020
+  title: Zingiber officinale Rosc. (Zingiberaceae)
+  venue: Springer eBooks
+  doi: 10.1007/978-3-030-16807-0_199
+  pmid: null
+  cited_by: 9
+  abstract_in_hand: false
+  found_by:
+  - y03
+  verified: false
+- n: 85
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: John P. Morgan
+  year: 1982
+  title: The Jamaica Ginger Paralysis
+  venue: JAMA
+  doi: 10.1001/jama.1982.03330150050022
+  pmid: '6750161'
+  cited_by: 83
+  abstract_in_hand: true
+  found_by:
+  - y06
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 86
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: John P. Morgan
+  year: 1978
+  title: 'Jamaica Ginger Paralysis: Forty-seven-Year Follow-up'
+  venue: Archives of Neurology
+  doi: 10.1001/archneur.1978.00500320050011
+  pmid: '666613'
+  cited_by: 135
+  abstract_in_hand: true
+  found_by:
+  - y06
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 87
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: Jennifer Billing
+  year: 1998
+  title: 'Antimicrobial Functions of Spices: Why Some Like it Hot'
+  venue: The Quarterly Review of Biology
+  doi: 10.1086/420058
+  pmid: '9586227'
+  cited_by: 418
+  abstract_in_hand: true
+  found_by:
+  - p09
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 88
+  strand: history
+  tier: classic
+  anchor: false
+  first_author: Paul W. Sherman
+  year: 1999
+  title: 'Darwinian Gastronomy: Why We Use Spices'
+  venue: BioScience
+  doi: 10.2307/1313553
+  pmid: null
+  cited_by: 324
+  abstract_in_hand: true
+  found_by:
+  - y04
+  - y05
+  - y08
+  verified: true
+  verified_level: opening of full text only
+  verified_on: '2026-11-24'
+- n: 89
+  strand: history
+  tier: current
+  anchor: false
+  first_author: Cheng Zhang
+  year: 2024
+  title: Pharmacological activity and clinical application analysis of traditional Chinese medicine ginger from the perspective of one source and multiple substances
+  venue: Chinese Medicine
+  doi: 10.1186/s13020-024-00969-z
+  pmid: '38997763'
+  cited_by: 46
+  abstract_in_hand: true
+  found_by:
+  - h12
+  verified: true
+  verified_level: abstract
+  verified_on: '2026-11-24'
+- n: 90
+  strand: history
+  tier: current
+  anchor: false
+  first_author: Adewale Adetutu
+  year: 2021
+  title: Historical, Botanical and Medicinal Perspectives on Ginger (Zingiber officinale)
+  venue: Journal of Complementary and Alternative Medical Research
+  doi: 10.9734/jocamr/2021/v15i430274
+  pmid: null
+  cited_by: 8
+  abstract_in_hand: true
+  found_by:
+  - h13
+  verified: false
+  dropped: true
+  dropped_why: 'read 2026-11-24: the abstract says nothing specific about ginger'
+- n: 91
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: Xue Lv
+  year: 2022
+  title: Comprehensive insights into the influence of supplemental green light on the photosynthesis of ginger (Zingiber officinale Roscoe)
+  venue: Protoplasma
+  doi: 10.1007/s00709-022-01748-z
+  pmid: null
+  found_by:
+  - web search for ref 62
+  note: replaces Cao 2021 (ref 62), whose abstract could not be read
+  cited_by: null
+  abstract_in_hand: false
+  verified: true
+  verified_level: record page or abstract fragment
+  verified_on: '2026-11-24'
+- n: 92
+  strand: plant
+  tier: current
+  anchor: false
+  first_author: TO CONFIRM (authors include Zhiduan Chen, Rujie Shi, Hong-Lei Li)
+  year: 2023
+  title: High-temperature and intense-light stress in ginger (title to confirm)
+  venue: Metabolites 13(9):992
+  doi: 10.3390/metabo13090992
+  pmid: null
+  found_by:
+  - web search for ref 62
+  note: first author and exact title not yet read; the shade-loving and 20–28 °C statements are its summary of earlier work
+  cited_by: null
+  abstract_in_hand: false
+  verified: true
+  verified_level: record page or abstract fragment
+  verified_on: '2026-11-24'
+- n: 93
+  strand: plant
+  tier: classic
+  anchor: false
+  first_author: Hyun Jo Koo
+  year: 2013
+  title: Ginger and turmeric expressed sequence tags identify signature genes for rhizome identity and development and the biosynthesis of curcuminoids, gingerols and terpenoids
+  venue: BMC Plant Biology 13:27
+  doi: 10.1186/1471-2229-13-27
+  pmid: null
+  found_by:
+  - T1 pre-sweep
+  note: first author taken from the companion 2012 paper's group; confirm on the article page
+  cited_by: null
+  abstract_in_hand: false
+  verified: true
+  verified_level: record page or abstract fragment
+  verified_on: '2026-11-24'
+- n: 94
+  strand: plant
+  tier: background
+  anchor: false
+  first_author: Minnesota Department of Agriculture
+  year: 2024
+  title: Ginger Wilt (Ralstonia pseudosolanacearum) fact sheet, June 2024
+  venue: mda.state.mn.us/ginger-wilt
+  doi: null
+  pmid: null
+  found_by:
+  - T1 pre-sweep
+  cited_by: null
+  abstract_in_hand: false
+  verified: true
+  verified_level: record page or abstract fragment
+  verified_on: '2026-11-24'
+- n: 95
+  strand: health
+  tier: background
+  anchor: true
+  first_author: European Medicines Agency (HMPC)
+  year: 2025
+  title: 'Zingiberis rhizoma — herbal medicinal product: public summary of the HMPC conclusions on ginger rhizome'
+  venue: ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma
+  doi: null
+  pmid: null
+  cited_by: null
+  abstract_in_hand: false
+  found_by:
+  - T1 pre-sweep
+  verified: true
+  verified_level: page fragments
+  verified_on: '2026-11-24'
+  note: the monograph (EMA/HMPC/885789/2022) and assessment report (EMA/HMPC/765220/2022) themselves are still to be read in full; the wording on pregnancy, breast-feeding and children under six must be
+    checked against them
+- n: 96
+  strand: history
+  tier: background
+  anchor: false
+  first_author: The Fitzwilliam Museum, Cambridge
+  year: 2019
+  title: 'Ginger and Sugar (object label, Feast & Fast: The Art of Food in Europe, 1500–1800)'
+  venue: feast-and-fast.fitzmuseum.cam.ac.uk/labels/ginger-sugar
+  doi: null
+  pmid: null
+  cited_by: null
+  abstract_in_hand: false
+  found_by:
+  - web search
+  verified: true
+  verified_level: web page or record fragment
+  verified_on: '2026-11-24'
+- n: 97
+  strand: history
+  tier: background
+  anchor: false
+  first_author: The Morgan Library & Museum
+  year: null
+  title: 'Dioscorides, De materia medica, MS M.652 (Constantinople, mid 10th century): ginger, inscribed zengiberis'
+  venue: themorgan.org/collection/de-materia-medica/143825/116
+  doi: null
+  pmid: null
+  cited_by: null
+  abstract_in_hand: false
+  found_by:
+  - web search
+  verified: true
+  verified_level: web page or record fragment
+  verified_on: '2026-11-24'
+- n: 98
+  strand: history
+  tier: background
+  anchor: false
+  first_author: Tadhg Ó Cuinn
+  year: null
+  title: 'An Irish Materia Medica, §291 Zinciber (CELT: Corpus of Electronic Texts edition, English translation)'
+  venue: celt.ucc.ie/published/G600006/text905.html
+  doi: null
+  pmid: null
+  cited_by: null
+  abstract_in_hand: false
+  found_by:
+  - web search
+  verified: true
+  verified_level: web page or record fragment
+  verified_on: '2026-11-24'
+- n: 99
+  strand: history
+  tier: background
+  anchor: false
+  first_author: Master-Cooks of King Richard II; ed. Samuel Pegge
+  year: 1780
+  title: 'The Forme of Cury: A Roll of Ancient English Cookery, compiled about A.D. 1390'
+  venue: 'Project Gutenberg eBook #8102 (public domain in the USA)'
+  doi: null
+  pmid: null
+  cited_by: null
+  abstract_in_hand: false
+  found_by:
+  - web search
+  verified: true
+  verified_level: web page or record fragment
+  verified_on: '2026-11-24'
+- n: 100
+  strand: history
+  tier: background
+  anchor: false
+  first_author: Thomas Austin (ed.)
+  year: 1888
+  title: Two Fifteenth-Century Cookery-Books, Forewords
+  venue: Early English Text Society; archive.org/details/twofifteenthcent00austuoft
+  doi: null
+  pmid: null
+  cited_by: null
+  abstract_in_hand: false
+  found_by:
+  - web search
+  verified: true
+  verified_level: web page or record fragment
+  verified_on: '2026-11-24'
+  year_note: date of the edition to confirm
+- n: 101
+  strand: history
+  tier: background
+  anchor: false
+  first_author: Oxford University Herbaria
+  year: null
+  title: Zingiber officinale Roscoe (Zingiberaceae), Plants 400 profile
+  venue: herbaria.plants.ox.ac.uk/bol/plants400/Profiles/YZ/Zingiberofficinale
+  doi: null
+  pmid: null
+  cited_by: null
+  abstract_in_hand: false
+  found_by:
+  - web search
+  verified: true
+  verified_level: web page or record fragment
+  verified_on: '2026-11-24'

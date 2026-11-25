@@ -1,0 +1,218 @@
+[
+ {
+  "id": "abstract",
+  "title": "Abstract",
+  "depth": 1,
+  "number": null,
+  "words": 168,
+  "part": false,
+  "in_part": null
+ },
+ {
+  "id": "part-i",
+  "title": "Part I. Foundations",
+  "depth": 1,
+  "number": null,
+  "words": 0,
+  "part": true,
+  "in_part": null
+ },
+ {
+  "id": "1-why-three-records",
+  "title": "1. Why ginger, and why three records at once",
+  "depth": 2,
+  "number": "1",
+  "words": 113,
+  "part": false,
+  "in_part": "part-i"
+ },
+ {
+  "id": "2-the-plant-in-brief",
+  "title": "2. The plant in brief",
+  "depth": 2,
+  "number": "2",
+  "words": 309,
+  "part": false,
+  "in_part": "part-i"
+ },
+ {
+  "id": "3-the-chemistry-in-brief",
+  "title": "3. The chemistry in brief",
+  "depth": 2,
+  "number": "3",
+  "words": 354,
+  "part": false,
+  "in_part": "part-i"
+ },
+ {
+  "id": "part-ii",
+  "title": "Part II. History and lore",
+  "depth": 1,
+  "number": null,
+  "words": 0,
+  "part": true,
+  "in_part": null
+ },
+ {
+  "id": "4-origin-and-dispersal",
+  "title": "4. Origin and dispersal",
+  "depth": 2,
+  "number": "4",
+  "words": 188,
+  "part": false,
+  "in_part": "part-ii"
+ },
+ {
+  "id": "5-the-old-world-record",
+  "title": "5. The old-world record",
+  "depth": 2,
+  "number": "5",
+  "words": 283,
+  "part": false,
+  "in_part": "part-ii"
+ },
+ {
+  "id": "6-europe-to-the-americas",
+  "title": "6. Europe to the Americas",
+  "depth": 2,
+  "number": "6",
+  "words": 374,
+  "part": false,
+  "in_part": "part-ii"
+ },
+ {
+  "id": "7-why-people-spice-food",
+  "title": "7. Why people spice food",
+  "depth": 2,
+  "number": "7",
+  "words": 197,
+  "part": false,
+  "in_part": "part-ii"
+ },
+ {
+  "id": "part-iii",
+  "title": "Part III. Health: the human evidence",
+  "depth": 1,
+  "number": null,
+  "words": 0,
+  "part": true,
+  "in_part": null
+ },
+ {
+  "id": "8-nausea-and-vomiting",
+  "title": "8. Nausea and vomiting",
+  "depth": 2,
+  "number": "8",
+  "words": 612,
+  "part": false,
+  "in_part": "part-iii"
+ },
+ {
+  "id": "9-pain-inflammation-and-metabolic-outcomes",
+  "title": "9. Pain, inflammation and metabolic outcomes",
+  "depth": 2,
+  "number": "9",
+  "words": 545,
+  "part": false,
+  "in_part": "part-iii"
+ },
+ {
+  "id": "10-safety-interactions-and-pregnancy",
+  "title": "10. Safety, interactions and pregnancy",
+  "depth": 2,
+  "number": "10",
+  "words": 394,
+  "part": false,
+  "in_part": "part-iii"
+ },
+ {
+  "id": "11-how-it-might-work-and-the-bioavailability-problem",
+  "title": "11. How it might work, and the bioavailability problem",
+  "depth": 2,
+  "number": "11",
+  "words": 466,
+  "part": false,
+  "in_part": "part-iii"
+ },
+ {
+  "id": "part-iv",
+  "title": "Part IV. The plant itself",
+  "depth": 1,
+  "number": null,
+  "words": 0,
+  "part": true,
+  "in_part": null
+ },
+ {
+  "id": "12-the-genome-and-the-making-of-gingerols",
+  "title": "12. The genome and the making of gingerols",
+  "depth": 2,
+  "number": "12",
+  "words": 490,
+  "part": false,
+  "in_part": "part-iv"
+ },
+ {
+  "id": "13-what-the-compounds-do-for-the-plant",
+  "title": "13. What the compounds do for the plant",
+  "depth": 2,
+  "number": "13",
+  "words": 433,
+  "part": false,
+  "in_part": "part-iv"
+ },
+ {
+  "id": "14-growing-ginger-under-glass",
+  "title": "14. Growing ginger under glass",
+  "depth": 2,
+  "number": "14",
+  "words": 337,
+  "part": false,
+  "in_part": "part-iv"
+ },
+ {
+  "id": "part-v",
+  "title": "Part V. Joining the records",
+  "depth": 1,
+  "number": null,
+  "words": 0,
+  "part": true,
+  "in_part": null
+ },
+ {
+  "id": "15-from-rhizome-to-kitchen",
+  "title": "15. From rhizome to kitchen",
+  "depth": 2,
+  "number": "15",
+  "words": 290,
+  "part": false,
+  "in_part": "part-v"
+ },
+ {
+  "id": "16-methods-of-the-field",
+  "title": "16. Methods of the field",
+  "depth": 2,
+  "number": "16",
+  "words": 201,
+  "part": false,
+  "in_part": "part-v"
+ },
+ {
+  "id": "17-open-questions",
+  "title": "17. Open questions",
+  "depth": 2,
+  "number": "17",
+  "words": 161,
+  "part": false,
+  "in_part": "part-v"
+ },
+ {
+  "id": "18-how-to-read-this-literature",
+  "title": "18. How to read this literature",
+  "depth": 2,
+  "number": "18",
+  "words": 128,
+  "part": false,
+  "in_part": "part-v"
+ }
+]

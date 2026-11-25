@@ -1,0 +1,121 @@
+[
+ {
+  "id": "rhizome",
+  "term": "Rhizome",
+  "kind": "science",
+  "short": "An underground stem that grows horizontally; the part of ginger that is harvested.",
+  "concept": "the-ginger-plant"
+ },
+ {
+  "id": "cultigen",
+  "term": "Cultigen",
+  "kind": "science",
+  "short": "A plant known only in cultivation, with no wild population.",
+  "concept": "the-ginger-plant"
+ },
+ {
+  "id": "haplotype",
+  "term": "Haplotype",
+  "kind": "science",
+  "short": "One of the two sets of chromosomes an organism inherits; a haplotype-resolved genome separates them.",
+  "concept": "the-ginger-plant"
+ },
+ {
+  "id": "gingerol",
+  "term": "Gingerol",
+  "kind": "science",
+  "short": "The main pungent compounds of fresh ginger; 6-gingerol is the most abundant.",
+  "concept": "gingerols-and-shogaols"
+ },
+ {
+  "id": "shogaol",
+  "term": "Shogaol",
+  "kind": "science",
+  "short": "Pungent compounds formed from gingerols when ginger is dried or heated.",
+  "concept": "gingerols-and-shogaols"
+ },
+ {
+  "id": "zingibain",
+  "term": "Zingibain",
+  "kind": "science",
+  "short": "A protein-digesting enzyme in ginger rhizome that tenderises meat.",
+  "concept": "gingerols-and-shogaols"
+ },
+ {
+  "id": "trpv1",
+  "term": "TRPV1",
+  "kind": "science",
+  "short": "A receptor on sensory nerves that responds to heat and to pungent compounds such as capsaicin and gingerols.",
+  "concept": "how-ginger-might-work"
+ },
+ {
+  "id": "5-ht3",
+  "term": "5-HT3 receptor",
+  "kind": "science",
+  "short": "A serotonin receptor in the gut and brain that standard anti-nausea drugs block.",
+  "concept": "how-ginger-might-work"
+ },
+ {
+  "id": "glucuronide",
+  "term": "Glucuronide conjugate",
+  "kind": "science",
+  "short": "A compound to which the body has attached a sugar acid, usually making it easier to excrete.",
+  "concept": "how-ginger-might-work"
+ },
+ {
+  "id": "first-pass",
+  "term": "First-pass metabolism",
+  "kind": "science",
+  "short": "Breakdown of a swallowed compound in the gut wall and liver before it reaches the general circulation.",
+  "concept": "how-ginger-might-work"
+ },
+ {
+  "id": "meta-analysis",
+  "term": "Meta-analysis",
+  "kind": "methods",
+  "short": "A statistical pooling of the results of several studies of the same question.",
+  "concept": "reading-the-trials"
+ },
+ {
+  "id": "umbrella-review",
+  "term": "Umbrella review",
+  "kind": "methods",
+  "short": "A review of systematic reviews and meta-analyses.",
+  "concept": "reading-the-trials"
+ },
+ {
+  "id": "grade",
+  "term": "GRADE",
+  "kind": "methods",
+  "short": "A system for rating how certain a body of evidence is, from very low to high.",
+  "concept": "reading-the-trials"
+ },
+ {
+  "id": "heterogeneity",
+  "term": "Heterogeneity",
+  "kind": "methods",
+  "short": "The extent to which pooled studies disagree with one another, often reported as I².",
+  "concept": "reading-the-trials"
+ },
+ {
+  "id": "confidence-interval",
+  "term": "Confidence interval",
+  "kind": "methods",
+  "short": "The range of values compatible with a study's data; a wide interval means an imprecise estimate.",
+  "concept": "reading-the-trials"
+ },
+ {
+  "id": "humoral-theory",
+  "term": "Humoral theory",
+  "kind": "science",
+  "short": "The pre-modern medical doctrine that health is a balance of four humours with qualities of hot, cold, wet and dry.",
+  "concept": "ginger-in-the-record"
+ },
+ {
+  "id": "test-article",
+  "term": "Test article",
+  "kind": "methods",
+  "short": "The exact preparation a study gave its participants.",
+  "concept": "reading-the-trials"
+ }
+]

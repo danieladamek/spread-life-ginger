@@ -1,0 +1,25 @@
+- n: 1
+  tier: seminal
+  anchor: true
+  citation: "Author A. The plant. J Fix. 2001."
+  year: 2001
+  doi: "10.0000/fix.1"
+  summary: "Grew the plant."
+  why_it_mattered: "First account."
+  role_here: support
+  role_note: ""
+  cited_in: [abstract, 1-the-plant]
+  verified: true
+  verified_level: abstract
+- n: 2
+  tier: current
+  anchor: false
+  citation: "Author B. Drying. J Fix. 2022."
+  year: 2022
+  doi: "10.0000/fix.2"
+  summary: "Dried the plant."
+  role_here: support
+  role_note: ""
+  cited_in: [abstract, 2-the-chemistry]
+  verified: true
+  verified_level: abstract fragment

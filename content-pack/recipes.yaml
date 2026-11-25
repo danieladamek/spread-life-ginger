@@ -1,0 +1,43 @@
+# recipes.yaml — Spread Life: Ginger. Historical recipes from dated sources, each cited and cross-referenced to the review.
+# Rules (scope.yaml): historical sources only; no modern adaptation; no dose and no health claim of the builder's own.
+# A medicinal recipe is shown as a historical document, with the review's evidence beside it.
+as_of: 2026-11-24
+status: "2 recipes; more to be added from openly readable public-domain sources (see todo.yaml)"
+recipes:
+  - id: gyngener
+    title: "Gyngener (a ginger sauce)"
+    kind: culinary
+    date: "about 1390"
+    place: "England, the royal household of Richard II"
+    source_ref: 25
+    source_note: "The Forme of Cury, ed. Samuel Pegge (1780); Project Gutenberg eBook #8102. Public domain."
+    original_text: "Take payndemayn and pare it clene and funde it in Vinegur, grynde it and temper it wiþ Vynegur, and with powdour gyngur and salt, drawe it thurgh a straynour. and serue forth."
+    original_language: "Middle English"
+    gloss: "Fine white bread, crusts pared off, is soaked in vinegar, ground, thinned with more vinegar and seasoned with powdered ginger and salt, then passed through a strainer and served. The sauce is not cooked."
+    gloss_by: "builder's reading of the Middle English, 2026-11-24"
+    ingredients: ["white bread (payndemayn)", "vinegar", "powdered ginger", "salt"]
+    ginger_form: dried-powdered
+    heated: false
+    links:
+      sections: ["3-the-chemistry-in-brief", "6-europe-to-the-americas", "15-from-rhizome-to-kitchen"]
+      compounds: ["6-gingerol", "6-shogaol"]
+    science_note: "The recipe specifies powdered, that is dried, ginger. Dried ginger contains shogaols as well as gingerols, where fresh rhizome contains gingerols only [3, 4]. Nothing in the source says how the ginger was dried."
+    safety_note: "Shown as a historical document. It makes no health claim and none is made for it here."
+  - id: irish-materia-medica-zinciber
+    title: "Ginger boiled in wine or ale, for the stomach"
+    kind: medicinal
+    date: "medieval; date of the text to be confirmed from the edition"
+    place: "Ireland"
+    source_ref: 23
+    source_note: "Tadhg Ó Cuinn, An Irish Materia Medica, §291 Zinciber, in the CELT edition's English translation. The translation is modern and in copyright, so the entry is paraphrased, not reproduced."
+    original_text: null
+    gloss: "The entry classes ginger as hot in the third degree and wet in the second, says that it comforts the stomach, and directs that it be boiled in wine or ale against pain of the stomach and intestines. It lists further uses of the powder."
+    gloss_by: "builder's paraphrase of the CELT translation, 2026-11-24"
+    ingredients: ["ginger", "wine or ale"]
+    ginger_form: unspecified
+    heated: true
+    links:
+      sections: ["6-europe-to-the-americas", "8-nausea-and-vomiting", "11-how-it-might-work-and-the-bioavailability-problem", "15-from-rhizome-to-kitchen"]
+      compounds: ["6-gingerol", "6-shogaol"]
+    science_note: "The entry reasons from the humoral qualities of the spice, not from observed effect [22]. Modern trials have tested ginger for nausea, not for stomach pain as such (section 8), and in two small studies ginger sped gastric emptying without changing symptoms [59, 60]. Boiling would be expected to convert some gingerol to shogaol [3, 4]."
+    safety_note: "A historical document, not advice. It gives no measured quantity and none is supplied here."

@@ -1,0 +1,1194 @@
+- n: 1
+  tier: current
+  anchor: true
+  citation: Hong‐Lei Li et al. Haplotype-resolved genome of diploid ginger (Zingiber officinale) and its unique gingerol biosynthetic pathway. Horticulture Research. 2021.
+  year: 2021
+  summary: Haplotype-resolved genome of the ginger cultivar 'Zhugen' with a proposed gingerol biosynthetic pathway.
+  role_here: support
+  role_note: 'Cited in: abstract, 2-the-plant-in-brief, 12-the-genome-and-the-making-of-gingerols, 16-methods-of-the-field, 17-open-questions'
+  cited_in:
+  - abstract
+  - 2-the-plant-in-brief
+  - 12-the-genome-and-the-making-of-gingerols
+  - 16-methods-of-the-field
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 42
+  doi: 10.1038/s41438-021-00627-7
+- n: 2
+  tier: current
+  anchor: true
+  citation: Shiping Cheng et al. Haplotype-resolved genome assembly and allele-specific gene expression in cultivated ginger. Horticulture Research. 2021.
+  year: 2021
+  summary: Haplotype-resolved diploid ginger genome on 11 pseudochromosome pairs, with allele-specific expression analysis.
+  role_here: support
+  role_note: 'Cited in: abstract, 2-the-plant-in-brief, 4-origin-and-dispersal, 12-the-genome-and-the-making-of-gingerols, 16-methods-of-the-field, 17-open-questions'
+  cited_in:
+  - abstract
+  - 2-the-plant-in-brief
+  - 4-origin-and-dispersal
+  - 12-the-genome-and-the-making-of-gingerols
+  - 16-methods-of-the-field
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 43
+  doi: 10.1038/s41438-021-00599-8
+- n: 3
+  tier: classic
+  anchor: false
+  citation: Hans Wohlmuth et al. Gingerol Content of Diploid and Tetraploid Clones of Ginger (Zingiber officinale Roscoe). Journal of Agricultural and Food Chemistry. 2005.
+  year: 2005
+  summary: 'HPLC assay of gingerols and shogaols in fresh rhizomes of 17 Australian ginger clones, including tetraploids. In this review it is used in abstract, the plant in brief, the chemistry in brief, origin and dispersal,
+    europe to the americas, from rhizome to kitchen, how to read this literature. It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not
+    appraise it.'
+  role_here: support
+  role_note: 'Cited in: abstract, 2-the-plant-in-brief, 3-the-chemistry-in-brief, 4-origin-and-dispersal, 6-europe-to-the-americas, 15-from-rhizome-to-kitchen, 18-how-to-read-this-literature'
+  cited_in:
+  - abstract
+  - 2-the-plant-in-brief
+  - 3-the-chemistry-in-brief
+  - 4-origin-and-dispersal
+  - 6-europe-to-the-americas
+  - 15-from-rhizome-to-kitchen
+  - 18-how-to-read-this-literature
+  verified: true
+  verified_level: abstract
+  candidate_n: 50
+  doi: 10.1021/jf050435b
+- n: 4
+  tier: classic
+  anchor: false
+  citation: 'Ali Ghasemzadeh et al. Formation of 6-, 8- and 10-Shogaol in Ginger through Application of Different Drying Methods: Altered Antioxidant and Antimicrobial Activity. Molecules. 2018.'
+  year: 2018
+  summary: 'Study of how sun, solar-tunnel and hot-air drying affect gingerol and shogaol content of ginger. In this review it is used in abstract, the chemistry in brief, from rhizome to kitchen. It was read at the level
+    of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: abstract, 3-the-chemistry-in-brief, 15-from-rhizome-to-kitchen'
+  cited_in:
+  - abstract
+  - 3-the-chemistry-in-brief
+  - 15-from-rhizome-to-kitchen
+  verified: true
+  verified_level: abstract
+  candidate_n: 73
+  doi: 10.3390/molecules23071646
+- n: 5
+  tier: current
+  anchor: true
+  citation: 'Megan Crichton et al. Orally consumed ginger and human health: an umbrella review. American Journal of Clinical Nutrition. 2022.'
+  year: 2022
+  summary: Umbrella review of 24 systematic reviews of oral ginger; grades certainty by outcome with GRADE and AMSTAR-2.
+  role_here: review
+  role_note: 'Cited in: abstract, 8-nausea-and-vomiting, 9-pain-inflammation-and-metabolic-outcomes, 10-safety-interactions-and-pregnancy, 15-from-rhizome-to-kitchen, 16-methods-of-the-field, 18-how-to-read-this-literature'
+  cited_in:
+  - abstract
+  - 8-nausea-and-vomiting
+  - 9-pain-inflammation-and-metabolic-outcomes
+  - 10-safety-interactions-and-pregnancy
+  - 15-from-rhizome-to-kitchen
+  - 16-methods-of-the-field
+  - 18-how-to-read-this-literature
+  verified: true
+  verified_level: abstract
+  candidate_n: 1
+  doi: 10.1093/ajcn/nqac035
+- n: 6
+  tier: classic
+  anchor: false
+  citation: Estelle Viljoen et al. A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting. Nutrition Journal. 2014.
+  year: 2014
+  summary: 'Meta-analysis of twelve trials (1278 women) of oral ginger for nausea and vomiting of pregnancy, including safety outcomes. In this review it is used in abstract, nausea and vomiting, safety interactions and pregnancy,
+    open questions. It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: abstract, 8-nausea-and-vomiting, 10-safety-interactions-and-pregnancy, 17-open-questions'
+  cited_in:
+  - abstract
+  - 8-nausea-and-vomiting
+  - 10-safety-interactions-and-pregnancy
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 9
+  doi: 10.1186/1475-2891-13-20
+- n: 7
+  tier: seminal
+  anchor: true
+  citation: Suzanna Maria Zick et al. Pharmacokinetics of 6-Gingerol, 8-Gingerol, 10-Gingerol, and 6-Shogaol and Conjugate Metabolites in Healthy Human Subjects. Cancer Epidemiology Biomarkers & Prevention. 2008.
+  year: 2008
+  summary: 'First human pharmacokinetic study of gingerols and 6-shogaol after single oral doses of ginger in 27 volunteers. In this review it is used in abstract, how it might work and the bioavailability problem, methods
+    of the field, open questions, how to read this literature. It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: abstract, 11-how-it-might-work-and-the-bioavailability-problem, 16-methods-of-the-field, 17-open-questions, 18-how-to-read-this-literature'
+  cited_in:
+  - abstract
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  - 16-methods-of-the-field
+  - 17-open-questions
+  - 18-how-to-read-this-literature
+  verified: true
+  verified_level: abstract
+  candidate_n: 32
+  doi: 10.1158/1055-9965.epi-07-2934
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 8
+  tier: classic
+  anchor: false
+  citation: Christine Ficker et al. Bioassay‐guided isolation and identiﬁcation of antifungal compounds from ginger. Phytotherapy Research. 2003.
+  year: 2003
+  summary: 'Bioassay-guided isolation of antifungal compounds from an African land race of ginger. In this review it is used in abstract, what the compounds do for the plant, methods of the field, open questions. It was read
+    at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: abstract, 13-what-the-compounds-do-for-the-plant, 16-methods-of-the-field, 17-open-questions'
+  cited_in:
+  - abstract
+  - 13-what-the-compounds-do-for-the-plant
+  - 16-methods-of-the-field
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 53
+  doi: 10.1002/ptr.1335
+- n: 9
+  tier: current
+  anchor: false
+  citation: Keke Dang et al. Root Exudates of Ginger Induced by Ralstonia solanacearum Infection Could Inhibit Bacterial Wilt. Journal of Agricultural and Food Chemistry. 2023.
+  year: 2023
+  summary: Study of root exudates and root-associated bacteria of ginger during Ralstonia solanacearum infection.
+  role_here: support
+  role_note: 'Cited in: abstract, 13-what-the-compounds-do-for-the-plant, 17-open-questions'
+  cited_in:
+  - abstract
+  - 13-what-the-compounds-do-for-the-plant
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 54
+  doi: 10.1021/acs.jafc.2c06708
+- n: 10
+  tier: seminal
+  anchor: false
+  citation: 'W. John Kress et al. The phylogeny and a new classification of the gingers (Zingiberaceae): evidence from molecular data. American Journal of Botany. 2002.'
+  year: 2002
+  summary: 'Molecular phylogeny of the Zingiberaceae and a revised classification into four subfamilies. In this review it is used in the plant in brief. It was read at the level of: abstract (24 November 2026); the full text
+    has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 2-the-plant-in-brief'
+  cited_in:
+  - 2-the-plant-in-brief
+  verified: true
+  verified_level: abstract
+  candidate_n: 48
+  doi: 10.3732/ajb.89.10.1682
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 11
+  tier: current
+  anchor: false
+  citation: Dongzhu Jiang et al. Complete chloroplast genomes provide insights into evolution and phylogeny of Zingiber (Zingiberaceae). BMC Genomics. 2023.
+  year: 2023
+  summary: Comparative analysis of 14 chloroplast genomes of Zingiber species with a genus-level phylogeny.
+  role_here: support
+  role_note: 'Cited in: 2-the-plant-in-brief'
+  cited_in:
+  - 2-the-plant-in-brief
+  verified: true
+  verified_level: abstract
+  candidate_n: 49
+  doi: 10.1186/s12864-023-09115-9
+- n: 12
+  tier: current
+  anchor: false
+  citation: Zijing Chen et al. A genome assembly of ginger (Zingiber officinale Roscoe) provides insights into genome evolution and 6‐gingerol biosynthesis. The Plant Journal. 2024.
+  year: 2024
+  summary: Genome of 'Small Laiwu Ginger' with evidence for transcriptional regulation of 6-gingerol biosynthesis.
+  role_here: support
+  role_note: 'Cited in: 2-the-plant-in-brief, 12-the-genome-and-the-making-of-gingerols'
+  cited_in:
+  - 2-the-plant-in-brief
+  - 12-the-genome-and-the-making-of-gingerols
+  verified: true
+  verified_level: abstract
+  candidate_n: 44
+  doi: 10.1111/tpj.16625
+- n: 13
+  tier: seminal
+  anchor: false
+  citation: 'V. S. Govindarajan et al. Ginger — chemistry, technology, and quality evaluation: Part 1. C R C Critical Reviews in Food Science and Nutrition. 1983.'
+  year: 1983
+  summary: 'Part 1 of a monograph reviewing ginger''s production, processing and flavour chemistry. In this review it is used in the chemistry in brief. It was read at the level of: abstract (24 November 2026); the full text
+    has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 3-the-chemistry-in-brief'
+  cited_in:
+  - 3-the-chemistry-in-brief
+  verified: true
+  verified_level: abstract
+  candidate_n: 67
+  doi: 10.1080/10408398209527343
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 14
+  tier: seminal
+  anchor: false
+  citation: 'V. S. Govindarajan et al. Ginger — chemistry, technology, and quality evaluation: Part 2. C R C Critical Reviews in Food Science and Nutrition. 1983.'
+  year: 1983
+  summary: 'Part 2 of the same monograph, on the evaluation of ginger quality. In this review it is used in the chemistry in brief. It was read at the level of: abstract (24 November 2026); the full text has not been read,
+    so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 3-the-chemistry-in-brief'
+  cited_in:
+  - 3-the-chemistry-in-brief
+  verified: true
+  verified_level: abstract
+  candidate_n: 68
+  doi: 10.1080/10408398209527348
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 15
+  tier: current
+  anchor: false
+  citation: 'Yuge Gao et al. Preparation, pungency and bioactivity of gingerols from ginger ( Zingiber officinale Roscoe): a review. Critical Reviews in Food Science and Nutrition. 2022.'
+  year: 2022
+  summary: Review of the composition, extraction, pungency and bioactivity of gingerols and related compounds.
+  role_here: review
+  role_note: 'Cited in: 3-the-chemistry-in-brief'
+  cited_in:
+  - 3-the-chemistry-in-brief
+  verified: true
+  verified_level: abstract
+  candidate_n: 75
+  doi: 10.1080/10408398.2022.2124951
+- n: 16
+  tier: classic
+  anchor: false
+  citation: John P. Bartley et al. Effects of drying on flavour compounds in Australian-grown ginger (Zingiber officinale). Journal of the Science of Food and Agriculture. 2000.
+  year: 2000
+  summary: 'Comparison of flavour compounds in fresh and dried Australian-grown ginger extracted with supercritical carbon dioxide. In this review it is used in the chemistry in brief, from rhizome to kitchen. It was read
+    at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 3-the-chemistry-in-brief, 15-from-rhizome-to-kitchen'
+  cited_in:
+  - 3-the-chemistry-in-brief
+  - 15-from-rhizome-to-kitchen
+  verified: true
+  verified_level: abstract
+  candidate_n: 72
+  doi: 10.1002/(sici)1097-0010(20000115)80:2<209::aid-jsfa516>3.0.co;2-8
+- n: 17
+  tier: classic
+  anchor: false
+  citation: Hyun Jo Koo et al. Suites of Terpene Synthases Explain Differential Terpenoid Production in Ginger and Turmeric Tissues. PLoS ONE. 2012.
+  year: 2012
+  summary: 'Identification and characterisation of mono- and sesquiterpene synthases from ginger and turmeric. In this review it is used in the chemistry in brief, the genome and the making of gingerols. It was read at the
+    level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 3-the-chemistry-in-brief, 12-the-genome-and-the-making-of-gingerols'
+  cited_in:
+  - 3-the-chemistry-in-brief
+  - 12-the-genome-and-the-making-of-gingerols
+  verified: true
+  verified_level: abstract
+  candidate_n: 47
+  doi: 10.1371/journal.pone.0051481
+- n: 18
+  tier: background
+  anchor: false
+  citation: Oxford University Herbaria. Zingiber officinale Roscoe (Zingiberaceae), Plants 400 profile. herbaria.plants.ox.ac.uk/bol/plants400/Profiles/YZ/Zingiberofficinale.
+  year: 2026
+  summary: Botanical profile of ginger from Oxford University Herbaria.
+  role_here: background
+  role_note: 'Cited in: 4-origin-and-dispersal, 17-open-questions'
+  cited_in:
+  - 4-origin-and-dispersal
+  - 17-open-questions
+  verified: true
+  verified_level: web page or record fragment
+  candidate_n: 101
+  url: https://herbaria.plants.ox.ac.uk/bol/plants400/Profiles/YZ/Zingiberofficinale
+- n: 19
+  tier: current
+  anchor: false
+  citation: Weiwei Wang et al. Earliest curry in Southeast Asia and the global spice trade 2000 years ago. Science Advances. 2023.
+  year: 2023
+  summary: Analysis of plant microremains on grinding stones from Oc Eo, Vietnam, identifying eight spices including ginger.
+  role_here: support
+  role_note: 'Cited in: 5-the-old-world-record'
+  cited_in:
+  - 5-the-old-world-record
+  verified: true
+  verified_level: abstract
+  candidate_n: 80
+  doi: 10.1126/sciadv.adh5517
+- n: 20
+  tier: background
+  anchor: false
+  citation: 'The Morgan Library & Museum. Dioscorides, De materia medica, MS M.652 (Constantinople, mid 10th century): ginger, inscribed zengiberis. themorgan.org/collection/de-materia-medica/143825/116.'
+  year: 2026
+  summary: Catalogue record of the ginger illustration in a tenth-century Byzantine copy of Dioscorides.
+  role_here: background
+  role_note: 'Cited in: 5-the-old-world-record'
+  cited_in:
+  - 5-the-old-world-record
+  verified: true
+  verified_level: web page or record fragment
+  candidate_n: 97
+  url: https://themorgan.org/collection/de-materia-medica/143825/116
+- n: 21
+  tier: current
+  anchor: false
+  citation: Cheng Zhang et al. Pharmacological activity and clinical application analysis of traditional Chinese medicine ginger from the perspective of one source and multiple substances. Chinese Medicine. 2024.
+  year: 2024
+  summary: Review of ginger preparations in traditional Chinese medicine and their distinct attributed uses.
+  role_here: review
+  role_note: 'Cited in: 5-the-old-world-record, 15-from-rhizome-to-kitchen'
+  cited_in:
+  - 5-the-old-world-record
+  - 15-from-rhizome-to-kitchen
+  verified: true
+  verified_level: abstract
+  candidate_n: 89
+  doi: 10.1186/s13020-024-00969-z
+- n: 22
+  tier: classic
+  anchor: false
+  citation: Jong Kuk Nam et al. Medieval European Medicine and Asian Spices. Korean Journal of Medical History. 2014.
+  year: 2014
+  summary: 'Historical study of three medieval pharmacology texts on why Asian spices were valued as medicines in Europe. In this review it is used in europe to the americas. It was read at the level of: abstract (24 November
+    2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: guideline
+  role_note: 'Cited in: 6-europe-to-the-americas'
+  cited_in:
+  - 6-europe-to-the-americas
+  verified: true
+  verified_level: abstract
+  candidate_n: 83
+  doi: 10.13081/kjmh.2014.23.319
+- n: 23
+  tier: background
+  anchor: false
+  citation: 'Tadhg Ó Cuinn. An Irish Materia Medica, §291 Zinciber (CELT: Corpus of Electronic Texts edition, English translation). celt.ucc.ie/published/G600006/text905.html.'
+  year: 2026
+  summary: Entry on ginger in a medieval Irish materia medica, in an edited English translation.
+  role_here: background
+  role_note: 'Cited in: 6-europe-to-the-americas'
+  cited_in:
+  - 6-europe-to-the-americas
+  verified: true
+  verified_level: web page or record fragment
+  candidate_n: 98
+  url: https://celt.ucc.ie/published/G600006/text905.html
+- n: 24
+  tier: background
+  anchor: false
+  citation: 'The Fitzwilliam Museum, Cambridge. Ginger and Sugar (object label, Feast & Fast: The Art of Food in Europe, 1500–1800). feast-and-fast.fitzmuseum.cam.ac.uk/labels/ginger-sugar. 2019.'
+  year: 2019
+  summary: Museum label on ginger and sugar in European food and medicine, 1500–1800.
+  role_here: background
+  role_note: 'Cited in: 6-europe-to-the-americas'
+  cited_in:
+  - 6-europe-to-the-americas
+  verified: true
+  verified_level: web page or record fragment
+  candidate_n: 96
+  url: https://feast-and-fast.fitzmuseum.cam.ac.uk/labels/ginger-sugar
+- n: 25
+  tier: background
+  anchor: false
+  citation: 'Master-Cooks of King Richard II; ed. Samuel Pegge. The Forme of Cury: A Roll of Ancient English Cookery, compiled about A.D. 1390. Project Gutenberg eBook #8102 (public domain in the USA). 1780.'
+  year: 1780
+  summary: English royal cookery roll of about 1390, in Samuel Pegge's 1780 edition.
+  role_here: background
+  role_note: 'Cited in: 6-europe-to-the-americas, 15-from-rhizome-to-kitchen'
+  cited_in:
+  - 6-europe-to-the-americas
+  - 15-from-rhizome-to-kitchen
+  verified: true
+  verified_level: web page or record fragment
+  candidate_n: 99
+  url: https://www.gutenberg.org/ebooks/8102
+- n: 26
+  tier: background
+  anchor: false
+  citation: Thomas Austin (ed.). Two Fifteenth-Century Cookery-Books, Forewords. Early English Text Society; archive.org/details/twofifteenthcent00austuoft. 1888.
+  year: 1888
+  summary: Editor's foreword to an edition of two fifteenth-century English cookery manuscripts.
+  role_here: background
+  role_note: 'Cited in: 6-europe-to-the-americas'
+  cited_in:
+  - 6-europe-to-the-americas
+  verified: true
+  verified_level: web page or record fragment
+  candidate_n: 100
+  url: https://archive.org/details/twofifteenthcent00austuoft
+- n: 27
+  tier: classic
+  anchor: false
+  citation: 'John P. Morgan et al. Jamaica Ginger Paralysis: Forty-seven-Year Follow-up. Archives of Neurology. 1978.'
+  year: 1978
+  summary: 'Clinical follow-up of 11 survivors of the 1930 Jamaica ginger poisoning, 47 years on. In this review it is used in europe to the americas. It was read at the level of: abstract (24 November 2026); the full text
+    has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 6-europe-to-the-americas'
+  cited_in:
+  - 6-europe-to-the-americas
+  verified: true
+  verified_level: abstract
+  candidate_n: 86
+  doi: 10.1001/archneur.1978.00500320050011
+- n: 28
+  tier: classic
+  anchor: false
+  citation: John P. Morgan et al. The Jamaica Ginger Paralysis. JAMA. 1982.
+  year: 1982
+  summary: 'Historical account of the 1930–31 Jamaica ginger paralysis epidemic and the investigation into its cause. In this review it is used in europe to the americas. It was read at the level of: abstract (24 November
+    2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 6-europe-to-the-americas'
+  cited_in:
+  - 6-europe-to-the-americas
+  verified: true
+  verified_level: abstract
+  candidate_n: 85
+  doi: 10.1001/jama.1982.03330150050022
+- n: 29
+  tier: classic
+  anchor: false
+  citation: 'Jennifer Billing et al. Antimicrobial Functions of Spices: Why Some Like it Hot. The Quarterly Review of Biology. 1998.'
+  year: 1998
+  summary: 'Quantitative analysis of spice use in 4578 recipes from 36 countries, testing the antimicrobial hypothesis. In this review it is used in why people spice food. It was read at the level of: abstract (24 November
+    2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 7-why-people-spice-food'
+  cited_in:
+  - 7-why-people-spice-food
+  verified: true
+  verified_level: abstract
+  candidate_n: 87
+  doi: 10.1086/420058
+- n: 30
+  tier: classic
+  anchor: false
+  citation: 'Paul W. Sherman et al. Darwinian Gastronomy: Why We Use Spices. BioScience. 1999.'
+  year: 1999
+  summary: 'Summary article on the antimicrobial hypothesis of spice use and its alternatives. In this review it is used in why people spice food. It was read at the level of: opening of full text only (24 November 2026);
+    the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 7-why-people-spice-food'
+  cited_in:
+  - 7-why-people-spice-food
+  verified: true
+  verified_level: opening of full text only
+  candidate_n: 88
+  doi: 10.2307/1313553
+- n: 31
+  tier: classic
+  anchor: false
+  citation: 'Li H et al. Ginger for health care: An overview of systematic reviews.. Complementary therapies in medicine. 2019.'
+  year: 2019
+  summary: 'Overview of 27 systematic reviews of ginger for any condition, with quality appraisal. In this review it is used in nausea and vomiting, safety interactions and pregnancy, methods of the field. It was read at the
+    level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 8-nausea-and-vomiting, 10-safety-interactions-and-pregnancy, 16-methods-of-the-field'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 10-safety-interactions-and-pregnancy
+  - 16-methods-of-the-field
+  verified: true
+  verified_level: abstract
+  candidate_n: 2
+  doi: 10.1016/j.ctim.2019.06.002
+- n: 32
+  tier: seminal
+  anchor: false
+  citation: 'Vutyavanich T et al. Ginger for nausea and vomiting in pregnancy: randomized, double-masked, placebo-controlled trial.. Obstetrics and gynecology. 2001.'
+  year: 2001
+  summary: 'Randomised double-masked placebo-controlled trial of oral ginger in 70 women with nausea and vomiting of pregnancy. In this review it is used in nausea and vomiting, safety interactions and pregnancy, open questions.
+    It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 8-nausea-and-vomiting, 10-safety-interactions-and-pregnancy, 17-open-questions'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 10-safety-interactions-and-pregnancy
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 10
+  doi: 10.1016/s0029-7844(00)01228-x
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 33
+  tier: current
+  anchor: false
+  citation: 'Kendra A. Tiani et al. The Use of Ginger Bioactive Compounds in Pregnancy: An Evidence Scan and Umbrella Review of Existing Meta-Analyses. Advances in Nutrition. 2024.'
+  year: 2024
+  summary: Evidence scan and umbrella review of ginger in pregnancy and lactation; seven meta-analyses of pregnancy nausea appraised.
+  role_here: review
+  role_note: 'Cited in: 8-nausea-and-vomiting, 10-safety-interactions-and-pregnancy, 16-methods-of-the-field, 18-how-to-read-this-literature'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 10-safety-interactions-and-pregnancy
+  - 16-methods-of-the-field
+  - 18-how-to-read-this-literature
+  verified: true
+  verified_level: abstract
+  candidate_n: 6
+  doi: 10.1016/j.advnut.2024.100308
+- n: 34
+  tier: seminal
+  anchor: false
+  citation: 'Ryan JL et al. Ginger (Zingiber officinale) reduces acute chemotherapy-induced nausea: a URCC CCOP study of 576 patients.. Supportive care in cancer : official journal of the Multinational Association of Supportive
+    Care in Cancer. 2012.'
+  year: 2012
+  summary: 'Multicentre double-blind trial of three ginger doses against placebo for chemotherapy-induced nausea; 576 patients analysed. In this review it is used in nausea and vomiting, open questions. It was read at the
+    level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 8-nausea-and-vomiting, 17-open-questions'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 13
+  doi: 10.1007/s00520-011-1236-3
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 35
+  tier: current
+  anchor: false
+  citation: 'Jihee Choi et al. Effects of Ginger Intake on Chemotherapy-Induced Nausea and Vomiting: A Systematic Review of Randomized Clinical Trials. Nutrients. 2022.'
+  year: 2022
+  summary: Systematic review and subgroup meta-analysis of 23 trials of ginger for chemotherapy-induced nausea and vomiting.
+  role_here: review
+  role_note: 'Cited in: 8-nausea-and-vomiting, 17-open-questions'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 14
+  doi: 10.3390/nu14234982
+- n: 36
+  tier: current
+  anchor: false
+  citation: 'Megan Crichton et al. Effect of a Standardized Ginger Root Powder Regimen on Chemotherapy-Induced Nausea and Vomiting: A Multicenter, Double-Blind, Placebo-Controlled Randomized Trial. Journal of the Academy of
+    Nutrition and Dietetics. 2023.'
+  year: 2023
+  summary: Two-centre double-blind placebo-controlled trial of a standardised ginger extract during chemotherapy in 103 adults.
+  role_here: support
+  role_note: 'Cited in: 8-nausea-and-vomiting, 17-open-questions, 18-how-to-read-this-literature'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 17-open-questions
+  - 18-how-to-read-this-literature
+  verified: true
+  verified_level: abstract
+  candidate_n: 15
+  doi: 10.1016/j.jand.2023.09.003
+- n: 37
+  tier: classic
+  anchor: false
+  citation: 'Nathorn Chaiyakunapruk et al. The efficacy of ginger for the prevention of postoperative nausea and vomiting: A meta-analysis. American Journal of Obstetrics and Gynecology. 2006.'
+  year: 2006
+  summary: 'Meta-analysis of five randomised trials (363 patients) of ginger for postoperative nausea and vomiting. In this review it is used in nausea and vomiting. It was read at the level of: abstract (24 November 2026);
+    the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 8-nausea-and-vomiting'
+  cited_in:
+  - 8-nausea-and-vomiting
+  verified: true
+  verified_level: abstract
+  candidate_n: 17
+  doi: 10.1016/j.ajog.2005.06.046
+- n: 38
+  tier: classic
+  anchor: false
+  citation: Han‐Chung Lien et al. Effects of ginger on motion sickness and gastric slow-wave dysrhythmias induced by circular vection. American Journal of Physiology-Gastrointestinal and Liver Physiology. 2003.
+  year: 2003
+  summary: 'Crossover placebo-controlled study of ginger in 13 volunteers with motion sickness induced by circular vection. In this review it is used in nausea and vomiting, how it might work and the bioavailability problem.
+    It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 8-nausea-and-vomiting, 11-how-it-might-work-and-the-bioavailability-problem'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  verified: true
+  verified_level: abstract
+  candidate_n: 20
+  doi: 10.1152/ajpgi.00164.2002
+- n: 39
+  tier: background
+  anchor: true
+  citation: 'European Medicines Agency (HMPC). Zingiberis rhizoma — herbal medicinal product: public summary of the HMPC conclusions on ginger rhizome. ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma. 2025.'
+  year: 2025
+  summary: Public summary of the European regulator's conclusions on the medicinal uses of ginger rhizome.
+  role_here: guideline
+  role_note: 'Cited in: 8-nausea-and-vomiting, 10-safety-interactions-and-pregnancy'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 10-safety-interactions-and-pregnancy
+  verified: true
+  verified_level: page fragments
+  candidate_n: 95
+  url: https://ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma
+- n: 40
+  tier: seminal
+  anchor: false
+  citation: 'Chrubasik S et al. Zingiberis rhizoma: a comprehensive review on the ginger effect and efficacy profiles.. Phytomedicine : international journal of phytotherapy and phytopharmacology. 2005.'
+  year: 2005
+  summary: 'Comprehensive 2005 review of ginger''s pharmacological and clinical effects, sceptical about most indications. In this review it is used in nausea and vomiting, pain inflammation and metabolic outcomes, safety
+    interactions and pregnancy. It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 8-nausea-and-vomiting, 9-pain-inflammation-and-metabolic-outcomes, 10-safety-interactions-and-pregnancy'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 9-pain-inflammation-and-metabolic-outcomes
+  - 10-safety-interactions-and-pregnancy
+  verified: true
+  verified_level: abstract
+  candidate_n: 7
+  doi: 10.1016/j.phymed.2004.07.009
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 41
+  tier: classic
+  anchor: false
+  citation: 'Nguyễn Hoàng Anh et al. Ginger on Human Health: A Comprehensive Systematic Review of 109 Randomized Controlled Trials. Nutrients. 2020.'
+  year: 2020
+  summary: 'Systematic review of 109 randomised trials of ginger across all indications, with risk-of-bias assessment. In this review it is used in nausea and vomiting, methods of the field. It was read at the level of: abstract
+    (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 8-nausea-and-vomiting, 16-methods-of-the-field'
+  cited_in:
+  - 8-nausea-and-vomiting
+  - 16-methods-of-the-field
+  verified: true
+  verified_level: abstract
+  candidate_n: 3
+  doi: 10.3390/nu12010157
+- n: 42
+  tier: seminal
+  anchor: false
+  citation: Roy Davis Altman et al. Effects of a ginger extract on knee pain in patients with osteoarthritis. Arthritis & Rheumatism. 2001.
+  year: 2001
+  summary: 'Six-week multicentre placebo-controlled trial of a two-species ginger extract in 261 patients with knee osteoarthritis. In this review it is used in pain inflammation and metabolic outcomes, safety interactions
+    and pregnancy, how to read this literature. It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes, 10-safety-interactions-and-pregnancy, 18-how-to-read-this-literature'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  - 10-safety-interactions-and-pregnancy
+  - 18-how-to-read-this-literature
+  verified: true
+  verified_level: abstract
+  candidate_n: 21
+  doi: 10.1002/1529-0131(200111)44:11<2531::aid-art433>3.0.co;2-j
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 43
+  tier: classic
+  anchor: false
+  citation: 'James William Daily et al. Efficacy of Ginger for Alleviating the Symptoms of Primary Dysmenorrhea: A Systematic Review and Meta-analysis of Randomized Clinical Trials. Pain Medicine. 2015.'
+  year: 2015
+  summary: 'Systematic review and meta-analysis of ginger for primary dysmenorrhoea; four placebo-controlled trials pooled. In this review it is used in pain inflammation and metabolic outcomes. It was read at the level of:
+    abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  verified: true
+  verified_level: abstract
+  candidate_n: 22
+  doi: 10.1111/pme.12853
+- n: 44
+  tier: current
+  anchor: false
+  citation: 'Reza Moshfeghinia et al. Ginger for Pain Management in Primary Dysmenorrhea: A Systematic Review and Meta-Analysis. Journal of Integrative and Complementary Medicine. 2024.'
+  year: 2024
+  summary: Systematic review and meta-analysis of ginger for pain in primary dysmenorrhoea; 12 studies pooled.
+  role_here: review
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  verified: true
+  verified_level: abstract
+  candidate_n: 23
+  doi: 10.1089/jicm.2023.0799
+- n: 45
+  tier: classic
+  anchor: false
+  citation: Laís Bhering Martins et al. Double-blind placebo-controlled randomized clinical trial of ginger ( Zingiber officinale Rosc. ) addition in migraine acute treatment. Cephalalgia. 2018.
+  year: 2018
+  summary: 'Double-blind placebo-controlled trial of ginger extract added to ketoprofen for acute migraine in 60 adults. In this review it is used in pain inflammation and metabolic outcomes. It was read at the level of: abstract
+    (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  verified: true
+  verified_level: abstract
+  candidate_n: 27
+  doi: 10.1177/0333102418776016
+- n: 46
+  tier: classic
+  anchor: false
+  citation: 'Jie Zhu et al. Effects of Ginger (Zingiber officinale Roscoe) on Type 2 Diabetes Mellitus and Components of the Metabolic Syndrome: A Systematic Review and Meta‐Analysis of Randomized Controlled Trials. Evidence-based
+    Complementary and Alternative Medicine. 2018.'
+  year: 2018
+  summary: 'Meta-analysis of ten trials (490 people) of ginger in type 2 diabetes and metabolic syndrome. In this review it is used in pain inflammation and metabolic outcomes, open questions. It was read at the level of:
+    abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes, 17-open-questions'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 24
+  doi: 10.1155/2018/5692962
+- n: 47
+  tier: current
+  anchor: false
+  citation: 'Armin Ebrahimzadeh et al. The effect of ginger supplementation on metabolic profiles in patients with type 2 diabetes mellitus: A systematic review and meta-analysis of randomized controlled trials. Complementary
+    Therapies in Medicine. 2022.'
+  year: 2022
+  summary: Meta-analysis of ten trials of ginger supplementation on glycaemic, lipid and blood-pressure measures in type 2 diabetes.
+  role_here: review
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes, 17-open-questions'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  - 17-open-questions
+  verified: true
+  verified_level: abstract
+  candidate_n: 25
+  doi: 10.1016/j.ctim.2022.102802
+- n: 48
+  tier: current
+  anchor: false
+  citation: 'Shrin Rjabi et al. Antioxidant and anti-inflammatory effects of ginger supplementation in adults: a GRADE-assessed systematic review and dose–response meta-analysis of randomised controlled trials. Inflammopharmacology.
+    2025.'
+  year: 2025
+  summary: GRADE-assessed dose–response meta-analysis of 29 trials of ginger on inflammatory and antioxidant biomarkers.
+  role_here: review
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  verified: true
+  verified_level: abstract
+  candidate_n: 26
+  doi: 10.1007/s10787-025-01994-6
+- n: 49
+  tier: current
+  anchor: false
+  citation: 'Vali Musazadeh et al. Ginger supplementation and metabolic health: an umbrella review of meta-analyses of randomized trials. Diabetology & Metabolic Syndrome. 2026.'
+  year: 2026
+  summary: Umbrella review of 36 publications of meta-analyses on ginger and metabolic and inflammatory measures.
+  role_here: review
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  verified: true
+  verified_level: abstract
+  candidate_n: 4
+  doi: 10.1186/s13098-026-02150-y
+- n: 50
+  tier: current
+  anchor: false
+  citation: 'Keshab Raj Paudel et al. Pharmacological properties of ginger (Zingiber officinale): what do meta-analyses say? a systematic review. Frontiers in Pharmacology. 2025.'
+  year: 2025
+  summary: Systematic review of meta-analyses (2010–2025) on inflammation, type 2 diabetes, oxidative stress and pregnancy nausea.
+  role_here: review
+  role_note: 'Cited in: 9-pain-inflammation-and-metabolic-outcomes, 10-safety-interactions-and-pregnancy'
+  cited_in:
+  - 9-pain-inflammation-and-metabolic-outcomes
+  - 10-safety-interactions-and-pregnancy
+  verified: true
+  verified_level: abstract
+  candidate_n: 5
+  doi: 10.3389/fphar.2025.1619655
+- n: 51
+  tier: classic
+  anchor: false
+  citation: Effie Nurtjahja-Tjendraputra et al. Effective anti-platelet and COX-1 enzyme inhibitors from pungent constituents of ginger. Thrombosis Research. 2003.
+  year: 2003
+  summary: 'In vitro study of 20 ginger constituents and analogues as inhibitors of platelet activation and COX-1. In this review it is used in safety interactions and pregnancy. It was read at the level of: abstract (24 November
+    2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 10-safety-interactions-and-pregnancy'
+  cited_in:
+  - 10-safety-interactions-and-pregnancy
+  verified: true
+  verified_level: abstract
+  candidate_n: 41
+  doi: 10.1016/j.thromres.2003.09.009
+- n: 52
+  tier: seminal
+  anchor: false
+  citation: Xuemin Jiang et al. Effect of ginkgo and ginger on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. British Journal of Clinical Pharmacology. 2005.
+  year: 2005
+  summary: 'Open-label three-way crossover study of ginkgo and ginger with warfarin in 12 healthy men. In this review it is used in safety interactions and pregnancy. It was read at the level of: abstract (24 November 2026);
+    the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 10-safety-interactions-and-pregnancy'
+  cited_in:
+  - 10-safety-interactions-and-pregnancy
+  verified: true
+  verified_level: abstract
+  candidate_n: 28
+  doi: 10.1111/j.1365-2125.2005.02322.x
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 53
+  tier: classic
+  anchor: false
+  citation: 'Leon PJ Vaes et al. Interactions of Warfarin with Garlic, Ginger, Ginkgo, or Ginseng: Nature of the Evidence. Annals of Pharmacotherapy. 2000.'
+  year: 2000
+  summary: 'Review of the evidence to 1999 for interactions of warfarin with garlic, ginger, ginkgo and ginseng. In this review it is used in safety interactions and pregnancy. It was read at the level of: abstract (24 November
+    2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 10-safety-interactions-and-pregnancy'
+  cited_in:
+  - 10-safety-interactions-and-pregnancy
+  verified: true
+  verified_level: abstract
+  candidate_n: 29
+  doi: 10.1345/aph.10031
+- n: 54
+  tier: current
+  anchor: false
+  citation: Shuwei Zhang et al. Pharmacokinetics of Gingerols, Shogaols, and Their Metabolites in Asthma Patients. Journal of Agricultural and Food Chemistry. 2022.
+  year: 2022
+  summary: Pharmacokinetics and metabolite profiling of gingerols and shogaols in asthma patients over 56 days of ginger extract.
+  role_here: support
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem, 16-methods-of-the-field'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  - 16-methods-of-the-field
+  verified: true
+  verified_level: abstract
+  candidate_n: 34
+  doi: 10.1021/acs.jafc.2c03150
+- n: 55
+  tier: classic
+  anchor: false
+  citation: Rao Mukkavilli et al. Absorption, Metabolic Stability, and Pharmacokinetics of Ginger Phytochemicals. Molecules. 2017.
+  year: 2017
+  summary: 'In vitro and mouse study of the solubility, metabolic stability and pharmacokinetics of ginger phenolics. In this review it is used in how it might work and the bioavailability problem. It was read at the level
+    of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  verified: true
+  verified_level: abstract
+  candidate_n: 35
+  doi: 10.3390/molecules22040553
+- n: 56
+  tier: classic
+  anchor: false
+  citation: Jutta Walstab et al. Ginger and its pungent constituents non‐competitively inhibit activation of human recombinant and native 5‐HT3 receptors of enteric neurons. Neurogastroenterology & Motility. 2013.
+  year: 2013
+  summary: 'Cell and human-tissue study showing non-competitive inhibition of human 5-HT3 receptors by ginger extracts and constituents. In this review it is used in how it might work and the bioavailability problem, methods
+    of the field. It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem, 16-methods-of-the-field'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  - 16-methods-of-the-field
+  verified: true
+  verified_level: abstract
+  candidate_n: 37
+  doi: 10.1111/nmo.12107
+- n: 57
+  tier: classic
+  anchor: false
+  citation: 'Heinz H. Pertz et al. Effects of Ginger Constituents on the Gastrointestinal Tract: Role of Cholinergic M3and Serotonergic 5-HT3and 5-HT4Receptors. Planta Medica. 2011.'
+  year: 2011
+  summary: 'Isolated-tissue study of gingerols and 6-shogaol at guinea-pig M3 and 5-HT3 and rat 5-HT4 receptors. In this review it is used in how it might work and the bioavailability problem, methods of the field. It was
+    read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem, 16-methods-of-the-field'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  - 16-methods-of-the-field
+  verified: true
+  verified_level: abstract
+  candidate_n: 38
+  doi: 10.1055/s-0030-1270747
+- n: 58
+  tier: classic
+  anchor: false
+  citation: 'Wolfgang Marx et al. Ginger—Mechanism of action in chemotherapy-induced nausea and vomiting: A review. Critical Reviews in Food Science and Nutrition. 2015.'
+  year: 2015
+  summary: 'Review of proposed mechanisms by which ginger might act in chemotherapy-induced nausea and vomiting. In this review it is used in how it might work and the bioavailability problem. It was read at the level of:
+    abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  verified: true
+  verified_level: abstract
+  candidate_n: 16
+  doi: 10.1080/10408398.2013.865590
+- n: 59
+  tier: classic
+  anchor: false
+  citation: Keng‐Liang Wu et al. Effects of ginger on gastric emptying and motility in healthy humans. European Journal of Gastroenterology & Hepatology. 2008.
+  year: 2008
+  summary: 'Randomised double-blind crossover study of ginger on gastric emptying and motility in 24 healthy volunteers. In this review it is used in how it might work and the bioavailability problem. It was read at the level
+    of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  verified: true
+  verified_level: abstract
+  candidate_n: 31
+  doi: 10.1097/meg.0b013e3282f4b224
+- n: 60
+  tier: classic
+  anchor: false
+  citation: Ming‐Luen Hu et al. Effect of ginger on gastric motility and symptoms of functional dyspepsia. World Journal of Gastroenterology. 2010.
+  year: 2010
+  summary: 'Randomised double-blind crossover study of ginger on gastric emptying in 11 patients with functional dyspepsia. In this review it is used in how it might work and the bioavailability problem. It was read at the
+    level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  verified: true
+  verified_level: abstract
+  candidate_n: 30
+  doi: 10.3748/wjg.v17.i1.105
+- n: 61
+  tier: classic
+  anchor: false
+  citation: Yue Yin et al. Structural mechanisms underlying activation of TRPV1 channels by pungent compounds in gingers. British Journal of Pharmacology. 2019.
+  year: 2019
+  summary: 'Structural modelling, electrophysiology and mutagenesis study of how ginger compounds activate the TRPV1 channel. In this review it is used in how it might work and the bioavailability problem. It was read at the
+    level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  verified: true
+  verified_level: abstract
+  candidate_n: 39
+  doi: 10.1111/bph.14766
+- n: 62
+  tier: classic
+  anchor: false
+  citation: Yusaku Iwasaki et al. A nonpungent component of steamed ginger - [10]-shogaol - increases adrenaline secretion via the activation of TRPV1. Nutritional Neuroscience. 2006.
+  year: 2006
+  summary: 'Rat and cell study of gingerols and shogaols at TRPV1, identifying 10-shogaol as active but non-pungent. In this review it is used in how it might work and the bioavailability problem, from rhizome to kitchen.
+    It was read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 11-how-it-might-work-and-the-bioavailability-problem, 15-from-rhizome-to-kitchen'
+  cited_in:
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  - 15-from-rhizome-to-kitchen
+  verified: true
+  verified_level: abstract
+  candidate_n: 40
+  doi: 10.1080/110284150600955164
+- n: 63
+  tier: seminal
+  anchor: false
+  citation: 'Maria del Carmen Ramirez-Ahumada et al. Biosynthesis of curcuminoids and gingerols in turmeric (Curcuma longa) and ginger (Zingiber officinale): Identification of curcuminoid synthase and hydroxycinnamoyl-CoA
+    thioesterases. Phytochemistry. 2006.'
+  year: 2006
+  summary: 'Enzyme-activity study of the phenylpropanoid pathway in ginger and turmeric tissues; identifies thioesterases in ginger. In this review it is used in the genome and the making of gingerols, open questions. It was
+    read at the level of: abstract fragment (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 12-the-genome-and-the-making-of-gingerols, 17-open-questions'
+  cited_in:
+  - 12-the-genome-and-the-making-of-gingerols
+  - 17-open-questions
+  verified: true
+  verified_level: abstract fragment
+  candidate_n: 45
+  doi: 10.1016/j.phytochem.2006.06.028
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.
+- n: 64
+  tier: classic
+  anchor: false
+  citation: Hyun Jo Koo et al. Ginger and turmeric expressed sequence tags identify signature genes for rhizome identity and development and the biosynthesis of curcuminoids, gingerols and terpenoids. BMC Plant Biology 13:27.
+    2013.
+  year: 2013
+  summary: 'Expressed-sequence-tag study of eight ginger and turmeric tissues, with a proposed gingerol and curcuminoid pathway. In this review it is used in the genome and the making of gingerols. It was read at the level
+    of: record page or abstract fragment (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 12-the-genome-and-the-making-of-gingerols'
+  cited_in:
+  - 12-the-genome-and-the-making-of-gingerols
+  verified: true
+  verified_level: record page or abstract fragment
+  candidate_n: 93
+  doi: 10.1186/1471-2229-13-27
+- n: 65
+  tier: classic
+  anchor: false
+  citation: Yusong Jiang et al. Transcriptome Analysis Provides Insights into Gingerol Biosynthesis in Ginger ( Zingiber officinale ). The Plant Genome. 2018.
+  year: 2018
+  summary: 'Reference transcriptome and gingerol quantification across ginger tissues and rhizome developmental stages. In this review it is used in the genome and the making of gingerols, growing ginger under glass. It was
+    read at the level of: abstract (24 November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 12-the-genome-and-the-making-of-gingerols, 14-growing-ginger-under-glass'
+  cited_in:
+  - 12-the-genome-and-the-making-of-gingerols
+  - 14-growing-ginger-under-glass
+  verified: true
+  verified_level: abstract
+  candidate_n: 46
+  doi: 10.3835/plantgenome2018.06.0034
+- n: 66
+  tier: current
+  anchor: false
+  citation: Lingling Zhang et al. Antibacterial activity and mechanism of ginger extract against Ralstonia solanacearum. Journal of Applied Microbiology. 2022.
+  year: 2022
+  summary: Chemical profiling of a ginger extract and tests of its activity against Ralstonia solanacearum.
+  role_here: support
+  role_note: 'Cited in: 13-what-the-compounds-do-for-the-plant'
+  cited_in:
+  - 13-what-the-compounds-do-for-the-plant
+  verified: true
+  verified_level: abstract
+  candidate_n: 59
+  doi: 10.1111/jam.15733
+- n: 67
+  tier: current
+  anchor: false
+  citation: Muhammad Talib Kalhoro et al. Fungicidal properties of ginger (Zingiber officinale) essential oils against Phytophthora colocasiae. Scientific Reports. 2022.
+  year: 2022
+  summary: In vitro test of ginger essential oil against Phytophthora colocasiae, the cause of taro leaf blight.
+  role_here: support
+  role_note: 'Cited in: 13-what-the-compounds-do-for-the-plant'
+  cited_in:
+  - 13-what-the-compounds-do-for-the-plant
+  verified: true
+  verified_level: abstract
+  candidate_n: 66
+  doi: 10.1038/s41598-022-06321-5
+- n: 68
+  tier: classic
+  anchor: false
+  citation: 'Duy Phu Le et al. Pythium soft rot of ginger: Detection and identification of the causal pathogens, and their control. Crop Protection. 2014.'
+  year: 2014
+  summary: 'Review of Pythium soft rot of ginger: detection, identification and control of the pathogens. In this review it is used in what the compounds do for the plant. It was read at the level of: abstract fragment (24
+    November 2026); the full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: review
+  role_note: 'Cited in: 13-what-the-compounds-do-for-the-plant'
+  cited_in:
+  - 13-what-the-compounds-do-for-the-plant
+  verified: true
+  verified_level: abstract fragment
+  candidate_n: 56
+  doi: 10.1016/j.cropro.2014.07.021
+- n: 69
+  tier: current
+  anchor: false
+  citation: Wenbo Wang et al. Metabolome-driven microbiome assembly determining the health of ginger crop (Zingiber officinale L. Roscoe) against rhizome rot. Microbiome. 2024.
+  year: 2024
+  summary: Microbiome and metabolome comparison of healthy ginger plants and plants with rhizome rot.
+  role_here: support
+  role_note: 'Cited in: 13-what-the-compounds-do-for-the-plant'
+  cited_in:
+  - 13-what-the-compounds-do-for-the-plant
+  verified: true
+  verified_level: abstract
+  candidate_n: 55
+  doi: 10.1186/s40168-024-01885-y
+- n: 70
+  tier: classic
+  anchor: false
+  citation: B. Jasim et al. Isolation and characterization of plant growth promoting endophytic bacteria from the rhizome of Zingiber officinale. 3 Biotech. 2013.
+  year: 2013
+  summary: 'Isolation and characterisation of endophytic bacteria from ginger rhizome. In this review it is used in what the compounds do for the plant. It was read at the level of: abstract (24 November 2026); the full text
+    has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 13-what-the-compounds-do-for-the-plant'
+  cited_in:
+  - 13-what-the-compounds-do-for-the-plant
+  verified: true
+  verified_level: abstract
+  candidate_n: 60
+  doi: 10.1007/s13205-013-0143-3
+- n: 71
+  tier: current
+  anchor: false
+  citation: Shangjia Liu et al. Effects of soil waterlogging and high-temperature stress on photosynthesis and photosystem II of ginger (Zingiber officinale). PROTOPLASMA. 2022.
+  year: 2022
+  summary: Controlled experiment on waterlogging and high temperature and the photosynthesis of ginger.
+  role_here: support
+  role_note: 'Cited in: 14-growing-ginger-under-glass'
+  cited_in:
+  - 14-growing-ginger-under-glass
+  verified: true
+  verified_level: abstract fragment
+  candidate_n: 61
+  doi: 10.1007/s00709-022-01783-w
+- n: 72
+  tier: current
+  anchor: false
+  citation: TO CONFIRM (authors include Zhiduan Chen, Rujie Shi, Hong-Lei Li) et al. High-temperature and intense-light stress in ginger (title to confirm). Metabolites 13(9):992. 2023.
+  year: 2023
+  summary: Study of combined high-temperature and intense-light stress in ginger.
+  role_here: support
+  role_note: 'Cited in: 14-growing-ginger-under-glass'
+  cited_in:
+  - 14-growing-ginger-under-glass
+  verified: true
+  verified_level: record page or abstract fragment
+  candidate_n: 92
+  doi: 10.3390/metabo13090992
+- n: 73
+  tier: current
+  anchor: false
+  citation: Xue Lv et al. Comprehensive insights into the influence of supplemental green light on the photosynthesis of ginger (Zingiber officinale Roscoe). Protoplasma. 2022.
+  year: 2022
+  summary: Experiment on supplementary green light and the photosynthesis of ginger.
+  role_here: support
+  role_note: 'Cited in: 14-growing-ginger-under-glass'
+  cited_in:
+  - 14-growing-ginger-under-glass
+  verified: true
+  verified_level: record page or abstract fragment
+  candidate_n: 91
+  doi: 10.1007/s00709-022-01748-z
+- n: 74
+  tier: current
+  anchor: false
+  citation: Yun Ren et al. Dynamic transcriptome profiling provides insights into rhizome enlargement in ginger (Zingiber officinale Rosc.). PLoS ONE. 2023.
+  year: 2023
+  summary: Hormone and transcriptome profiling of ginger rhizome at three stages of enlargement.
+  role_here: support
+  role_note: 'Cited in: 14-growing-ginger-under-glass'
+  cited_in:
+  - 14-growing-ginger-under-glass
+  verified: true
+  verified_level: abstract
+  candidate_n: 64
+  doi: 10.1371/journal.pone.0287969
+- n: 75
+  tier: background
+  anchor: false
+  citation: Minnesota Department of Agriculture. Ginger Wilt (Ralstonia pseudosolanacearum) fact sheet, June 2024. mda.state.mn.us/ginger-wilt. 2024.
+  year: 2024
+  summary: State agriculture department fact sheet on ginger wilt after its first detection in Minnesota in 2023.
+  role_here: background
+  role_note: 'Cited in: 14-growing-ginger-under-glass'
+  cited_in:
+  - 14-growing-ginger-under-glass
+  verified: true
+  verified_level: record page or abstract fragment
+  candidate_n: 94
+  url: https://mda.state.mn.us/ginger-wilt
+- n: 76
+  tier: seminal
+  anchor: false
+  citation: 'E. H. Thompson et al. GINGER RHIZOME: A NEW SOURCE OF PROTEOLYTIC ENZYME. Journal of Food Science. 1973.'
+  year: 1973
+  summary: 'First characterisation of the ginger protease, named zingibain, and its action on meat proteins. In this review it is used in from rhizome to kitchen. It was read at the level of: abstract (24 November 2026); the
+    full text has not been read, so this summary describes the study and does not appraise it.'
+  role_here: support
+  role_note: 'Cited in: 15-from-rhizome-to-kitchen'
+  cited_in:
+  - 15-from-rhizome-to-kitchen
+  verified: true
+  verified_level: abstract
+  candidate_n: 74
+  doi: 10.1111/j.1365-2621.1973.tb02836.x
+  why_it_mattered: Among the most cited works on its question in the sweep and cited by later reviews; a fuller statement waits on reading the full text.

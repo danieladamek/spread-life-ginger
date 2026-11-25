@@ -1,0 +1,386 @@
+[
+ {
+  "id": "ginger-in-the-record",
+  "title": "Ginger in the historical record",
+  "one_liner": "Why a medieval physician prescribed ginger, and what that does and does not tell us.",
+  "why_here": "Sections 5 to 7 and the recipes quote pre-modern sources.",
+  "prerequisites": [],
+  "terms": [
+   "humoral-theory"
+  ],
+  "figures": [],
+  "further_reading": [
+   {
+    "title": "Medieval European Medicine and Asian Spices",
+    "url": "https://doi.org/10.13081/kjmh.2014.23.319",
+    "kind": "paper"
+   },
+   {
+    "title": "Earliest curry in Southeast Asia and the global spice trade 2000 years ago",
+    "url": "https://doi.org/10.1126/sciadv.adh5517",
+    "kind": "paper"
+   }
+  ],
+  "words": 68,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "Medieval European medicine classed ginger as hot and dry and used it to correct conditions thought cold and wet. That reasoning came from [humoral theory](#term:humoral-theory), not from observed outcomes [\\[22\\]](#cite:22).",
+    "hasMath": false,
+    "cites": [
+     22
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "A historical recipe records what people did and why they said they did it. It is evidence about practice, and it is not evidence that the practice worked.",
+    "hasMath": false,
+    "cites": []
+   }
+  ],
+  "summary_md": "Medieval European medicine classed ginger as hot and dry and used it to correct conditions thought cold and wet. That reasoning came from [humoral theory](#term:humoral-theory), not from observed outcomes [\\[22\\]](#cite:22).",
+  "why_here_md": "Sections 5 to 7 and the recipes quote pre-modern sources.",
+  "why_sections": [
+   "5-the-old-world-record"
+  ],
+  "from_terms": [
+   "humoral-theory"
+  ],
+  "from_figures": [],
+  "cites": [
+   22
+  ],
+  "has_diagram": false
+ },
+ {
+  "id": "gingerols-and-shogaols",
+  "title": "Gingerols and shogaols",
+  "one_liner": "Fresh ginger's pungent compounds, and what heat and drying turn them into.",
+  "why_here": "Sections 3 and 15 rest on the difference between fresh and dried ginger.",
+  "prerequisites": [],
+  "terms": [
+   "gingerol",
+   "shogaol",
+   "zingibain"
+  ],
+  "figures": [
+   "fig-drying"
+  ],
+  "further_reading": [
+   {
+    "title": "Gingerol Content of Diploid and Tetraploid Clones of Ginger (Zingiber officinale",
+    "url": "https://doi.org/10.1021/jf050435b",
+    "kind": "paper"
+   },
+   {
+    "title": "Formation of 6-, 8- and 10-Shogaol in Ginger through Application of Different Dr",
+    "url": "https://doi.org/10.3390/molecules23071646",
+    "kind": "paper"
+   }
+  ],
+  "words": 77,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "[Gingerols](#term:gingerol) are the pungent phenolic compounds of fresh ginger. They are thermally unstable and convert to [shogaols](#term:shogaol), which are found in dried ginger and were not detected in fresh [rhizome](#term:rhizome) extracted at ambient temperature [\\[3\\]](#cite:3).",
+    "hasMath": false,
+    "cites": [
+     3
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "A recipe or a trial that used dried ginger involved a chemically different material from one that used fresh, and hot-air drying shifts the balance further toward shogaols as temperature rises [\\[4\\]](#cite:4).",
+    "hasMath": false,
+    "cites": [
+     4
+    ]
+   }
+  ],
+  "summary_md": "[Gingerols](#term:gingerol) are the pungent phenolic compounds of fresh ginger. They are thermally unstable and convert to [shogaols](#term:shogaol), which are found in dried ginger and were not detected in fresh [rhizome](#term:rhizome) extracted at ambient temperature [\\[3\\]](#cite:3).",
+  "why_here_md": "Sections 3 and 15 rest on the difference between fresh and dried ginger.",
+  "why_sections": [
+   "3-the-chemistry-in-brief"
+  ],
+  "from_terms": [
+   "gingerol",
+   "shogaol",
+   "zingibain"
+  ],
+  "from_figures": [
+   "fig-drying"
+  ],
+  "cites": [
+   3,
+   4
+  ],
+  "has_diagram": true
+ },
+ {
+  "id": "how-ginger-might-work",
+  "title": "How ginger might work",
+  "one_liner": "Receptors in the gut, and the problem of what reaches the blood.",
+  "why_here": "Section 11 sets laboratory mechanisms against human pharmacokinetics.",
+  "prerequisites": [],
+  "terms": [
+   "trpv1",
+   "5-ht3",
+   "glucuronide",
+   "first-pass"
+  ],
+  "figures": [
+   "fig-cmax"
+  ],
+  "further_reading": [
+   {
+    "title": "Pharmacokinetics of 6-Gingerol, 8-Gingerol, 10-Gingerol, and 6-Shogaol and Conju",
+    "url": "https://doi.org/10.1158/1055-9965.epi-07-2934",
+    "kind": "paper"
+   },
+   {
+    "title": "Ginger and its pungent constituents non‐competitively inhibit activation of huma",
+    "url": "https://doi.org/10.1111/nmo.12107",
+    "kind": "paper"
+   }
+  ],
+  "words": 77,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "In laboratory preparations, ginger extracts and their pungent constituents inhibit the [5-HT3 receptor](#term:5-ht3), the target of standard anti-nausea drugs, and activate [TRPV1](#term:trpv1), the receptor behind pungency [\\[56, 61\\]](#cite:56,61).",
+    "hasMath": false,
+    "cites": [
+     56,
+     61
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "After people swallow ginger, the free compounds are not detected in plasma; they appear as [conjugates](#term:glucuronide) and are cleared within hours [\\[7\\]](#cite:7). An explanation built on the free compound has to say where and in what form it acts.",
+    "hasMath": false,
+    "cites": [
+     7
+    ]
+   }
+  ],
+  "summary_md": "In laboratory preparations, ginger extracts and their pungent constituents inhibit the [5-HT3 receptor](#term:5-ht3), the target of standard anti-nausea drugs, and activate [TRPV1](#term:trpv1), the receptor behind pungency [\\[56, 61\\]](#cite:56,61).",
+  "why_here_md": "Section 11 sets laboratory mechanisms against human pharmacokinetics.",
+  "why_sections": [
+   "11-how-it-might-work-and-the-bioavailability-problem"
+  ],
+  "from_terms": [
+   "trpv1",
+   "5-ht3",
+   "glucuronide",
+   "first-pass"
+  ],
+  "from_figures": [
+   "fig-cmax"
+  ],
+  "cites": [
+   56,
+   61,
+   7
+  ],
+  "has_diagram": true
+ },
+ {
+  "id": "reading-the-trials",
+  "title": "Reading the trials",
+  "one_liner": "What a meta-analysis, a GRADE rating and a confidence interval do and do not tell you.",
+  "why_here": "Sections 8 to 10 report pooled estimates and certainty ratings throughout.",
+  "prerequisites": [],
+  "terms": [
+   "meta-analysis",
+   "umbrella-review",
+   "grade",
+   "heterogeneity",
+   "confidence-interval",
+   "test-article"
+  ],
+  "figures": [
+   "fig-gastric"
+  ],
+  "further_reading": [
+   {
+    "title": "Orally consumed ginger and human health: an umbrella review",
+    "url": "https://doi.org/10.1093/ajcn/nqac035",
+    "kind": "review"
+   },
+   {
+    "title": "A systematic review and meta-analysis of the effect and safety of ginger in the ",
+    "url": "https://doi.org/10.1186/1475-2891-13-20",
+    "kind": "review"
+   }
+  ],
+  "words": 127,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "A [meta-analysis](#term:meta-analysis) combines trials; an [umbrella review](#term:umbrella-review) combines meta-analyses. The same trials can sit under several reviews, so many reviews do not mean many independent experiments: seven meta-analyses of pregnancy nausea shared 49% of their studies [\\[33\\]](#cite:33).\n\n[GRADE](#term:grade) rates how far a pooled result can be trusted. For ginger the ratings run from high, for nausea in pregnancy, to very low, for several metabolic outcomes [\\[5\\]](#cite:5).\n\nA wide [confidence interval](#term:confidence-interval) means the data cannot distinguish no effect from a large one, as with miscarriage risk in the pregnancy trials [\\[6\\]](#cite:6).",
+    "hasMath": false,
+    "cites": [
+     33,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "Sections 8 to 10 give each pooled result with its certainty rating where one exists, and say when an interval is too wide to support a conclusion. <!-- framing -->",
+    "hasMath": false,
+    "cites": []
+   }
+  ],
+  "summary_md": "A [meta-analysis](#term:meta-analysis) combines trials; an [umbrella review](#term:umbrella-review) combines meta-analyses. The same trials can sit under several reviews, so many reviews do not mean many independent experiments: seven meta-analyses of pregnancy nausea shared 49% of their studies [\\[33\\]](#cite:33).",
+  "why_here_md": "Sections 8 to 10 report pooled estimates and certainty ratings throughout.",
+  "why_sections": [
+   "8-nausea-and-vomiting"
+  ],
+  "from_terms": [
+   "meta-analysis",
+   "umbrella-review",
+   "grade",
+   "heterogeneity",
+   "confidence-interval",
+   "test-article"
+  ],
+  "from_figures": [
+   "fig-gastric"
+  ],
+  "cites": [
+   33,
+   5,
+   6
+  ],
+  "has_diagram": true
+ },
+ {
+  "id": "the-ginger-plant",
+  "title": "The ginger plant",
+  "one_liner": "A sterile, clonally grown member of a large tropical family.",
+  "why_here": "Sections 2, 4 and 12 assume the reader knows what a rhizome and a cultigen are.",
+  "prerequisites": [],
+  "terms": [
+   "rhizome",
+   "cultigen",
+   "haplotype"
+  ],
+  "figures": [],
+  "further_reading": [
+   {
+    "title": "Haplotype-resolved genome assembly and allele-specific gene expression in cultiv",
+    "url": "https://doi.org/10.1038/s41438-021-00599-8",
+    "kind": "paper"
+   },
+   {
+    "title": "John Kress et al",
+    "url": "https://doi.org/10.3732/ajb.89.10.1682",
+    "kind": "paper"
+   }
+  ],
+  "words": 79,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "Ginger is grown from pieces of its [rhizome](#term:rhizome), an underground stem, and is described as a [sterile cultigen](#term:cultigen): it is not known to set seed in cultivation and has no known wild population [\\[3, 18\\]](#cite:3,18).",
+    "hasMath": false,
+    "cites": [
+     3,
+     18
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "Because every ginger plant is a cutting of an earlier one, its origin cannot be read from wild relatives, and questions about its history turn to documents and, since 2021, to its genome [\\[2\\]](#cite:2).",
+    "hasMath": false,
+    "cites": [
+     2
+    ]
+   }
+  ],
+  "summary_md": "Ginger is grown from pieces of its [rhizome](#term:rhizome), an underground stem, and is described as a [sterile cultigen](#term:cultigen): it is not known to set seed in cultivation and has no known wild population [\\[3, 18\\]](#cite:3,18).",
+  "why_here_md": "Sections 2, 4 and 12 assume the reader knows what a [rhizome](#term:rhizome) and a [cultigen](#term:cultigen) are.",
+  "why_sections": [
+   "2-the-plant-in-brief"
+  ],
+  "from_terms": [
+   "rhizome",
+   "cultigen",
+   "haplotype"
+  ],
+  "from_figures": [],
+  "cites": [
+   3,
+   18,
+   2
+  ],
+  "has_diagram": false
+ },
+ {
+  "id": "what-compounds-do-for-plants",
+  "title": "What a plant's compounds are for",
+  "one_liner": "Why 'it kills microbes in a dish' is not the same as 'it defends the plant'.",
+  "why_here": "Section 13 asks what gingerols do for ginger and finds only indirect evidence.",
+  "prerequisites": [],
+  "terms": [
+   "gingerol",
+   "rhizome"
+  ],
+  "figures": [],
+  "further_reading": [
+   {
+    "title": "Root Exudates of Ginger Induced by Ralstonia solanacearum Infection Could Inhibi",
+    "url": "https://doi.org/10.1021/acs.jafc.2c06708",
+    "kind": "paper"
+   },
+   {
+    "title": "Metabolome-driven microbiome assembly determining the health of ginger crop (Zin",
+    "url": "https://doi.org/10.1186/s40168-024-01885-y",
+    "kind": "paper"
+   }
+  ],
+  "words": 64,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "Ginger's compounds inhibit fungi and bacteria in laboratory tests, and infected ginger releases root exudates that suppress bacterial wilt [\\[8, 9\\]](#cite:8,9).",
+    "hasMath": false,
+    "cites": [
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "Showing that a compound defends a plant requires testing it in the living plant against the organisms that attack it. The sources read for this review do not report that test for [gingerols](#term:gingerol).",
+    "hasMath": false,
+    "cites": []
+   }
+  ],
+  "summary_md": "Ginger's compounds inhibit fungi and bacteria in laboratory tests, and infected ginger releases root exudates that suppress bacterial wilt [\\[8, 9\\]](#cite:8,9).",
+  "why_here_md": "Section 13 asks what [gingerols](#term:gingerol) do for ginger and finds only indirect evidence.",
+  "why_sections": [
+   "13-what-the-compounds-do-for-the-plant"
+  ],
+  "from_terms": [],
+  "from_figures": [],
+  "cites": [
+   8,
+   9
+  ],
+  "has_diagram": false
+ }
+]

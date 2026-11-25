@@ -1,0 +1,34 @@
+- where: kitchen/history
+  what: McGee H. On Food and Cooking (2004) — anchor; book, needs a copy in hand — Daniel owns it
+- where: health
+  what: EMA/HMPC EU herbal monograph on Zingiber officinale rhizoma, Rev. 1 (2025) and its assessment report — anchor; PDFs on ema.europa.eu, to be read in full
+- where: mixed
+  what: Crichton 2019 (J Acad Nutr Diet) CINV meta-analysis; Koo 2013 (BMC Plant Biol) ginger/turmeric ESTs; Jung 2018 heat-induced gingerol-to-shogaol conversion; Yoshida 2015 cooking conditions; Dedov
+    2002 gingerols as vanilloid agonists — seen in the T1 pre-sweep, not returned in the top results of the T3 queries; add by DOI
+- where: history
+  what: 'History monographs: Dalby, Dangerous Tastes (2000); Turner, Spice (2004); Freedman, Out of the East (2008); Miller, The Spice Trade of the Roman Empire (1969); Schivelbusch, Tastes of Paradise
+    (1992) — the history strand rests on books that the databases index only as reviews; each needs a copy or a substantial preview before it can be cited'
+- where: history/recipes
+  what: 'Primary historical texts in published translation: Dioscorides De materia medica; Pliny; Apicius; Charaka/Sushruta; Shennong Bencao Jing / Bencao Gangmu; Ibn Sina; The Forme of Cury; Le Viandier;
+    Gerard; Culpeper — sources for both the history sections and the recipes; edition and translation to be fixed per text'
+- where: plant/history
+  what: 'Origin and dispersal of ginger: no primary study found by the sweep — queries p06 and y04 returned nothing that tests the Austronesian or Indian origin accounts directly; snowball from Cheng 2021
+    and from Kew/POWO next'
+- where: plant
+  what: What gingerols do for the plant — only indirect evidence found (Ficker 2003, Dang 2023, Wang 2024, Zhang 2022); the section will be short and labelled as a gap unless the snowball finds more
+- where: health
+  what: 'Bartels EM, et al. Efficacy and safety of ginger in osteoarthritis patients: a meta-analysis. Osteoarthritis Cartilage 2015;23(1):13-21. — returned by query h06 but not matched by the selection
+    script; add by DOI'
+- where: all
+  what: Trim the candidate list from 90 to the 60-80 band during verification — deep depth band; the health strand is the heaviest (41 of 90 with mechanism)
+- where: health
+  what: 'Unread health and mechanism candidates: Ernst 2000, Heitmann 2012, Tiran 2011, Zhao 2023, Mowrey 1982, Yu 2011, Abdel-Aziz 2006, Bartels 2015 — no abstract obtainable this session (Europe PMC down);
+    not cited. Heitmann and Tiran bear directly on pregnancy safety and should be read before section 10 is final'
+- where: health
+  what: EMA monograph and assessment report, full text — section 10 relies on fragments of the public summary for the pregnancy, breast-feeding and under-six cautions; confirm exact wording
+- where: plant
+  what: 'Reference 92 (Metabolites 2023;13(9):992): first author and title — cited in section 14 from fragments'
+- where: pack
+  what: All 76 references were verified from abstracts, record pages or fragments only; no full text was read. Summaries are one line each and seminal 'why_it_mattered' entries are placeholders.
+- where: recipes
+  what: Only two recipes so far; add more from public-domain editions (Forme of Cury, Austin 1888) and fix the date of the Irish materia medica.

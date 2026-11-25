@@ -1,0 +1,50 @@
+[
+ {
+  "id": "the-ginger-plant",
+  "title": "The ginger plant",
+  "one_liner": "A sterile, clonally grown member of a large tropical family.",
+  "why_sections": [
+   "2-the-plant-in-brief"
+  ]
+ },
+ {
+  "id": "gingerols-and-shogaols",
+  "title": "Gingerols and shogaols",
+  "one_liner": "Fresh ginger's pungent compounds, and what heat and drying turn them into.",
+  "why_sections": [
+   "3-the-chemistry-in-brief"
+  ]
+ },
+ {
+  "id": "ginger-in-the-record",
+  "title": "Ginger in the historical record",
+  "one_liner": "Why a medieval physician prescribed ginger, and what that does and does not tell us.",
+  "why_sections": [
+   "5-the-old-world-record"
+  ]
+ },
+ {
+  "id": "reading-the-trials",
+  "title": "Reading the trials",
+  "one_liner": "What a meta-analysis, a GRADE rating and a confidence interval do and do not tell you.",
+  "why_sections": [
+   "8-nausea-and-vomiting"
+  ]
+ },
+ {
+  "id": "how-ginger-might-work",
+  "title": "How ginger might work",
+  "one_liner": "Receptors in the gut, and the problem of what reaches the blood.",
+  "why_sections": [
+   "11-how-it-might-work-and-the-bioavailability-problem"
+  ]
+ },
+ {
+  "id": "what-compounds-do-for-plants",
+  "title": "What a plant's compounds are for",
+  "one_liner": "Why 'it kills microbes in a dish' is not the same as 'it defends the plant'.",
+  "why_sections": [
+   "13-what-the-compounds-do-for-the-plant"
+  ]
+ }
+]

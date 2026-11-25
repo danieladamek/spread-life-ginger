@@ -1,0 +1,651 @@
+# scope.yaml — Spread Life: Ginger (mode: topic). Ratified by Daniel in the T0–T2 interview, 2026-11-24.
+# search_strategy and corpus_profile below are from the T3 query pass (2026-11-24); both are provisional until verification.
+topic: "an academic treatment of the history and lore of ginger, the health and medical research and the ecological, botanical and molecular level research about the plant itself"   # Daniel's words, verbatim
+question: >
+  What is known about ginger (Zingiber officinale) across its documented history and lore, the human
+  health evidence, and the plant's own biology, and where do those three records support, complicate
+  or contradict each other?
+purpose: orientation        # Daniel: "Team reference" — the scholarly base the greenhouse team curates from for the Tea Time reveal
+boundary:
+  in:
+    - "History and lore, worldwide record: origin and dispersal; ginger in the Indian, Chinese, Greco-Roman, Islamic and European medical and culinary record; the Caribbean and the Americas; folklore where a scholarly source documents it"
+    - "Health, human evidence first: clinical trials, meta-analyses and umbrella reviews, the EU herbal monograph, safety and interactions, pharmacokinetics; mechanisms where they bear on humans"
+    - "The plant: botany, origin and sterility, genome, gingerol biosynthesis, what the compounds do for the plant, ecology and diseases, and a short section on growing conditions relevant to a greenhouse"
+    - "Kitchen chemistry as the bridge to the recipes: what drying and heating do to the pungent compounds"
+    - "Recipes from dated historical sources, each cited, cross-referenced to the science"
+  out:
+    - "Cell-culture and animal findings as subjects in their own right (they appear only where labelled as such)"
+    - "Present-day ethnobotanical surveys of living folk practice"
+    - "Other ginger-family plants as subjects (turmeric, galangal, cardamom appear for comparison only)"
+    - "The supplement industry: products, brands, extraction technology, markets"
+    - "The drug-discovery pipeline: synthetic analogues, nano-formulations, patents"
+    - "Commercial agronomy: yield, fertiliser, breeding, post-harvest trade"
+    - "Modern recipes, the greenhouse's own Tea Time preparations, and any dose or health claim of the builder's own"
+  rationale: "Daniel wants one scholarly reference that joins the three strands his team agreed on, at a size completable inside the three-month Tea Time project."
+level: "whole plant and its compounds; human organism and clinical evidence; the documentary record"
+time_window: { current_from: 2021, seminal: "any age if load-bearing" }
+stance: primer-with-controversies
+depth: deep                 # ~12,000 words · 12+ sections · 60–80 references · multi-session
+anchors:
+  - { citation: "McGee H. On Food and Cooking: The Science and Lore of the Kitchen. Rev. ed. Scribner; 2004.", why: "Daniel named it to the team as the model for this project" }
+  - { citation: "Crichton M, et al. Orally consumed ginger and human health: an umbrella review. Am J Clin Nutr 2022;115(6):1511-1527.", doi: "10.1093/ajcn/nqac035", why: "the highest-level synthesis of the human evidence" }
+  - { citation: "EMA/HMPC. European Union herbal monograph on Zingiber officinale Roscoe, rhizoma. Final, Revision 1. EMA/HMPC/885789/2022; adopted 7 May 2025.", why: "current regulatory assessment, with its assessment report" }
+  - { citation: "Zick SM, et al. Pharmacokinetics of 6-gingerol, 8-gingerol, 10-gingerol, and 6-shogaol and conjugate metabolites in healthy human subjects. Cancer Epidemiol Biomarkers Prev 2008.", why: "first human pharmacokinetics; no free gingerols detected in plasma" }
+  - { citation: "Li H-L, et al. Haplotype-resolved genome of diploid ginger (Zingiber officinale) and its unique gingerol biosynthetic pathway. Hortic Res 2021;8:189.", doi: "10.1038/s41438-021-00627-7", why: "genome and proposed gingerol pathway" }
+  - { citation: "Cheng S-P, et al. Haplotype-resolved genome assembly and allele-specific gene expression in cultivated ginger. Hortic Res 2021;8:188.", doi: "10.1038/s41438-021-00599-8", why: "genome; structural variation and infertility" }
+excluded:
+  - { what: "other ginger-family plants as subjects", why: "Daniel: comparison only" }
+  - { what: "supplement industry", why: "Daniel: out" }
+  - { what: "drug-discovery pipeline", why: "Daniel: out" }
+  - { what: "commercial agronomy", why: "Daniel: out; a short greenhouse growing section is in" }
+  - { what: "living folk practice from ethnobotanical surveys", why: "Daniel chose the worldwide documentary record without it" }
+  - { what: "preclinical literature as its own sections", why: "Daniel chose human evidence first" }
+assumed: false
+assumptions:                # asked in T2 only by default, stated here so /methods can show them
+  - { key: time_window, value: "current = 2021 onward; seminal at any age", why: "TOPIC-WORKFLOW default; not put to Daniel as a question" }
+  - { key: stance, value: primer-with-controversies, why: "TOPIC-WORKFLOW default; not put to Daniel as a question" }
+  - { key: zotero, value: "no", why: "offered in T0; Daniel did not select it" }
+  - { key: concept_self_checks, value: false, why: "offered in T0; Daniel did not select it" }
+interview:
+  - { q: "Which team should own and build it?", answer: "Actualizer (Recommended)", asked: 2026-11-24 }
+  - { q: "How should the ginger app be delivered?", answer: "GitHub Pages", asked: 2026-11-24 }
+  - { q: "What is the ginger review mainly for?", answer: "Team reference (Recommended)", asked: 2026-11-24 }
+  - { q: "Which optional extras do you want on this build? (Zotero; self-checks)", answer: "a culinary/medicinal recipe section that draws from the historical/lore research but cross references to the science", asked: 2026-11-24 }
+  - { q: "How big should the ginger review be?", answer: "Deep review (Recommended)", asked: 2026-11-24 }
+  - { q: "For ginger's health and medical strand, where should the boundary sit?", answer: "Human evidence first (Recommended)", asked: 2026-11-24 }
+  - { q: "For the strand on the ginger plant itself, what should be in?", answer: "Biology plus growing (Recommended)", asked: 2026-11-24 }
+  - { q: "For ginger's history and lore, how wide should the net be?", answer: "Worldwide record (Recommended)", asked: 2026-11-24 }
+  - { q: "Where should the ginger app's recipes come from?", answer: "Historical sources (Recommended)", asked: 2026-11-24 }
+  - { q: "Which sources must anchor the ginger review?", answer: "Those, you choose the rest (Recommended)", asked: 2026-11-24 }
+  - { q: "What should be kept out of the ginger review?", answer: "Other ginger-family plants, Supplement industry, Drug-discovery pipeline, Commercial agronomy", asked: 2026-11-24 }
+  - { q: "What should the ginger app be called?", answer: "Spread Life: Ginger", asked: 2026-11-24 }
+presweep:                   # T1 orienting pass, web search only, run 2026-11-24. No hit counts: the search tool returns a top-10, not a count. T3 re-runs against Europe PMC / OpenAlex / Crossref with counts.
+  - "ginger Zingiber officinale history spice trade antiquity review"
+  - "Zingiber officinale origin domestication cultigen Austronesian dispersal"
+  - "ginger traditional medicine Ayurveda Chinese materia medica Dioscorides ethnopharmacology review"
+  - "ginger umbrella review meta-analyses health outcomes 2025"
+  - "ginger nausea vomiting pregnancy chemotherapy systematic review meta-analysis"
+  - "ginger safety anticoagulant interaction bleeding EMA HMPC monograph Zingiberis rhizoma"
+  - "gingerol shogaol pharmacokinetics bioavailability humans glucuronide"
+  - "gingerol TRPV1 TRPA1 5-HT3 receptor mechanism pungency antiemetic"
+  - "ginger genome haplotype-resolved gingerol biosynthesis Zingiber officinale"
+  - "gingerol biosynthesis pathway polyketide synthase phenylpropanoid rhizome"
+  - "gingerols ecological role plant defense antimicrobial herbivore rhizome secondary metabolites function"
+  - "ginger rhizome rot Pythium bacterial wilt Ralstonia soft rot review"
+  - "Zingiber officinale botany rhizome clonal propagation sterility flowering Zingiberaceae phylogeny"
+  - "gingerol to shogaol conversion drying heating zingerone cooking chemistry"
+  - "ginger osteoarthritis pain dysmenorrhea glycemic control randomized trials meta-analysis quality of evidence"
+  - "ginger medieval Europe gingerbread cookery medicine humoral history"
+search_strategy:
+  run_on: '2026-11-24'
+  status: query pass done; snowball and verification pending
+  sources:
+  - OpenAlex (works API; title gate ginger|zingiber|gingerol(s)|shogaol(s)|zingiberaceae|spices, boolean expression on title and abstract, most cited first)
+  - Europe PMC (5 queries before the service timed out; kept in the log)
+  - web search (T1 pre-sweep, no hit counts)
+  queries:
+  - id: h01
+    strand: health
+    window: 2021+
+    source: Europe PMC
+    q: ((TITLE:ginger OR TITLE:"Zingiber officinale") AND ("umbrella review" OR "overview of systematic reviews")) AND PUB_YEAR:[2021 TO 2026]
+    hits: 8
+    kept: null
+  - id: h12
+    strand: health
+    window: all
+    source: Europe PMC
+    q: TITLE:ginger AND (warfarin OR anticoagulant OR platelet OR bleeding)
+    hits: 236
+    kept: 6
+  - id: h12
+    strand: health
+    window: 2021+
+    source: Europe PMC
+    q: (TITLE:ginger AND (warfarin OR anticoagulant OR platelet OR bleeding)) AND PUB_YEAR:[2021 TO 2026]
+    hits: 118
+    kept: null
+  - id: h13
+    strand: health
+    window: all
+    source: Europe PMC
+    q: TITLE:ginger AND pregnancy AND (safety OR "adverse" OR malformation OR "birth outcomes")
+    hits: 116
+    kept: 10
+  - id: h13
+    strand: health
+    window: 2021+
+    source: Europe PMC
+    q: (TITLE:ginger AND pregnancy AND (safety OR "adverse" OR malformation OR "birth outcomes")) AND PUB_YEAR:[2021 TO 2026]
+    hits: 48
+    kept: null
+  - id: h01
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(umbrella review) OR (overview of systematic reviews)
+    hits: 14
+    kept: 4
+  - id: h01
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(umbrella review) OR (overview of systematic reviews),from_publication_date:2021-01-01
+    hits: 12
+    kept: null
+  - id: h02
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:pregnancy AND (nausea OR vomiting) AND (meta-analysis OR systematic review)
+    hits: 29
+    kept: 4
+  - id: h02
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:pregnancy AND (nausea OR vomiting) AND (meta-analysis OR systematic review),from_publication_date:2021-01-01
+    hits: 16
+    kept: null
+  - id: h03
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:chemotherapy AND (nausea OR vomiting)
+    hits: 202
+    kept: 6
+  - id: h03
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:chemotherapy AND (nausea OR vomiting),from_publication_date:2021-01-01
+    hits: 77
+    kept: null
+  - id: h04
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:postoperative AND (nausea OR vomiting)
+    hits: 86
+    kept: 6
+  - id: h04
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:postoperative AND (nausea OR vomiting),from_publication_date:2021-01-01
+    hits: 37
+    kept: null
+  - id: h05
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:motion sickness
+    hits: 91
+    kept: 4
+  - id: h06
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:osteoarthritis
+    hits: 203
+    kept: 2
+  - id: h06
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:osteoarthritis,from_publication_date:2021-01-01
+    hits: 86
+    kept: null
+  - id: h07
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:dysmenorrhea
+    hits: 198
+    kept: 3
+  - id: h07
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:dysmenorrhea,from_publication_date:2021-01-01
+    hits: 123
+    kept: null
+  - id: h08
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(glycemic OR diabetes OR HbA1c) AND meta-analysis
+    hits: 32
+    kept: 2
+  - id: h08
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(glycemic OR diabetes OR HbA1c) AND meta-analysis,from_publication_date:2021-01-01
+    hits: 21
+    kept: null
+  - id: h09
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(lipid OR blood pressure OR body weight) AND meta-analysis
+    hits: 37
+    kept: 2
+  - id: h09
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(lipid OR blood pressure OR body weight) AND meta-analysis,from_publication_date:2021-01-01
+    hits: 21
+    kept: null
+  - id: h10
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(C-reactive protein OR inflammatory markers) AND meta-analysis
+    hits: 11
+    kept: 1
+  - id: h10
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(C-reactive protein OR inflammatory markers) AND meta-analysis,from_publication_date:2021-01-01
+    hits: 7
+    kept: null
+  - id: h11
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:migraine
+    hits: 57
+    kept: 1
+  - id: h11
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:migraine,from_publication_date:2021-01-01
+    hits: 25
+    kept: null
+  - id: h12
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:warfarin OR anticoagulant OR platelet aggregation OR bleeding
+    hits: 210
+    kept: 6
+  - id: h12
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:warfarin OR anticoagulant OR platelet aggregation OR bleeding,from_publication_date:2021-01-01
+    hits: 92
+    kept: null
+  - id: h13
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:pregnancy AND (safety OR malformations OR birth outcomes OR cohort)
+    hits: 62
+    kept: 10
+  - id: h13
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:pregnancy AND (safety OR malformations OR birth outcomes OR cohort),from_publication_date:2021-01-01
+    hits: 30
+    kept: null
+  - id: h14
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:pharmacokinetics AND (humans OR healthy volunteers OR human subjects)
+    hits: 60
+    kept: 5
+  - id: h14
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:pharmacokinetics AND (humans OR healthy volunteers OR human subjects),from_publication_date:2021-01-01
+    hits: 34
+    kept: null
+  - id: h15
+    strand: mechanism
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:5-HT3 receptor
+    hits: 35
+    kept: 3
+  - id: h16
+    strand: mechanism
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:TRPV1 OR TRPA1
+    hits: 70
+    kept: 3
+  - id: h17
+    strand: mechanism
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gastric emptying OR gastric motility OR functional dyspepsia
+    hits: 70
+    kept: 4
+  - id: h17
+    strand: mechanism
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gastric emptying OR gastric motility OR functional dyspepsia,from_publication_date:2021-01-01
+    hits: 27
+    kept: null
+  - id: h18
+    strand: health
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:randomized controlled trials AND systematic review AND (quality of evidence OR risk of bias)
+    hits: 50
+    kept: 6
+  - id: h18
+    strand: health
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:randomized controlled trials AND systematic review AND (quality of evidence OR risk of bias),from_publication_date:2021-01-01
+    hits: 33
+    kept: null
+  - id: p01
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:genome AND (assembly OR haplotype OR chromosome)
+    hits: 67
+    kept: 3
+  - id: p01
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:genome AND (assembly OR haplotype OR chromosome),from_publication_date:2021-01-01
+    hits: 53
+    kept: null
+  - id: p02
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gingerol AND biosynthesis
+    hits: 75
+    kept: 4
+  - id: p02
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gingerol AND biosynthesis,from_publication_date:2021-01-01
+    hits: 34
+    kept: null
+  - id: p03
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:Pythium OR soft rot OR rhizome rot
+    hits: 559
+    kept: 3
+  - id: p03
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:Pythium OR soft rot OR rhizome rot,from_publication_date:2021-01-01
+    hits: 203
+    kept: null
+  - id: p04
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:Ralstonia OR bacterial wilt
+    hits: 277
+    kept: 3
+  - id: p04
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:Ralstonia OR bacterial wilt,from_publication_date:2021-01-01
+    hits: 108
+    kept: null
+  - id: p05
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:endophytic OR endophytes OR rhizosphere microbiome
+    hits: 148
+    kept: 2
+  - id: p05
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:endophytic OR endophytes OR rhizosphere microbiome,from_publication_date:2021-01-01
+    hits: 81
+    kept: null
+  - id: p06
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(genetic diversity OR germplasm) AND (origin OR domestication OR clonal)
+    hits: 59
+    kept: 1
+  - id: p06
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(genetic diversity OR germplasm) AND (origin OR domestication OR clonal),from_publication_date:2021-01-01
+    hits: 24
+    kept: null
+  - id: p07
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:Zingiberaceae AND (phylogeny OR phylogenetic classification)
+    hits: 72
+    kept: 2
+  - id: p08
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:flowering OR pollen OR sterility OR tetraploid OR seed set
+    hits: 410
+    kept: 2
+  - id: p09
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:antifungal OR insecticidal OR nematicidal OR plant defense OR phytopathogenic
+    hits: 952
+    kept: 2
+  - id: p09
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:antifungal OR insecticidal OR nematicidal OR plant defense OR phytopathogenic,from_publication_date:2021-01-01
+    hits: 447
+    kept: null
+  - id: p10
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(shade OR photosynthesis OR heat stress OR light intensity) AND (growth OR rhizome yield)
+    hits: 138
+    kept: 2
+  - id: p10
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(shade OR photosynthesis OR heat stress OR light intensity) AND (growth OR rhizome yield),from_publication_date:2021-01-01
+    hits: 61
+    kept: null
+  - id: p11
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:hydroponic OR soilless OR greenhouse OR high tunnel
+    hits: 229
+    kept: 1
+  - id: p11
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:hydroponic OR soilless OR greenhouse OR high tunnel,from_publication_date:2021-01-01
+    hits: 110
+    kept: null
+  - id: p12
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:rhizome AND (development OR expansion OR swelling) AND (transcriptome OR hormone)
+    hits: 20
+    kept: 4
+  - id: p12
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:rhizome AND (development OR expansion OR swelling) AND (transcriptome OR hormone),from_publication_date:2021-01-01
+    hits: 11
+    kept: null
+  - id: p13
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:terpene synthase OR zingiberene synthase
+    hits: 11
+    kept: 1
+  - id: p14
+    strand: plant
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gingerol AND (accumulation OR content) AND (cultivar OR maturity OR stress OR elicitor)
+    hits: 101
+    kept: 3
+  - id: p14
+    strand: plant
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gingerol AND (accumulation OR content) AND (cultivar OR maturity OR stress OR elicitor),from_publication_date:2021-01-01
+    hits: 61
+    kept: null
+  - id: k01
+    strand: kitchen
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gingerol AND shogaol AND (drying OR heating OR thermal OR cooking OR conversion OR stability)
+    hits: 277
+    kept: 4
+  - id: k01
+    strand: kitchen
+    window: 2021+
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gingerol AND shogaol AND (drying OR heating OR thermal OR cooking OR conversion OR stability),from_publication_date:2021-01-01
+    hits: 140
+    kept: null
+  - id: k02
+    strand: kitchen
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:(pungency OR pungent OR aroma OR flavour) AND (volatile compounds OR sensory)
+    hits: 576
+    kept: 4
+  - id: k03
+    strand: kitchen
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:zingibain OR protease
+    hits: 255
+    kept: 1
+  - id: y01
+    strand: history
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:history OR historical OR ancient OR medieval
+    hits: 1618
+    kept: 1
+  - id: y02
+    strand: history
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:Ayurveda OR Persian medicine OR Unani OR materia medica OR classical texts
+    hits: 255
+    kept: 1
+  - id: y03
+    strand: history
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:Dioscorides OR Galen OR Avicenna OR Pliny
+    hits: 15
+    kept: 2
+  - id: y04
+    strand: history
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:Austronesian OR archaeobotany OR archaeobotanical OR canoe plants OR domestication history
+    hits: 21
+    kept: 5
+  - id: y05
+    strand: history
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:spice trade OR spices AND (Roman OR medieval OR Indian Ocean)
+    hits: 779
+    kept: 4
+  - id: y06
+    strand: history
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:gingerbread OR ginger beer OR ginger ale OR Jamaica
+    hits: 213
+    kept: 4
+  - id: y07
+    strand: history
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:etymology OR Sanskrit OR Zingiber name OR Roscoe
+    hits: 2625
+    kept: 1
+  - id: y08
+    strand: history
+    window: all
+    source: OpenAlex
+    q: title.search:ginger|zingiber|gingerol|gingerols|shogaol|shogaols|zingiberaceae|spices,title_and_abstract.search:folklore OR ritual OR magic OR aphrodisiac
+    hits: 219
+    kept: 2
+  kept_note: 'kept is counted per query id on its all-time row: the number of selected candidates that query returned. A reference found by several queries is counted under each.'
+  snowball:
+  - 'pending: backward from Crichton 2022, Chrubasik 2005, Li 2021, Cheng 2021, van der Veen 2014; forward from Zick 2008'
+  inclusion:
+  - ginger (Zingiber officinale) is the subject
+  - human studies, systematic reviews and regulatory assessments for health claims
+  - primary data or peer-reviewed review for plant and kitchen chemistry
+  - scholarly monographs, archaeobotany and published translations for history
+  - English
+  exclusion:
+  - cell-culture and animal studies as support for a health claim
+  - other Zingiberaceae as the subject
+  - supplement products, extraction technology, nano-formulations, synthetic analogues
+  - agronomy, breeding and post-harvest trade
+  - preprints and conference abstracts
+  known_gaps:
+  - Crossref and Semantic Scholar were not reachable from this session
+  - Europe PMC was timing out; only 5 of its queries completed
+  - OpenAlex ran on the shared unauthenticated budget, so each query returned its 9 most cited and, for 26 queries, its 6 most cited since 2021 — recent low-citation work is under-sampled
+  - the history strand is book-based and poorly indexed; see todo.yaml
+corpus_profile:
+  status: provisional — candidates, not the verified corpus
+  by_tier:
+    current: 27
+    classic: 46
+    seminal: 14
+    background: 3
+  by_strand:
+    health: 31
+    mechanism: 10
+    plant: 25
+    kitchen: 10
+    history: 14
+  year_range:
+  - 1973
+  - 2026
+  concentration: to be assessed after verification
+  dissent_represented: true
+outline_approved: 2026-11-24
+history_sources_rule: "Daniel, 2026-11-24: work with what is openly available. A book or text that could not be read is not cited; it is listed in todo.yaml and named on /methods as not consulted."

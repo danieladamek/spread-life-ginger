@@ -1,0 +1,36 @@
+mode: topic
+slug: spread-life-ginger
+title: 'Spread Life: Ginger — its history and lore, the health evidence, and the plant itself'
+short_title: 'Spread Life: Ginger'
+question: What is known about ginger (Zingiber officinale) across its documented history and lore, the human health evidence, and the plant's own biology, and where do those three records support, complicate
+  or contradict each other?
+purpose: orientation
+as_of: '2026-11-24'
+authors:
+- Actualizer (commissioned review, drafted with Claude; Daniel Adamek, editor)
+venue: Commissioned review — not peer reviewed
+year: 2026
+plain_abstract: 'Ginger read three ways at once: what historical documents say people did with it, what human trials show it does, and what is known about the plant and its chemistry. Written as a reference
+  for the UAH Greenhouse team. It reports where the evidence is good, where it is thin, and where nobody has looked.'
+reading_minutes: 28
+audience: the UAH Greenhouse team and interested students
+palette:
+  groups:
+    history: '#6F8F3A'
+    health: '#1F4FB8'
+    plant: '#4F7FCB'
+    kitchen: '#F2C83A'
+permissions:
+  text: builder-authored; no third-party text reproduced beyond short quotations; one public-domain recipe text (c. 1390) reproduced in full
+  figures: synthesised by the builder from cited data; no published figure images reproduced
+delivery: pages
+builder:
+  name: Actualizer (Manuscript Interrogator topic mode)
+  version: MI TOPIC-WORKFLOW 0.4
+  date: '2026-11-24'
+github_account: danieladamek
+concept_self_checks: false
+safety_profile: health
+extensions:
+  recipes: recipes.yaml
+verification_level: Abstracts and record pages only; no full texts were read. Stated on /methods.

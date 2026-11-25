@@ -1,0 +1,41 @@
+/*
+ * Spread Life: Ginger — brand tokens. THE ONE FILE TO SWAP (KICKOFF §8.6).
+ *
+ * Source: source/brand/BRAND-REFERENCE.md — values estimated by eye from a phone photo of the printed
+ * "Spread Life" logo, corrected for the warm cast. Replace them with values sampled from the original artwork
+ * when it arrives; nothing else in the app hard-codes a brand colour. Channels are space-separated RGB so
+ * Tailwind can apply opacity (`bg-paper/90`).
+ *
+ * Contrast (WCAG, checked at build time against cream #F6EFDF, sage #E7EADF and card #FBF7EC):
+ *   ink 13.3–15.2 · ink-muted 6.2–7.1 · deep blue 6.0–6.8 · olive-deep 5.3–6.0 · amber-text 5.8–6.6  → text
+ *   cornflower 3.3–3.8 · olive 3.0–3.5 · foliage 2.5–2.8 · butter, soft blue                         → fills,
+ *   rules and decoration only, never text on cream (BRAND-REFERENCE "Check every text pairing").
+ *   Dark ground #13201D: ink 13.9 · muted 8.9 · blue 8.4 · butter 10.5 · olive 8.7.
+ *   Primary button: cream on deep blue 6.4. Butter chip: ink on butter 10.1.
+ */
+:root {
+  --c-paper: 246 239 223;        /* #F6EFDF cream paper — page ground */
+  --c-paper-2: 231 234 223;      /* #E7EADF sage dome — quiet second surface */
+  --c-card: 251 247 236;         /* #FBF7EC cards on cream (never pure white) */
+  --c-ink: 34 32 29;             /* #22201D warm near-black — body text */
+  --c-ink-muted: 79 86 78;       /* #4F564E grey-green, darkened from the foliage for text */
+  --c-blue: 79 127 203;          /* #4F7FCB flower blue — primary fill */
+  --c-blue-deep: 31 79 184;      /* #1F4FB8 deep blue — links, headings, focus */
+  --c-blue-soft: 143 169 221;    /* #8FA9DD script fill — chips, fills */
+  --c-butter: 242 200 58;        /* #F2C83A yellow blooms — accent fill */
+  --c-olive: 111 143 58;         /* #6F8F3A stems and leaves — decoration */
+  --c-olive-deep: 78 102 39;     /* #4E6627 olive for text */
+  --c-foliage: 127 154 140;      /* #7F9A8C feathery foliage — decoration */
+  --c-hairline: 169 169 164;     /* #A9A9A4 dome outline */
+  --c-line: 214 210 194;         /* #D6D2C2 card borders on cream */
+  --c-rhizome: 214 170 104;      /* #D6AA68 the ginger motif's rhizome (illustration only) */
+  --c-amber-text: 146 64 14;     /* TODO(author) / pending — reserved, never decoration */
+
+  --c-night: 19 32 29;           /* #13201D deep blue-green ground */
+  --c-night-2: 28 43 39;         /* #1C2B27 */
+  --c-night-ink: 238 234 219;    /* #EEEADB */
+  --c-night-muted: 181 192 179;  /* #B5C0B3 */
+  --c-night-blue: 157 184 238;   /* #9DB8EE links in the dark */
+  --c-night-olive: 169 196 122;  /* #A9C47A */
+  --c-night-line: 56 74 68;      /* #384A44 */
+}

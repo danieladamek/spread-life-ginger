@@ -1,0 +1,52 @@
+name: Deploy to GitHub Pages
+
+# KICKOFF §6b.4: npm ci → npm test → npm run build:content → npm run build (BASE_PATH) → 404.html → deploy-pages.
+# The Playwright suite runs against a base-"/" build first (APP-SPEC §8: npm test and npm run test:e2e green in CI).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build:content
+      - name: Build for the e2e suite (base /)
+        run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Build for Pages
+        run: npm run build
+        env:
+          BASE_PATH: /spread-life-ginger/
+      - run: cp dist/index.html dist/404.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

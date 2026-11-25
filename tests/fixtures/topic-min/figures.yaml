@@ -1,0 +1,19 @@
+- id: fig-a
+  label: Figure 1
+  title: Two values
+  kind: chart
+  synthesis: data
+  refs: [1, 2]
+  chart:
+    type: bar
+    x: { field: study, label: Study }
+    y: { field: value, label: Value (min) }
+    series: group
+  data: figures/data/fig-a.csv
+  caption: Values as reported.
+  how_to_read: Each bar is a value.
+  explain:
+    - { on: bars, text: The values., term: gingerol }
+  concepts: [the-plant]
+  discussed_in: [1-the-plant]
+  source: Extracted by the builder from the abstracts; as published.

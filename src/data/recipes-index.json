@@ -1,0 +1,16 @@
+[
+ {
+  "id": "gyngener",
+  "title": "Gyngener (a ginger sauce)",
+  "kind": "culinary",
+  "date": "about 1390",
+  "place": "England, the royal household of Richard II"
+ },
+ {
+  "id": "irish-materia-medica-zinciber",
+  "title": "Ginger boiled in wine or ale, for the stomach",
+  "kind": "medicinal",
+  "date": "medieval; date of the text to be confirmed from the edition",
+  "place": "Ireland"
+ }
+]

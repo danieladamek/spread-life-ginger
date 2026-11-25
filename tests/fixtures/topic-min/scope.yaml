@@ -1,0 +1,19 @@
+topic: the fixture plant
+question: What does the fixture say about the fixture plant?
+purpose: orientation
+boundary:
+  in: ["the plant"]
+  out: ["other plants"]
+  rationale: a fixture
+time_window: { current_from: 2021, seminal: any age }
+depth: brief
+interview:
+  - { q: "Which plant?", answer: "The fixture plant", asked: 2026-11-24 }
+search_strategy:
+  run_on: 2026-11-24
+  sources: ["Europe PMC"]
+  queries:
+    - { q: "fixture plant", source: "Europe PMC", hits: 3, kept: 2 }
+    - { q: "fixture plant history", source: "Europe PMC", hits: 0, kept: 0 }
+corpus_profile:
+  by_tier: { seminal: 1, current: 1 }
