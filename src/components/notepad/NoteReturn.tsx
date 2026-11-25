@@ -32,10 +32,10 @@ export async function revisit(n: Note, cancelled: () => boolean = () => false): 
     if (trigger) {
       trigger.scrollIntoView({ block: 'center' });
       if (trigger.getAttribute('aria-expanded') !== 'true') trigger.click();
-      container = await waitFor(() => {
-        const open = [...document.querySelectorAll(`[data-note-within="${kind}"][data-note-opener="${CSS.escape(opener)}"]`)];
-        return open.find(holds) ?? open[0];
-      }, cancelled, 3000);
+      // A popover or fold-out fills in after it opens (its term or reference loads on demand), so wait for one that
+      // holds the quote; only if none does in time, settle for any that is open and flash it.
+      const opened = () => [...document.querySelectorAll(`[data-note-within="${kind}"][data-note-opener="${CSS.escape(opener)}"]`)];
+      container = await waitFor(() => opened().find(holds), cancelled, 3000) ?? opened()[0] ?? null;
     }
   }
   if (!container && n.anchor.type !== 'free') {
