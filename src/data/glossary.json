@@ -11,31 +11,31 @@
   "concept": "the-ginger-plant",
   "see": [],
   "sources": [
-   3
+   17
   ],
   "appears_in": [
    "1-why-three-records",
    "2-the-plant-in-brief",
    "3-the-chemistry-in-brief",
    "4-origin-and-dispersal",
-   "5-the-old-world-record",
    "8-nausea-and-vomiting",
    "12-the-genome-and-the-making-of-gingerols",
    "13-what-the-compounds-do-for-the-plant",
    "14-growing-ginger-under-glass",
    "15-from-rhizome-to-kitchen",
-   "17-open-questions",
    "18-how-to-read-this-literature"
   ],
   "figures": [],
   "units": [
    "gingerols-and-shogaols",
+   "growing-under-glass",
+   "how-regulators-judge-herbs",
    "the-ginger-plant"
   ],
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   3
+   17
   ],
   "source_links": []
  },
@@ -51,13 +51,12 @@
   "concept": "the-ginger-plant",
   "see": [],
   "sources": [
-   3,
-   18
+   17,
+   40
   ],
   "appears_in": [
    "abstract",
-   "2-the-plant-in-brief",
-   "4-origin-and-dispersal"
+   "2-the-plant-in-brief"
   ],
   "figures": [],
   "units": [
@@ -66,8 +65,8 @@
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   3,
-   18
+   17,
+   40
   ],
   "source_links": []
  },
@@ -85,7 +84,7 @@
   "see": [],
   "sources": [
    1,
-   2
+   16
   ],
   "appears_in": [
    "2-the-plant-in-brief"
@@ -96,7 +95,7 @@
   "recipes": [],
   "source_refs": [
    1,
-   2
+   16
   ],
   "source_links": []
  },
@@ -115,31 +114,34 @@
   "concept": "gingerols-and-shogaols",
   "see": [],
   "sources": [
-   3
+   17
   ],
   "appears_in": [
    "abstract",
+   "2-the-plant-in-brief",
    "3-the-chemistry-in-brief",
-   "10-safety-interactions-and-pregnancy",
    "11-how-it-might-work-and-the-bioavailability-problem",
    "12-the-genome-and-the-making-of-gingerols",
    "13-what-the-compounds-do-for-the-plant",
    "14-growing-ginger-under-glass",
    "15-from-rhizome-to-kitchen",
+   "16-methods-of-the-field",
    "17-open-questions"
   ],
   "figures": [],
   "units": [
    "gingerols-and-shogaols",
+   "making-gingerols",
+   "reading-old-recipes",
    "what-compounds-do-for-plants"
   ],
   "in_review": true,
   "recipes": [
-   "gyngener",
-   "irish-materia-medica-zinciber"
+   "apicius-spiced-salts",
+   "gyngener"
   ],
   "source_refs": [
-   3
+   17
   ],
   "source_links": []
  },
@@ -157,29 +159,33 @@
   "concept": "gingerols-and-shogaols",
   "see": [],
   "sources": [
-   3,
-   4
+   17,
+   151
   ],
   "appears_in": [
    "abstract",
+   "2-the-plant-in-brief",
    "3-the-chemistry-in-brief",
    "11-how-it-might-work-and-the-bioavailability-problem",
    "15-from-rhizome-to-kitchen"
   ],
   "figures": [
-   "fig-drying"
+   "fig-drying",
+   "fig-pathway"
   ],
   "units": [
-   "gingerols-and-shogaols"
+   "gingerols-and-shogaols",
+   "making-gingerols",
+   "reading-old-recipes"
   ],
   "in_review": true,
   "recipes": [
-   "gyngener",
-   "irish-materia-medica-zinciber"
+   "apicius-spiced-salts",
+   "gyngener"
   ],
   "source_refs": [
-   3,
-   4
+   17,
+   151
   ],
   "source_links": []
  },
@@ -195,9 +201,10 @@
   "concept": "gingerols-and-shogaols",
   "see": [],
   "sources": [
-   76
+   35
   ],
   "appears_in": [
+   "3-the-chemistry-in-brief",
    "15-from-rhizome-to-kitchen"
   ],
   "figures": [],
@@ -205,7 +212,7 @@
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   76
+   35
   ],
   "source_links": []
  },
@@ -222,12 +229,11 @@
   "concept": "how-ginger-might-work",
   "see": [],
   "sources": [
-   61
+   124
   ],
   "appears_in": [
    "3-the-chemistry-in-brief",
-   "11-how-it-might-work-and-the-bioavailability-problem",
-   "15-from-rhizome-to-kitchen"
+   "11-how-it-might-work-and-the-bioavailability-problem"
   ],
   "figures": [],
   "units": [
@@ -236,7 +242,7 @@
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   61
+   124
   ],
   "source_links": []
  },
@@ -253,7 +259,7 @@
   "concept": "how-ginger-might-work",
   "see": [],
   "sources": [
-   56
+   117
   ],
   "appears_in": [
    "11-how-it-might-work-and-the-bioavailability-problem"
@@ -265,7 +271,7 @@
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   56
+   117
   ],
   "source_links": []
  },
@@ -283,7 +289,7 @@
   "concept": "how-ginger-might-work",
   "see": [],
   "sources": [
-   7
+   8
   ],
   "appears_in": [
    "11-how-it-might-work-and-the-bioavailability-problem",
@@ -298,7 +304,7 @@
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   7
+   8
   ],
   "source_links": []
  },
@@ -314,7 +320,7 @@
   "concept": "how-ginger-might-work",
   "see": [],
   "sources": [
-   55
+   126
   ],
   "appears_in": [
    "11-how-it-might-work-and-the-bioavailability-problem"
@@ -324,7 +330,7 @@
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   55
+   126
   ],
   "source_links": []
  },
@@ -341,7 +347,7 @@
   "concept": "reading-the-trials",
   "see": [],
   "sources": [
-   6
+   77
   ],
   "appears_in": [
    "8-nausea-and-vomiting",
@@ -357,7 +363,7 @@
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   6
+   77
   ],
   "source_links": []
  },
@@ -379,7 +385,6 @@
   "appears_in": [
    "8-nausea-and-vomiting",
    "9-pain-inflammation-and-metabolic-outcomes",
-   "10-safety-interactions-and-pregnancy",
    "16-methods-of-the-field",
    "18-how-to-read-this-literature"
   ],
@@ -434,18 +439,17 @@
   "concept": "reading-the-trials",
   "see": [],
   "sources": [
-   47
+   102
   ],
   "appears_in": [
-   "9-pain-inflammation-and-metabolic-outcomes",
-   "16-methods-of-the-field"
+   "9-pain-inflammation-and-metabolic-outcomes"
   ],
   "figures": [],
   "units": [],
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   47
+   102
   ],
   "source_links": []
  },
@@ -462,7 +466,7 @@
   "concept": "reading-the-trials",
   "see": [],
   "sources": [
-   6
+   77
   ],
   "appears_in": [
    "10-safety-interactions-and-pregnancy"
@@ -474,7 +478,7 @@
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   6
+   77
   ],
   "source_links": []
  },
@@ -491,20 +495,22 @@
   "concept": "ginger-in-the-record",
   "see": [],
   "sources": [
-   22
+   51
   ],
   "appears_in": [
+   "5-the-old-world-record",
    "6-europe-to-the-americas",
    "7-why-people-spice-food"
   ],
   "figures": [],
   "units": [
-   "ginger-in-the-record"
+   "ginger-in-the-record",
+   "humoral-medicine"
   ],
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   22
+   51
   ],
   "source_links": []
  },
@@ -520,19 +526,914 @@
   "concept": "reading-the-trials",
   "see": [],
   "sources": [
-   42
+   93
   ],
   "appears_in": [
-   "18-how-to-read-this-literature"
+   "8-nausea-and-vomiting",
+   "16-methods-of-the-field"
   ],
   "figures": [
+   "fig-evidence",
    "fig-gastric"
   ],
   "units": [],
   "in_review": true,
   "recipes": [],
   "source_refs": [
-   42
+   93
+  ],
+  "source_links": []
+ },
+ {
+  "id": "root-exudate",
+  "term": "Root exudate",
+  "kind": "science",
+  "variants": [
+   "root exudates",
+   "exudates"
+  ],
+  "short": "The mix of compounds a plant releases from its roots into the surrounding soil.",
+  "definition": "The mix of compounds a plant releases from its roots into the surrounding soil.",
+  "concept": "what-compounds-do-for-plants",
+  "see": [],
+  "sources": [
+   137
+  ],
+  "appears_in": [
+   "13-what-the-compounds-do-for-the-plant"
+  ],
+  "figures": [],
+  "units": [
+   "what-compounds-do-for-plants"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   137
+  ],
+  "source_links": []
+ },
+ {
+  "id": "trikatu",
+  "term": "Trikaṭu",
+  "kind": "science",
+  "variants": [
+   "trikatu"
+  ],
+  "short": "\"The three pungents\": long pepper, black pepper and ginger used together in Ayurvedic medicine.",
+  "definition": "\"The three pungents\": long pepper, black pepper and ginger used together in Ayurvedic medicine.",
+  "concept": "ginger-in-the-record",
+  "see": [],
+  "sources": [
+   10
+  ],
+  "appears_in": [
+   "5-the-old-world-record"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   10
+  ],
+  "source_links": []
+ },
+ {
+  "id": "hippocras",
+  "term": "Hippocras",
+  "kind": "science",
+  "variants": [
+   "ypocras"
+  ],
+  "short": "A medieval spiced wine, sweetened and flavoured with a powder of cinnamon, ginger and other spices.",
+  "definition": "A medieval spiced wine, sweetened and flavoured with a powder of cinnamon, ginger and other spices.",
+  "concept": "reading-old-recipes",
+  "see": [],
+  "sources": [
+   49
+  ],
+  "appears_in": [
+   "15-from-rhizome-to-kitchen"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   49
+  ],
+  "source_links": []
+ },
+ {
+  "id": "ginger-beer-plant",
+  "term": "Ginger-beer plant",
+  "kind": "science",
+  "variants": [],
+  "short": "The gelatinous starter used to brew home ginger beer; a partnership of a yeast and a bacterium.",
+  "definition": "The gelatinous starter used to brew home ginger beer; a partnership of a yeast and a bacterium.",
+  "concept": "reading-old-recipes",
+  "see": [],
+  "sources": [
+   57
+  ],
+  "appears_in": [
+   "6-europe-to-the-americas"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   57
+  ],
+  "source_links": []
+ },
+ {
+  "id": "polyketide-synthase",
+  "term": "Polyketide synthase",
+  "kind": "science",
+  "variants": [
+   "polyketide synthases",
+   "type III polyketide synthase"
+  ],
+  "short": "An enzyme that builds a carbon chain by joining small units; in ginger, the type III enzyme ZoPKS2 makes the gingerol skeleton.",
+  "definition": "An enzyme that builds a carbon chain by joining small units; in ginger, the type III enzyme ZoPKS2 makes the gingerol skeleton.",
+  "concept": "making-gingerols",
+  "see": [],
+  "sources": [
+   2,
+   132
+  ],
+  "appears_in": [
+   "12-the-genome-and-the-making-of-gingerols"
+  ],
+  "figures": [],
+  "units": [
+   "making-gingerols"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   2,
+   132
+  ],
+  "source_links": []
+ },
+ {
+  "id": "phenylpropanoid",
+  "term": "Phenylpropanoid pathway",
+  "kind": "science",
+  "variants": [
+   "phenylpropanoid"
+  ],
+  "short": "The plant pathway that turns the amino acid phenylalanine into ferulic acid and related compounds, the start of gingerol biosynthesis.",
+  "definition": "The plant pathway that turns the amino acid phenylalanine into ferulic acid and related compounds, the start of gingerol biosynthesis.",
+  "concept": "making-gingerols",
+  "see": [],
+  "sources": [
+   131
+  ],
+  "appears_in": [
+   "12-the-genome-and-the-making-of-gingerols"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   131
+  ],
+  "source_links": []
+ },
+ {
+  "id": "dehydrogingerdione",
+  "term": "6-Dehydrogingerdione",
+  "kind": "science",
+  "variants": [
+   "dehydrogingerdione"
+  ],
+  "short": "The product of the condensation step in gingerol biosynthesis; two reductions are thought to turn it into 6-gingerol.",
+  "definition": "The product of the condensation step in gingerol biosynthesis; two reductions are thought to turn it into 6-gingerol.",
+  "concept": "making-gingerols",
+  "see": [
+   "gingerol"
+  ],
+  "sources": [
+   2,
+   130
+  ],
+  "appears_in": [
+   "12-the-genome-and-the-making-of-gingerols"
+  ],
+  "figures": [],
+  "units": [
+   "making-gingerols"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   2,
+   130
+  ],
+  "source_links": []
+ },
+ {
+  "id": "zingerone",
+  "term": "Zingerone",
+  "kind": "science",
+  "variants": [],
+  "short": "A milder-smelling compound formed from gingerol by heat or alkali, not a natural constituent of fresh ginger.",
+  "definition": "A milder-smelling compound formed from gingerol by heat or alkali, not a natural constituent of fresh ginger.",
+  "concept": "gingerols-and-shogaols",
+  "see": [
+   "gingerol"
+  ],
+  "sources": [
+   3
+  ],
+  "appears_in": [
+   "3-the-chemistry-in-brief",
+   "11-how-it-might-work-and-the-bioavailability-problem",
+   "15-from-rhizome-to-kitchen"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   3
+  ],
+  "source_links": []
+ },
+ {
+  "id": "transcription-factor",
+  "term": "Transcription factor",
+  "kind": "science",
+  "variants": [
+   "transcription factors"
+  ],
+  "short": "A protein that switches genes on or off by binding near them; in ginger, some control genes of the gingerol pathway.",
+  "definition": "A protein that switches genes on or off by binding near them; in ginger, some control genes of the gingerol pathway.",
+  "concept": "making-gingerols",
+  "see": [],
+  "sources": [
+   25
+  ],
+  "appears_in": [
+   "12-the-genome-and-the-making-of-gingerols"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   25
+  ],
+  "source_links": []
+ },
+ {
+  "id": "transcriptome",
+  "term": "Transcriptome",
+  "kind": "methods",
+  "variants": [
+   "transcriptomes",
+   "transcriptome study"
+  ],
+  "short": "The set of genes being expressed in a tissue at a given time, measured by sequencing its RNA.",
+  "definition": "The set of genes being expressed in a tissue at a given time, measured by sequencing its RNA.",
+  "concept": "making-gingerols",
+  "see": [],
+  "sources": [
+   133
+  ],
+  "appears_in": [
+   "12-the-genome-and-the-making-of-gingerols"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   133
+  ],
+  "source_links": []
+ },
+ {
+  "id": "tetraploid",
+  "term": "Tetraploid",
+  "kind": "science",
+  "variants": [
+   "tetraploids"
+  ],
+  "short": "Having four sets of chromosomes instead of the usual two (diploid); some ginger lines have been doubled this way.",
+  "definition": "Having four sets of chromosomes instead of the usual two (diploid); some ginger lines have been doubled this way.",
+  "concept": "the-ginger-plant",
+  "see": [],
+  "sources": [
+   17
+  ],
+  "appears_in": [
+   "2-the-plant-in-brief"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   17
+  ],
+  "source_links": []
+ },
+ {
+  "id": "micropropagation",
+  "term": "Micropropagation",
+  "kind": "methods",
+  "variants": [
+   "micropropagated"
+  ],
+  "short": "Raising plants from small pieces of tissue in sterile culture, a way to start ginger free of soil-borne disease.",
+  "definition": "Raising plants from small pieces of tissue in sterile culture, a way to start ginger free of soil-borne disease.",
+  "concept": "growing-under-glass",
+  "see": [],
+  "sources": [
+   18
+  ],
+  "appears_in": [
+   "2-the-plant-in-brief"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   18
+  ],
+  "source_links": []
+ },
+ {
+  "id": "fertigation",
+  "term": "Fertigation",
+  "kind": "methods",
+  "variants": [],
+  "short": "Supplying fertiliser dissolved in irrigation water, often to plants grown in soilless substrates.",
+  "definition": "Supplying fertiliser dissolved in irrigation water, often to plants grown in soilless substrates.",
+  "concept": "growing-under-glass",
+  "see": [],
+  "sources": [
+   147
+  ],
+  "appears_in": [
+   "14-growing-ginger-under-glass"
+  ],
+  "figures": [],
+  "units": [
+   "growing-under-glass"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   147
+  ],
+  "source_links": []
+ },
+ {
+  "id": "soft-rot",
+  "term": "Soft rot",
+  "kind": "science",
+  "variants": [
+   "Pythium soft rot"
+  ],
+  "short": "A rot of ginger rhizomes caused mainly by Pythium species, one of the most damaging diseases of the crop.",
+  "definition": "A rot of ginger rhizomes caused mainly by Pythium species, one of the most damaging diseases of the crop.",
+  "concept": "growing-under-glass",
+  "see": [],
+  "sources": [
+   138
+  ],
+  "appears_in": [
+   "13-what-the-compounds-do-for-the-plant"
+  ],
+  "figures": [],
+  "units": [
+   "growing-under-glass"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   138
+  ],
+  "source_links": []
+ },
+ {
+  "id": "bacterial-wilt",
+  "term": "Bacterial wilt",
+  "kind": "science",
+  "variants": [
+   "ginger wilt"
+  ],
+  "short": "A wilting disease of ginger caused by Ralstonia bacteria, which block the plant's water-conducting tissue.",
+  "definition": "A wilting disease of ginger caused by Ralstonia bacteria, which block the plant's water-conducting tissue.",
+  "concept": "growing-under-glass",
+  "see": [],
+  "sources": [
+   137,
+   149
+  ],
+  "appears_in": [
+   "13-what-the-compounds-do-for-the-plant",
+   "14-growing-ginger-under-glass"
+  ],
+  "figures": [],
+  "units": [
+   "growing-under-glass",
+   "what-compounds-do-for-plants"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   137,
+   149
+  ],
+  "source_links": []
+ },
+ {
+  "id": "endophyte",
+  "term": "Endophyte",
+  "kind": "science",
+  "variants": [
+   "endophytes",
+   "endophytic"
+  ],
+  "short": "A microbe that lives inside a plant's tissues without harming it, and may help it grow.",
+  "definition": "A microbe that lives inside a plant's tissues without harming it, and may help it grow.",
+  "concept": "what-compounds-do-for-plants",
+  "see": [],
+  "sources": [
+   140
+  ],
+  "appears_in": [
+   "13-what-the-compounds-do-for-the-plant"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   140
+  ],
+  "source_links": []
+ },
+ {
+  "id": "essential-oil",
+  "term": "Essential oil",
+  "kind": "science",
+  "variants": [
+   "essential oils"
+  ],
+  "short": "The volatile, aromatic fraction of a plant, distilled or extracted; in ginger it carries the citrus and woody aroma, not the heat.",
+  "definition": "The volatile, aromatic fraction of a plant, distilled or extracted; in ginger it carries the citrus and woody aroma, not the heat.",
+  "concept": "gingerols-and-shogaols",
+  "see": [],
+  "sources": [
+   31
+  ],
+  "appears_in": [
+   "13-what-the-compounds-do-for-the-plant"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   31
+  ],
+  "source_links": []
+ },
+ {
+  "id": "terpene-synthase",
+  "term": "Terpene synthase",
+  "kind": "science",
+  "variants": [
+   "terpene synthases",
+   "sesquiterpene synthases"
+  ],
+  "short": "An enzyme that makes the terpenes of a plant's essential oil.",
+  "definition": "An enzyme that makes the terpenes of a plant's essential oil.",
+  "concept": "making-gingerols",
+  "see": [
+   "essential-oil"
+  ],
+  "sources": [
+   31
+  ],
+  "appears_in": [
+   "12-the-genome-and-the-making-of-gingerols"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   31
+  ],
+  "source_links": []
+ },
+ {
+  "id": "citral",
+  "term": "Citral",
+  "kind": "science",
+  "variants": [
+   "geranial"
+  ],
+  "short": "The lemon-scented aroma compound of fresh ginger, a mixture of geranial and neral.",
+  "definition": "The lemon-scented aroma compound of fresh ginger, a mixture of geranial and neral.",
+  "concept": "gingerols-and-shogaols",
+  "see": [
+   "essential-oil"
+  ],
+  "sources": [
+   32
+  ],
+  "appears_in": [
+   "3-the-chemistry-in-brief",
+   "12-the-genome-and-the-making-of-gingerols"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   32
+  ],
+  "source_links": []
+ },
+ {
+  "id": "hyperemesis-gravidarum",
+  "term": "Hyperemesis gravidarum",
+  "kind": "science",
+  "variants": [],
+  "short": "Severe, persistent vomiting in pregnancy, beyond ordinary morning sickness, often needing hospital care.",
+  "definition": "Severe, persistent vomiting in pregnancy, beyond ordinary morning sickness, often needing hospital care.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   72
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   72
+  ],
+  "source_links": []
+ },
+ {
+  "id": "crossover-trial",
+  "term": "Crossover trial",
+  "kind": "methods",
+  "variants": [
+   "crossover",
+   "double-blind crossover"
+  ],
+  "short": "A trial in which each participant receives both treatments in turn, so that each acts as their own comparison.",
+  "definition": "A trial in which each participant receives both treatments in turn, so that each acts as their own comparison.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   120
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting",
+   "9-pain-inflammation-and-metabolic-outcomes"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   120
+  ],
+  "source_links": []
+ },
+ {
+  "id": "placebo",
+  "term": "Placebo",
+  "kind": "methods",
+  "variants": [
+   "placebo-controlled"
+  ],
+  "short": "An inactive dummy given to the comparison group in a trial so that participants cannot tell which treatment they have.",
+  "definition": "An inactive dummy given to the comparison group in a trial so that participants cannot tell which treatment they have.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   82
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting",
+   "9-pain-inflammation-and-metabolic-outcomes"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   82
+  ],
+  "source_links": []
+ },
+ {
+  "id": "standardised-extract",
+  "term": "Standardised extract",
+  "kind": "methods",
+  "variants": [
+   "standardised extracts"
+  ],
+  "short": "A ginger preparation made to contain a set amount of named compounds, unlike plain powdered rhizome.",
+  "definition": "A ginger preparation made to contain a set amount of named compounds, unlike plain powdered rhizome.",
+  "concept": "reading-the-trials",
+  "see": [
+   "test-article"
+  ],
+  "sources": [
+   74
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting",
+   "15-from-rhizome-to-kitchen"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   74
+  ],
+  "source_links": []
+ },
+ {
+  "id": "pharmacokinetics",
+  "term": "Pharmacokinetics",
+  "kind": "methods",
+  "variants": [
+   "pharmacokinetic"
+  ],
+  "short": "How a substance is absorbed, changed, distributed and removed by the body over time.",
+  "definition": "How a substance is absorbed, changed, distributed and removed by the body over time.",
+  "concept": "how-ginger-might-work",
+  "see": [
+   "glucuronide"
+  ],
+  "sources": [
+   8
+  ],
+  "appears_in": [
+   "11-how-it-might-work-and-the-bioavailability-problem",
+   "16-methods-of-the-field"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   8
+  ],
+  "source_links": []
+ },
+ {
+  "id": "well-established-use",
+  "term": "Well-established use",
+  "kind": "methods",
+  "variants": [],
+  "short": "In EU herbal law, a use accepted on published clinical evidence, as against traditional use, accepted on long-standing use.",
+  "definition": "In EU herbal law, a use accepted on published clinical evidence, as against traditional use, accepted on long-standing use.",
+  "concept": "how-regulators-judge-herbs",
+  "see": [],
+  "sources": [
+   7
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting"
+  ],
+  "figures": [],
+  "units": [
+   "how-regulators-judge-herbs"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   7
+  ],
+  "source_links": []
+ },
+ {
+  "id": "materia-medica",
+  "term": "Materia medica",
+  "kind": "science",
+  "variants": [],
+  "short": "A reference work listing medicinal substances and their uses; also the body of knowledge such books record.",
+  "definition": "A reference work listing medicinal substances and their uses; also the body of knowledge such books record.",
+  "concept": "ginger-in-the-record",
+  "see": [],
+  "sources": [
+   4
+  ],
+  "appears_in": [
+   "5-the-old-world-record",
+   "6-europe-to-the-americas"
+  ],
+  "figures": [],
+  "units": [
+   "humoral-medicine"
+  ],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   4
+  ],
+  "source_links": []
+ },
+ {
+  "id": "thromboxane",
+  "term": "Thromboxane",
+  "kind": "science",
+  "variants": [],
+  "short": "A compound released by platelets that makes them clump; lower levels suggest reduced platelet activity.",
+  "definition": "A compound released by platelets that makes them clump; lower levels suggest reduced platelet activity.",
+  "concept": "how-ginger-might-work",
+  "see": [],
+  "sources": [
+   108
+  ],
+  "appears_in": [
+   "10-safety-interactions-and-pregnancy"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   108
+  ],
+  "source_links": []
+ },
+ {
+  "id": "lipoxygenase",
+  "term": "5-Lipoxygenase",
+  "kind": "science",
+  "variants": [
+   "lipoxygenase"
+  ],
+  "short": "The enzyme that starts the making of leukotrienes, inflammatory signals; ginger compounds inhibit it in the laboratory.",
+  "definition": "The enzyme that starts the making of leukotrienes, inflammatory signals; ginger compounds inhibit it in the laboratory.",
+  "concept": "how-ginger-might-work",
+  "see": [],
+  "sources": [
+   114,
+   115
+  ],
+  "appears_in": [
+   "11-how-it-might-work-and-the-bioavailability-problem"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   114,
+   115
+  ],
+  "source_links": []
+ },
+ {
+  "id": "gastric-emptying",
+  "term": "Gastric emptying",
+  "kind": "methods",
+  "variants": [],
+  "short": "The rate at which the stomach passes its contents on to the intestine, usually given as a half-emptying time.",
+  "definition": "The rate at which the stomach passes its contents on to the intestine, usually given as a half-emptying time.",
+  "concept": "how-ginger-might-work",
+  "see": [],
+  "sources": [
+   120,
+   121
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   120,
+   121
+  ],
+  "source_links": []
+ },
+ {
+  "id": "vitamin-b6",
+  "term": "Vitamin B6",
+  "kind": "drug",
+  "variants": [],
+  "short": "Pyridoxine, a vitamin used as a first treatment for pregnancy sickness and as the comparison in several ginger trials.",
+  "definition": "Pyridoxine, a vitamin used as a first treatment for pregnancy sickness and as the comparison in several ginger trials.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   75
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   75
+  ],
+  "source_links": []
+ },
+ {
+  "id": "metoclopramide",
+  "term": "Metoclopramide",
+  "kind": "drug",
+  "variants": [],
+  "short": "A standard anti-sickness drug used as the comparison in early ginger trials.",
+  "definition": "A standard anti-sickness drug used as the comparison in early ginger trials.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   80,
+   119
+  ],
+  "appears_in": [
+   "8-nausea-and-vomiting",
+   "11-how-it-might-work-and-the-bioavailability-problem"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   80,
+   119
+  ],
+  "source_links": []
+ },
+ {
+  "id": "warfarin",
+  "term": "Warfarin",
+  "kind": "drug",
+  "variants": [],
+  "short": "An anticoagulant whose effect is easily changed by other substances, so it is used to test for interactions.",
+  "definition": "An anticoagulant whose effect is easily changed by other substances, so it is used to test for interactions.",
+  "concept": "how-regulators-judge-herbs",
+  "see": [],
+  "sources": [
+   111
+  ],
+  "appears_in": [
+   "10-safety-interactions-and-pregnancy"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   111
+  ],
+  "source_links": []
+ },
+ {
+  "id": "hba1c",
+  "term": "HbA1c",
+  "kind": "methods",
+  "variants": [
+   "glycated haemoglobin"
+  ],
+  "short": "Glycated haemoglobin, a blood test reflecting average blood sugar over the previous two to three months.",
+  "definition": "Glycated haemoglobin, a blood test reflecting average blood sugar over the previous two to three months.",
+  "concept": "reading-the-trials",
+  "see": [],
+  "sources": [
+   101
+  ],
+  "appears_in": [
+   "9-pain-inflammation-and-metabolic-outcomes"
+  ],
+  "figures": [],
+  "units": [],
+  "in_review": true,
+  "recipes": [],
+  "source_refs": [
+   101
   ],
   "source_links": []
  }

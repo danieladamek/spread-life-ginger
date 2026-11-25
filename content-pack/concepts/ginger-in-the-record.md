@@ -6,7 +6,8 @@ why_here: Sections 5 to 7 and the recipes quote pre-modern sources.
 prerequisites: []
 terms:
 - humoral-theory
-figures: []
+figures:
+- fig-timeline
 further_reading:
 - title: Medieval European Medicine and Asian Spices
   url: https://doi.org/10.13081/kjmh.2014.23.319
@@ -17,7 +18,7 @@ further_reading:
 ---
 
 ## What it is
-Medieval European medicine classed ginger as hot and dry and used it to correct conditions thought cold and wet. That reasoning came from humoral theory, not from observed outcomes [22].
+Medieval European medicine classed ginger as hot and dry and used it to correct conditions thought cold and wet. That reasoning came from humoral theory, not from observed outcomes [51].
 
 ## How this guide uses it
-A historical recipe records what people did and why they said they did it. It is evidence about practice, and it is not evidence that the practice worked.
+A historical recipe records what people did and why they said they did it. It is evidence about practice, and it is not evidence that the practice worked. <!-- framing -->

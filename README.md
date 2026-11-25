@@ -1,4 +1,4 @@
-# Spread Life: Ginger Explorer
+# Spread Life: Ginger
 
 A static web app around one commissioned review: **ginger (*Zingiber officinale*) read three ways at once — its
 history and lore, the human health evidence, and the plant itself** — with a glossary, 101 primers, synthesised
@@ -43,13 +43,20 @@ npm run test:e2e          # Playwright against dist/ on :4173
 - **The review is rendered as written.** The build only adds link syntax around its characters (a unit test strips
   the links and compares every block with `review.md`).
 - **Uncited prose fails the build.** Any block of ≥ 25 words in `review.md` with no `[n]` and no `<!-- framing -->`
-  marker is an error. It is never repaired by adding a citation. Current state: 87 blocks, 0 uncited.
+  marker is an error. It is never repaired by adding a citation. Current state (pack 0.2.1): 95 blocks, 0 uncited.
 - **Synthesis stays visible.** Each `<!-- synthesis -->` block renders with a quiet left rule and the label
-  *synthesis*; the sentence the marker closes is underlined and has a stable id; `/methods` links every one (14).
-- **How far the sources were read.** No full text was read: every reference was read at abstract, abstract-fragment
-  or record-page level. `/methods` says so at the top and counts each level; every reference card shows its level.
-- **Figures are synthesised**, never reproduced: each data row carries the reference it came from, and each figure
-  page names its references.
+  *synthesis*; the sentence the marker closes is underlined and has a stable id; `/methods` links every one (17).
+- **How far the sources were read.** Each reference carries a `verified_level` — `full-text`, `abstract` or
+  `partial` — and a `read_note` saying exactly what was read. Pack 0.2.1: 23 in full (public-domain historical texts
+  and the 2025 EU monograph), 121 from abstracts, 18 in part. `/methods` states the pack's verification sentence and
+  counts each level from the data; every reference card shows its level; `/references` filters by it.
+- **Figures are synthesised**, never reproduced: each data row carries the reference it came from (a working
+  citation), and each figure page names its references. Six figures: three tables (with declared `columns`), two
+  bar charts, and a pathway (`fig-pathway.json`) whose edges are drawn by kind — shown solid, proposed dashed,
+  chemical dotted — with a key; each node opens its detail and references.
+- **Recipes.** 32 from dated sources (22 culinary, 10 medicinal), filterable by kind and tradition and sorted by
+  date. Original texts are set as block quotations with the language named; where the pack has no original
+  (copyright, or not captured) the gloss is shown as a *Paraphrase*. Nothing is added to any recipe.
 - **Health profile.** No doses or advice in the interface; a dose appears only inside the review's text as a study's
   test article. Section 10 (safety) is linked from every health section; medicinal recipes are labelled
   *historical document, not advice*.

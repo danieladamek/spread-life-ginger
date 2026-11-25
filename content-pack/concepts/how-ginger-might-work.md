@@ -21,7 +21,7 @@ further_reading:
 ---
 
 ## What it is
-In laboratory preparations, ginger extracts and their pungent constituents inhibit the 5-HT3 receptor, the target of standard anti-nausea drugs, and activate TRPV1, the receptor behind pungency [56, 61].
+In laboratory preparations, ginger extracts and their pungent constituents inhibit the 5-HT3 receptor, the target of standard anti-nausea drugs, and activate TRPV1, the receptor behind pungency [117, 124].
 
 ## How this guide uses it
-After people swallow ginger, the free compounds are not detected in plasma; they appear as conjugates and are cleared within hours [7]. An explanation built on the free compound has to say where and in what form it acts.
+After people swallow ginger, the free compounds are not detected in plasma; they appear as conjugates and are cleared within hours [8]. An explanation built on the free compound has to say where and in what form it acts.

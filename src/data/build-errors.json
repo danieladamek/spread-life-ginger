@@ -1,21 +1,15 @@
 {
  "errors": [],
  "warnings": [
-  "concept ginger-in-the-record: uncited block of 27 words — cite it or mark it <!-- framing -->: \"A historical recipe records what people did and why they said they did it. It is…\"",
-  "concept what-compounds-do-for-plants: uncited block of 31 words — cite it or mark it <!-- framing -->: \"Showing that a compound defends a plant requires testing it in the living plant …\"",
-  "concept what-compounds-do-for-plants: not reachable from any term or figure (APP-SPEC §8)"
+  "concept humoral-medicine: not reachable from any term or figure (APP-SPEC §8)",
+  "recipes/apicius-oxyporum.science_note: uncited block of 30 words — cite it or mark it <!-- framing -->: \"Rue is the only ingredient here with a modern safety concern of its own; this re…\""
  ],
  "uncited": [],
  "uncited_outside": [
   {
-   "where": "concept ginger-in-the-record",
-   "words": 27,
-   "excerpt": "A historical recipe records what people did and why they said they did it. It is evidence about practice, and it is not evidence that the practice worked."
-  },
-  {
-   "where": "concept what-compounds-do-for-plants",
-   "words": 31,
-   "excerpt": "Showing that a compound defends a plant requires testing it in the living plant against the organisms that attack it. The sources read for this review do not re"
+   "where": "recipes/apicius-oxyporum.science_note",
+   "words": 30,
+   "excerpt": "Rue is the only ingredient here with a modern safety concern of its own; this review does not assess it. Ginger's effect on wind and digestion is untested in th"
   }
  ]
 }

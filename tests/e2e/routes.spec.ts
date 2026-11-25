@@ -36,7 +36,7 @@ for (const [path, h1] of ROUTES) {
 test('every route is linked from the header nav, Recipes included', async ({ page }) => {
   await page.goto('/');
   const nav = page.getByRole('navigation', { name: 'Primary', exact: true });
-  for (const l of ['Read', '101s', 'Glossary', 'Figures', 'Recipes', 'References', 'Notes', 'Methods', 'About']) await expect(nav.getByRole('link', { name: l, exact: true })).toBeVisible();
+  for (const l of ['Read', '101s', 'Glossary', 'Figures', 'Recipes', 'References', 'Methods', 'About']) await expect(nav.getByRole('link', { name: l, exact: true })).toBeVisible();
 });
 
 test('/, /read and /about carry the not-peer-reviewed badge and the as_of date; no self-checks anywhere', async ({ page }) => {

@@ -1,13 +1,457 @@
 [
  {
-  "id": "fig-gastric",
+  "id": "fig-drying",
   "label": "Figure 1",
+  "title": "What drying does to ginger's pungent compounds",
+  "kind": "table",
+  "synthesis": "data",
+  "refs": [
+   17,
+   30,
+   33,
+   150,
+   151
+  ],
+  "data": "figures/data/fig-drying.csv",
+  "caption": "Findings as each study reported them; the studies used different material, methods and conditions, so the rows are not directly comparable.",
+  "how_to_read": "Each row is one study and one kind of treatment; the columns say what it found for gingerols and for shogaols. A dash means the study did not report that measure in the part read.",
+  "explain": [
+   {
+    "on": "shogaols column",
+    "text": "Shogaols form from gingerols on heating and drying.",
+    "term": "shogaol",
+    "text_md": "[Shogaols](#term:shogaol) form from [gingerols](#term:gingerol) on heating and drying."
+   }
+  ],
+  "concepts": [
+   "gingerols-and-shogaols"
+  ],
+  "discussed_in": [
+   "3-the-chemistry-in-brief",
+   "15-from-rhizome-to-kitchen"
+  ],
+  "source": "Summarised by the builder from the abstracts of the five cited studies.",
+  "rows": [
+   {
+    "material": "Fresh rhizome",
+    "gingerols": "present",
+    "shogaols": "little or none",
+    "ref": "17"
+   },
+   {
+    "material": "Dried rhizome (supercritical CO2 extract)",
+    "gingerols": "reduced",
+    "shogaols": "—",
+    "ref": "33"
+   },
+   {
+    "material": "Sun, solar-tunnel or hot-air dried",
+    "gingerols": "decreased",
+    "shogaols": "increased (6-, 8- and 10-shogaol)",
+    "ref": "151"
+   },
+   {
+    "material": "Heated in water (aqueous solution)",
+    "gingerols": "converts to shogaol; reversible",
+    "shogaols": "forms from gingerol",
+    "ref": "30"
+   },
+   {
+    "material": "Moist versus dry heat",
+    "gingerols": "converted faster by moist heat",
+    "shogaols": "more formed by moist heat",
+    "ref": "150"
+   }
+  ],
+  "fields": [
+   "material",
+   "gingerols",
+   "shogaols",
+   "ref"
+  ],
+  "caption_md": "Findings as each study reported them; the studies used different material, methods and conditions, so the rows are not directly comparable.",
+  "how_md": "Each row is one study and one kind of treatment; the columns say what it found for [gingerols](#term:gingerol) and for [shogaols](#term:shogaol). A dash means the study did not report that measure in the part read.",
+  "source_md": "Summarised by the builder from the abstracts of the five cited studies."
+ },
+ {
+  "id": "fig-timeline",
+  "label": "Figure 2",
+  "title": "The documentary record of ginger, by date",
+  "kind": "table",
+  "synthesis": "data",
+  "refs": [
+   7,
+   10,
+   12,
+   28,
+   38,
+   41,
+   42,
+   43,
+   44,
+   45,
+   47,
+   49,
+   50,
+   53,
+   54,
+   55,
+   57,
+   59,
+   152,
+   157,
+   159
+  ],
+  "data": "figures/data/fig-timeline.csv",
+  "columns": [
+   {
+    "field": "when",
+    "label": "When"
+   },
+   {
+    "field": "source",
+    "label": "Source"
+   },
+   {
+    "field": "place",
+    "label": "Place"
+   },
+   {
+    "field": "what_it_records",
+    "label": "What it records"
+   }
+  ],
+  "caption": "A selection of dated sources read for this review, from archaeology to the 2025 European monograph. It is not a complete record, and the dates of the classical texts are approximate.",
+  "how_to_read": "Read down the rows in time order. Each row names one source read for this review and what it says about ginger; open the reference to see the edition used.",
+  "explain": [
+   {
+    "on": "row: Analects",
+    "text": "The Analects were compiled by Confucius's followers after his death; the date given is for Confucius himself.",
+    "text_md": "The Analects were compiled by Confucius's followers after his death; the date given is for Confucius himself."
+   },
+   {
+    "on": "row: Oc Eo",
+    "text": "The earliest physical evidence read for this review; the plant was identified from microscopic remains, not whole rhizomes.",
+    "text_md": "The earliest physical evidence read for this review; the plant was identified from microscopic remains, not whole [rhizomes](#term:rhizome)."
+   }
+  ],
+  "concepts": [
+   "ginger-in-the-record"
+  ],
+  "discussed_in": [
+   "5-the-old-world-record",
+   "6-europe-to-the-americas",
+   "15-from-rhizome-to-kitchen"
+  ],
+  "source": "Compiled by the builder from the sources cited in sections 4 to 7; the wording is the builder's.",
+  "rows": [
+   {
+    "when": "compiled after Confucius (5th century BCE)",
+    "source": "Analects",
+    "place": "China",
+    "what_it_records": "Confucius was never without ginger when he ate",
+    "ref": "47"
+   },
+   {
+    "when": "early centuries CE",
+    "source": "Grinding stones at Oc Eo",
+    "place": "southern Vietnam",
+    "what_it_records": "Starch and other remains of ginger, turmeric and other spices on stones of South Asian type",
+    "ref": "41"
+   },
+   {
+    "when": "1st century CE",
+    "source": "Pliny's Natural History",
+    "place": "Rome",
+    "what_it_records": "Grows in Arabia and Troglodytica; intensely pungent; six denarii a pound",
+    "ref": "43"
+   },
+   {
+    "when": "classical",
+    "source": "Suśruta Saṃhitā",
+    "place": "India",
+    "what_it_records": "Ginger grouped with long and black pepper as trikaṭu",
+    "ref": "10"
+   },
+   {
+    "when": "late antiquity",
+    "source": "Apicius",
+    "place": "Roman Empire",
+    "what_it_records": "Spiced salts and a digestive relish containing ginger",
+    "ref": "44"
+   },
+   {
+    "when": "mid 10th century (manuscript)",
+    "source": "Byzantine copy of Dioscorides",
+    "place": "Constantinople",
+    "what_it_records": "The plant illustrated as zengiberis",
+    "ref": "42"
+   },
+   {
+    "when": "about 1390",
+    "source": "The Forme of Cury",
+    "place": "England",
+    "what_it_records": "Gyngener, a cold sauce of bread, vinegar and powdered ginger",
+    "ref": "152"
+   },
+   {
+    "when": "about 1393",
+    "source": "Le Ménagier de Paris",
+    "place": "Paris",
+    "what_it_records": "Prices of colombin and Mecca ginger; hippocras powder",
+    "ref": "49"
+   },
+   {
+    "when": "1495",
+    "source": "Wreck of Gribshunden",
+    "place": "Baltic Sea",
+    "what_it_records": "Ginger among the spices of a royal ship",
+    "ref": "50"
+   },
+   {
+    "when": "1570–1648",
+    "source": "Caribbean trade",
+    "place": "Spanish and Portuguese Caribbean",
+    "what_it_records": "Ginger grown as a cash crop for Atlantic trade",
+    "ref": "12"
+   },
+   {
+    "when": "1596",
+    "source": "Linschoten's account, quoted by Watt",
+    "place": "Spain and the Atlantic islands",
+    "what_it_records": "Most ginger reaching Spain already came from the Atlantic islands and the Caribbean",
+    "ref": "28"
+   },
+   {
+    "when": "1597",
+    "source": "Gerard's Herball",
+    "place": "England",
+    "what_it_records": "Ginger hot and dry in the third degree; green ginger in syrup",
+    "ref": "53"
+   },
+   {
+    "when": "1650s (1835 edition)",
+    "source": "Culpeper's herbal",
+    "place": "England",
+    "what_it_records": "Ginger hot and dry in the second degree; added to purges so the stomach will not loathe them",
+    "ref": "54"
+   },
+   {
+    "when": "1702 (English 1745)",
+    "source": "Lémery's Treatise of Foods",
+    "place": "France and the Antilles",
+    "what_it_records": "Fresh ginger eaten as salad in the Antilles; preserved ginger at sea",
+    "ref": "55"
+   },
+   {
+    "when": "1747 (1751 edition)",
+    "source": "Glasse's Art of Cookery",
+    "place": "London",
+    "what_it_records": "Gingerbread with beaten ginger, treacle and butter",
+    "ref": "157"
+   },
+   {
+    "when": "1796",
+    "source": "Simmons's American Cookery",
+    "place": "Connecticut",
+    "what_it_records": "Soft gingerbread with ginger; molasses gingerbread without",
+    "ref": "159"
+   },
+   {
+    "when": "1877",
+    "source": "Materia Medica of the Hindus",
+    "place": "Calcutta",
+    "what_it_records": "Sanskrit formulas with ginger, among them ginger with salt before meals",
+    "ref": "45"
+   },
+   {
+    "when": "1891",
+    "source": "Ward on the ginger-beer plant",
+    "place": "England",
+    "what_it_records": "The home ginger-beer starter is a yeast and a bacterium living together",
+    "ref": "57"
+   },
+   {
+    "when": "1893",
+    "source": "Pharmacographia Indica",
+    "place": "India",
+    "what_it_records": "Names, domestic remedies, the Chinese preserving method, trade",
+    "ref": "38"
+   },
+   {
+    "when": "1930–31",
+    "source": "The Jamaica ginger paralysis",
+    "place": "United States",
+    "what_it_records": "An adulterated extract paralysed thousands",
+    "ref": "59"
+   },
+   {
+    "when": "2025",
+    "source": "European Union herbal monograph",
+    "place": "Europe",
+    "what_it_records": "Well-established use for motion sickness; traditional uses listed",
+    "ref": "7"
+   }
+  ],
+  "fields": [
+   "when",
+   "source",
+   "place",
+   "what_it_records",
+   "ref"
+  ],
+  "caption_md": "A selection of dated sources read for this review, from archaeology to the 2025 European monograph. It is not a complete record, and the dates of the classical texts are approximate.",
+  "how_md": "Read down the rows in time order. Each row names one source read for this review and what it says about ginger; open the reference to see the edition used.",
+  "source_md": "Compiled by the builder from the sources cited in sections 4 to 7; the wording is the builder's."
+ },
+ {
+  "id": "fig-evidence",
+  "label": "Figure 3",
+  "title": "What the human evidence shows, question by question",
+  "kind": "table",
+  "synthesis": "data",
+  "refs": [
+   6,
+   7,
+   8,
+   77,
+   83,
+   86,
+   94,
+   99,
+   101,
+   102,
+   112
+  ],
+  "data": "figures/data/fig-evidence.csv",
+  "columns": [
+   {
+    "field": "question",
+    "label": "Question"
+   },
+   {
+    "field": "what_the_evidence_shows",
+    "label": "What the evidence shows"
+   },
+   {
+    "field": "where_it_stands",
+    "label": "Where it stands"
+   }
+  ],
+  "caption": "A summary of sections 8 to 11. Each row names the single source that best represents its finding; the sections give the full evidence. Certainty is as the cited reviews graded it, where they did.",
+  "how_to_read": "Find the question, read what the trials found, then read the last column for how settled it is. \"Low certainty\" means further research could easily change the result.",
+  "explain": [
+   {
+    "on": "column: Where it stands",
+    "text": "Taken from the certainty ratings of the reviews where given; otherwise the builder's summary of whether the trials agree.",
+    "term": "test-article",
+    "text_md": "Taken from the certainty ratings of the reviews where given; otherwise the builder's summary of whether the trials agree."
+   }
+  ],
+  "concepts": [
+   "reading-the-trials"
+  ],
+  "discussed_in": [
+   "8-nausea-and-vomiting",
+   "9-pain-inflammation-and-metabolic-outcomes",
+   "10-safety-interactions-and-pregnancy",
+   "11-how-it-might-work-and-the-bioavailability-problem",
+   "17-open-questions"
+  ],
+  "source": "Compiled by the builder from the sources cited in sections 8 to 11; no data were re-analysed.",
+  "rows": [
+   {
+    "question": "Nausea in pregnancy",
+    "what_the_evidence_shows": "Ginger better than placebo for nausea in pooled trials",
+    "where_it_stands": "The best-supported use; vomiting less clearly reduced",
+    "ref": "77"
+   },
+   {
+    "question": "Vomiting in pregnancy",
+    "what_the_evidence_shows": "Single trials reduced vomiting; pooled analyses did not",
+    "where_it_stands": "Unresolved",
+    "ref": "77"
+   },
+   {
+    "question": "Safety in pregnancy",
+    "what_the_evidence_shows": "No excess of malformations in a large cohort",
+    "where_it_stands": "Regulator still advises avoidance as a precaution",
+    "ref": "6"
+   },
+   {
+    "question": "Postoperative nausea",
+    "what_the_evidence_shows": "Pooled trials favour ginger; some trials negative",
+    "where_it_stands": "Mixed",
+    "ref": "83"
+   },
+   {
+    "question": "Chemotherapy nausea",
+    "what_the_evidence_shows": "Positive, negative and mixed trials",
+    "where_it_stands": "Unreconciled",
+    "ref": "86"
+   },
+   {
+    "question": "Motion sickness",
+    "what_the_evidence_shows": "Positive first study and sea trial; negative laboratory studies",
+    "where_it_stands": "Accepted by the European regulator as well-established use",
+    "ref": "7"
+   },
+   {
+    "question": "Osteoarthritis pain",
+    "what_the_evidence_shows": "Small reduction in pain; more stopping for side effects",
+    "where_it_stands": "Low certainty",
+    "ref": "94"
+   },
+   {
+    "question": "Period pain",
+    "what_the_evidence_shows": "Better than placebo; similar to standard painkillers",
+    "where_it_stands": "Low certainty",
+    "ref": "99"
+   },
+   {
+    "question": "Blood sugar in type 2 diabetes",
+    "what_the_evidence_shows": "Lower fasting glucose and HbA1c in pooled trials",
+    "where_it_stands": "Low certainty; high heterogeneity",
+    "ref": "102"
+   },
+   {
+    "question": "Lipids",
+    "what_the_evidence_shows": "Two meta-analyses disagree",
+    "where_it_stands": "Unresolved",
+    "ref": "101"
+   },
+   {
+    "question": "Bleeding with anticoagulants",
+    "what_the_evidence_shows": "Small studies reassuring; one signal in patients",
+    "where_it_stands": "Unresolved",
+    "ref": "112"
+   },
+   {
+    "question": "The active molecule in the blood",
+    "what_the_evidence_shows": "Free gingerols barely detectable; conjugates circulate",
+    "where_it_stands": "The bioavailability problem",
+    "ref": "8"
+   }
+  ],
+  "fields": [
+   "question",
+   "what_the_evidence_shows",
+   "where_it_stands",
+   "ref"
+  ],
+  "caption_md": "A summary of sections 8 to 11. Each row names the single source that best represents its finding; the sections give the full evidence. Certainty is as the cited reviews graded it, where they did.",
+  "how_md": "Find the question, read what the trials found, then read the last column for how settled it is. \"Low certainty\" means further research could easily change the result.",
+  "source_md": "Compiled by the builder from the sources cited in sections 8 to 11; no data were re-analysed."
+ },
+ {
+  "id": "fig-gastric",
+  "label": "Figure 4",
   "title": "Gastric half-emptying time after ginger or placebo, in two small studies",
   "kind": "chart",
   "synthesis": "data",
   "refs": [
-   59,
-   60
+   120,
+   121
   ],
   "chart": {
    "type": "bar",
@@ -28,7 +472,8 @@
    {
     "on": "ginger bars",
     "text": "Faster emptying after 1.2 g of ginger in capsules, the test article in both studies.",
-    "term": "test-article"
+    "term": "test-article",
+    "text_md": "Faster emptying after 1.2 g of ginger in capsules, the [test article](#term:test-article) in both studies."
    }
   ],
   "concepts": [
@@ -43,25 +488,25 @@
     "study": "Healthy volunteers (n=24)",
     "group": "Ginger",
     "half_emptying_min": 13.1,
-    "ref": "59"
+    "ref": "120"
    },
    {
     "study": "Healthy volunteers (n=24)",
     "group": "Placebo",
     "half_emptying_min": 26.7,
-    "ref": "59"
+    "ref": "120"
    },
    {
     "study": "Functional dyspepsia (n=11)",
     "group": "Ginger",
     "half_emptying_min": 12.3,
-    "ref": "60"
+    "ref": "121"
    },
    {
     "study": "Functional dyspepsia (n=11)",
     "group": "Placebo",
     "half_emptying_min": 16.1,
-    "ref": "60"
+    "ref": "121"
    }
   ],
   "fields": [
@@ -76,12 +521,12 @@
  },
  {
   "id": "fig-cmax",
-  "label": "Figure 2",
+  "label": "Figure 5",
   "title": "Peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose",
   "kind": "chart",
   "synthesis": "data",
   "refs": [
-   7
+   8
   ],
   "chart": {
    "type": "bar",
@@ -101,7 +546,8 @@
    {
     "on": "all bars",
     "text": "These are conjugates made by the body, not the compounds as eaten.",
-    "term": "glucuronide"
+    "term": "glucuronide",
+    "text_md": "These are [conjugates](#term:glucuronide) made by the body, not the compounds as eaten."
    }
   ],
   "concepts": [
@@ -115,22 +561,22 @@
    {
     "compound": "6-gingerol",
     "cmax_ug_per_ml": 0.85,
-    "ref": "7"
+    "ref": "8"
    },
    {
     "compound": "8-gingerol",
     "cmax_ug_per_ml": 0.23,
-    "ref": "7"
+    "ref": "8"
    },
    {
     "compound": "10-gingerol",
     "cmax_ug_per_ml": 0.53,
-    "ref": "7"
+    "ref": "8"
    },
    {
     "compound": "6-shogaol",
     "cmax_ug_per_ml": 0.15,
-    "ref": "7"
+    "ref": "8"
    }
   ],
   "fields": [
@@ -143,55 +589,201 @@
   "source_md": "Extracted by the builder from the abstract of the cited study; as published."
  },
  {
-  "id": "fig-drying",
-  "label": "Figure 3",
-  "title": "What drying does to ginger's pungent compounds",
-  "kind": "table",
-  "synthesis": "data",
+  "id": "fig-pathway",
+  "label": "Figure 6",
+  "title": "How ginger makes 6-gingerol: what is shown and what is proposed",
+  "kind": "pathway",
+  "synthesis": "conceptual",
   "refs": [
-   3,
-   4
+   2,
+   30,
+   130,
+   131,
+   150
   ],
-  "data": "figures/data/fig-drying.csv",
-  "caption": "Qualitative findings as reported; the two studies used different material and methods.",
-  "how_to_read": "Each row is a kind of ginger; the columns say what was found for gingerols and for shogaols.",
+  "data": "figures/data/fig-pathway.json",
+  "caption": "The route from phenylalanine to 6-gingerol and on to 6-shogaol, as the labelling, enzyme and genome studies describe it. Solid steps have been shown with ginger material or ginger enzymes; the dashed step is inferred and its enzymes are not yet known; the last step is chemistry, not biology.",
+  "how_to_read": "Follow the arrows left to right. A solid arrow is a step shown experimentally, a dashed arrow is proposed, and the final arrow is the conversion that happens when ginger is dried or cooked. Open a box for its evidence.",
   "explain": [
    {
-    "on": "shogaols column",
-    "text": "Shogaols form from gingerols on heating and drying.",
-    "term": "shogaol"
+    "on": "node: 6-Dehydrogingerdione",
+    "text": "The product of the condensation step, predicted in 1980 and matched to a ginger enzyme, ZoPKS2, in 2026.",
+    "text_md": "The product of the condensation step, predicted in 1980 and matched to a ginger enzyme, ZoPKS2, in 2026."
+   },
+   {
+    "on": "edge: two reductions",
+    "text": "The 1980 labelling work inferred two reduction steps; the enzymes that carry them out are not yet identified in the sources read.",
+    "text_md": "The 1980 labelling work inferred two reduction steps; the enzymes that carry them out are not yet identified in the sources read."
+   },
+   {
+    "on": "node: 6-Shogaol",
+    "text": "Not made by the plant's enzymes in any study read here; it forms on heating and drying.",
+    "term": "shogaol",
+    "text_md": "Not made by the plant's enzymes in any study read here; it forms on heating and drying."
    }
   ],
   "concepts": [
    "gingerols-and-shogaols"
   ],
   "discussed_in": [
-   "3-the-chemistry-in-brief",
-   "15-from-rhizome-to-kitchen"
+   "12-the-genome-and-the-making-of-gingerols",
+   "3-the-chemistry-in-brief"
   ],
-  "source": "Summarised by the builder from the abstracts of the two cited studies.",
-  "rows": [
-   {
-    "material": "Fresh rhizome",
-    "gingerols": "present",
-    "shogaols": "not detected",
-    "ref": "3"
-   },
-   {
-    "material": "Hot-air dried (120-180 C)",
-    "gingerols": "decreased",
-    "shogaols": "increased",
-    "ref": "4"
-   }
-  ],
-  "fields": [
-   "material",
-   "gingerols",
-   "shogaols",
-   "ref"
-  ],
-  "caption_md": "Qualitative findings as reported; the two studies used different material and methods.",
-  "how_md": "Each row is a kind of ginger; the columns say what was found for [gingerols](#term:gingerol) and for [shogaols](#term:shogaol).",
-  "source_md": "Summarised by the builder from the abstracts of the two cited studies."
+  "source": "Conceptual figure drawn by the builder from the cited studies. Nodes and edges are in figures/data/fig-pathway.json.",
+  "rows": [],
+  "fields": [],
+  "caption_md": "The route from phenylalanine to [6-gingerol](#term:gingerol) and on to [6-shogaol](#term:shogaol), as the labelling, enzyme and genome studies describe it. Solid steps have been shown with ginger material or ginger enzymes; the dashed step is inferred and its enzymes are not yet known; the last step is chemistry, not biology.",
+  "how_md": "Follow the arrows left to right. A solid arrow is a step shown experimentally, a dashed arrow is proposed, and the final arrow is the conversion that happens when ginger is dried or cooked. Open a box for its evidence.",
+  "source_md": "Conceptual figure drawn by the builder from the cited studies. Nodes and edges are in figures/data/fig-pathway.json.",
+  "graph": {
+   "id": "fig-pathway",
+   "note": "Conceptual; edge kind 'shown' = demonstrated with ginger material or enzymes in the sources read, 'proposed' = inferred from labelling or gene data, 'chemical' = non-enzymatic.",
+   "nodes": [
+    {
+     "id": "phe",
+     "kind": "precursor",
+     "label": "Phenylalanine",
+     "col": 0,
+     "row": 1,
+     "refs": [
+      130
+     ],
+     "detail": "The amino acid the labelling studies traced into 6-gingerol.",
+     "detail_md": "The amino acid the labelling studies traced into [6-gingerol](#term:gingerol)."
+    },
+    {
+     "id": "fer",
+     "kind": "intermediate",
+     "label": "Ferulic acid → feruloyl-CoA",
+     "col": 1,
+     "row": 1,
+     "refs": [
+      130,
+      131
+     ],
+     "detail": "Made by the phenylpropanoid enzymes, whose activities were found in ginger leaf, shoot and rhizome.",
+     "detail_md": "Made by the [phenylpropanoid](#term:phenylpropanoid) enzymes, whose activities were found in ginger leaf, shoot and [rhizome](#term:rhizome)."
+    },
+    {
+     "id": "hex",
+     "kind": "precursor",
+     "label": "Hexanoyl-CoA + malonyl-CoA",
+     "col": 1,
+     "row": 2,
+     "refs": [
+      130
+     ],
+     "detail": "Hexanoate goes in intact; a longer fatty acid gives 8- or 10-gingerol.",
+     "detail_md": "Hexanoate goes in intact; a longer fatty acid gives 8- or [10-gingerol](#term:gingerol)."
+    },
+    {
+     "id": "dione",
+     "kind": "intermediate",
+     "label": "6-Dehydrogingerdione",
+     "col": 2,
+     "row": 1,
+     "refs": [
+      2
+     ],
+     "detail": "Made by the ginger polyketide synthase ZoPKS2, shown in 2026.",
+     "detail_md": "Made by the ginger [polyketide synthase](#term:polyketide-synthase) ZoPKS2, shown in 2026."
+    },
+    {
+     "id": "curc",
+     "kind": "side",
+     "label": "Curcumin-type products (ZoPKS1)",
+     "col": 2,
+     "row": 0,
+     "refs": [
+      2
+     ],
+     "detail": "ZoPKS2's partner ZoPKS1 is a curcumin synthase of the kind turmeric uses.",
+     "detail_md": "ZoPKS2's partner ZoPKS1 is a curcumin synthase of the kind turmeric uses."
+    },
+    {
+     "id": "ging",
+     "kind": "product",
+     "label": "6-Gingerol",
+     "col": 3,
+     "row": 1,
+     "refs": [
+      130
+     ],
+     "detail": "Formed by two reductions of the dione, inferred from labelling; the enzymes are not yet shown.",
+     "term": "gingerol",
+     "detail_md": "Formed by two reductions of the dione, inferred from labelling; the enzymes are not yet shown."
+    },
+    {
+     "id": "shog",
+     "kind": "product",
+     "label": "6-Shogaol",
+     "col": 4,
+     "row": 1,
+     "refs": [
+      30,
+      150
+     ],
+     "detail": "Forms from gingerol by loss of water on heating and drying; the reaction is reversible in water.",
+     "term": "shogaol",
+     "detail_md": "Forms from [gingerol](#term:gingerol) by loss of water on heating and drying; the reaction is reversible in water."
+    }
+   ],
+   "edges": [
+    {
+     "from": "phe",
+     "to": "fer",
+     "kind": "shown",
+     "label": "phenylpropanoid enzymes",
+     "refs": [
+      131
+     ]
+    },
+    {
+     "from": "fer",
+     "to": "dione",
+     "kind": "shown",
+     "label": "ZoPKS2 condensation",
+     "refs": [
+      2
+     ]
+    },
+    {
+     "from": "hex",
+     "to": "dione",
+     "kind": "shown",
+     "label": "joins the condensation",
+     "refs": [
+      2
+     ]
+    },
+    {
+     "from": "fer",
+     "to": "curc",
+     "kind": "shown",
+     "label": "ZoPKS1",
+     "refs": [
+      2
+     ]
+    },
+    {
+     "from": "dione",
+     "to": "ging",
+     "kind": "proposed",
+     "label": "two reductions (enzymes unknown)",
+     "refs": [
+      130
+     ]
+    },
+    {
+     "from": "ging",
+     "to": "shog",
+     "kind": "chemical",
+     "label": "heat, drying (−H₂O)",
+     "refs": [
+      30
+     ]
+    }
+   ]
+  }
  }
 ]

@@ -40,6 +40,7 @@ export const Manifest = z.object({
   safety_profile: z.enum(['general', 'health', 'crisis-adjacent']).default('general'),
   extensions: z.object({ recipes: z.string().optional() }).strict().default({}),
   verification_level: z.string().optional(),
+  pack_version: z.string().optional(),
 }).strict().superRefine((m, ctx) => {
   if (m.delivery === 'pages' && /^\s*unknown\s*$/i.test(m.permissions.text)) ctx.addIssue({ code: 'custom', path: ['permissions', 'text'], message: "permissions.text is 'unknown' — not allowed for delivery: pages" });
 });
@@ -75,6 +76,8 @@ export const GlossaryEntry = z.object({
 }).strict();
 export type GlossaryEntry = z.infer<typeof GlossaryEntry>;
 
+/** pack 0.2: how far each reference was read. */
+export const VERIFIED_LEVELS = ['full-text', 'abstract', 'partial'] as const;
 export const TIERS = ['seminal', 'classic', 'current', 'background'] as const;
 export const ROLES = ['support', 'method', 'contrast', 'prior-result', 'data-source', 'background', 'guideline', 'review', 'consensus'] as const;
 export const Reference = z.object({
@@ -91,7 +94,11 @@ export const Reference = z.object({
   role_note: z.string().optional().default(''),
   cited_in: z.array(z.string()).default([]),
   verified: z.boolean(),
-  verified_level: z.string().optional(),
+  verified_level: z.enum(VERIFIED_LEVELS).optional(),
+  key: z.string().optional(),
+  read_note: z.string().nullable().optional(),
+  primary_source: z.boolean().optional(),
+  year_note: z.string().optional(),
   candidate_n: z.number().int().optional(),
 }).strict().superRefine((r, ctx) => {
   if (!r.doi && !r.url) ctx.addIssue({ code: 'custom', message: 'doi or url required' });
@@ -113,6 +120,7 @@ export const Figure = z.object({
   refs: z.array(z.number().int()).min(1, 'refs: [n, …] is REQUIRED — a figure with no references does not ship'),
   chart: z.object({ type: z.enum(CHART_TYPES), x: Axis, y: Axis, series: z.string().optional(), ci: z.array(z.string()).optional(), log: z.boolean().optional() }).strict().optional(),
   data: z.string().optional(),
+  columns: z.array(z.object({ field: z.string(), label: z.string() }).strict()).optional(),
   image: z.string().optional(),
   hotspots: z.array(z.object({ x: z.number(), y: z.number(), w: z.number(), h: z.number(), text: z.string(), term: z.string().optional() }).strict()).optional(),
   caption: z.string(),
@@ -127,6 +135,16 @@ export const Figure = z.object({
   if (f.kind === 'image' && !f.image) ctx.addIssue({ code: 'custom', message: 'image needs image:' });
 });
 export type Figure = z.infer<typeof Figure>;
+
+/** figures/data/*.json for kind: pathway — nodes on a col/row grid, edges typed by how well the step is known. */
+export const EDGE_KINDS = ['shown', 'proposed', 'chemical'] as const;
+export const PathwayData = z.object({
+  id: z.string(),
+  note: z.string().optional(),
+  nodes: z.array(z.object({ id: z.string(), kind: z.string(), label: z.string(), col: z.number().int(), row: z.number().int(), refs: z.array(z.number().int()).default([]), detail: z.string().optional(), term: z.string().optional() }).strict()).min(1),
+  edges: z.array(z.object({ from: z.string(), to: z.string(), kind: z.enum(EDGE_KINDS), label: z.string().optional(), refs: z.array(z.number().int()).default([]) }).strict()),
+}).strict();
+export type PathwayData = z.infer<typeof PathwayData>;
 
 export const ConceptFront = z.object({
   id: kebab,
@@ -145,26 +163,28 @@ export const Todo = z.array(z.object({ where: z.string(), what: z.string() }).st
 
 /** recipes.yaml — KICKOFF §8.5. No field may carry a quantity, a serving, a timing or a method step of the
  * builder's own; the schema is closed so one cannot be smuggled in under a new key. */
-export const RECIPE_KEYS = ['id', 'title', 'kind', 'date', 'place', 'source_ref', 'source_note', 'original_text', 'original_language', 'gloss', 'gloss_by', 'ingredients', 'ginger_form', 'heated', 'links', 'science_note', 'safety_note'] as const;
+export const RECIPE_KEYS = ['id', 'title', 'kind', 'date', 'place', 'tradition', 'source_ref', 'source_note', 'original_text', 'original_language', 'gloss', 'gloss_by', 'ingredients', 'ginger_form', 'heated', 'links', 'science_note', 'safety_note'] as const;
 export const Recipe = z.object({
   id: kebab,
   title: z.string().min(1),
   kind: z.enum(['culinary', 'medicinal']),
   date: z.string().min(1),
   place: z.string().min(1),
+  tradition: z.string().min(1),
   source_ref: z.number().int(),
-  source_note: z.string().min(1),
+  source_note: z.string().optional(),
   original_text: z.string().nullable().optional(),
   original_language: z.string().optional(),
-  gloss: z.string().min(1),
-  gloss_by: z.string().min(1),
+  gloss: z.string().default(''),
+  gloss_by: z.string().default(''),
   ingredients: z.array(z.string()).min(1),
   ginger_form: z.string().min(1),
   heated: z.boolean(),
   links: z.object({ sections: z.array(z.string()).default([]), compounds: z.array(z.string()).default([]), terms: z.array(z.string()).default([]) }).strict(),
   science_note: z.string().min(1),
-  safety_note: z.string().min(1),
+  safety_note: z.string().default(''),
 }).strict().superRefine((r, ctx) => {
+  if (!r.original_text?.trim() && !r.gloss.trim()) ctx.addIssue({ code: 'custom', message: 'recipe has neither original_text nor gloss — nothing to show' });
   if (r.original_text && !r.original_language) ctx.addIssue({ code: 'custom', message: 'original_text needs original_language' });
 });
 export type Recipe = z.infer<typeof Recipe>;

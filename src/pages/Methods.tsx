@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { AS_OF, figuresIndex, manifest, provenance, sectionLabel, TIER_LABEL, TIER_ORDER } from '@/lib/data';
+import { AS_OF, figuresIndex, LEVEL_COUNTS, LEVEL_LABEL, LEVEL_NOTE, LEVEL_ORDER, manifest, provenance, sectionLabel, TIER_LABEL, TIER_ORDER } from '@/lib/data';
 import { loadBuildErrors, loadScope, loadSynthesis, loadTodo, useAsync } from '@/lib/heavy';
 import Todo from '@/components/ui/Todo';
 
@@ -27,7 +27,7 @@ function Value({ v }: { v: unknown }) {
 }
 
 /** The keys this page renders in their own panels; anything else in scope.yaml is still published, under "The rest of the scope record". */
-const HANDLED = new Set(['topic', 'question', 'purpose', 'boundary', 'level', 'time_window', 'stance', 'depth', 'anchors', 'excluded', 'assumed', 'assumptions', 'interview', 'presweep', 'search_strategy', 'corpus_profile', 'outline_approved', 'history_sources_rule']);
+const HANDLED = new Set(['topic', 'question', 'purpose', 'boundary', 'level', 'time_window', 'stance', 'depth', 'anchors', 'excluded', 'assumed', 'assumptions', 'interview', 'presweep', 'search_strategy', 'corpus_profile', 'outline_approved', 'history_sources_rule', 'pack_0_2_passes']);
 
 /**
  * Methods & provenance (APP-SPEC §2 /methods, §6.1, KICKOFF §8.3). In topic mode this route carries the app's honesty:
@@ -52,7 +52,7 @@ export default function Methods() {
   const unverifiedCited = pv.references.unverified_but_cited as number[];
   const levels = pv.references.by_verified_level as Record<string, number>;
   const rest = scope ? Object.entries(scope).filter(([k]) => !HANDLED.has(k)) : [];
-  const nav: [string, string][] = [['verification', 'How the sources were read'], ['todo', 'Known gaps'], ['scope', 'Scope'], ['interview', 'Interview'], ['search', 'Search strategy'], ['corpus', 'Corpus profile'], ['coverage', 'Citation coverage'], ['synthesis', 'Synthesis passages'], ['figures', 'Figures'], ['health', 'Health profile'], ['counts', 'Provenance counts'], ['errors', 'Build errors'], ['terms', 'Term linking']];
+  const nav: [string, string][] = [['verification', 'How the sources were read'], ['todo', 'Known gaps'], ['scope', 'Scope'], ['interview', 'Interview'], ['search', 'Search strategy'], ['passes', 'Pack 0.2 passes'], ['corpus', 'Corpus profile'], ['coverage', 'Citation coverage'], ['synthesis', 'Synthesis passages'], ['figures', 'Figures'], ['health', 'Health profile'], ['counts', 'Provenance counts'], ['errors', 'Build errors'], ['terms', 'Term linking']];
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8" data-note-anchor="page:/methods">
@@ -65,17 +65,28 @@ export default function Methods() {
 
       <H id="verification">How the sources were read</H>
       <div className="mt-2 grid gap-3" data-testid="verification">
-        <p className="bx-card p-4 text-base leading-7 border-l-4 border-l-[color:var(--bx-accent)]">
-          <strong>No full text was read for any source in this review.</strong> Every one of the {pv.references.total} references was read at the level of its abstract, an abstract fragment or a record page,
-          and the review's statements about each come from that. A finding that appears only in a paper's full text — its methods, its tables, its caveats — may be missing or simplified here.
-          Each reference card says what was read of it.
+        <p className="bx-card p-4 text-base leading-7 border-l-4 border-l-[color:var(--bx-accent)]" data-testid="verification-sentence">
+          {manifest.verification_level ?? <Todo>the pack states no verification level</Todo>}
         </p>
-        <table className="text-sm w-full max-w-xl" data-testid="level-table">
-          <caption className="sr-only">References by what was read</caption>
-          <thead><tr><th scope="col" className="text-left border-b border-[color:var(--bx-line)] py-1">What was read</th><th scope="col" className="text-right border-b border-[color:var(--bx-line)] py-1">References</th></tr></thead>
-          <tbody>{Object.entries(levels).sort((a, b) => b[1] - a[1]).map(([k, n]) => <tr key={k}><td className="py-1 border-b border-[color:var(--bx-line)]">{k}</td><td className="py-1 text-right tabular-nums border-b border-[color:var(--bx-line)]">{n}</td></tr>)}</tbody>
+        <p className="bx-prose">
+          Where only an abstract or a record page was read, a finding that appears only in the paper's full text — its methods, its tables, its caveats —
+          may be missing or simplified here. Each reference card says how far its source was read, and what exactly was read.
+        </p>
+        <table className="text-sm w-full max-w-2xl" data-testid="level-table">
+          <caption className="sr-only">References by how far they were read</caption>
+          <thead><tr><th scope="col" className="text-left border-b border-[color:var(--bx-line)] py-1 pr-3">How far it was read</th><th scope="col" className="text-left border-b border-[color:var(--bx-line)] py-1 pr-3">Meaning</th><th scope="col" className="text-right border-b border-[color:var(--bx-line)] py-1">References</th></tr></thead>
+          <tbody>
+            {[...LEVEL_ORDER.filter((k) => levels[k] !== undefined), ...Object.keys(levels).filter((k) => !(LEVEL_ORDER as readonly string[]).includes(k))].map((k) => (
+              <tr key={k} data-level={k}>
+                <td className="py-1 pr-3 border-b border-[color:var(--bx-line)] font-semibold">{LEVEL_LABEL[k] ?? k}</td>
+                <td className="py-1 pr-3 border-b border-[color:var(--bx-line)] bx-muted">{LEVEL_NOTE[k] ?? '—'}</td>
+                <td className="py-1 text-right tabular-nums border-b border-[color:var(--bx-line)]" data-testid={`level-count-${k}`}>{LEVEL_COUNTS[k]}</td>
+              </tr>
+            ))}
+            <tr><td className="py-1 pr-3 font-semibold">Total</td><td /><td className="py-1 text-right tabular-nums font-semibold">{pv.references.total}</td></tr>
+          </tbody>
         </table>
-        {manifest.verification_level && <p className="text-sm bx-muted">Pack statement: {manifest.verification_level}</p>}
+        <p className="text-sm"><Link className="underline" to="/references?level=full-text">The references read in full →</Link></p>
         {unverifiedCited.length > 0
           ? <p><Todo>cited but verified: false — {unverifiedCited.map((n) => `[${n}]`).join(' ')}</Todo></p>
           : <p className="text-sm">Every cited reference is marked verified in the pack (DOI or record resolved and the abstract or record read); none rests on an unverified entry.</p>}
@@ -85,7 +96,7 @@ export default function Methods() {
       <p className="bx-prose mt-1">What the builder could not resolve, as the pack records it. Each is a <Todo>TODO(author)</Todo> for the review's author, not something this app fills in.</p>
       {!todo ? <p className="bx-muted" role="status">Loading…</p> : (
         <>
-          <ul className="mt-3 grid gap-2" data-testid="todo-list">{todo.pack.map((t, i) => <li key={i} className="bx-card px-3 py-2 text-sm"><Todo>{t.where}</Todo> <span className="ml-1">{t.what}</span></li>)}</ul>
+          <ul className="mt-3 grid gap-2" data-testid="todo-list">{todo.pack.map((t, i) => <li key={i} className="bx-card px-3 py-2 text-sm" data-testid="todo-item"><Todo>TODO(author) · {t.where}</Todo> <span className="ml-1">{t.what}</span></li>)}</ul>
           {todo.markers.length > 0 && (
             <>
               <h3 className="text-lg mt-5">TODO(author) markers placed by the build</h3>
@@ -161,6 +172,16 @@ export default function Methods() {
         </div>
       )}
 
+      <H id="passes">The pack 0.2 passes</H>
+      <p className="bx-prose mt-1">The further reading passes made for pack {String((manifest as { pack_version?: string }).pack_version ?? '0.2')}, as scope.yaml records them.</p>
+      {scope && Array.isArray(scope.pack_0_2_passes) ? (
+        <ul className="mt-2 grid gap-2 text-sm" data-testid="passes">
+          {(scope.pack_0_2_passes as Obj[]).map((x, i) => (
+            <li key={i} className="bx-card px-3 py-2"><span className="font-semibold">{humanKey(str(x.pass))}: </span>{str(x.method)}{Object.entries(x).filter(([k]) => k !== 'pass' && k !== 'method').map(([k, v]) => <span key={k} className="block mt-1 bx-muted">{humanKey(k)}: {str(v)}</span>)}</li>
+          ))}
+        </ul>
+      ) : scope !== undefined && <p><Todo>scope.yaml records no pack_0_2_passes</Todo></p>}
+
       <H id="corpus">Corpus profile</H>
       <div className="mt-2 grid gap-4 md:grid-cols-2 text-sm">
         <div className="bx-card p-3" data-testid="corpus-actual">
@@ -182,7 +203,7 @@ export default function Methods() {
           </div>
         )}
       </div>
-      <p className="mt-2 text-sm bx-muted">The scope record's profile counts the candidates of the query pass; the left panel counts the references the review cites after verification. Both are shown so the trimming is visible.</p>
+      <p className="mt-2 text-sm bx-muted">The right panel is the pack's own statement of the cited corpus; the left panel is computed from references.yaml when the app is built. Both are shown so any difference is visible.</p>
 
       <H id="coverage">Citation coverage</H>
       <div className="mt-2 text-sm grid gap-2" data-testid="coverage">

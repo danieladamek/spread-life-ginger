@@ -1,43 +1,917 @@
-# recipes.yaml — Spread Life: Ginger. Historical recipes from dated sources, each cited and cross-referenced to the review.
-# Rules (scope.yaml): historical sources only; no modern adaptation; no dose and no health claim of the builder's own.
-# A medicinal recipe is shown as a historical document, with the review's evidence beside it.
-as_of: 2026-11-24
-status: "2 recipes; more to be added from openly readable public-domain sources (see todo.yaml)"
+as_of: '2026-11-24'
+status: 22 recipes from dated sources; texts in full only where public domain and captured from a scan
 recipes:
-  - id: gyngener
-    title: "Gyngener (a ginger sauce)"
-    kind: culinary
-    date: "about 1390"
-    place: "England, the royal household of Richard II"
-    source_ref: 25
-    source_note: "The Forme of Cury, ed. Samuel Pegge (1780); Project Gutenberg eBook #8102. Public domain."
-    original_text: "Take payndemayn and pare it clene and funde it in Vinegur, grynde it and temper it wiþ Vynegur, and with powdour gyngur and salt, drawe it thurgh a straynour. and serue forth."
-    original_language: "Middle English"
-    gloss: "Fine white bread, crusts pared off, is soaked in vinegar, ground, thinned with more vinegar and seasoned with powdered ginger and salt, then passed through a strainer and served. The sauce is not cooked."
-    gloss_by: "builder's reading of the Middle English, 2026-11-24"
-    ingredients: ["white bread (payndemayn)", "vinegar", "powdered ginger", "salt"]
-    ginger_form: dried-powdered
-    heated: false
-    links:
-      sections: ["3-the-chemistry-in-brief", "6-europe-to-the-americas", "15-from-rhizome-to-kitchen"]
-      compounds: ["6-gingerol", "6-shogaol"]
-    science_note: "The recipe specifies powdered, that is dried, ginger. Dried ginger contains shogaols as well as gingerols, where fresh rhizome contains gingerols only [3, 4]. Nothing in the source says how the ginger was dried."
-    safety_note: "Shown as a historical document. It makes no health claim and none is made for it here."
-  - id: irish-materia-medica-zinciber
-    title: "Ginger boiled in wine or ale, for the stomach"
-    kind: medicinal
-    date: "medieval; date of the text to be confirmed from the edition"
-    place: "Ireland"
-    source_ref: 23
-    source_note: "Tadhg Ó Cuinn, An Irish Materia Medica, §291 Zinciber, in the CELT edition's English translation. The translation is modern and in copyright, so the entry is paraphrased, not reproduced."
-    original_text: null
-    gloss: "The entry classes ginger as hot in the third degree and wet in the second, says that it comforts the stomach, and directs that it be boiled in wine or ale against pain of the stomach and intestines. It lists further uses of the powder."
-    gloss_by: "builder's paraphrase of the CELT translation, 2026-11-24"
-    ingredients: ["ginger", "wine or ale"]
-    ginger_form: unspecified
-    heated: true
-    links:
-      sections: ["6-europe-to-the-americas", "8-nausea-and-vomiting", "11-how-it-might-work-and-the-bioavailability-problem", "15-from-rhizome-to-kitchen"]
-      compounds: ["6-gingerol", "6-shogaol"]
-    science_note: "The entry reasons from the humoral qualities of the spice, not from observed effect [22]. Modern trials have tested ginger for nausea, not for stomach pain as such (section 8), and in two small studies ginger sped gastric emptying without changing symptoms [59, 60]. Boiling would be expected to convert some gingerol to shogaol [3, 4]."
-    safety_note: "A historical document, not advice. It gives no measured quantity and none is supplied here."
+- id: apicius-spiced-salts
+  title: Spiced salts 'for many purposes' (sales conditi)
+  kind: medicinal
+  tradition: Roman
+  date: Roman; the Apicius collection was compiled in late antiquity
+  place: Roman Empire
+  source_ref: 44
+  original_language: Latin
+  original_text: 'Sales conditos ad multa: Sales conditi faciunt ad digestionem, ad ventrem movendum, et omnes morbos et pestilentiam et omnia frigora prohibent generari, sunt autem et suavissimi ultra
+    quam speras. Sales communes frictos lib. I, sales Hammoniacos frictos lib. II, piperis albi unc. III, zingiberis unc. II, ammeos unc. I semis, thymi unc. I semis, apii seminis unc. I semis (si apii
+    semen mittere nolueris, petroselini mittis unc. III), origani unc. III, erucae seminis unc. I semis, piperis nigri unc. III, croci unc. I, hysopi Cretici unc. II, folii unc. II, petroselini unc. II,
+    anethi unc. II.'
+  gloss: Spiced salts for many uses. The text claims they aid digestion, move the bowels and prevent every disease, plague and chill, and are sweeter than you would expect. A pound of roasted common salt
+    and two of roasted 'ammoniac' salt are pounded with white and black pepper, ginger, ajowan, thyme, celery seed (or parsley), oregano, rocket seed, saffron, Cretan hyssop, malabathrum leaf, parsley and
+    dill.
+  gloss_by: builder's translation, 2026-11-24; the quantity of ginger is uncertain in the scanned text (two or three ounces)
+  ingredients:
+  - roasted common salt
+  - roasted 'ammoniac' salt
+  - white pepper
+  - ginger
+  - ajowan
+  - thyme
+  - celery seed or parsley
+  - oregano
+  - rocket seed
+  - black pepper
+  - saffron
+  - hyssop
+  - malabathrum leaf
+  - parsley
+  - dill
+  ginger_form: dried (implied by pounding with dry spices)
+  heated: false
+  links:
+    sections:
+    - 5-the-old-world-record
+    - 7-why-people-spice-food
+    compounds:
+    - 6-gingerol
+    - 6-shogaol
+  science_note: The Roman claim is that the salts aid digestion. Modern trials of ginger for digestion have measured stomach emptying, which ginger speeds in small studies without changing symptoms [120,
+    121]. Dried ginger contains shogaols as well as gingerols [17].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: apicius-oxyporum
+  title: A digestive relish (oxyporum)
+  kind: culinary
+  tradition: Roman
+  date: Roman; late antique compilation
+  place: Roman Empire
+  source_ref: 44
+  original_language: Latin
+  original_text: 'Oxyporum: cumini unc. II, zingiberis unc. I, rutae viridis unc. I, nitri scripulos VI, dactylorum pinguium scripulos XII, piperis unc. I, mellis unc. IX. cuminum aut Aethiopicum aut Syriacum
+    aut Libycum aceto infundes, sicca et sic tundes. postea melle comprehendis. cum necesse fuerit, ex oxygaro uteris.'
+  gloss: Cumin, ginger, fresh rue, natron, fleshy dates, pepper and honey. Soak the cumin (Ethiopian, Syrian or Libyan) in vinegar, dry it and pound it, then bind everything with honey. Use it when needed,
+    thinned with vinegar and fish sauce (oxygarum). Elsewhere the same mixture is given with lettuce 'for digestion and wind, and so that the lettuce does no harm'.
+  gloss_by: builder's translation, 2026-11-24
+  ingredients:
+  - cumin
+  - ginger
+  - fresh rue
+  - natron
+  - dates
+  - pepper
+  - honey
+  - vinegar
+  ginger_form: unspecified, pounded
+  heated: false
+  links:
+    sections:
+    - 5-the-old-world-record
+    - 7-why-people-spice-food
+  science_note: Rue is the only ingredient here with a modern safety concern of its own; this review does not assess it. Ginger's effect on wind and digestion is untested in this form.
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: gyngener
+  title: Gyngener (a ginger sauce)
+  kind: culinary
+  tradition: English, medieval
+  date: about 1390
+  place: England, the household of Richard II
+  source_ref: 152
+  original_language: Middle English
+  original_text: Take payndemayn and pare it clene and funde it in Vinegur, grynde it and temper it wiþ Vynegur, and with powdour gyngur and salt, drawe it thurgh a straynour. and serue forth.
+  gloss: Fine white bread, crusts pared off, is soaked in vinegar, ground, thinned with more vinegar and seasoned with powdered ginger and salt, then passed through a strainer and served. The sauce is not
+    cooked.
+  gloss_by: builder's reading of the Middle English
+  ingredients:
+  - white bread (payndemayn)
+  - vinegar
+  - powdered ginger
+  - salt
+  ginger_form: dried, powdered
+  heated: false
+  links:
+    sections:
+    - 3-the-chemistry-in-brief
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+    compounds:
+    - 6-gingerol
+    - 6-shogaol
+  science_note: Powdered ginger is dried ginger, which contains shogaols as well as gingerols [17, 151]. Vinegar makes the sauce acidic; 6-gingerol is most stable near pH 4 [30].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: ypocras
+  title: Hippocras powder and spiced wine
+  kind: culinary
+  tradition: French, medieval
+  date: about 1393
+  place: Paris
+  source_ref: 49
+  original_language: Middle French
+  original_text: Pour faire pouldre d'ypocras, prenez un quarteron de très fine canelle triée à la dent, et demy quarteron de fleur de canelle fine, une once de gingembre de mesche trié fin blanc et une
+    once de graine de paradis, un sizain de noix muguettes et de garingal ensemble, et faites tout battre ensemble. Et quant vous vouldrez faire l'ypocras, prenez demye once largement et sur le plus de
+    ceste pouldre et deux quarterons de succre, et les meslez ensemble, et une quarte de vin à la mesure de Paris. Et nota que la pouldre et le succre meslés ensemble font pouldre de duc.
+  gloss: 'For hippocras powder: a quarter-pound of fine cinnamon chosen by tasting, half that of cinnamon flower, an ounce of fine white ''Mecca'' ginger, an ounce of grains of paradise, and a sixth part
+    of nutmeg and galingale together, all pounded. To make hippocras, mix a good half-ounce of the powder with half a pound of sugar and a quart of wine by Paris measure. The powder mixed with sugar is
+    called ''duke''s powder''.'
+  gloss_by: builder's translation, 2026-11-24; the scanned text was read through imperfect OCR and should be checked against a clean copy
+  ingredients:
+  - cinnamon
+  - cinnamon flower
+  - white Mecca ginger
+  - grains of paradise
+  - nutmeg
+  - galingale
+  - sugar
+  - wine
+  ginger_form: dried, white (scraped), powdered
+  heated: false
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: '''Mecca'' (mesche) ginger was the whiter, softer and dearer grade in the same household''s accounts [49]. White ginger was scraped before drying [11].'
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: gyngerbrede
+  title: Gyngerbrede (a gingerbread without ginger)
+  kind: culinary
+  tradition: English, medieval
+  date: about 1430
+  place: England
+  source_ref: 161
+  original_language: Middle English
+  original_text: Gyngerbrede.—Take a quart of hony, & sethe it, & skeme it clene; take Safroun, pouder Pepir, & þrow þer-on; take gratyd Brede, & make it so chargeaunt þat it wol be y-lechyd; þen take pouder
+    Canelle, & straw þer-on y-now; þen make yt square, lyke as þou wolt leche yt; take when þou lechyst hyt, an caste Box leves a-bouyn, y-stykyd þer-on, on clowys. And ȝif þou wolt haue it Red, coloure
+    it with Saunderys y-now.
+  gloss: Boil a quart of honey and skim it; add saffron and powdered pepper; stiffen it with grated bread until it can be sliced; strew powdered cinnamon on it; shape it square for slicing, and decorate
+    it with box leaves pinned with cloves. Colour it red with sandalwood if you wish.
+  gloss_by: builder's reading of the Middle English
+  ingredients:
+  - honey
+  - saffron
+  - pepper
+  - grated bread
+  - cinnamon
+  - cloves
+  - box leaves (decoration)
+  - red sandalwood (optional)
+  ginger_form: none
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: This recipe names no ginger at all. The name had come to mean a spiced honey confection.
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: irish-materia-medica-zinciber
+  title: Ginger boiled in wine or ale, for the stomach
+  kind: medicinal
+  tradition: Irish, medieval
+  date: medieval (date of the text to be confirmed)
+  place: Ireland
+  source_ref: 52
+  original_language: Irish (modern English translation, paraphrased)
+  original_text: null
+  gloss: The entry classes ginger as hot in the third degree and wet in the second, says that it comforts the stomach, and directs that it be boiled in wine or ale against pain of the stomach and intestines.
+    It lists further uses of the powder.
+  gloss_by: builder's paraphrase of the CELT translation, which is in copyright
+  ingredients:
+  - ginger
+  - wine or ale
+  ginger_form: unspecified
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 8-nausea-and-vomiting
+    - 15-from-rhizome-to-kitchen
+  science_note: The reasoning is humoral, not observational [51]. Boiling would be expected to convert some gingerol to shogaol [30].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: antilles-ginger-salad
+  title: Fresh ginger as a salad, in the Antilles
+  kind: culinary
+  tradition: Caribbean, as reported in Europe
+  date: 1745 (English translation of a French work of 1702)
+  place: the Antilles
+  source_ref: 55
+  original_language: English
+  original_text: 'While Ginger is tender they cut it into Slices, and the Inhabitants eat it by way of Sallad, mix''d with Vinegar, Oil and Salt: It is said, if order''d in this Manner, that it is very
+    pleasant. It is not so sharp as when it is dried, for it contains much Humidity, which extends and diffuses its sharp Salts. As for us, we cannot eat it in this Manner, because it never comes into our
+    Hands till after it is well dried.'
+  gloss: Young fresh ginger, sliced and dressed with vinegar, oil and salt.
+  gloss_by: ''
+  ingredients:
+  - young fresh ginger
+  - vinegar
+  - oil
+  - salt
+  ginger_form: fresh, young
+  heated: false
+  links:
+    sections:
+    - 3-the-chemistry-in-brief
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: 'The author''s observation that fresh ginger is less sharp than dried fits the chemistry: drying converts gingerols to the more pungent shogaols [17, 151]. Young rhizome is also less fibrous,
+    with fewer oil cells [23].'
+  safety_note: ''
+- id: ginger-comfit-at-sea
+  title: Preserved ginger carried at sea
+  kind: medicinal
+  tradition: European, early modern
+  date: '1745'
+  place: Europe and the Atlantic
+  source_ref: 55
+  original_language: English
+  original_text: 'They also preserve Ginger, as soon as dug out of the Earth, with Sugar; but first they steep it in Water, in order to lessen the Sharpness of it. This Comfit is of great Use at Sea: It
+    is good against Poison, and the Scurvy, to fortify the Parts, and to help Digestion.'
+  gloss: Fresh ginger soaked in water to soften its heat, then preserved in sugar, and carried on voyages.
+  gloss_by: ''
+  ingredients:
+  - fresh ginger
+  - water
+  - sugar
+  ginger_form: fresh, preserved in sugar
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: Ginger is not a recognised source of vitamin C, and nothing in this review supports the claim against scurvy. Soaking and boiling in syrup remove and transform part of the pungent fraction
+    [30].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: soft-gingerbread
+  title: Soft gingerbread to be baked in pans
+  kind: culinary
+  tradition: American
+  date: '1796'
+  place: Hartford, Connecticut
+  source_ref: 159
+  original_language: English
+  original_text: Soft Gingerbread to be baked in pans. No. 2. Rub three pounds of sugar, two pounds of butter, into four pounds of flour, add 20 eggs, 4 ounces ginger, 4 spoons rose water, bake as No. 1.
+  gloss: ''
+  gloss_by: ''
+  ingredients:
+  - sugar
+  - butter
+  - flour
+  - eggs
+  - ginger
+  - rose water
+  ginger_form: dried, ground
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: Baking dried ginger in a moist dough is the kind of moist heat that favours conversion of gingerols to shogaols [150]. The same book's 'molasses gingerbread' names no ginger at all [159].
+  safety_note: ''
+- id: molasses-gingerbread
+  title: Molasses gingerbread (with no ginger)
+  kind: culinary
+  tradition: American
+  date: '1796'
+  place: Hartford, Connecticut
+  source_ref: 159
+  original_language: English
+  original_text: Molasses Gingerbread. One table spoon of cinnamon, some coriander or allspice, put to four tea spoons pearl ash, dissolved in half pint water, four pound flour, one quart molasses, four
+    ounces butter, (if in summer rub in the butter, if in winter, warm the butter and molasses and pour to the spiced flour,) knead well 'till stiff, the more the better, the lighter and whiter it will
+    be; bake brisk fifteen minutes; don't scorch; before it is put in, wash it with whites and sugar beat together.
+  gloss: Pearl ash is potassium carbonate, an early chemical leavening.
+  gloss_by: builder's note
+  ingredients:
+  - cinnamon
+  - coriander or allspice
+  - pearl ash
+  - water
+  - flour
+  - molasses
+  - butter
+  - egg whites and sugar (glaze)
+  ginger_form: none
+  heated: true
+  links:
+    sections:
+    - 15-from-rhizome-to-kitchen
+  science_note: No ginger is named; 'gingerbread' had become the name of a kind of cake.
+  safety_note: ''
+- id: virginia-ginger-beer
+  title: Ginger beer
+  kind: culinary
+  tradition: American (Virginia)
+  date: 1824 (text of the 1830 edition)
+  place: Virginia
+  source_ref: 153
+  original_language: English
+  original_text: GINGER BEER. Pour two gallons of boiling water on two pounds brown sugar, one and a half ounce of cream of tartar, and the same of pounded ginger; stir them well, and put it in a small
+    cask; when milk warm, put in half a pint of good yeast, shake the cask well, and stop it close—in twenty-four hours it will be fit to bottle—cork it very well, and in ten days it will sparkle like Champaigne—one
+    or two lemons cut in slices and put in, will improve it much. For economy, you may use molasses instead of sugar—one quart in place of two pounds. This is a wholesome and delicious beverage in warm
+    weather.
+  gloss: ''
+  gloss_by: ''
+  ingredients:
+  - boiling water
+  - brown sugar or molasses
+  - cream of tartar
+  - pounded dried ginger
+  - yeast
+  - lemons (optional)
+  ginger_form: dried, pounded
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: Pouring boiling water on pounded dried ginger extracts gingerols and shogaols together; cream of tartar makes the brew acidic, near the pH at which 6-gingerol is most stable [30]. Bottled
+    fermentation produces the sparkle (carbon dioxide) and a small amount of alcohol.
+  safety_note: Home-bottled fermented drinks build pressure and can burst bottles; this recipe is shown as a historical document.
+- id: plebeian-gingerbread
+  title: Plebeian gingerbread
+  kind: culinary
+  tradition: American (Virginia)
+  date: 1824 (text of the 1830 edition)
+  place: Virginia
+  source_ref: 153
+  original_language: English
+  original_text: PLEBEIAN GINGER BREAD. Mix three large spoonsful of pounded ginger, with three quarts of flour—sift it, dissolve three tea-spoonsful of pearl-ash in a cup of water, and pour it on the flour;
+    melt half a pound of butter in a quart of molasses, mix it with the flour, knead it well, cut it in shapes, and bake it.
+  gloss: ''
+  gloss_by: ''
+  ingredients:
+  - pounded ginger
+  - flour
+  - pearl ash
+  - water
+  - butter
+  - molasses
+  ginger_form: dried, pounded
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: '''Plebeian'' because it uses molasses and few eggs or butter, against the book''s richer ''sugar ginger bread''.'
+  safety_note: ''
+- id: madras-ginger-beer
+  title: Ginger beer, Madras style
+  kind: culinary
+  tradition: Anglo-Indian
+  date: '1850'
+  place: Madras Presidency, India
+  source_ref: 156
+  original_language: English
+  original_text: Two gallons of water, two and a quarter ounce of ginger, three quarters of an ounce of cream of tartar, two pounds of sugar candy, one lime; the whole to be mixed with the water boiling
+    hot, and a tea-spoonful of sweet toddy added to each bottle before corking; ready in two days. Obs.—The corks must be tied tight down.
+  gloss: Toddy is fermented palm sap, used here in place of brewer's yeast to start the fermentation.
+  gloss_by: builder's note
+  ingredients:
+  - water
+  - ginger
+  - cream of tartar
+  - sugar candy
+  - lime
+  - sweet toddy (palm sap)
+  ginger_form: unspecified
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: The same drink as the Virginian and English ginger beers, started with local palm toddy instead of brewer's yeast. Home ginger beers of the period were often started with a 'ginger-beer
+    plant', later shown to be a partnership of a yeast and a bacterium [57].
+  safety_note: Home-bottled fermented drinks build pressure and can burst bottles; this recipe is shown as a historical document.
+- id: beeton-ginger-beer
+  title: Ginger beer
+  kind: culinary
+  tradition: English, Victorian
+  date: 1861 (text of the 1869 edition)
+  place: London
+  source_ref: 154
+  original_language: English
+  original_text: GINGER BEER. Ingredients.—2¾ lbs. of loaf sugar, 1½ oz. of bruised ginger, 1 oz. of cream of tartar, the rind and juice of 2 lemons, 3 gallons of boiling water, 2 large tablespoonfuls of
+    thick and fresh brewers' yeast. Mode.—Peel the lemons, squeeze the juice, strain it, and put the peel and juice into a large earthen pan, with the bruised ginger, cream of tartar, and loaf sugar. Pour
+    over these ingredients 3 gallons of boiling water; let it stand until just warm, when add the yeast, which should be thick and perfectly fresh. Stir the contents of the pan well, and let them remain
+    near the fire all night, covering the pan over with a cloth. The next day skim off the yeast, and pour the liquor carefully into another vessel, leaving the sediment; then bottle immediately, and tie
+    the corks down, and in 3 days the ginger beer will be fit for use.
+  gloss: ''
+  gloss_by: quantities read from a scanned edition with imperfect OCR; check against a clean copy
+  ingredients:
+  - loaf sugar
+  - bruised ginger
+  - cream of tartar
+  - lemons
+  - boiling water
+  - brewer's yeast
+  ginger_form: dried, bruised
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: Bruised (crushed) dried ginger releases its compounds into the hot water faster than whole pieces. Lemon juice and cream of tartar acidify the brew [30]. Ginger beer was a large part of
+    the English mineral-water trade by the end of the century [38].
+  safety_note: Home-bottled fermented drinks build pressure and can burst bottles; this recipe is shown as a historical document.
+- id: beeton-ginger-wine
+  title: Ginger wine
+  kind: culinary
+  tradition: English, Victorian
+  date: 1861 (text of the 1869 edition)
+  place: London
+  source_ref: 154
+  original_language: English
+  original_text: GINGER WINE. Ingredients.—To 9 gallons of water allow 27 lbs. of loaf sugar, 9 lemons, 12 oz. of bruised ginger, 3 tablespoonfuls of yeast, 2 lbs. of raisins stoned and chopped, 1 pint
+    of brandy. Mode.—Boil together for 1 hour in a copper (let it previously be well scoured and beautifully clean), the water, sugar, lemon-rinds, and bruised ginger; remove every particle of scum as it
+    rises, and when the liquor is sufficiently boiled, put it into a large tub or pan, as it must not remain in the copper. When nearly cold, add the yeast, which must be thick and very fresh, and, the
+    next day, put all in a dry cask with the strained lemon-juice and chopped raisins. Stir the wine every day for a fortnight; then add the brandy, stop the cask down by degrees, and in a few weeks it
+    will be fit to bottle.
+  gloss: ''
+  gloss_by: ''
+  ingredients:
+  - water
+  - loaf sugar
+  - lemons
+  - bruised ginger
+  - yeast
+  - raisins
+  - brandy
+  ginger_form: dried, bruised
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: An hour's boil of bruised ginger in an acid, sugary liquid is the kind of moist heat that converts gingerols to shogaols [30, 150].
+  safety_note: An alcoholic drink, shown as a historical document.
+- id: ginger-pudding
+  title: Ginger pudding
+  kind: culinary
+  tradition: English, Victorian
+  date: 1861 (text of the 1869 edition)
+  place: London
+  source_ref: 154
+  original_language: English
+  original_text: GINGER PUDDING. Ingredients.—½ lb. of flour, ½ lb. of suet, ½ lb. moist sugar, 2 large teaspoonfuls of grated ginger. Mode.—Shred the suet very fine, mix it with the flour, sugar, and ginger;
+    stir all well together; butter a basin, and put the mixture in dry; tie a cloth over, and boil for 3 hours.
+  gloss: ''
+  gloss_by: quantities read through imperfect OCR
+  ingredients:
+  - flour
+  - suet
+  - moist sugar
+  - grated ginger
+  ginger_form: grated (fresh or dried not stated)
+  heated: true
+  links:
+    sections:
+    - 15-from-rhizome-to-kitchen
+  science_note: Three hours of steaming is long moist heat, which favours conversion of gingerols to shogaols [150].
+  safety_note: ''
+- id: old-time-ginger-cake
+  title: Old-time ginger cake
+  kind: culinary
+  tradition: American (Southern)
+  date: '1881'
+  place: San Francisco, from a South Carolina cook
+  source_ref: 160
+  original_language: English
+  original_text: Old-Time Ginger Cake. One pint molasses, one quart flour, one-half teacup brown sugar, one teacup butter, one tablespoonful cinnamon, two tablespoonsful ginger, one teacup sour milk. With
+    it mix a teaspoonful soda and three eggs. Cream butter and sugar together, then add molasses, then flour, then eggs, then milk, then ginger and cinnamon; stir thoroughly and put to bake in oblong pans.
+  gloss: ''
+  gloss_by: ''
+  ingredients:
+  - molasses
+  - flour
+  - brown sugar
+  - butter
+  - cinnamon
+  - ginger
+  - sour milk
+  - baking soda
+  - eggs
+  ginger_form: dried, ground
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: Sour milk and baking soda react to leaven the cake, a later chemistry than the pearl ash of the 1790s [159].
+  safety_note: ''
+- id: ginger-tea-1898
+  title: Ginger tea, for colds
+  kind: medicinal
+  tradition: American (Eclectic medicine)
+  date: '1898'
+  place: Cincinnati
+  source_ref: 39
+  original_language: English
+  original_text: null
+  gloss: The dispensatory calls ginger tea 'popular and efficient' for breaking up colds and for painful menstruation, and gives the infusion as an ounce of powdered or bruised root to a pint of boiling
+    water. The same entry recommends a ginger plaster on the forehead for headache and warns that a large quantity taken internally 'might produce serious effects'.
+  gloss_by: builder's summary; the full wording was not captured
+  ingredients:
+  - powdered or bruised dried ginger
+  - boiling water
+  ginger_form: dried
+  heated: true
+  links:
+    sections:
+    - 8-nausea-and-vomiting
+    - 9-pain-inflammation-and-metabolic-outcomes
+    - 10-safety-interactions-and-pregnancy
+    - 15-from-rhizome-to-kitchen
+  science_note: Two trials and two meta-analyses find ginger better than placebo for period pain, at low certainty [97, 99]. No trial read for this review tests ginger tea for colds. The European regulator
+    lists the common cold among ginger's traditional uses, based on long-standing use rather than trials [7].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: ginger-juice-and-honey
+  title: Fresh ginger juice and honey, for cough
+  kind: medicinal
+  tradition: Indian, domestic
+  date: recorded 1893
+  place: India
+  source_ref: 38
+  original_language: English
+  original_text: null
+  gloss: The juice of fresh ginger, with or without garlic juice, mixed with honey, as a household remedy for cough and asthma; with lime juice for bilious indigestion. In Western India, ginger juice with
+    a little honey (and, in one version, a pinch of burnt peacock feather) was the popular remedy for vomiting. A paste of dry ginger and warm water was applied to the forehead for headache.
+  gloss_by: builder's summary of the 1893 account
+  ingredients:
+  - fresh ginger juice
+  - honey
+  - garlic juice (optional)
+  - lime juice (variant)
+  ginger_form: fresh, juiced
+  heated: false
+  links:
+    sections:
+    - 5-the-old-world-record
+    - 8-nausea-and-vomiting
+    - 15-from-rhizome-to-kitchen
+  science_note: Fresh juice carries gingerols and little shogaol [17], and also the active protease zingibain [35]. The use for vomiting matches the best-studied modern use, nausea [5]; the uses for cough
+    and asthma are untested in the trials read.
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: trikatu
+  title: Trikatu, the three pungents
+  kind: medicinal
+  tradition: Ayurvedic
+  date: classical (Suśruta Saṃhitā; English translation 1907)
+  place: India
+  source_ref: 10
+  original_language: English translation of Sanskrit
+  original_text: The Trikatu Group :— The Trikatu group consists of Pippali, Maricha and Shringavera. Metrical Text :— It destroys fat and Kapham, proves curative in cutaneous affections, leprosy (Kushtha),
+    and morbid discharges from the urethra, and is possessed of the virtue of curing abdominal glands, catarrh, dullness of the appetite and indigestion.
+  gloss: Long pepper, black pepper and ginger, used together. Later texts record mixtures of ginger with other spices and sugar for poor appetite and indigestion [38].
+  gloss_by: builder's note
+  ingredients:
+  - long pepper (pippali)
+  - black pepper (maricha)
+  - ginger (shringavera)
+  ginger_form: dried, as a powder in later practice
+  heated: false
+  links:
+    sections:
+    - 5-the-old-world-record
+    - 11-how-it-might-work-and-the-bioavailability-problem
+  science_note: All three ingredients carry pungent compounds that act on the TRPV1 receptor, the receptor behind the heat of chilli [122, 124]. The classical claims are not tested in the trials read.
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: chinese-preserved-ginger
+  title: Preserved ginger in syrup, Chinese method
+  kind: culinary
+  tradition: Chinese
+  date: recorded 1891 (in the 1893 Indian pharmacographia)
+  place: southern China
+  source_ref: 38
+  original_language: English
+  original_text: null
+  gloss: Young rhizomes are steeped in water for several days, pricked all over with bodkins, boiled, steeped two days and nights in water with rice flour, washed with a lime solution, then boiled with
+    an equal weight of sugar clarified with egg white, boiled again, and packed in glazed jars under syrup that is changed two or three times before shipping.
+  gloss_by: builder's summary of the 1893 account
+  ingredients:
+  - young ginger
+  - water
+  - rice flour
+  - lime water
+  - sugar
+  - egg white
+  ginger_form: fresh, young
+  heated: true
+  links:
+    sections:
+    - 5-the-old-world-record
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: Southern Chinese ginger was preferred for preserves because it is less mucilaginous [4]. Repeated soaking and boiling leach and convert much of the pungent fraction [30], which is why preserved
+    ginger is milder than dried.
+  safety_note: ''
+- id: chinese-pickled-turnips
+  title: Chinese pickled yellow turnips
+  kind: culinary
+  tradition: Chinese American
+  date: '1914'
+  place: United States
+  source_ref: 155
+  original_language: English
+  original_text: CHINESE PICKLED YELLOW TURNIPS. Cut the turnip in thin slices, then cut each slice in narrow strips until it looks like strands. Place in bowl and over it pour two cupfuls of vinegar, a
+    dash of cayenne, a quarter of a clove of garlic, two teaspoonfuls of salt, and one teaspoonful of ginger, and let stand twenty-four hours before serving. To the above quantity use enough turnip for
+    the vinegar to cover evenly.
+  gloss: ''
+  gloss_by: ''
+  ingredients:
+  - yellow turnip
+  - vinegar
+  - cayenne
+  - garlic
+  - salt
+  - ginger
+  ginger_form: unspecified
+  heated: false
+  links:
+    sections:
+    - 15-from-rhizome-to-kitchen
+  science_note: An unheated, acidic preparation, in which 6-gingerol is relatively stable [30].
+  safety_note: ''
+- id: ginger-with-salt
+  title: Ginger with salt before meals
+  kind: medicinal
+  tradition: Ayurvedic
+  date: classical (compiled in English 1877)
+  place: India
+  source_ref: 45
+  original_language: English
+  original_text: Ginger with salt taken before meals, is highly praised as a carminative. It is said to purify the tongue and throat, increase the appetite and produce an agreeable sensation.
+  gloss: A carminative is a remedy against wind. The same compilation records the fresh juice taken with honey for catarrh, cough and loss of appetite, and ginger juice mixed with milk used as a snuff in
+    headache.
+  gloss_by: builder's note
+  ingredients:
+  - ginger
+  - salt
+  ginger_form: unspecified
+  heated: false
+  links:
+    sections:
+    - 5-the-old-world-record
+    - 8-nausea-and-vomiting
+  science_note: Ginger's pungent compounds act on the TRPV1 receptor in the mouth, which produces the sensation of heat [122]. The European regulator lists loss of appetite among ginger's traditional uses,
+    based on long-standing use rather than trials [7].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: samasarkara-churna
+  title: Samaśarkarā cūrṇa, a spice powder for the digestion
+  kind: medicinal
+  tradition: Ayurvedic
+  date: classical (compiled in English 1877)
+  place: India
+  source_ref: 45
+  original_language: English
+  original_text: Take of cardamoms one part, cinnamon two parts, flowers of Mesua ferrea (nāgakesara) three parts, black pepper four parts, long pepper five parts, dried ginger six parts, sugar in quantity
+    equal to all the other ingredients; powder and mix.
+  gloss: Six spices in rising proportions, dried ginger the largest, with an equal weight of sugar. The source names it for dyspepsia, loss of appetite and piles. The source also gives a dose, which is
+    not reproduced here.
+  gloss_by: builder's note
+  ingredients:
+  - cardamom
+  - cinnamon
+  - nāgakesara flowers (Mesua ferrea)
+  - black pepper
+  - long pepper
+  - dried ginger
+  - sugar
+  ginger_form: dried, powdered
+  heated: false
+  links:
+    sections:
+    - 5-the-old-world-record
+  science_note: Long pepper, black pepper and dried ginger are the three ingredients of trikaṭu [10]. Dried ginger carries shogaols as well as gingerols [17].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: saubhagya-sunthi
+  title: Saubhāgya śuṇṭhī, a ginger confection after childbirth
+  kind: medicinal
+  tradition: Ayurvedic
+  date: classical (compiled in English 1877)
+  place: India
+  source_ref: 45
+  original_language: English
+  original_text: null
+  gloss: Clarified butter, milk, sugar and dry ginger are boiled together into an electuary (a thick sweet paste), and a mixture of coriander, fennel, cumin, nigella, long and black pepper, more ginger,
+    cinnamon, cardamom and other aromatics is stirred in as it cools. The source describes it as a carminative tonic in dyspepsia and in disorders of the digestion in women after confinement.
+  gloss_by: builder's summary of the 1877 text; the quantities given there are not reproduced
+  ingredients:
+  - clarified butter
+  - milk
+  - sugar
+  - dry ginger
+  - coriander
+  - fennel seed
+  - cumin
+  - nigella
+  - long pepper
+  - black pepper
+  - cyperus tubers
+  - tejapatra leaves
+  - nāgakesara flowers
+  - cinnamon
+  - cardamom
+  ginger_form: dried
+  heated: true
+  links:
+    sections:
+    - 5-the-old-world-record
+    - 10-safety-interactions-and-pregnancy
+  science_note: No trial read for this review tests ginger after childbirth. The European regulator does not recommend ginger during breast-feeding, for lack of data [7].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: ginger-as-corrector
+  title: A little ginger to correct a purge
+  kind: medicinal
+  tradition: English herbal
+  date: 1650s (text of the 1835 edition)
+  place: England
+  source_ref: 54
+  original_language: English
+  original_text: Some use to put to it some Fennel seeds, or Annis seeds, or Ginger, to correct that loathing it brings to the stomach.
+  gloss: Said of polypody of the oak, a purging fern. Elsewhere Culpeper writes that the faults of purging roots are 'corrected with long pepper, ginger, cinnamon, or mastich', and of another purge, 'correct
+    it with a few Annis seeds, or Fennel seeds, or a little ginger, and then the stomach will not loath it'.
+  gloss_by: builder's note
+  ingredients:
+  - polypody of the oak (or another purging herb)
+  - fennel seed, aniseed or ginger
+  ginger_form: unspecified
+  heated: false
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 8-nausea-and-vomiting
+  science_note: Using ginger to stop a medicine causing nausea anticipates the use best supported by modern trials, against nausea [5].
+  safety_note: Shown as a historical document. It is not advice, and no health claim is made for it here.
+- id: glasse-gingerbread-cakes
+  title: Gingerbread cakes
+  kind: culinary
+  tradition: English, Georgian
+  date: 1747 (text of the 1751 edition)
+  place: London
+  source_ref: 157
+  original_language: English
+  original_text: Take three Pounds of Flour, one Pound of Sugar, one Pound of Butter rubbed in very fine, two Ounces of Ginger beat fine, a large Nutmeg grated; then take a Pound of Treacle, a Quarter of
+    a Pint of Cream, make them warm together, and make up the Bread stiff; roll it out, and make it up into thin Cakes, cut them out with a Tea-Cup, or small Glass, or roll them round like Nuts, and bake
+    them on Tin Plates in a slack Oven.
+  gloss: A slack oven is a cool one. The long s of the original is printed as s.
+  gloss_by: builder's note
+  ingredients:
+  - flour
+  - sugar
+  - butter
+  - beaten ginger
+  - nutmeg
+  - treacle
+  - cream
+  ginger_form: dried, beaten (powdered)
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: Baking powdered dried ginger in a dough is dry heat, which converts gingerols to shogaols less efficiently than moist heat [150].
+  safety_note: ''
+- id: glasse-gingerbread
+  title: Gingerbread with candied peel
+  kind: culinary
+  tradition: English, Georgian
+  date: 1747 (text of the 1751 edition)
+  place: London
+  source_ref: 157
+  original_language: English
+  original_text: Take three Quarts of fine Flour, two Ounces of beaten Ginger, a Quarter of an Ounce of Nutmeg, Cloves, and Mace beat fine, but most of the last; mix all together, three Quarters of a Pound
+    of fine Sugar, two Pounds of Treacle, set it over the Fire, but don't let it boil; three Quarters of a Pound of Butter melted in the Treacle, and some candied Lemon and Orange-peel cut fine, mix all
+    these together well. An Hour will bake it in a quick Oven.
+  gloss: A quick oven is a hot one. The scanned text is damaged at one point; the wording above follows its evident sense.
+  gloss_by: builder's reading of a scan with imperfect OCR
+  ingredients:
+  - flour
+  - beaten ginger
+  - nutmeg, cloves and mace
+  - sugar
+  - treacle
+  - butter
+  - candied lemon and orange peel
+  ginger_form: dried, beaten (powdered)
+  heated: true
+  links:
+    sections:
+    - 15-from-rhizome-to-kitchen
+  science_note: Unlike the medieval gyngerbrede [161], Glasse's gingerbreads put ginger first among the spices.
+  safety_note: ''
+- id: acton-thick-light-gingerbread
+  title: Thick, light gingerbread
+  kind: culinary
+  tradition: English, early Victorian
+  date: '1845'
+  place: London
+  source_ref: 158
+  original_language: English
+  original_text: Crumble down very small eight ounces of butter into a couple of pounds of flour, then add to, and mix thoroughly with them, half a pound of good brown sugar, two ounces of powdered ginger,
+    and half an ounce of ground carraway-seeds; beat gradually to these, first two pounds of treacle, next three well whisked eggs, and last of all half an ounce of carbonate of soda, dissolved in a very
+    small cupful of warm water; stir the whole briskly together, pour the mixture into very shallow tins, put it immediately into a moderate oven, and bake it for an hour and a half. The gingerbread made
+    thus will be remarkably light and good. For children part of the spice and butter may be omitted.
+  gloss: Acton adds that rather less soda would do, because with the full amount the mixture rises to three times its height in the oven.
+  gloss_by: builder's summary of Acton's note
+  ingredients:
+  - butter
+  - flour
+  - brown sugar
+  - powdered ginger
+  - ground caraway seed
+  - treacle
+  - eggs
+  - carbonate of soda
+  - warm water
+  ginger_form: dried, powdered
+  heated: true
+  links:
+    sections:
+    - 15-from-rhizome-to-kitchen
+  science_note: Carbonate of soda reacting with the acids in treacle leavens the cake, a later chemistry than the pearl ash of 1796 [159].
+  safety_note: ''
+- id: acton-ginger-biscuits
+  title: Cheap ginger biscuits
+  kind: culinary
+  tradition: English, early Victorian
+  date: '1845'
+  place: London
+  source_ref: 158
+  original_language: English
+  original_text: Work into quite small crumbs three ounces of good butter, with two pounds of flour, then add three ounces of pounded sugar and two of ginger, in fine powder, and knead them into a stiff
+    paste, with new milk. Roll it thin, cut out the biscuits with a cutter, and bake them in a slow oven until they are crisp quite through, but keep them of a pale colour.
+  gloss: Acton adds that for 'good ginger cakes' the butter is increased to six ounces and the sugar to eight for each pound of flour, and the paste is made with eggs.
+  gloss_by: builder's summary of Acton's note
+  ingredients:
+  - butter
+  - flour
+  - pounded sugar
+  - powdered ginger
+  - new milk
+  ginger_form: dried, powdered
+  heated: true
+  links:
+    sections:
+    - 15-from-rhizome-to-kitchen
+  science_note: A slow oven and a pale finish mean gentle dry heat; dry heat converts less gingerol to shogaol than moist heat [150].
+  safety_note: ''
+- id: acton-ginger-candy
+  title: Ginger candy
+  kind: culinary
+  tradition: English, early Victorian
+  date: '1845'
+  place: London
+  source_ref: 158
+  original_language: English
+  original_text: Break a pound of highly-refined sugar into lumps, put it into a preserving pan, and pour over it about the third of a pint of spring water; let it stand until the sugar is nearly dissolved,
+    then set it over a perfectly clear fire, and boil it until it becomes a thin syrup. Have ready in a large cup a teaspoonful of the very best ginger in powder, mix it smoothly and gradually with two
+    or three spoonsful of the syrup, and then stir it well into the whole. Watch the mixture carefully, keep it stirred, and drop it often from a spoon to ascertain the exact point of boiling it has reached.
+    When it begins to fall in flakes throw in the freshly-grated rind of a very large lemon, or of two small ones, and work the sugar round quickly as it is added.
+  gloss: The candy is then stirred until it falls in a mass from the spoon, and poured out quickly before it turns to powder.
+  gloss_by: builder's summary of the rest of the recipe
+  ingredients:
+  - refined sugar
+  - spring water
+  - powdered ginger
+  - lemon rind
+  ginger_form: dried, powdered
+  heated: true
+  links:
+    sections:
+    - 15-from-rhizome-to-kitchen
+  science_note: Sugar boiled to the candy stage is far hotter than boiling water; this review found no study of what such temperatures do to ginger's compounds in a syrup, though heat in general converts
+    gingerols to shogaols [150].
+  safety_note: Boiling sugar causes severe burns; shown as a historical document.
+- id: acton-ginger-wine
+  title: Very good ginger wine
+  kind: culinary
+  tradition: English, early Victorian
+  date: '1845'
+  place: London
+  source_ref: 158
+  original_language: English
+  original_text: Boil together, for half an hour, fourteen quarts of water, twelve pounds of sugar, a quarter of a pound of the best ginger bruised, and the thin rinds of six large lemons. Put the whole,
+    when milk-warm, into a clean dry cask, with the juice of the lemons, and half a pound of sun raisins; add one large spoonful of thick yeast, and stir the wine every day for ten days. When it has ceased
+    to ferment, add an ounce of isinglass, and a pint of brandy; bung the wine close, and in two months it will be fit to bottle, but must remain longer in the cask should it be too sweet.
+  gloss: Isinglass, a gelatin from fish swim bladders, clears the wine. Acton suggests cider fresh from the press in place of the water.
+  gloss_by: builder's note
+  ingredients:
+  - water
+  - sugar
+  - bruised ginger
+  - lemons
+  - raisins
+  - yeast
+  - isinglass
+  - brandy
+  ginger_form: dried, bruised
+  heated: true
+  links:
+    sections:
+    - 6-europe-to-the-americas
+    - 15-from-rhizome-to-kitchen
+  science_note: Half an hour's boil of bruised ginger in an acid, sugary liquid is moist heat, which favours conversion of gingerols to shogaols [30, 150]. Compare the ginger wine in Beeton's book sixteen
+    years later [154].
+  safety_note: An alcoholic drink, shown as a historical document.

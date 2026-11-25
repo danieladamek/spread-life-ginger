@@ -19,7 +19,7 @@ describe('section and citation parser (the real review.md)', () => {
     expect(parsed.sections.find((s) => s.id === '10-safety-interactions-and-pregnancy')!.number).toBe('10');
   });
   it('resolves figure markers into figure slots in place', () => {
-    expect(parsed.figureMarkers).toEqual(['fig-drying', 'fig-cmax', 'fig-gastric']);
+    expect(parsed.figureMarkers).toEqual(['fig-drying', 'fig-timeline', 'fig-evidence', 'fig-gastric', 'fig-cmax', 'fig-pathway', 'fig-drying']);
     const s3 = parsed.sections.find((s) => s.id === '3-the-chemistry-in-brief')!;
     expect(s3.chunks.some((c) => c.kind === 'figure' && c.id === 'fig-drying')).toBe(true);
   });
@@ -32,19 +32,20 @@ describe('section and citation parser (the real review.md)', () => {
     for (const s of parsed.sections) {
       const body = splitSections(review).find((x) => x.id === s.id)!.body;
       const raw = strip(body.replace(/^#.*$/gm, '').replace(/<!-- figure: [a-z0-9-]+ -->/g, ''));
-      const rendered = strip(s.chunks.filter((c) => c.kind === 'md').map((c) => unlink((c as { md: string }).md)).join(' '));
+      // the review's own ### subheads are rendered as headings inside the section; compare the prose around them
+      const rendered = strip(s.chunks.filter((c) => c.kind === 'md').map((c) => unlink((c as { md: string }).md).replace(/^#.*$/gm, '')).join(' '));
       expect(rendered).toBe(raw);
     }
   });
-  it('counts blocks exactly as tools/validate_pack.py does (87 · 61 cited · 26 framing · 14 synthesis)', () => {
-    expect(parsed.blocks).toEqual({ total: 87, cited: 61, framing: 26, synthesis: 14 });
+  it('counts blocks exactly as tools/validate_pack.py does on pack 0.2.1 (95 · 73 cited · 33 framing · 17 synthesis)', () => {
+    expect(parsed.blocks).toEqual({ total: 95, cited: 73, framing: 33, synthesis: 17 });
     expect(parsed.uncited).toEqual([]);
   });
   it('gives every synthesis passage a stable id and wraps only the sentence its marker closes', () => {
     expect(parsed.synthesis).toHaveLength((review.match(/<!-- synthesis -->/g) ?? []).length);
     expect(new Set(parsed.synthesis.map((s) => s.id)).size).toBe(parsed.synthesis.length);
     const safety = parsed.synthesis.find((s) => s.section === '10-safety-interactions-and-pregnancy')!;
-    expect(safety.excerpt.startsWith('An interval that wide')).toBe(true);
+    expect(safety.excerpt.startsWith('The evidence is reassuring for dried ginger')).toBe(true);
   });
 });
 

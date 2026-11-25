@@ -10,6 +10,7 @@ terms:
 - zingibain
 figures:
 - fig-drying
+- fig-pathway
 further_reading:
 - title: Gingerol Content of Diploid and Tetraploid Clones of Ginger (Zingiber officinale
   url: https://doi.org/10.1021/jf050435b
@@ -20,7 +21,7 @@ further_reading:
 ---
 
 ## What it is
-Gingerols are the pungent phenolic compounds of fresh ginger. They are thermally unstable and convert to shogaols, which are found in dried ginger and were not detected in fresh rhizome extracted at ambient temperature [3].
+Gingerols are the pungent phenolic compounds of fresh ginger. They are thermally unstable and convert to shogaols, which are found in dried ginger and were not detected in fresh rhizome extracted at ambient temperature [17].
 
 ## How this guide uses it
-A recipe or a trial that used dried ginger involved a chemically different material from one that used fresh, and hot-air drying shifts the balance further toward shogaols as temperature rises [4].
+A recipe or a trial that used dried ginger involved a chemically different material from one that used fresh, and hot-air drying shifts the balance further toward shogaols as temperature rises [151].

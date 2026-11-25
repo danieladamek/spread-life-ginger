@@ -1,17 +1,22 @@
 import { useMemo, useState } from 'react';
 import type { Figure } from '@/types';
 import { downloadCsv } from './download';
-import { Link } from 'react-router-dom';
+import Cite, { Paragraph } from '@/components/reader/Cite';
 import NoteThis from '@/components/notepad/NoteThis';
 
 /**
  * Sortable, filterable table (APP-SPEC §4 `kind: table`), from thyroid-molecular-markers' DataTable. Cells are the
  * pack's own values, rendered plainly. Every column sorts (numeric-aware text order); the filter matches any cell.
- * The `ref` column every synthesised figure carries (CONTENT-PACK, figures under mode: topic) links to its
- * reference, so every row is traceable. The CSV is the pack's own data file.
+ * The `ref` column every synthesised figure carries (CONTENT-PACK, figures under mode: topic) is a working citation:
+ * each number opens its reference card in place, as in the reader, so every row is traceable. The CSV is the pack's own data file.
  */
 export default function DataTable({ figure, inline = false }: { figure: Figure; inline?: boolean }) {
-  const cols = figure.fields.map((f) => ({ field: f, label: f === 'ref' ? 'Source ref.' : f.replace(/_/g, ' ') }));
+  // a table that declares `columns` (pack 0.2) shows them in that order with those labels; the `ref` column always
+  // follows as the row's source. Otherwise every CSV column is shown under its field name.
+  const declared = figure.columns?.length ? figure.columns : null;
+  const cols = declared
+    ? [...declared, ...(figure.fields.includes('ref') && !declared.some((c) => c.field === 'ref') ? [{ field: 'ref', label: 'Source' }] : [])]
+    : figure.fields.map((f) => ({ field: f, label: f === 'ref' ? 'Source' : f.replace(/_/g, ' ') }));
   const [sort, setSort] = useState<{ field: string; dir: 'asc' | 'desc' } | null>(null);
   const [q, setQ] = useState('');
   // rows keep their index in the paper's order: a row anchor (`row:<figure>:<i>`) survives sorting and filtering
@@ -53,7 +58,7 @@ export default function DataTable({ figure, inline = false }: { figure: Figure; 
               <tr key={r.__i} className="bx-noteable odd:bg-paper-card/60 dark:odd:bg-night-2/40 align-top" data-note-anchor={`row:${figure.id}:${r.__i}`} data-testid={`row-${figure.id}-${r.__i}`}>
                 {cols.map((c, j) => j === 0
                   ? <th key={c.field} scope="row" className="border-b border-[color:var(--bx-line)] px-2 py-1.5 text-left font-semibold">{String(r[c.field] ?? '')} <NoteThis anchor={{ type: 'row', id: `${figure.id}:${r.__i}` }} label={`${figure.label}, row ${r.__i + 1}`} /></th>
-                  : <td key={c.field} className="border-b border-[color:var(--bx-line)] px-2 py-1.5 tabular-nums">{c.field === 'ref' && r[c.field] != null ? String(r[c.field]).split(/[,;]\s*/).map((n) => <Link key={n} className="underline mr-1" to={`/references#ref-${n}`} aria-label={`Reference ${n}`}>[{n}]</Link>) : r[c.field] == null ? <span className="bx-muted" aria-label="no value">—</span> : String(r[c.field])}</td>)}
+                  : <td key={c.field} className="border-b border-[color:var(--bx-line)] px-2 py-1.5 tabular-nums">{c.field === 'ref' && r[c.field] != null ? <RefCell value={String(r[c.field])} /> : r[c.field] == null ? <span className="bx-muted" aria-label="no value">—</span> : String(r[c.field])}</td>)}
               </tr>
             ))}
           </tbody>
@@ -61,4 +66,10 @@ export default function DataTable({ figure, inline = false }: { figure: Figure; 
       </div>
     </div>
   );
+}
+
+/** A row's source: each reference number is a citation that opens its card under the cell. */
+function RefCell({ value }: { value: string }) {
+  const ns = value.split(/[,;\s]+/).map((x) => Number(x)).filter((n) => Number.isInteger(n) && n > 0);
+  return <Paragraph inline><Cite ns={ns} label={`[${ns.join(', ')}]`} /></Paragraph>;
 }

@@ -24,6 +24,22 @@
   ]
  },
  {
+  "id": "humoral-medicine",
+  "title": "Hot and dry in the third degree",
+  "one_liner": "How medieval and early modern medicine classified ginger, and why it was valued.",
+  "why_sections": [
+   "5-the-old-world-record"
+  ]
+ },
+ {
+  "id": "how-regulators-judge-herbs",
+  "title": "How a regulator judges a herbal medicine",
+  "one_liner": "Well-established use, traditional use, and why the two are not the same claim.",
+  "why_sections": [
+   "8-nausea-and-vomiting"
+  ]
+ },
+ {
   "id": "reading-the-trials",
   "title": "Reading the trials",
   "one_liner": "What a meta-analysis, a GRADE rating and a confidence interval do and do not tell you.",
@@ -40,11 +56,33 @@
   ]
  },
  {
+  "id": "making-gingerols",
+  "title": "How the plant makes gingerols",
+  "one_liner": "From an amino acid to ginger's pungent compound, step by step, and which steps are proven.",
+  "why_sections": [
+   "12-the-genome-and-the-making-of-gingerols"
+  ]
+ },
+ {
   "id": "what-compounds-do-for-plants",
   "title": "What a plant's compounds are for",
   "one_liner": "Why 'it kills microbes in a dish' is not the same as 'it defends the plant'.",
   "why_sections": [
    "13-what-the-compounds-do-for-the-plant"
   ]
+ },
+ {
+  "id": "growing-under-glass",
+  "title": "Growing ginger under glass",
+  "one_liner": "Day length, substrate, clean planting stock and the diseases that follow rhizomes.",
+  "why_sections": [
+   "14-growing-ginger-under-glass"
+  ]
+ },
+ {
+  "id": "reading-old-recipes",
+  "title": "Reading a historical recipe",
+  "one_liner": "Measures, forms of ginger and what the cook did to it, read with the chemistry in mind.",
+  "why_sections": []
  }
 ]

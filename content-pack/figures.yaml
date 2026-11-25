@@ -1,11 +1,127 @@
-- id: fig-gastric
+- id: fig-drying
   label: Figure 1
+  title: What drying does to ginger's pungent compounds
+  kind: table
+  synthesis: data
+  refs:
+  - 17
+  - 30
+  - 33
+  - 150
+  - 151
+  data: figures/data/fig-drying.csv
+  caption: Findings as each study reported them; the studies used different material, methods and conditions, so the rows are not directly comparable.
+  how_to_read: Each row is one study and one kind of treatment; the columns say what it found for gingerols and for shogaols. A dash means the study did not report that measure in the part read.
+  explain:
+  - 'on': shogaols column
+    text: Shogaols form from gingerols on heating and drying.
+    term: shogaol
+  concepts:
+  - gingerols-and-shogaols
+  discussed_in:
+  - 3-the-chemistry-in-brief
+  - 15-from-rhizome-to-kitchen
+  source: Summarised by the builder from the abstracts of the five cited studies.
+- id: fig-timeline
+  label: Figure 2
+  title: The documentary record of ginger, by date
+  kind: table
+  synthesis: data
+  refs:
+  - 7
+  - 10
+  - 12
+  - 28
+  - 38
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 47
+  - 49
+  - 50
+  - 53
+  - 54
+  - 55
+  - 57
+  - 59
+  - 152
+  - 157
+  - 159
+  data: figures/data/fig-timeline.csv
+  columns:
+  - field: when
+    label: When
+  - field: source
+    label: Source
+  - field: place
+    label: Place
+  - field: what_it_records
+    label: What it records
+  caption: A selection of dated sources read for this review, from archaeology to the 2025 European monograph. It is not a complete record, and the dates of the classical texts are approximate.
+  how_to_read: Read down the rows in time order. Each row names one source read for this review and what it says about ginger; open the reference to see the edition used.
+  explain:
+  - 'on': 'row: Analects'
+    text: The Analects were compiled by Confucius's followers after his death; the date given is for Confucius himself.
+  - 'on': 'row: Oc Eo'
+    text: The earliest physical evidence read for this review; the plant was identified from microscopic remains, not whole rhizomes.
+  concepts:
+  - ginger-in-the-record
+  discussed_in:
+  - 5-the-old-world-record
+  - 6-europe-to-the-americas
+  - 15-from-rhizome-to-kitchen
+  source: Compiled by the builder from the sources cited in sections 4 to 7; the wording is the builder's.
+- id: fig-evidence
+  label: Figure 3
+  title: What the human evidence shows, question by question
+  kind: table
+  synthesis: data
+  refs:
+  - 6
+  - 7
+  - 8
+  - 77
+  - 83
+  - 86
+  - 94
+  - 99
+  - 101
+  - 102
+  - 112
+  data: figures/data/fig-evidence.csv
+  columns:
+  - field: question
+    label: Question
+  - field: what_the_evidence_shows
+    label: What the evidence shows
+  - field: where_it_stands
+    label: Where it stands
+  caption: A summary of sections 8 to 11. Each row names the single source that best represents its finding; the sections give the full evidence. Certainty is as the cited reviews graded it, where they
+    did.
+  how_to_read: Find the question, read what the trials found, then read the last column for how settled it is. "Low certainty" means further research could easily change the result.
+  explain:
+  - 'on': 'column: Where it stands'
+    text: Taken from the certainty ratings of the reviews where given; otherwise the builder's summary of whether the trials agree.
+    term: test-article
+  concepts:
+  - reading-the-trials
+  discussed_in:
+  - 8-nausea-and-vomiting
+  - 9-pain-inflammation-and-metabolic-outcomes
+  - 10-safety-interactions-and-pregnancy
+  - 11-how-it-might-work-and-the-bioavailability-problem
+  - 17-open-questions
+  source: Compiled by the builder from the sources cited in sections 8 to 11; no data were re-analysed.
+- id: fig-gastric
+  label: Figure 4
   title: Gastric half-emptying time after ginger or placebo, in two small studies
   kind: chart
   synthesis: data
   refs:
-  - 59
-  - 60
+  - 120
+  - 121
   chart:
     type: bar
     x:
@@ -28,12 +144,12 @@
   - 11-how-it-might-work-and-the-bioavailability-problem
   source: Extracted by the builder from the abstracts of the two studies; as published, not re-analysed.
 - id: fig-cmax
-  label: Figure 2
+  label: Figure 5
   title: Peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose
   kind: chart
   synthesis: data
   refs:
-  - 7
+  - 8
   chart:
     type: bar
     x:
@@ -54,24 +170,33 @@
   discussed_in:
   - 11-how-it-might-work-and-the-bioavailability-problem
   source: Extracted by the builder from the abstract of the cited study; as published.
-- id: fig-drying
-  label: Figure 3
-  title: What drying does to ginger's pungent compounds
-  kind: table
-  synthesis: data
+- id: fig-pathway
+  label: Figure 6
+  title: 'How ginger makes 6-gingerol: what is shown and what is proposed'
+  kind: pathway
+  synthesis: conceptual
   refs:
-  - 3
-  - 4
-  data: figures/data/fig-drying.csv
-  caption: Qualitative findings as reported; the two studies used different material and methods.
-  how_to_read: Each row is a kind of ginger; the columns say what was found for gingerols and for shogaols.
+  - 2
+  - 30
+  - 130
+  - 131
+  - 150
+  data: figures/data/fig-pathway.json
+  caption: The route from phenylalanine to 6-gingerol and on to 6-shogaol, as the labelling, enzyme and genome studies describe it. Solid steps have been shown with ginger material or ginger enzymes; the
+    dashed step is inferred and its enzymes are not yet known; the last step is chemistry, not biology.
+  how_to_read: Follow the arrows left to right. A solid arrow is a step shown experimentally, a dashed arrow is proposed, and the final arrow is the conversion that happens when ginger is dried or cooked.
+    Open a box for its evidence.
   explain:
-  - 'on': shogaols column
-    text: Shogaols form from gingerols on heating and drying.
+  - 'on': 'node: 6-Dehydrogingerdione'
+    text: The product of the condensation step, predicted in 1980 and matched to a ginger enzyme, ZoPKS2, in 2026.
+  - 'on': 'edge: two reductions'
+    text: The 1980 labelling work inferred two reduction steps; the enzymes that carry them out are not yet identified in the sources read.
+  - 'on': 'node: 6-Shogaol'
+    text: Not made by the plant's enzymes in any study read here; it forms on heating and drying.
     term: shogaol
   concepts:
   - gingerols-and-shogaols
   discussed_in:
+  - 12-the-genome-and-the-making-of-gingerols
   - 3-the-chemistry-in-brief
-  - 15-from-rhizome-to-kitchen
-  source: Summarised by the builder from the abstracts of the two cited studies.
+  source: Conceptual figure drawn by the builder from the cited studies. Nodes and edges are in figures/data/fig-pathway.json.

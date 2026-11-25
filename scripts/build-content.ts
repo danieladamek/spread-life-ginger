@@ -15,7 +15,7 @@ import yaml from 'js-yaml';
 import Papa from 'papaparse';
 import type { z } from 'zod';
 import {
-  ConceptFront, Figure, GlossaryEntry, Manifest, Recipe, RecipesFile, Reference, Scope, Todo, TIERS, zodErrors,
+  ConceptFront, Figure, GlossaryEntry, Manifest, PathwayData, Recipe, RecipesFile, Reference, Scope, Todo, TIERS, zodErrors,
   type ConceptFront as ConceptFrontT, type Figure as FigureT, type GlossaryEntry as GlossaryT, type Recipe as RecipeT, type Reference as ReferenceT,
 } from './lib/schemas';
 import { buildMatcher, findAmbiguousVariants, linkCitations, linkTerms, normaliseMatch } from './lib/linker';
@@ -188,7 +188,7 @@ for (const s of sectionsOut) { if (s.part) curPart = s.id; partOf[s.id] = s.part
 
 // ---------------------------------------------------------------------------------------------- 3. figures
 type Cell = string | number | null;
-interface FigureOut extends Omit<FigureT, 'data'> { data: string | null; rows: Record<string, Cell>[]; fields: string[]; caption_md: string; how_md: string; source_md: string }
+interface FigureOut extends Omit<FigureT, 'data' | 'explain'> { data: string | null; rows: Record<string, Cell>[]; fields: string[]; caption_md: string; how_md: string; source_md: string; explain: (FigureT['explain'][number] & { text_md?: string })[]; graph?: unknown }
 const figuresOut: FigureOut[] = [];
 for (const f of figures) {
   const out: FigureOut = { ...f, data: f.data ?? null, rows: [], fields: [], caption_md: '', how_md: '', source_md: '' };
@@ -200,7 +200,30 @@ for (const f of figures) {
     if (ex.concept && !conceptById.has(ex.concept)) E(`figure ${f.id}: explain concept ${ex.concept} unknown`);
   }
   if (f.kind === 'image' && !/reproduc|permitted|permission/i.test(M.permissions.figures)) W(`figure ${f.id}: kind image in topic mode without explicit permission in manifest.permissions.figures`);
-  if (f.data) {
+  if (f.data && f.data.endsWith('.json')) {
+    // pathway / network figures: nodes and edges in a JSON file (pack 0.2 fig-pathway)
+    if (!fs.existsSync(P(f.data))) E(`figure ${f.id}: data file missing ${f.data}`);
+    else {
+      let g: unknown = null;
+      try { g = JSON.parse(fs.readFileSync(P(f.data), 'utf8')); } catch (e) { E(`figure ${f.id}: JSON parse error — ${(e as Error).message}`); }
+      const res = PathwayData.safeParse(g);
+      if (g && !res.success) zodErrors(`figure ${f.id} data`, res.error).forEach(E);
+      if (res.success) {
+        const ids = new Set(res.data.nodes.map((n) => n.id));
+        dupes(res.data.nodes.map((n) => n.id), `figure ${f.id} nodes`);
+        for (const n of res.data.nodes) {
+          if (n.term && !glossById.has(n.term)) E(`figure ${f.id}: node ${n.id} term ${n.term} is not in the glossary`);
+          for (const r of n.refs) if (!f.refs.includes(r)) E(`figure ${f.id}: node ${n.id} cites ${r}, which is not in the figure's refs`);
+        }
+        for (const e of res.data.edges) {
+          if (!ids.has(e.from) || !ids.has(e.to)) E(`figure ${f.id}: edge ${e.from} → ${e.to} names a node that does not exist`);
+          for (const r of e.refs) if (!f.refs.includes(r)) E(`figure ${f.id}: edge ${e.from} → ${e.to} cites ${r}, which is not in the figure's refs`);
+        }
+        out.graph = { ...res.data, nodes: res.data.nodes.map((n) => ({ ...n, detail_md: linkProse(n.detail ?? '').md })) };
+      }
+      emit(path.join(PUB, 'figures', 'data', path.basename(f.data)), fs.readFileSync(P(f.data)));
+    }
+  } else if (f.data) {
     if (!fs.existsSync(P(f.data))) E(`figure ${f.id}: data file missing ${f.data}`);
     else {
       const res = Papa.parse<Record<string, string>>(fs.readFileSync(P(f.data), 'utf8'), { header: true, skipEmptyLines: true });
@@ -217,6 +240,7 @@ for (const f of figures) {
         }
       }
       out.fields = fields;
+      for (const c of f.columns ?? []) if (!fields.includes(c.field)) E(`figure ${f.id}: columns field "${c.field}" is not a column of ${f.data} (columns: ${fields.join(', ')})`);
       const numeric = new Set(f.chart ? [f.chart.y.field, ...(f.chart.ci ?? [])] : []);
       out.rows = res.data.map((r) => Object.fromEntries(fields.map((k) => {
         const v = r[k];
@@ -264,6 +288,7 @@ for (const f of figuresOut) {
   f.caption_md = linkProse(f.caption).md;
   f.how_md = linkProse(f.how_to_read).md;
   f.source_md = linkProse(f.source).md;
+  f.explain = f.explain.map((ex) => ({ ...ex, text_md: linkProse(ex.text).md }));
 }
 
 function conceptSections(body: string) {
@@ -305,16 +330,30 @@ function resolveCompound(name: string): string | null {
   for (const g of glossary) if (g.id === name || [g.term, ...g.variants].some((v) => normaliseMatch(v).toLowerCase() === key)) return g.id;
   return null;
 }
+/**
+ * A sort key for a recipe's free-text date (the /recipes "by date" order). The first year written in the date wins
+ * ("about 1390", "1747 (text of the 1751 edition)" → 1747). Dates given only as an era carry no year; they sort
+ * before every dated source in the order classical · Roman · medieval, and /recipes says so. This is ordering
+ * only: the date shown is always the pack's own wording.
+ */
+const ERA_ORDER: [RegExp, number][] = [[/^classical/i, -3], [/^Roman/i, -2], [/^medieval/i, -1]];
+function dateSort(date: string): { year: number | null; key: number } {
+  const y = date.match(/\b(1[0-9]{3}|20[0-9]{2})\b/);
+  if (y) return { year: Number(y[1]), key: Number(y[1]) };
+  for (const [re, k] of ERA_ORDER) if (re.test(date)) return { year: null, key: k };
+  W(`recipes: date "${date}" has no year and no known era — sorted last`);
+  return { year: null, key: 9999 };
+}
 const recipesOut = recipes.map((r) => {
   if (!refByN.has(r.source_ref)) E(`recipes/${r.id}: source_ref [${r.source_ref}] has no reference entry`);
   for (const s of r.links.sections) if (!sectionIds.has(s)) E(`recipes/${r.id}: links.sections ${s} is not a section of review.md`);
   for (const t of r.links.terms) if (!glossById.has(t)) E(`recipes/${r.id}: links.terms ${t} is not in the glossary`);
   const compounds = r.links.compounds.map((c) => { const id = resolveCompound(c); if (!id) E(`recipes/${r.id}: compound "${c}" matches no glossary term or variant`); return { name: c, term: id }; });
   gate(`recipes/${r.id}.science_note`, r.science_note);
-  if (r.original_text && /in copyright|copyright/i.test(r.source_note) && !/public domain/i.test(r.source_note)) E(`recipes/${r.id}: original_text reproduced from a source not stated as public domain`);
+  if (r.original_text && r.source_note && /in copyright|copyright/i.test(r.source_note) && !/public domain/i.test(r.source_note)) E(`recipes/${r.id}: original_text reproduced from a source not stated as public domain`);
   const science = linkProse(r.science_note);
   return {
-    ...r, original_text: r.original_text ?? null,
+    ...r, original_text: r.original_text ?? null, date_sort: dateSort(r.date).key, date_year: dateSort(r.date).year,
     science_md: science.md, safety_md: linkProse(r.safety_note).md, gloss_md: linkProse(r.gloss).md,
     cites: [...new Set([r.source_ref, ...science.cites])], compounds,
     terms: [...new Set([...r.links.terms, ...compounds.map((c) => c.term).filter((x): x is string => !!x)])],
@@ -395,7 +434,7 @@ const manifestOut = {
   ...M,
   counts: {
     references: references.length, concepts: concepts.length, figures: figures.length, recipes: recipes.length, terms: glossary.length,
-    words: provenance.review.words, sections: sectionsOut.filter((s) => !s.part).length, synthesis: parsed.synthesis.length,
+    words: provenance.review.words, sections: sectionsOut.filter((s) => !s.part && s.number).length, synthesis: parsed.synthesis.length,
     current_from: scope?.time_window.current_from ?? null,
   },
 };
@@ -415,7 +454,7 @@ emitJson(path.join(DATA, 'figures-index.json'), figuresOut.map((f) => ({ id: f.i
 emitJson(path.join(DATA, 'references.json'), referencesOut);
 emitJson(path.join(DATA, 'references-index.json'), referencesOut.map((r) => ({ n: r.n, citation: r.citation, verified: r.verified, tier: r.tier, year: r.year })));
 emitJson(path.join(DATA, 'recipes.json'), { ...recipesMeta, recipes: recipesOut });
-emitJson(path.join(DATA, 'recipes-index.json'), recipesOut.map((r) => ({ id: r.id, title: r.title, kind: r.kind, date: r.date, place: r.place })));
+emitJson(path.join(DATA, 'recipes-index.json'), recipesOut.map((r) => ({ id: r.id, title: r.title, kind: r.kind, tradition: r.tradition, date: r.date, date_sort: r.date_sort, place: r.place, original_language: r.original_language ?? null, has_original: !!r.original_text })));
 emitJson(path.join(DATA, 'scope.json'), scope ?? null);
 emitJson(path.join(DATA, 'todo.json'), { pack: todo, markers: todoMarkers });
 

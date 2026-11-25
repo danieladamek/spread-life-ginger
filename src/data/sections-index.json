@@ -4,7 +4,7 @@
   "title": "Abstract",
   "depth": 1,
   "number": null,
-  "words": 168,
+  "words": 208,
   "part": false,
   "in_part": null
  },
@@ -22,7 +22,7 @@
   "title": "1. Why ginger, and why three records at once",
   "depth": 2,
   "number": "1",
-  "words": 113,
+  "words": 131,
   "part": false,
   "in_part": "part-i"
  },
@@ -31,7 +31,7 @@
   "title": "2. The plant in brief",
   "depth": 2,
   "number": "2",
-  "words": 309,
+  "words": 634,
   "part": false,
   "in_part": "part-i"
  },
@@ -40,7 +40,7 @@
   "title": "3. The chemistry in brief",
   "depth": 2,
   "number": "3",
-  "words": 354,
+  "words": 528,
   "part": false,
   "in_part": "part-i"
  },
@@ -58,7 +58,7 @@
   "title": "4. Origin and dispersal",
   "depth": 2,
   "number": "4",
-  "words": 188,
+  "words": 494,
   "part": false,
   "in_part": "part-ii"
  },
@@ -67,7 +67,7 @@
   "title": "5. The old-world record",
   "depth": 2,
   "number": "5",
-  "words": 283,
+  "words": 702,
   "part": false,
   "in_part": "part-ii"
  },
@@ -76,7 +76,7 @@
   "title": "6. Europe to the Americas",
   "depth": 2,
   "number": "6",
-  "words": 374,
+  "words": 882,
   "part": false,
   "in_part": "part-ii"
  },
@@ -85,7 +85,7 @@
   "title": "7. Why people spice food",
   "depth": 2,
   "number": "7",
-  "words": 197,
+  "words": 219,
   "part": false,
   "in_part": "part-ii"
  },
@@ -103,7 +103,7 @@
   "title": "8. Nausea and vomiting",
   "depth": 2,
   "number": "8",
-  "words": 612,
+  "words": 1029,
   "part": false,
   "in_part": "part-iii"
  },
@@ -112,7 +112,7 @@
   "title": "9. Pain, inflammation and metabolic outcomes",
   "depth": 2,
   "number": "9",
-  "words": 545,
+  "words": 585,
   "part": false,
   "in_part": "part-iii"
  },
@@ -121,7 +121,7 @@
   "title": "10. Safety, interactions and pregnancy",
   "depth": 2,
   "number": "10",
-  "words": 394,
+  "words": 502,
   "part": false,
   "in_part": "part-iii"
  },
@@ -130,7 +130,7 @@
   "title": "11. How it might work, and the bioavailability problem",
   "depth": 2,
   "number": "11",
-  "words": 466,
+  "words": 564,
   "part": false,
   "in_part": "part-iii"
  },
@@ -145,10 +145,10 @@
  },
  {
   "id": "12-the-genome-and-the-making-of-gingerols",
-  "title": "12. The genome and the making of gingerols",
+  "title": "12. The making of gingerols",
   "depth": 2,
   "number": "12",
-  "words": 490,
+  "words": 479,
   "part": false,
   "in_part": "part-iv"
  },
@@ -157,7 +157,7 @@
   "title": "13. What the compounds do for the plant",
   "depth": 2,
   "number": "13",
-  "words": 433,
+  "words": 449,
   "part": false,
   "in_part": "part-iv"
  },
@@ -166,7 +166,7 @@
   "title": "14. Growing ginger under glass",
   "depth": 2,
   "number": "14",
-  "words": 337,
+  "words": 391,
   "part": false,
   "in_part": "part-iv"
  },
@@ -184,7 +184,7 @@
   "title": "15. From rhizome to kitchen",
   "depth": 2,
   "number": "15",
-  "words": 290,
+  "words": 691,
   "part": false,
   "in_part": "part-v"
  },
@@ -193,7 +193,7 @@
   "title": "16. Methods of the field",
   "depth": 2,
   "number": "16",
-  "words": 201,
+  "words": 300,
   "part": false,
   "in_part": "part-v"
  },
@@ -202,7 +202,7 @@
   "title": "17. Open questions",
   "depth": 2,
   "number": "17",
-  "words": 161,
+  "words": 185,
   "part": false,
   "in_part": "part-v"
  },
@@ -211,7 +211,7 @@
   "title": "18. How to read this literature",
   "depth": 2,
   "number": "18",
-  "words": 128,
+  "words": 130,
   "part": false,
   "in_part": "part-v"
  }

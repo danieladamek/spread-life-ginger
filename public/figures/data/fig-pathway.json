@@ -1,0 +1,143 @@
+{
+ "id": "fig-pathway",
+ "note": "Conceptual; edge kind 'shown' = demonstrated with ginger material or enzymes in the sources read, 'proposed' = inferred from labelling or gene data, 'chemical' = non-enzymatic.",
+ "nodes": [
+  {
+   "id": "phe",
+   "kind": "precursor",
+   "label": "Phenylalanine",
+   "col": 0,
+   "row": 1,
+   "refs": [
+    130
+   ],
+   "detail": "The amino acid the labelling studies traced into 6-gingerol."
+  },
+  {
+   "id": "fer",
+   "kind": "intermediate",
+   "label": "Ferulic acid → feruloyl-CoA",
+   "col": 1,
+   "row": 1,
+   "refs": [
+    130,
+    131
+   ],
+   "detail": "Made by the phenylpropanoid enzymes, whose activities were found in ginger leaf, shoot and rhizome."
+  },
+  {
+   "id": "hex",
+   "kind": "precursor",
+   "label": "Hexanoyl-CoA + malonyl-CoA",
+   "col": 1,
+   "row": 2,
+   "refs": [
+    130
+   ],
+   "detail": "Hexanoate goes in intact; a longer fatty acid gives 8- or 10-gingerol."
+  },
+  {
+   "id": "dione",
+   "kind": "intermediate",
+   "label": "6-Dehydrogingerdione",
+   "col": 2,
+   "row": 1,
+   "refs": [
+    2
+   ],
+   "detail": "Made by the ginger polyketide synthase ZoPKS2, shown in 2026."
+  },
+  {
+   "id": "curc",
+   "kind": "side",
+   "label": "Curcumin-type products (ZoPKS1)",
+   "col": 2,
+   "row": 0,
+   "refs": [
+    2
+   ],
+   "detail": "ZoPKS2's partner ZoPKS1 is a curcumin synthase of the kind turmeric uses."
+  },
+  {
+   "id": "ging",
+   "kind": "product",
+   "label": "6-Gingerol",
+   "col": 3,
+   "row": 1,
+   "term": "gingerol",
+   "refs": [
+    130
+   ],
+   "detail": "Formed by two reductions of the dione, inferred from labelling; the enzymes are not yet shown."
+  },
+  {
+   "id": "shog",
+   "kind": "product",
+   "label": "6-Shogaol",
+   "col": 4,
+   "row": 1,
+   "term": "shogaol",
+   "refs": [
+    30,
+    150
+   ],
+   "detail": "Forms from gingerol by loss of water on heating and drying; the reaction is reversible in water."
+  }
+ ],
+ "edges": [
+  {
+   "from": "phe",
+   "to": "fer",
+   "kind": "shown",
+   "label": "phenylpropanoid enzymes",
+   "refs": [
+    131
+   ]
+  },
+  {
+   "from": "fer",
+   "to": "dione",
+   "kind": "shown",
+   "label": "ZoPKS2 condensation",
+   "refs": [
+    2
+   ]
+  },
+  {
+   "from": "hex",
+   "to": "dione",
+   "kind": "shown",
+   "label": "joins the condensation",
+   "refs": [
+    2
+   ]
+  },
+  {
+   "from": "fer",
+   "to": "curc",
+   "kind": "shown",
+   "label": "ZoPKS1",
+   "refs": [
+    2
+   ]
+  },
+  {
+   "from": "dione",
+   "to": "ging",
+   "kind": "proposed",
+   "label": "two reductions (enzymes unknown)",
+   "refs": [
+    130
+   ]
+  },
+  {
+   "from": "ging",
+   "to": "shog",
+   "kind": "chemical",
+   "label": "heat, drying (−H₂O)",
+   "refs": [
+    30
+   ]
+  }
+ ]
+}

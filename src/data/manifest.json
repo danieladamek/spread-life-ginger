@@ -11,8 +11,8 @@
  ],
  "venue": "Commissioned review — not peer reviewed",
  "year": 2026,
- "plain_abstract": "Ginger read three ways at once: what historical documents say people did with it, what human trials show it does, and what is known about the plant and its chemistry. Written as a reference for the UAH Greenhouse team. It reports where the evidence is good, where it is thin, and where nobody has looked.",
- "reading_minutes": 28,
+ "plain_abstract": "Ginger read three ways at once: what dated historical documents say people did with it, what human trials show it does, and what is known about the plant and its chemistry. Written as a reference for the UAH Greenhouse team, with 32 historical recipes linked to the science. It reports where the evidence is good, where it is thin, and where nobody has looked.",
+ "reading_minutes": 40,
  "audience": "the UAH Greenhouse team and interested students",
  "palette": {
   "groups": {
@@ -23,7 +23,7 @@
   }
  },
  "permissions": {
-  "text": "builder-authored; no third-party text reproduced beyond short quotations; one public-domain recipe text (c. 1390) reproduced in full",
+  "text": "builder-authored; quotations from copyrighted sources are 25 words or fewer, in quotation marks and attributed; public-domain historical texts (published 1929 or earlier) are reproduced in the recipes section from scanned editions, each cited",
   "figures": "synthesised by the builder from cited data; no published figure images reproduced"
  },
  "delivery": "pages",
@@ -40,16 +40,17 @@
  "extensions": {
   "recipes": "recipes.yaml"
  },
- "verification_level": "Abstracts and record pages only; no full texts were read. Stated on /methods.",
+ "verification_level": "Of 162 references, 23 were read in full (historical sources from scanned public-domain editions, and the 2025 EU monograph), 121 from abstracts and 18 from record pages, fragments or a secondary tabulation. Each reference carries its read level; stated on /methods.",
+ "pack_version": "0.2.1",
  "counts": {
-  "references": 76,
-  "concepts": 6,
-  "figures": 3,
-  "recipes": 2,
-  "terms": 17,
-  "words": 6193,
-  "sections": 19,
-  "synthesis": 14,
+  "references": 162,
+  "concepts": 11,
+  "figures": 6,
+  "recipes": 32,
+  "terms": 50,
+  "words": 9250,
+  "sections": 18,
+  "synthesis": 17,
   "current_from": 2021
  }
 }

@@ -1,86 +1,104 @@
 [
  {
-  "id": "syn-2-the-plant-in-brief-1",
-  "section": "2-the-plant-in-brief",
-  "excerpt": "Taken together, these sources describe a plant that people maintain entirely by planting pieces of rhizome, and whose sterility may now have a candidate structural explanation in its genome.",
-  "words": 27
- },
- {
   "id": "syn-3-the-chemistry-in-brief-1",
   "section": "3-the-chemistry-in-brief",
-  "excerpt": "The practical consequence, developed in section 15, is that fresh ginger and dried ginger are chemically different materials, so a source that specifies one cannot be assumed to describe the other.",
-  "words": 29
+  "excerpt": "A trial that reports \"1 g of ginger\" without saying which ginger therefore says less than it seems to.",
+  "words": 16
  },
  {
   "id": "syn-4-origin-and-dispersal-1",
   "section": "4-origin-and-dispersal",
-  "excerpt": "That statement appears in the paper's introduction as background; the searches for this review found no primary study that tests it.",
-  "words": 21
+  "excerpt": "A Chinese tradition recorded in the early twentieth century reads the written character for ginger as pointing to an origin outside China, on the Mongolian borders [4], which neither modern account supports.",
+  "words": 30
  },
  {
-  "id": "syn-4-origin-and-dispersal-2",
-  "section": "4-origin-and-dispersal",
-  "excerpt": "The structural rearrangements proposed as a cause of ginger's infertility would, if confirmed, help explain why a plant so widely grown has left no seed-propagated lineages to compare [2].",
-  "words": 26
+  "id": "syn-6-europe-to-the-americas-1",
+  "section": "6-europe-to-the-americas",
+  "excerpt": "That use of ginger to stop a medicine causing nausea is an early form of the use the modern trials support best.",
+  "words": 21
  },
  {
   "id": "syn-7-why-people-spice-food-1",
   "section": "7-why-people-spice-food",
-  "excerpt": "Ginger's compounds do inhibit microbes in the laboratory (section 13), which fits the hypothesis; and the medieval European sources of section 6 give a different stated reason for spicing food, the balancing of humours, ",
-  "words": 49
+  "excerpt": "The reasons people give and the reasons a practice persists need not be the same, and a correlation across cookbooks cannot separate them.",
+  "words": 21
+ },
+ {
+  "id": "syn-8-nausea-and-vomiting-1",
+  "section": "8-nausea-and-vomiting",
+  "excerpt": "The two positions rest on the same handful of small studies weighed differently.",
+  "words": 13
  },
  {
   "id": "syn-9-pain-inflammation-and-metabolic-outcomes-1",
   "section": "9-pain-inflammation-and-metabolic-outcomes",
-  "excerpt": "None of the sources read here reports an effect of ginger on a disease outcome such as a diabetic complication or a cardiovascular event.",
-  "words": 21
+  "excerpt": "None of the sources read reports an effect of ginger on a disease outcome, such as a diabetic complication, a heart attack or a joint replacement; the evidence concerns symptoms and surrogate measures over weeks to month",
+  "words": 33
  },
  {
   "id": "syn-10-safety-interactions-and-pregnancy-1",
   "section": "10-safety-interactions-and-pregnancy",
-  "excerpt": "An interval that wide is compatible with no effect and with a substantial one, so this is an absence of evidence of harm in a small sample.",
+  "excerpt": "The evidence is reassuring for dried ginger in healthy people and thin for people on long-term anticoagulation, the group in which a small effect would matter.",
   "words": 25
  },
  {
   "id": "syn-11-how-it-might-work-and-the-bioavailability-problem-1",
   "section": "11-how-it-might-work-and-the-bioavailability-problem",
-  "excerpt": "The sources read here do not settle it.",
+  "excerpt": "The sources read here do not settle which.",
   "words": 8
  },
  {
   "id": "syn-12-the-genome-and-the-making-of-gingerols-1",
   "section": "12-the-genome-and-the-making-of-gingerols",
-  "excerpt": "That gap may have been closed in work this review has not yet read.",
-  "words": 14
+  "excerpt": "The length of the gingerol side chain, and so the difference between 6-, 8- and 10-gingerol, follows from which fatty acid joins the condensation.",
+  "words": 22
  },
  {
   "id": "syn-13-what-the-compounds-do-for-the-plant-1",
   "section": "13-what-the-compounds-do-for-the-plant",
-  "excerpt": "The defensive role of ginger's pungent compounds is a reasonable hypothesis that, in the sources read here, has not been tested directly.",
-  "words": 21
+  "excerpt": "A storage organ that is packed with reactive, bitter or pungent compounds from its early stages is the pattern ecologists associate with chemical defence, but placement is not proof of purpose.",
+  "words": 30
+ },
+ {
+  "id": "syn-13-what-the-compounds-do-for-the-plant-2",
+  "section": "13-what-the-compounds-do-for-the-plant",
+  "excerpt": "That remains a reasonable hypothesis, untested in the sources read here.",
+  "words": 10
  },
  {
   "id": "syn-15-from-rhizome-to-kitchen-1",
   "section": "15-from-rhizome-to-kitchen",
-  "excerpt": "Seen this way, the Chinese practice of treating fresh, dried, baked and carbonised ginger as different medicines [21] and the chemists' finding that heat and drying change what the rhizome contains [3, 4] describe the sa",
-  "words": 52
+  "excerpt": "A tea of fresh rhizome steeped briefly in hot water should therefore be a gingerol drink with little shogaol, while long boiling, drying the rhizome first or adding acid would shift the balance; that is an inference from",
+  "words": 40
  },
  {
   "id": "syn-15-from-rhizome-to-kitchen-2",
   "section": "15-from-rhizome-to-kitchen",
-  "excerpt": "Neither tells us directly about a tea made from fresh rhizome, which is what the greenhouse serves.",
-  "words": 16
+  "excerpt": "Fresh ginger in a marinade, or juice stirred into warm milk, is doing enzymatic work that dried ginger or a boiling pot cannot.",
+  "words": 21
  },
  {
-  "id": "syn-16-methods-of-the-field-1",
-  "section": "16-methods-of-the-field",
-  "excerpt": "A large count of meta-analyses is therefore not a large count of independent experiments.",
-  "words": 12
+  "id": "syn-15-from-rhizome-to-kitchen-3",
+  "section": "15-from-rhizome-to-kitchen",
+  "excerpt": "Seen this way, the traditional distinction between fresh and dried ginger and the modern chemistry of gingerol and shogaol describe the same fact from two directions.",
+  "words": 26
+ },
+ {
+  "id": "syn-15-from-rhizome-to-kitchen-4",
+  "section": "15-from-rhizome-to-kitchen",
+  "excerpt": "Neither tells us directly about the fresh-ginger tea the greenhouse serves.",
+  "words": 11
+ },
+ {
+  "id": "syn-15-from-rhizome-to-kitchen-5",
+  "section": "15-from-rhizome-to-kitchen",
+  "excerpt": "The medicinal recipes run alongside: Ayurvedic spice powders and confections built on dried ginger [45], and English herbal practice adding ginger to purges to settle the stomach [54].",
+  "words": 26
  },
  {
   "id": "syn-18-how-to-read-this-literature-1",
   "section": "18-how-to-read-this-literature",
-  "excerpt": "And where a cell-culture result is offered as an explanation of a clinical one, recall that the compound may not reach the tissue in that form [7].",
+  "excerpt": "And where a cell-culture result is offered as an explanation of a clinical one, recall that the compound may not reach the tissue in that form [8].",
   "words": 24
  }
 ]

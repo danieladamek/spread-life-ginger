@@ -35,7 +35,7 @@ export default function Home() {
           <Link to="/recipes" className="bx-btn">Historical recipes</Link>
           <Link to="/methods" className="bx-btn">How it was made</Link>
         </div>
-        <p className="mt-3 text-xs bx-muted">Reading time about {manifest.reading_minutes} minutes ({provenance.review.words.toLocaleString('en-GB')} words, {c.sections} sections, {c.references} references). Current as of {AS_OF}; drafted from abstracts and record pages, not full texts.</p>
+        <p className="mt-3 text-xs bx-muted">Reading time about {manifest.reading_minutes} minutes ({provenance.review.words.toLocaleString('en-GB')} words, {c.sections} numbered sections, {c.references} references). Current as of {AS_OF}. <Link className="underline" to="/methods#verification">How far each source was read →</Link></p>
       </section>
 
       <section className="mt-8" aria-labelledby="strands-h" data-note-anchor="page:/">

@@ -8,7 +8,7 @@
   concept: the-ginger-plant
   see: []
   sources:
-  - 3
+  - 17
 - id: cultigen
   term: Cultigen
   kind: science
@@ -19,8 +19,8 @@
   concept: the-ginger-plant
   see: []
   sources:
-  - 3
-  - 18
+  - 17
+  - 40
 - id: haplotype
   term: Haplotype
   kind: science
@@ -33,7 +33,7 @@
   see: []
   sources:
   - 1
-  - 2
+  - 16
 - id: gingerol
   term: Gingerol
   kind: science
@@ -47,7 +47,7 @@
   concept: gingerols-and-shogaols
   see: []
   sources:
-  - 3
+  - 17
 - id: shogaol
   term: Shogaol
   kind: science
@@ -60,8 +60,8 @@
   concept: gingerols-and-shogaols
   see: []
   sources:
-  - 3
-  - 4
+  - 17
+  - 151
 - id: zingibain
   term: Zingibain
   kind: science
@@ -72,7 +72,7 @@
   concept: gingerols-and-shogaols
   see: []
   sources:
-  - 76
+  - 35
 - id: trpv1
   term: TRPV1
   kind: science
@@ -84,7 +84,7 @@
   concept: how-ginger-might-work
   see: []
   sources:
-  - 61
+  - 124
 - id: 5-ht3
   term: 5-HT3 receptor
   kind: science
@@ -96,7 +96,7 @@
   concept: how-ginger-might-work
   see: []
   sources:
-  - 56
+  - 117
 - id: glucuronide
   term: Glucuronide conjugate
   kind: science
@@ -109,7 +109,7 @@
   concept: how-ginger-might-work
   see: []
   sources:
-  - 7
+  - 8
 - id: first-pass
   term: First-pass metabolism
   kind: science
@@ -120,7 +120,7 @@
   concept: how-ginger-might-work
   see: []
   sources:
-  - 55
+  - 126
 - id: meta-analysis
   term: Meta-analysis
   kind: methods
@@ -132,7 +132,7 @@
   concept: reading-the-trials
   see: []
   sources:
-  - 6
+  - 77
 - id: umbrella-review
   term: Umbrella review
   kind: methods
@@ -166,7 +166,7 @@
   concept: reading-the-trials
   see: []
   sources:
-  - 47
+  - 102
 - id: confidence-interval
   term: Confidence interval
   kind: methods
@@ -178,7 +178,7 @@
   concept: reading-the-trials
   see: []
   sources:
-  - 6
+  - 77
 - id: humoral-theory
   term: Humoral theory
   kind: science
@@ -190,7 +190,7 @@
   concept: ginger-in-the-record
   see: []
   sources:
-  - 22
+  - 51
 - id: test-article
   term: Test article
   kind: methods
@@ -201,4 +201,374 @@
   concept: reading-the-trials
   see: []
   sources:
-  - 42
+  - 93
+- id: root-exudate
+  term: Root exudate
+  kind: science
+  variants:
+  - root exudates
+  - exudates
+  short: The mix of compounds a plant releases from its roots into the surrounding soil.
+  definition: The mix of compounds a plant releases from its roots into the surrounding soil.
+  concept: what-compounds-do-for-plants
+  see: []
+  sources:
+  - 137
+- id: trikatu
+  term: Trikaṭu
+  kind: science
+  variants:
+  - trikatu
+  short: '"The three pungents": long pepper, black pepper and ginger used together in Ayurvedic medicine.'
+  definition: '"The three pungents": long pepper, black pepper and ginger used together in Ayurvedic medicine.'
+  see: []
+  sources:
+  - 10
+  concept: ginger-in-the-record
+- id: hippocras
+  term: Hippocras
+  kind: science
+  variants:
+  - ypocras
+  short: A medieval spiced wine, sweetened and flavoured with a powder of cinnamon, ginger and other spices.
+  definition: A medieval spiced wine, sweetened and flavoured with a powder of cinnamon, ginger and other spices.
+  see: []
+  sources:
+  - 49
+  concept: reading-old-recipes
+- id: ginger-beer-plant
+  term: Ginger-beer plant
+  kind: science
+  variants: []
+  short: The gelatinous starter used to brew home ginger beer; a partnership of a yeast and a bacterium.
+  definition: The gelatinous starter used to brew home ginger beer; a partnership of a yeast and a bacterium.
+  see: []
+  sources:
+  - 57
+  concept: reading-old-recipes
+- id: polyketide-synthase
+  term: Polyketide synthase
+  kind: science
+  variants:
+  - polyketide synthases
+  - type III polyketide synthase
+  short: An enzyme that builds a carbon chain by joining small units; in ginger, the type III enzyme ZoPKS2 makes the gingerol skeleton.
+  definition: An enzyme that builds a carbon chain by joining small units; in ginger, the type III enzyme ZoPKS2 makes the gingerol skeleton.
+  see: []
+  sources:
+  - 2
+  - 132
+  concept: making-gingerols
+- id: phenylpropanoid
+  term: Phenylpropanoid pathway
+  kind: science
+  variants:
+  - phenylpropanoid
+  short: The plant pathway that turns the amino acid phenylalanine into ferulic acid and related compounds, the start of gingerol biosynthesis.
+  definition: The plant pathway that turns the amino acid phenylalanine into ferulic acid and related compounds, the start of gingerol biosynthesis.
+  see: []
+  sources:
+  - 131
+  concept: making-gingerols
+- id: dehydrogingerdione
+  term: 6-Dehydrogingerdione
+  kind: science
+  variants:
+  - dehydrogingerdione
+  short: The product of the condensation step in gingerol biosynthesis; two reductions are thought to turn it into 6-gingerol.
+  definition: The product of the condensation step in gingerol biosynthesis; two reductions are thought to turn it into 6-gingerol.
+  see:
+  - gingerol
+  sources:
+  - 2
+  - 130
+  concept: making-gingerols
+- id: zingerone
+  term: Zingerone
+  kind: science
+  variants: []
+  short: A milder-smelling compound formed from gingerol by heat or alkali, not a natural constituent of fresh ginger.
+  definition: A milder-smelling compound formed from gingerol by heat or alkali, not a natural constituent of fresh ginger.
+  see:
+  - gingerol
+  sources:
+  - 3
+  concept: gingerols-and-shogaols
+- id: transcription-factor
+  term: Transcription factor
+  kind: science
+  variants:
+  - transcription factors
+  short: A protein that switches genes on or off by binding near them; in ginger, some control genes of the gingerol pathway.
+  definition: A protein that switches genes on or off by binding near them; in ginger, some control genes of the gingerol pathway.
+  see: []
+  sources:
+  - 25
+  concept: making-gingerols
+- id: transcriptome
+  term: Transcriptome
+  kind: methods
+  variants:
+  - transcriptomes
+  - transcriptome study
+  short: The set of genes being expressed in a tissue at a given time, measured by sequencing its RNA.
+  definition: The set of genes being expressed in a tissue at a given time, measured by sequencing its RNA.
+  see: []
+  sources:
+  - 133
+  concept: making-gingerols
+- id: tetraploid
+  term: Tetraploid
+  kind: science
+  variants:
+  - tetraploids
+  short: Having four sets of chromosomes instead of the usual two (diploid); some ginger lines have been doubled this way.
+  definition: Having four sets of chromosomes instead of the usual two (diploid); some ginger lines have been doubled this way.
+  see: []
+  sources:
+  - 17
+  concept: the-ginger-plant
+- id: micropropagation
+  term: Micropropagation
+  kind: methods
+  variants:
+  - micropropagated
+  short: Raising plants from small pieces of tissue in sterile culture, a way to start ginger free of soil-borne disease.
+  definition: Raising plants from small pieces of tissue in sterile culture, a way to start ginger free of soil-borne disease.
+  see: []
+  sources:
+  - 18
+  concept: growing-under-glass
+- id: fertigation
+  term: Fertigation
+  kind: methods
+  variants: []
+  short: Supplying fertiliser dissolved in irrigation water, often to plants grown in soilless substrates.
+  definition: Supplying fertiliser dissolved in irrigation water, often to plants grown in soilless substrates.
+  see: []
+  sources:
+  - 147
+  concept: growing-under-glass
+- id: soft-rot
+  term: Soft rot
+  kind: science
+  variants:
+  - Pythium soft rot
+  short: A rot of ginger rhizomes caused mainly by Pythium species, one of the most damaging diseases of the crop.
+  definition: A rot of ginger rhizomes caused mainly by Pythium species, one of the most damaging diseases of the crop.
+  see: []
+  sources:
+  - 138
+  concept: growing-under-glass
+- id: bacterial-wilt
+  term: Bacterial wilt
+  kind: science
+  variants:
+  - ginger wilt
+  short: A wilting disease of ginger caused by Ralstonia bacteria, which block the plant's water-conducting tissue.
+  definition: A wilting disease of ginger caused by Ralstonia bacteria, which block the plant's water-conducting tissue.
+  see: []
+  sources:
+  - 137
+  - 149
+  concept: growing-under-glass
+- id: endophyte
+  term: Endophyte
+  kind: science
+  variants:
+  - endophytes
+  - endophytic
+  short: A microbe that lives inside a plant's tissues without harming it, and may help it grow.
+  definition: A microbe that lives inside a plant's tissues without harming it, and may help it grow.
+  see: []
+  sources:
+  - 140
+  concept: what-compounds-do-for-plants
+- id: essential-oil
+  term: Essential oil
+  kind: science
+  variants:
+  - essential oils
+  short: The volatile, aromatic fraction of a plant, distilled or extracted; in ginger it carries the citrus and woody aroma, not the heat.
+  definition: The volatile, aromatic fraction of a plant, distilled or extracted; in ginger it carries the citrus and woody aroma, not the heat.
+  see: []
+  sources:
+  - 31
+  concept: gingerols-and-shogaols
+- id: terpene-synthase
+  term: Terpene synthase
+  kind: science
+  variants:
+  - terpene synthases
+  - sesquiterpene synthases
+  short: An enzyme that makes the terpenes of a plant's essential oil.
+  definition: An enzyme that makes the terpenes of a plant's essential oil.
+  see:
+  - essential-oil
+  sources:
+  - 31
+  concept: making-gingerols
+- id: citral
+  term: Citral
+  kind: science
+  variants:
+  - geranial
+  short: The lemon-scented aroma compound of fresh ginger, a mixture of geranial and neral.
+  definition: The lemon-scented aroma compound of fresh ginger, a mixture of geranial and neral.
+  see:
+  - essential-oil
+  sources:
+  - 32
+  concept: gingerols-and-shogaols
+- id: hyperemesis-gravidarum
+  term: Hyperemesis gravidarum
+  kind: science
+  variants: []
+  short: Severe, persistent vomiting in pregnancy, beyond ordinary morning sickness, often needing hospital care.
+  definition: Severe, persistent vomiting in pregnancy, beyond ordinary morning sickness, often needing hospital care.
+  see: []
+  sources:
+  - 72
+  concept: reading-the-trials
+- id: crossover-trial
+  term: Crossover trial
+  kind: methods
+  variants:
+  - crossover
+  - double-blind crossover
+  short: A trial in which each participant receives both treatments in turn, so that each acts as their own comparison.
+  definition: A trial in which each participant receives both treatments in turn, so that each acts as their own comparison.
+  see: []
+  sources:
+  - 120
+  concept: reading-the-trials
+- id: placebo
+  term: Placebo
+  kind: methods
+  variants:
+  - placebo-controlled
+  short: An inactive dummy given to the comparison group in a trial so that participants cannot tell which treatment they have.
+  definition: An inactive dummy given to the comparison group in a trial so that participants cannot tell which treatment they have.
+  see: []
+  sources:
+  - 82
+  concept: reading-the-trials
+- id: standardised-extract
+  term: Standardised extract
+  kind: methods
+  variants:
+  - standardised extracts
+  short: A ginger preparation made to contain a set amount of named compounds, unlike plain powdered rhizome.
+  definition: A ginger preparation made to contain a set amount of named compounds, unlike plain powdered rhizome.
+  see:
+  - test-article
+  sources:
+  - 74
+  concept: reading-the-trials
+- id: pharmacokinetics
+  term: Pharmacokinetics
+  kind: methods
+  variants:
+  - pharmacokinetic
+  short: How a substance is absorbed, changed, distributed and removed by the body over time.
+  definition: How a substance is absorbed, changed, distributed and removed by the body over time.
+  see:
+  - glucuronide
+  sources:
+  - 8
+  concept: how-ginger-might-work
+- id: well-established-use
+  term: Well-established use
+  kind: methods
+  variants: []
+  short: In EU herbal law, a use accepted on published clinical evidence, as against traditional use, accepted on long-standing use.
+  definition: In EU herbal law, a use accepted on published clinical evidence, as against traditional use, accepted on long-standing use.
+  see: []
+  sources:
+  - 7
+  concept: how-regulators-judge-herbs
+- id: materia-medica
+  term: Materia medica
+  kind: science
+  variants: []
+  short: A reference work listing medicinal substances and their uses; also the body of knowledge such books record.
+  definition: A reference work listing medicinal substances and their uses; also the body of knowledge such books record.
+  see: []
+  sources:
+  - 4
+  concept: ginger-in-the-record
+- id: thromboxane
+  term: Thromboxane
+  kind: science
+  variants: []
+  short: A compound released by platelets that makes them clump; lower levels suggest reduced platelet activity.
+  definition: A compound released by platelets that makes them clump; lower levels suggest reduced platelet activity.
+  see: []
+  sources:
+  - 108
+  concept: how-ginger-might-work
+- id: lipoxygenase
+  term: 5-Lipoxygenase
+  kind: science
+  variants:
+  - lipoxygenase
+  short: The enzyme that starts the making of leukotrienes, inflammatory signals; ginger compounds inhibit it in the laboratory.
+  definition: The enzyme that starts the making of leukotrienes, inflammatory signals; ginger compounds inhibit it in the laboratory.
+  see: []
+  sources:
+  - 114
+  - 115
+  concept: how-ginger-might-work
+- id: gastric-emptying
+  term: Gastric emptying
+  kind: methods
+  variants: []
+  short: The rate at which the stomach passes its contents on to the intestine, usually given as a half-emptying time.
+  definition: The rate at which the stomach passes its contents on to the intestine, usually given as a half-emptying time.
+  see: []
+  sources:
+  - 120
+  - 121
+  concept: how-ginger-might-work
+- id: vitamin-b6
+  term: Vitamin B6
+  kind: drug
+  variants: []
+  short: Pyridoxine, a vitamin used as a first treatment for pregnancy sickness and as the comparison in several ginger trials.
+  definition: Pyridoxine, a vitamin used as a first treatment for pregnancy sickness and as the comparison in several ginger trials.
+  see: []
+  sources:
+  - 75
+  concept: reading-the-trials
+- id: metoclopramide
+  term: Metoclopramide
+  kind: drug
+  variants: []
+  short: A standard anti-sickness drug used as the comparison in early ginger trials.
+  definition: A standard anti-sickness drug used as the comparison in early ginger trials.
+  see: []
+  sources:
+  - 80
+  - 119
+  concept: reading-the-trials
+- id: warfarin
+  term: Warfarin
+  kind: drug
+  variants: []
+  short: An anticoagulant whose effect is easily changed by other substances, so it is used to test for interactions.
+  definition: An anticoagulant whose effect is easily changed by other substances, so it is used to test for interactions.
+  see: []
+  sources:
+  - 111
+  concept: how-regulators-judge-herbs
+- id: hba1c
+  term: HbA1c
+  kind: methods
+  variants:
+  - glycated haemoglobin
+  short: Glycated haemoglobin, a blood test reflecting average blood sugar over the previous two to three months.
+  definition: Glycated haemoglobin, a blood test reflecting average blood sugar over the previous two to three months.
+  see: []
+  sources:
+  - 101
+  concept: reading-the-trials

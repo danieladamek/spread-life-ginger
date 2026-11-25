@@ -57,6 +57,14 @@ describe('content build on the topic-min fixture pack', () => {
     ['a recipe with a quantity field', (d) => editYaml<Recipes>(d, 'recipes.yaml', (x) => { x.recipes[1].dose = '2 g'; }), /recipes\/remedy: unknown key\(s\) dose — the schema is closed/],
     ['a recipe with an unknown source_ref', (d) => editYaml<Recipes>(d, 'recipes.yaml', (x) => { x.recipes[0].source_ref = 42; }), /recipes\/sauce: source_ref \[42\] has no reference entry/],
     ['a recipe compound that matches no term', (d) => editYaml<Recipes>(d, 'recipes.yaml', (x) => { (x.recipes[0].links as Rec).compounds = ['zingiberene']; }), /compound "zingiberene" matches no glossary term or variant/],
+    // pack 0.2 fields (K45)
+    ['a reference with an unknown read level', (d) => editYaml<Rec[]>(d, 'references.yaml', (x) => { x[0].verified_level = 'skimmed'; }), /references\/1\.verified_level/],
+    ['a recipe with no tradition', (d) => editYaml<Recipes>(d, 'recipes.yaml', (x) => { delete x.recipes[0].tradition; }), /recipes\/sauce\.tradition: Required/],
+    ['a recipe with neither an original text nor a gloss', (d) => editYaml<Recipes>(d, 'recipes.yaml', (x) => { x.recipes[0].original_text = null; x.recipes[0].gloss = ''; }), /recipes\/sauce: recipe has neither original_text nor gloss/],
+    ['a declared table column that is not in the data', (d) => editYaml<Rec[]>(d, 'figures.yaml', (x) => { x[0].columns = [{ field: 'nope', label: 'Nope' }]; }), /figure fig-a: columns field "nope" is not a column/],
+    ['a pathway edge of an unknown kind', (d) => addPathway(d, { kind: 'guessed' }), /figure fig-p data\.edges\.0\.kind/],
+    ['a pathway edge citing a reference the figure does not list', (d) => addPathway(d, { refs: [2] }), /figure fig-p: edge a → b cites 2, which is not in the figure's refs/],
+    ['a pathway edge naming a missing node', (d) => addPathway(d, { to: 'z' }), /figure fig-p: edge a → z names a node that does not exist/],
     ['a recipe with an unknown kind', (d) => editYaml<Recipes>(d, 'recipes.yaml', (x) => { x.recipes[1].kind = 'modern'; }), /recipes\/remedy\.kind/],
   ];
   for (const [name, mutate, message] of cases) {
@@ -74,3 +82,12 @@ describe('content build on the topic-min fixture pack', () => {
     expect(r.warnings.join('\n')).toMatch(/concept the-plant: uncited block of \d+ words/);
   });
 });
+
+/** Adds a two-node pathway figure (fig-p, refs [1]) whose single edge is overridden by `edge`. */
+function addPathway(d: string, edge: Rec) {
+  editYaml<Rec[]>(d, 'figures.yaml', (x) => {
+    x.push({ id: 'fig-p', label: 'Figure 9', title: 'A path', kind: 'pathway', synthesis: 'conceptual', refs: [1], data: 'figures/data/fig-p.json', caption: 'A path.', how_to_read: 'Follow the arrow.', source: 'Drawn by the builder.' });
+  });
+  const g = { id: 'fig-p', nodes: [{ id: 'a', kind: 'precursor', label: 'A', col: 0, row: 0, refs: [1] }, { id: 'b', kind: 'product', label: 'B', col: 1, row: 0, refs: [1] }], edges: [{ from: 'a', to: 'b', kind: 'shown', refs: [1], ...edge }] };
+  fs.writeFileSync(path.join(d, 'figures', 'data', 'fig-p.json'), JSON.stringify(g));
+}

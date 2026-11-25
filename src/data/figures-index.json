@@ -1,13 +1,146 @@
 [
  {
-  "id": "fig-gastric",
+  "id": "fig-drying",
   "label": "Figure 1",
+  "title": "What drying does to ginger's pungent compounds",
+  "kind": "table",
+  "synthesis": "data",
+  "refs": [
+   17,
+   30,
+   33,
+   150,
+   151
+  ],
+  "concepts": [
+   "gingerols-and-shogaols"
+  ],
+  "discussed_in": [
+   "3-the-chemistry-in-brief",
+   "15-from-rhizome-to-kitchen"
+  ],
+  "row_labels": [
+   "Fresh rhizome",
+   "Dried rhizome (supercritical CO2 extract)",
+   "Sun, solar-tunnel or hot-air dried",
+   "Heated in water (aqueous solution)",
+   "Moist versus dry heat"
+  ]
+ },
+ {
+  "id": "fig-timeline",
+  "label": "Figure 2",
+  "title": "The documentary record of ginger, by date",
+  "kind": "table",
+  "synthesis": "data",
+  "refs": [
+   7,
+   10,
+   12,
+   28,
+   38,
+   41,
+   42,
+   43,
+   44,
+   45,
+   47,
+   49,
+   50,
+   53,
+   54,
+   55,
+   57,
+   59,
+   152,
+   157,
+   159
+  ],
+  "concepts": [
+   "ginger-in-the-record"
+  ],
+  "discussed_in": [
+   "5-the-old-world-record",
+   "6-europe-to-the-americas",
+   "15-from-rhizome-to-kitchen"
+  ],
+  "row_labels": [
+   "compiled after Confucius (5th century BCE)",
+   "early centuries CE",
+   "1st century CE",
+   "classical",
+   "late antiquity",
+   "mid 10th century (manuscript)",
+   "about 1390",
+   "about 1393",
+   "1495",
+   "1570–1648",
+   "1596",
+   "1597",
+   "1650s (1835 edition)",
+   "1702 (English 1745)",
+   "1747 (1751 edition)",
+   "1796",
+   "1877",
+   "1891",
+   "1893",
+   "1930–31",
+   "2025"
+  ]
+ },
+ {
+  "id": "fig-evidence",
+  "label": "Figure 3",
+  "title": "What the human evidence shows, question by question",
+  "kind": "table",
+  "synthesis": "data",
+  "refs": [
+   6,
+   7,
+   8,
+   77,
+   83,
+   86,
+   94,
+   99,
+   101,
+   102,
+   112
+  ],
+  "concepts": [
+   "reading-the-trials"
+  ],
+  "discussed_in": [
+   "8-nausea-and-vomiting",
+   "9-pain-inflammation-and-metabolic-outcomes",
+   "10-safety-interactions-and-pregnancy",
+   "11-how-it-might-work-and-the-bioavailability-problem",
+   "17-open-questions"
+  ],
+  "row_labels": [
+   "Nausea in pregnancy",
+   "Vomiting in pregnancy",
+   "Safety in pregnancy",
+   "Postoperative nausea",
+   "Chemotherapy nausea",
+   "Motion sickness",
+   "Osteoarthritis pain",
+   "Period pain",
+   "Blood sugar in type 2 diabetes",
+   "Lipids",
+   "Bleeding with anticoagulants",
+   "The active molecule in the blood"
+  ]
+ },
+ {
+  "id": "fig-gastric",
+  "label": "Figure 4",
   "title": "Gastric half-emptying time after ginger or placebo, in two small studies",
   "kind": "chart",
   "synthesis": "data",
   "refs": [
-   59,
-   60
+   120,
+   121
   ],
   "concepts": [
    "reading-the-trials"
@@ -24,12 +157,12 @@
  },
  {
   "id": "fig-cmax",
-  "label": "Figure 2",
+  "label": "Figure 5",
   "title": "Peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose",
   "kind": "chart",
   "synthesis": "data",
   "refs": [
-   7
+   8
   ],
   "concepts": [
    "how-ginger-might-work"
@@ -45,25 +178,25 @@
   ]
  },
  {
-  "id": "fig-drying",
-  "label": "Figure 3",
-  "title": "What drying does to ginger's pungent compounds",
-  "kind": "table",
-  "synthesis": "data",
+  "id": "fig-pathway",
+  "label": "Figure 6",
+  "title": "How ginger makes 6-gingerol: what is shown and what is proposed",
+  "kind": "pathway",
+  "synthesis": "conceptual",
   "refs": [
-   3,
-   4
+   2,
+   30,
+   130,
+   131,
+   150
   ],
   "concepts": [
    "gingerols-and-shogaols"
   ],
   "discussed_in": [
-   "3-the-chemistry-in-brief",
-   "15-from-rhizome-to-kitchen"
+   "12-the-genome-and-the-making-of-gingerols",
+   "3-the-chemistry-in-brief"
   ],
-  "row_labels": [
-   "Fresh rhizome",
-   "Hot-air dried (120-180 C)"
-  ]
+  "row_labels": []
  }
 ]

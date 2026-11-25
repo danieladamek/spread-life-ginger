@@ -8,7 +8,9 @@
   "terms": [
    "humoral-theory"
   ],
-  "figures": [],
+  "figures": [
+   "fig-timeline"
+  ],
   "further_reading": [
    {
     "title": "Medieval European Medicine and Asian Spices",
@@ -26,33 +28,37 @@
    {
     "heading": "What it is",
     "key": "what",
-    "md": "Medieval European medicine classed ginger as hot and dry and used it to correct conditions thought cold and wet. That reasoning came from [humoral theory](#term:humoral-theory), not from observed outcomes [\\[22\\]](#cite:22).",
+    "md": "Medieval European medicine classed ginger as hot and dry and used it to correct conditions thought cold and wet. That reasoning came from [humoral theory](#term:humoral-theory), not from observed outcomes [\\[51\\]](#cite:51).",
     "hasMath": false,
     "cites": [
-     22
+     51
     ]
    },
    {
     "heading": "How this guide uses it",
     "key": "uses",
-    "md": "A historical recipe records what people did and why they said they did it. It is evidence about practice, and it is not evidence that the practice worked.",
+    "md": "A historical recipe records what people did and why they said they did it. It is evidence about practice, and it is not evidence that the practice worked. <!-- framing -->",
     "hasMath": false,
     "cites": []
    }
   ],
-  "summary_md": "Medieval European medicine classed ginger as hot and dry and used it to correct conditions thought cold and wet. That reasoning came from [humoral theory](#term:humoral-theory), not from observed outcomes [\\[22\\]](#cite:22).",
+  "summary_md": "Medieval European medicine classed ginger as hot and dry and used it to correct conditions thought cold and wet. That reasoning came from [humoral theory](#term:humoral-theory), not from observed outcomes [\\[51\\]](#cite:51).",
   "why_here_md": "Sections 5 to 7 and the recipes quote pre-modern sources.",
   "why_sections": [
    "5-the-old-world-record"
   ],
   "from_terms": [
-   "humoral-theory"
+   "humoral-theory",
+   "trikatu",
+   "materia-medica"
   ],
-  "from_figures": [],
+  "from_figures": [
+   "fig-timeline"
+  ],
   "cites": [
-   22
+   51
   ],
-  "has_diagram": false
+  "has_diagram": true
  },
  {
   "id": "gingerols-and-shogaols",
@@ -66,7 +72,8 @@
    "zingibain"
   ],
   "figures": [
-   "fig-drying"
+   "fig-drying",
+   "fig-pathway"
   ],
   "further_reading": [
    {
@@ -85,23 +92,23 @@
    {
     "heading": "What it is",
     "key": "what",
-    "md": "[Gingerols](#term:gingerol) are the pungent phenolic compounds of fresh ginger. They are thermally unstable and convert to [shogaols](#term:shogaol), which are found in dried ginger and were not detected in fresh [rhizome](#term:rhizome) extracted at ambient temperature [\\[3\\]](#cite:3).",
+    "md": "[Gingerols](#term:gingerol) are the pungent phenolic compounds of fresh ginger. They are thermally unstable and convert to [shogaols](#term:shogaol), which are found in dried ginger and were not detected in fresh [rhizome](#term:rhizome) extracted at ambient temperature [\\[17\\]](#cite:17).",
     "hasMath": false,
     "cites": [
-     3
+     17
     ]
    },
    {
     "heading": "How this guide uses it",
     "key": "uses",
-    "md": "A recipe or a trial that used dried ginger involved a chemically different material from one that used fresh, and hot-air drying shifts the balance further toward shogaols as temperature rises [\\[4\\]](#cite:4).",
+    "md": "A recipe or a trial that used dried ginger involved a chemically different material from one that used fresh, and hot-air drying shifts the balance further toward shogaols as temperature rises [\\[151\\]](#cite:151).",
     "hasMath": false,
     "cites": [
-     4
+     151
     ]
    }
   ],
-  "summary_md": "[Gingerols](#term:gingerol) are the pungent phenolic compounds of fresh ginger. They are thermally unstable and convert to [shogaols](#term:shogaol), which are found in dried ginger and were not detected in fresh [rhizome](#term:rhizome) extracted at ambient temperature [\\[3\\]](#cite:3).",
+  "summary_md": "[Gingerols](#term:gingerol) are the pungent phenolic compounds of fresh ginger. They are thermally unstable and convert to [shogaols](#term:shogaol), which are found in dried ginger and were not detected in fresh [rhizome](#term:rhizome) extracted at ambient temperature [\\[17\\]](#cite:17).",
   "why_here_md": "Sections 3 and 15 rest on the difference between fresh and dried ginger.",
   "why_sections": [
    "3-the-chemistry-in-brief"
@@ -109,16 +116,99 @@
   "from_terms": [
    "gingerol",
    "shogaol",
-   "zingibain"
+   "zingibain",
+   "zingerone",
+   "essential-oil",
+   "citral"
   ],
   "from_figures": [
-   "fig-drying"
+   "fig-drying",
+   "fig-pathway"
   ],
   "cites": [
-   3,
-   4
+   17,
+   151
   ],
   "has_diagram": true
+ },
+ {
+  "id": "growing-under-glass",
+  "title": "Growing ginger under glass",
+  "one_liner": "Day length, substrate, clean planting stock and the diseases that follow rhizomes.",
+  "why_here": "Section 14 gathers the growing evidence for the greenhouse team.",
+  "prerequisites": [
+   "the-ginger-plant"
+  ],
+  "terms": [
+   "rhizome",
+   "micropropagation",
+   "fertigation",
+   "soft-rot",
+   "bacterial-wilt"
+  ],
+  "figures": [],
+  "further_reading": [
+   {
+    "title": "Effects of day length on flowering and rhizome swelling in ginger",
+    "url": "https://doi.org/10.2503/jjshs.58.649",
+    "kind": "paper"
+   },
+   {
+    "title": "Pythium soft rot of ginger — detection, identification and control",
+    "url": "https://doi.org/10.1016/j.cropro.2014.07.021",
+    "kind": "review"
+   },
+   {
+    "title": "Hydroponic production of fresh ginger roots in Florida",
+    "url": "https://journals.flvc.org/fshs/article/view/86506",
+    "kind": "paper"
+   }
+  ],
+  "words": 124,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "Ginger swells its [rhizome](#term:rhizome) when days shorten; long days favour leafy growth [\\[22\\]](#cite:22). It can be grown without soil: a Florida greenhouse hydroponic system out-yielded field growing [\\[146\\]](#cite:146), and in a Malaysian [fertigation](#term:fertigation) trial plants did best in coir dust [\\[147\\]](#cite:147). Because ginger is propagated from rhizome pieces, disease travels with the planting stock; tissue-cultured plants keep the chemistry of conventionally grown ones [\\[18\\]](#cite:18). [Soft rot](#term:soft-rot) from Pythium [\\[138\\]](#cite:138) and [bacterial wilt](#term:bacterial-wilt) from Ralstonia, now recorded as far north as Minnesota [\\[149\\]](#cite:149), are the main threats.",
+    "hasMath": false,
+    "cites": [
+     22,
+     146,
+     147,
+     18,
+     138,
+     149
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "Section 14 sets out what the studies tested and where their conditions differ from a university greenhouse. It gives no growing prescription beyond what the cited studies report. <!-- framing -->",
+    "hasMath": false,
+    "cites": []
+   }
+  ],
+  "summary_md": "Ginger swells its [rhizome](#term:rhizome) when days shorten; long days favour leafy growth [\\[22\\]](#cite:22). It can be grown without soil: a Florida greenhouse hydroponic system out-yielded field growing [\\[146\\]](#cite:146), and in a Malaysian [fertigation](#term:fertigation) trial plants did best in coir dust [\\[147\\]](#cite:147). Because ginger is propagated from rhizome pieces, disease travels with the planting stock; tissue-cultured plants keep the chemistry of conventionally grown ones [\\[18\\]](#cite:18). [Soft rot](#term:soft-rot) from Pythium [\\[138\\]](#cite:138) and [bacterial wilt](#term:bacterial-wilt) from Ralstonia, now recorded as far north as Minnesota [\\[149\\]](#cite:149), are the main threats.",
+  "why_here_md": "Section 14 gathers the growing evidence for the greenhouse team.",
+  "why_sections": [
+   "14-growing-ginger-under-glass"
+  ],
+  "from_terms": [
+   "micropropagation",
+   "fertigation",
+   "soft-rot",
+   "bacterial-wilt"
+  ],
+  "from_figures": [],
+  "cites": [
+   22,
+   146,
+   147,
+   18,
+   138,
+   149
+  ],
+  "has_diagram": false
  },
  {
   "id": "how-ginger-might-work",
@@ -152,25 +242,25 @@
    {
     "heading": "What it is",
     "key": "what",
-    "md": "In laboratory preparations, ginger extracts and their pungent constituents inhibit the [5-HT3 receptor](#term:5-ht3), the target of standard anti-nausea drugs, and activate [TRPV1](#term:trpv1), the receptor behind pungency [\\[56, 61\\]](#cite:56,61).",
+    "md": "In laboratory preparations, ginger extracts and their pungent constituents inhibit the [5-HT3 receptor](#term:5-ht3), the target of standard anti-nausea drugs, and activate [TRPV1](#term:trpv1), the receptor behind pungency [\\[117, 124\\]](#cite:117,124).",
     "hasMath": false,
     "cites": [
-     56,
-     61
+     117,
+     124
     ]
    },
    {
     "heading": "How this guide uses it",
     "key": "uses",
-    "md": "After people swallow ginger, the free compounds are not detected in plasma; they appear as [conjugates](#term:glucuronide) and are cleared within hours [\\[7\\]](#cite:7). An explanation built on the free compound has to say where and in what form it acts.",
+    "md": "After people swallow ginger, the free compounds are not detected in plasma; they appear as [conjugates](#term:glucuronide) and are cleared within hours [\\[8\\]](#cite:8). An explanation built on the free compound has to say where and in what form it acts.",
     "hasMath": false,
     "cites": [
-     7
+     8
     ]
    }
   ],
-  "summary_md": "In laboratory preparations, ginger extracts and their pungent constituents inhibit the [5-HT3 receptor](#term:5-ht3), the target of standard anti-nausea drugs, and activate [TRPV1](#term:trpv1), the receptor behind pungency [\\[56, 61\\]](#cite:56,61).",
-  "why_here_md": "Section 11 sets laboratory mechanisms against human pharmacokinetics.",
+  "summary_md": "In laboratory preparations, ginger extracts and their pungent constituents inhibit the [5-HT3 receptor](#term:5-ht3), the target of standard anti-nausea drugs, and activate [TRPV1](#term:trpv1), the receptor behind pungency [\\[117, 124\\]](#cite:117,124).",
+  "why_here_md": "Section 11 sets laboratory mechanisms against human [pharmacokinetics](#term:pharmacokinetics).",
   "why_sections": [
    "11-how-it-might-work-and-the-bioavailability-problem"
   ],
@@ -178,15 +268,300 @@
    "trpv1",
    "5-ht3",
    "glucuronide",
-   "first-pass"
+   "first-pass",
+   "pharmacokinetics",
+   "thromboxane",
+   "lipoxygenase",
+   "gastric-emptying"
   ],
   "from_figures": [
    "fig-cmax"
   ],
   "cites": [
-   56,
-   61,
-   7
+   117,
+   124,
+   8
+  ],
+  "has_diagram": true
+ },
+ {
+  "id": "how-regulators-judge-herbs",
+  "title": "How a regulator judges a herbal medicine",
+  "one_liner": "Well-established use, traditional use, and why the two are not the same claim.",
+  "why_here": "Sections 8 and 10 rely on the 2025 European monograph for ginger's accepted uses and cautions.",
+  "prerequisites": [
+   "reading-the-trials"
+  ],
+  "terms": [
+   "well-established-use",
+   "test-article",
+   "warfarin"
+  ],
+  "figures": [
+   "fig-evidence"
+  ],
+  "further_reading": [
+   {
+    "title": "European Union herbal monograph on Zingiber officinale Roscoe, rhizoma (Revision 1)",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-zingiber-officinale-roscoe-rhizoma-revision-1_en.pdf",
+    "kind": "guideline"
+   },
+   {
+    "title": "Safety of ginger use in pregnancy — a population-based cohort study",
+    "url": "https://doi.org/10.1007/s00228-012-1331-5",
+    "kind": "paper"
+   }
+  ],
+  "words": 130,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "The European Medicines Agency's herbal committee accepts a use either on published clinical evidence ([well-established use](#term:well-established-use)) or on long-standing use alone (traditional use). For ginger it accepts one well-established use, powdered [rhizome](#term:rhizome) for preventing motion sickness in adults, and lists traditional uses including stomach complaints, loss of appetite and the common cold [\\[7\\]](#cite:7). It advises, as a precaution, that use in pregnancy is preferably avoided, even though a cohort of more than a thousand exposed pregnancies found no excess of malformations [\\[6, 7\\]](#cite:6,7).",
+    "hasMath": false,
+    "cites": [
+     7,
+     6
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "Where the monograph and the trials differ, the guide reports both. A regulator's acceptance is a judgement about the evidence for a product used as directed, not a recommendation to anyone; this guide gives no dosing advice. <!-- framing -->",
+    "hasMath": false,
+    "cites": []
+   }
+  ],
+  "summary_md": "The European Medicines Agency's herbal committee accepts a use either on published clinical evidence ([well-established use](#term:well-established-use)) or on long-standing use alone (traditional use). For ginger it accepts one well-established use, powdered [rhizome](#term:rhizome) for preventing motion sickness in adults, and lists traditional uses including stomach complaints, loss of appetite and the common cold [\\[7\\]](#cite:7). It advises, as a precaution, that use in pregnancy is preferably avoided, even though a cohort of more than a thousand exposed pregnancies found no excess of malformations [\\[6, 7\\]](#cite:6,7).",
+  "why_here_md": "Sections 8 and 10 rely on the 2025 European monograph for ginger's accepted uses and cautions.",
+  "why_sections": [
+   "8-nausea-and-vomiting"
+  ],
+  "from_terms": [
+   "well-established-use",
+   "warfarin"
+  ],
+  "from_figures": [],
+  "cites": [
+   7,
+   6
+  ],
+  "has_diagram": true
+ },
+ {
+  "id": "humoral-medicine",
+  "title": "Hot and dry in the third degree",
+  "one_liner": "How medieval and early modern medicine classified ginger, and why it was valued.",
+  "why_here": "Sections 5 and 6 quote ginger's humoral grading, and several recipes were written within that system.",
+  "prerequisites": [],
+  "terms": [
+   "humoral-theory",
+   "materia-medica",
+   "trikatu"
+  ],
+  "figures": [
+   "fig-timeline"
+  ],
+  "further_reading": [
+   {
+    "title": "Medieval European Medicine and Asian Spices",
+    "url": "https://doi.org/10.13081/kjmh.2014.23.319",
+    "kind": "paper"
+   },
+   {
+    "title": "The Herball, or Generall Historie of Plantes (1597), 'Of Ginger'",
+    "url": "https://archive.org/details/herballorgeneral00gera_0",
+    "kind": "primary source"
+   },
+   {
+    "title": "An Irish Materia Medica, §291 Zinciber (CELT)",
+    "url": "https://celt.ucc.ie/published/G600006/text905.html",
+    "kind": "primary source"
+   }
+  ],
+  "words": 153,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "In [humoral](#term:humoral-theory) medicine health was a balance of four humours, each hot or cold and wet or dry. Ginger was classed as hot and dry and used to correct a cold, wet constitution and diseases attributed to cold [\\[51\\]](#cite:51). Texts graded the quality by degree: an Irish [materia medica](#term:materia-medica) rates ginger hot in the third degree and wet in the second [\\[52\\]](#cite:52), and Gerard's 1597 herbal hot and dry in the third degree [\\[53\\]](#cite:53). The same reasoning set who should avoid it: a 1745 treatise judged it good for the old and phlegmatic and harmful to the young of hot, bilious temperament [\\[55\\]](#cite:55).",
+    "hasMath": false,
+    "cites": [
+     51,
+     52,
+     53,
+     55
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "The humoral grading explains why ginger appears in old remedies for the stomach and for chills. It is a theory of its time, not evidence that a remedy works; the guide sets each historical claim beside what the trials show. <!-- framing -->",
+    "hasMath": false,
+    "cites": []
+   }
+  ],
+  "summary_md": "In [humoral](#term:humoral-theory) medicine health was a balance of four humours, each hot or cold and wet or dry. Ginger was classed as hot and dry and used to correct a cold, wet constitution and diseases attributed to cold [\\[51\\]](#cite:51). Texts graded the quality by degree: an Irish [materia medica](#term:materia-medica) rates ginger hot in the third degree and wet in the second [\\[52\\]](#cite:52), and Gerard's 1597 herbal hot and dry in the third degree [\\[53\\]](#cite:53). The same reasoning set who should avoid it: a 1745 treatise judged it good for the old and phlegmatic and harmful to the young of hot, bilious temperament [\\[55\\]](#cite:55).",
+  "why_here_md": "Sections 5 and 6 quote ginger's [humoral](#term:humoral-theory) grading, and several recipes were written within that system.",
+  "why_sections": [
+   "5-the-old-world-record"
+  ],
+  "from_terms": [],
+  "from_figures": [],
+  "cites": [
+   51,
+   52,
+   53,
+   55
+  ],
+  "has_diagram": true
+ },
+ {
+  "id": "making-gingerols",
+  "title": "How the plant makes gingerols",
+  "one_liner": "From an amino acid to ginger's pungent compound, step by step, and which steps are proven.",
+  "why_here": "Section 12 traces fifty years of work on the pathway, ending with the 2026 enzyme.",
+  "prerequisites": [
+   "gingerols-and-shogaols"
+  ],
+  "terms": [
+   "phenylpropanoid",
+   "polyketide-synthase",
+   "dehydrogingerdione",
+   "transcriptome",
+   "transcription-factor"
+  ],
+  "figures": [
+   "fig-pathway"
+  ],
+  "further_reading": [
+   {
+    "title": "Studies in the biosynthesis of [6]-gingerol, pungent principle of ginger",
+    "url": "https://doi.org/10.1039/p19800002637",
+    "kind": "paper"
+   },
+   {
+    "title": "Identification of type III polyketide synthases from ginger for dehydrogingerdione and curcumin biosynthesis",
+    "url": "https://doi.org/10.1021/acssynbio.6c00659",
+    "kind": "paper"
+   },
+   {
+    "title": "Biosynthesis of curcuminoids and gingerols in turmeric and ginger",
+    "url": "https://doi.org/10.1016/j.phytochem.2006.06.028",
+    "kind": "paper"
+   }
+  ],
+  "words": 132,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "Feeding labelled compounds to ginger showed that phenylalanine is made into ferulic acid, which condenses with malonate and hexanoate to give [6-dehydrogingerdione](#term:dehydrogingerdione); two reductions then give [6-gingerol](#term:gingerol) [\\[130\\]](#cite:130). The length of the fatty acid that joins sets whether the product is 6-, 8- or 10-gingerol [\\[130\\]](#cite:130). In 2026 the condensation was matched to a ginger enzyme, the [polyketide synthase](#term:polyketide-synthase) ZoPKS2 [\\[2\\]](#cite:2). The reductions that finish the job have not yet been tied to enzymes in the sources read [\\[2\\]](#cite:2).",
+    "hasMath": false,
+    "cites": [
+     130,
+     2
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "Section 12 follows this route through labelling, enzyme assays, gene surveys and genomes. Figure 6 marks each step as shown, proposed or chemical. [Shogaol](#term:shogaol) is not on the plant's pathway in any study read here; it forms when ginger is dried or cooked. <!-- framing -->",
+    "hasMath": false,
+    "cites": []
+   }
+  ],
+  "summary_md": "Feeding labelled compounds to ginger showed that phenylalanine is made into ferulic acid, which condenses with malonate and hexanoate to give [6-dehydrogingerdione](#term:dehydrogingerdione); two reductions then give [6-gingerol](#term:gingerol) [\\[130\\]](#cite:130). The length of the fatty acid that joins sets whether the product is 6-, 8- or 10-gingerol [\\[130\\]](#cite:130). In 2026 the condensation was matched to a ginger enzyme, the [polyketide synthase](#term:polyketide-synthase) ZoPKS2 [\\[2\\]](#cite:2). The reductions that finish the job have not yet been tied to enzymes in the sources read [\\[2\\]](#cite:2).",
+  "why_here_md": "Section 12 traces fifty years of work on the pathway, ending with the 2026 enzyme.",
+  "why_sections": [
+   "12-the-genome-and-the-making-of-gingerols"
+  ],
+  "from_terms": [
+   "polyketide-synthase",
+   "phenylpropanoid",
+   "dehydrogingerdione",
+   "transcription-factor",
+   "transcriptome",
+   "terpene-synthase"
+  ],
+  "from_figures": [],
+  "cites": [
+   130,
+   2
+  ],
+  "has_diagram": true
+ },
+ {
+  "id": "reading-old-recipes",
+  "title": "Reading a historical recipe",
+  "one_liner": "Measures, forms of ginger and what the cook did to it, read with the chemistry in mind.",
+  "why_here": "The recipes section reproduces public-domain texts from 1390 to 1914 and links each to the science.",
+  "prerequisites": [
+   "gingerols-and-shogaols"
+  ],
+  "terms": [
+   "hippocras",
+   "ginger-beer-plant",
+   "gingerol",
+   "shogaol"
+  ],
+  "figures": [
+   "fig-drying"
+  ],
+  "further_reading": [
+   {
+    "title": "The Forme of Cury (1390), Pegge's 1780 edition",
+    "url": "https://www.gutenberg.org/ebooks/8102",
+    "kind": "primary source"
+   },
+   {
+    "title": "American Cookery (1796)",
+    "url": "https://archive.org/details/americancookery12815gut",
+    "kind": "primary source"
+   },
+   {
+    "title": "The stability of gingerol and shogaol in aqueous solutions",
+    "url": "https://doi.org/10.1002/jps.1116",
+    "kind": "paper"
+   }
+  ],
+  "words": 125,
+  "sections": [
+   {
+    "heading": "What it is",
+    "key": "what",
+    "md": "Old recipes often say which form of ginger to use, and the form matters. The fourteenth-century sauce gyngener stirs powdered, dried ginger cold into vinegar [\\[152\\]](#cite:152); dried ginger carries [shogaols](#term:shogaol) as well as [gingerols](#term:gingerol) [\\[17\\]](#cite:17). Boiling in water shifts gingerol toward shogaol, and mild acidity is where gingerol is most stable [\\[30\\]](#cite:30). Names can mislead: a fifteenth-century gyngerbrede has no ginger in it [\\[161\\]](#cite:161), and the 1796 molasses gingerbread has none either [\\[159\\]](#cite:159).",
+    "hasMath": false,
+    "cites": [
+     152,
+     17,
+     30,
+     161,
+     159
+    ]
+   },
+   {
+    "heading": "How this guide uses it",
+    "key": "uses",
+    "md": "Each recipe records its date, place, source, the form of ginger and whether it was heated, then a short science note. Medicinal recipes are shown as historical documents, not advice, and no quantity or step is added to what the source says. <!-- framing -->",
+    "hasMath": false,
+    "cites": []
+   }
+  ],
+  "summary_md": "Old recipes often say which form of ginger to use, and the form matters. The fourteenth-century sauce gyngener stirs powdered, dried ginger cold into vinegar [\\[152\\]](#cite:152); dried ginger carries [shogaols](#term:shogaol) as well as [gingerols](#term:gingerol) [\\[17\\]](#cite:17). Boiling in water shifts gingerol toward shogaol, and mild acidity is where gingerol is most stable [\\[30\\]](#cite:30). Names can mislead: a fifteenth-century gyngerbrede has no ginger in it [\\[161\\]](#cite:161), and the 1796 molasses gingerbread has none either [\\[159\\]](#cite:159).",
+  "why_here_md": "The recipes section reproduces public-domain texts from 1390 to 1914 and links each to the science.",
+  "why_sections": [],
+  "from_terms": [
+   "hippocras",
+   "ginger-beer-plant"
+  ],
+  "from_figures": [],
+  "cites": [
+   152,
+   17,
+   30,
+   161,
+   159
   ],
   "has_diagram": true
  },
@@ -224,12 +599,12 @@
    {
     "heading": "What it is",
     "key": "what",
-    "md": "A [meta-analysis](#term:meta-analysis) combines trials; an [umbrella review](#term:umbrella-review) combines meta-analyses. The same trials can sit under several reviews, so many reviews do not mean many independent experiments: seven meta-analyses of pregnancy nausea shared 49% of their studies [\\[33\\]](#cite:33).\n\n[GRADE](#term:grade) rates how far a pooled result can be trusted. For ginger the ratings run from high, for nausea in pregnancy, to very low, for several metabolic outcomes [\\[5\\]](#cite:5).\n\nA wide [confidence interval](#term:confidence-interval) means the data cannot distinguish no effect from a large one, as with miscarriage risk in the pregnancy trials [\\[6\\]](#cite:6).",
+    "md": "A [meta-analysis](#term:meta-analysis) combines trials; an [umbrella review](#term:umbrella-review) combines meta-analyses. The same trials can sit under several reviews, so many reviews do not mean many independent experiments: seven meta-analyses of pregnancy nausea shared 49% of their studies [\\[78\\]](#cite:78).\n\n[GRADE](#term:grade) rates how far a pooled result can be trusted. For ginger the ratings run from high, for nausea in pregnancy, to very low, for several metabolic outcomes [\\[5\\]](#cite:5).\n\nA wide [confidence interval](#term:confidence-interval) means the data cannot distinguish no effect from a large one, as with miscarriage risk in the pregnancy trials [\\[77\\]](#cite:77).",
     "hasMath": false,
     "cites": [
-     33,
+     78,
      5,
-     6
+     77
     ]
    },
    {
@@ -240,7 +615,7 @@
     "cites": []
    }
   ],
-  "summary_md": "A [meta-analysis](#term:meta-analysis) combines trials; an [umbrella review](#term:umbrella-review) combines meta-analyses. The same trials can sit under several reviews, so many reviews do not mean many independent experiments: seven meta-analyses of pregnancy nausea shared 49% of their studies [\\[33\\]](#cite:33).",
+  "summary_md": "A [meta-analysis](#term:meta-analysis) combines trials; an [umbrella review](#term:umbrella-review) combines meta-analyses. The same trials can sit under several reviews, so many reviews do not mean many independent experiments: seven meta-analyses of pregnancy nausea shared 49% of their studies [\\[78\\]](#cite:78).",
   "why_here_md": "Sections 8 to 10 report pooled estimates and certainty ratings throughout.",
   "why_sections": [
    "8-nausea-and-vomiting"
@@ -251,15 +626,23 @@
    "grade",
    "heterogeneity",
    "confidence-interval",
-   "test-article"
+   "test-article",
+   "hyperemesis-gravidarum",
+   "crossover-trial",
+   "placebo",
+   "standardised-extract",
+   "vitamin-b6",
+   "metoclopramide",
+   "hba1c"
   ],
   "from_figures": [
+   "fig-evidence",
    "fig-gastric"
   ],
   "cites": [
-   33,
+   78,
    5,
-   6
+   77
   ],
   "has_diagram": true
  },
@@ -292,24 +675,24 @@
    {
     "heading": "What it is",
     "key": "what",
-    "md": "Ginger is grown from pieces of its [rhizome](#term:rhizome), an underground stem, and is described as a [sterile cultigen](#term:cultigen): it is not known to set seed in cultivation and has no known wild population [\\[3, 18\\]](#cite:3,18).",
+    "md": "Ginger is grown from pieces of its [rhizome](#term:rhizome), an underground stem, and is described as a [sterile cultigen](#term:cultigen): it is not known to set seed in cultivation and has no known wild population [\\[17, 40\\]](#cite:17,40).",
     "hasMath": false,
     "cites": [
-     3,
-     18
+     17,
+     40
     ]
    },
    {
     "heading": "How this guide uses it",
     "key": "uses",
-    "md": "Because every ginger plant is a cutting of an earlier one, its origin cannot be read from wild relatives, and questions about its history turn to documents and, since 2021, to its genome [\\[2\\]](#cite:2).",
+    "md": "Because every ginger plant is a cutting of an earlier one, its origin cannot be read from wild relatives, and questions about its history turn to documents and, since 2021, to its genome [\\[1\\]](#cite:1).",
     "hasMath": false,
     "cites": [
-     2
+     1
     ]
    }
   ],
-  "summary_md": "Ginger is grown from pieces of its [rhizome](#term:rhizome), an underground stem, and is described as a [sterile cultigen](#term:cultigen): it is not known to set seed in cultivation and has no known wild population [\\[3, 18\\]](#cite:3,18).",
+  "summary_md": "Ginger is grown from pieces of its [rhizome](#term:rhizome), an underground stem, and is described as a [sterile cultigen](#term:cultigen): it is not known to set seed in cultivation and has no known wild population [\\[17, 40\\]](#cite:17,40).",
   "why_here_md": "Sections 2, 4 and 12 assume the reader knows what a [rhizome](#term:rhizome) and a [cultigen](#term:cultigen) are.",
   "why_sections": [
    "2-the-plant-in-brief"
@@ -317,13 +700,14 @@
   "from_terms": [
    "rhizome",
    "cultigen",
-   "haplotype"
+   "haplotype",
+   "tetraploid"
   ],
   "from_figures": [],
   "cites": [
-   3,
-   18,
-   2
+   17,
+   40,
+   1
   ],
   "has_diagram": false
  },
@@ -335,7 +719,8 @@
   "prerequisites": [],
   "terms": [
    "gingerol",
-   "rhizome"
+   "rhizome",
+   "root-exudate"
   ],
   "figures": [],
   "further_reading": [
@@ -355,31 +740,34 @@
    {
     "heading": "What it is",
     "key": "what",
-    "md": "Ginger's compounds inhibit fungi and bacteria in laboratory tests, and infected ginger releases root exudates that suppress bacterial wilt [\\[8, 9\\]](#cite:8,9).",
+    "md": "Ginger's compounds inhibit fungi and bacteria in laboratory tests, and infected ginger releases [root exudates](#term:root-exudate) that suppress [bacterial wilt](#term:bacterial-wilt) [\\[134, 137\\]](#cite:134,137).",
     "hasMath": false,
     "cites": [
-     8,
-     9
+     134,
+     137
     ]
    },
    {
     "heading": "How this guide uses it",
     "key": "uses",
-    "md": "Showing that a compound defends a plant requires testing it in the living plant against the organisms that attack it. The sources read for this review do not report that test for [gingerols](#term:gingerol).",
+    "md": "Showing that a compound defends a plant requires testing it in the living plant against the organisms that attack it. The sources read for this review do not report that test for [gingerols](#term:gingerol). <!-- framing -->",
     "hasMath": false,
     "cites": []
    }
   ],
-  "summary_md": "Ginger's compounds inhibit fungi and bacteria in laboratory tests, and infected ginger releases root exudates that suppress bacterial wilt [\\[8, 9\\]](#cite:8,9).",
+  "summary_md": "Ginger's compounds inhibit fungi and bacteria in laboratory tests, and infected ginger releases [root exudates](#term:root-exudate) that suppress [bacterial wilt](#term:bacterial-wilt) [\\[134, 137\\]](#cite:134,137).",
   "why_here_md": "Section 13 asks what [gingerols](#term:gingerol) do for ginger and finds only indirect evidence.",
   "why_sections": [
    "13-what-the-compounds-do-for-the-plant"
   ],
-  "from_terms": [],
+  "from_terms": [
+   "root-exudate",
+   "endophyte"
+  ],
   "from_figures": [],
   "cites": [
-   8,
-   9
+   134,
+   137
   ],
   "has_diagram": false
  }

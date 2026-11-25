@@ -136,6 +136,270 @@
   "hay": "test article test articles the exact preparation a study gave its participants."
  },
  {
+  "kind": "term",
+  "id": "root-exudate",
+  "title": "Root exudate",
+  "subtitle": "The mix of compounds a plant releases from its roots into the surrounding soil.",
+  "to": "/glossary#root-exudate",
+  "hay": "root exudate root exudates exudates the mix of compounds a plant releases from its roots into the surrounding soil."
+ },
+ {
+  "kind": "term",
+  "id": "trikatu",
+  "title": "Trikaṭu",
+  "subtitle": "\"The three pungents\": long pepper, black pepper and ginger used together in Ayurvedic medicine.",
+  "to": "/glossary#trikatu",
+  "hay": "trikaṭu trikatu \"the three pungents\": long pepper, black pepper and ginger used together in ayurvedic medicine."
+ },
+ {
+  "kind": "term",
+  "id": "hippocras",
+  "title": "Hippocras",
+  "subtitle": "A medieval spiced wine, sweetened and flavoured with a powder of cinnamon, ginger and other spices.",
+  "to": "/glossary#hippocras",
+  "hay": "hippocras ypocras a medieval spiced wine, sweetened and flavoured with a powder of cinnamon, ginger and other spices."
+ },
+ {
+  "kind": "term",
+  "id": "ginger-beer-plant",
+  "title": "Ginger-beer plant",
+  "subtitle": "The gelatinous starter used to brew home ginger beer; a partnership of a yeast and a bacterium.",
+  "to": "/glossary#ginger-beer-plant",
+  "hay": "ginger-beer plant the gelatinous starter used to brew home ginger beer; a partnership of a yeast and a bacterium."
+ },
+ {
+  "kind": "term",
+  "id": "polyketide-synthase",
+  "title": "Polyketide synthase",
+  "subtitle": "An enzyme that builds a carbon chain by joining small units; in ginger, the type III enzyme ZoPKS2 makes the gingerol skeleton.",
+  "to": "/glossary#polyketide-synthase",
+  "hay": "polyketide synthase polyketide synthases type iii polyketide synthase an enzyme that builds a carbon chain by joining small units; in ginger, the type iii enzyme zopks2 makes the gingerol skeleton."
+ },
+ {
+  "kind": "term",
+  "id": "phenylpropanoid",
+  "title": "Phenylpropanoid pathway",
+  "subtitle": "The plant pathway that turns the amino acid phenylalanine into ferulic acid and related compounds, the start of gingerol biosynthesis.",
+  "to": "/glossary#phenylpropanoid",
+  "hay": "phenylpropanoid pathway phenylpropanoid the plant pathway that turns the amino acid phenylalanine into ferulic acid and related compounds, the start of gingerol biosynthesis."
+ },
+ {
+  "kind": "term",
+  "id": "dehydrogingerdione",
+  "title": "6-Dehydrogingerdione",
+  "subtitle": "The product of the condensation step in gingerol biosynthesis; two reductions are thought to turn it into 6-gingerol.",
+  "to": "/glossary#dehydrogingerdione",
+  "hay": "6-dehydrogingerdione dehydrogingerdione the product of the condensation step in gingerol biosynthesis; two reductions are thought to turn it into 6-gingerol."
+ },
+ {
+  "kind": "term",
+  "id": "zingerone",
+  "title": "Zingerone",
+  "subtitle": "A milder-smelling compound formed from gingerol by heat or alkali, not a natural constituent of fresh ginger.",
+  "to": "/glossary#zingerone",
+  "hay": "zingerone a milder-smelling compound formed from gingerol by heat or alkali, not a natural constituent of fresh ginger."
+ },
+ {
+  "kind": "term",
+  "id": "transcription-factor",
+  "title": "Transcription factor",
+  "subtitle": "A protein that switches genes on or off by binding near them; in ginger, some control genes of the gingerol pathway.",
+  "to": "/glossary#transcription-factor",
+  "hay": "transcription factor transcription factors a protein that switches genes on or off by binding near them; in ginger, some control genes of the gingerol pathway."
+ },
+ {
+  "kind": "term",
+  "id": "transcriptome",
+  "title": "Transcriptome",
+  "subtitle": "The set of genes being expressed in a tissue at a given time, measured by sequencing its RNA.",
+  "to": "/glossary#transcriptome",
+  "hay": "transcriptome transcriptomes transcriptome study the set of genes being expressed in a tissue at a given time, measured by sequencing its rna."
+ },
+ {
+  "kind": "term",
+  "id": "tetraploid",
+  "title": "Tetraploid",
+  "subtitle": "Having four sets of chromosomes instead of the usual two (diploid); some ginger lines have been doubled this way.",
+  "to": "/glossary#tetraploid",
+  "hay": "tetraploid tetraploids having four sets of chromosomes instead of the usual two (diploid); some ginger lines have been doubled this way."
+ },
+ {
+  "kind": "term",
+  "id": "micropropagation",
+  "title": "Micropropagation",
+  "subtitle": "Raising plants from small pieces of tissue in sterile culture, a way to start ginger free of soil-borne disease.",
+  "to": "/glossary#micropropagation",
+  "hay": "micropropagation micropropagated raising plants from small pieces of tissue in sterile culture, a way to start ginger free of soil-borne disease."
+ },
+ {
+  "kind": "term",
+  "id": "fertigation",
+  "title": "Fertigation",
+  "subtitle": "Supplying fertiliser dissolved in irrigation water, often to plants grown in soilless substrates.",
+  "to": "/glossary#fertigation",
+  "hay": "fertigation supplying fertiliser dissolved in irrigation water, often to plants grown in soilless substrates."
+ },
+ {
+  "kind": "term",
+  "id": "soft-rot",
+  "title": "Soft rot",
+  "subtitle": "A rot of ginger rhizomes caused mainly by Pythium species, one of the most damaging diseases of the crop.",
+  "to": "/glossary#soft-rot",
+  "hay": "soft rot pythium soft rot a rot of ginger rhizomes caused mainly by pythium species, one of the most damaging diseases of the crop."
+ },
+ {
+  "kind": "term",
+  "id": "bacterial-wilt",
+  "title": "Bacterial wilt",
+  "subtitle": "A wilting disease of ginger caused by Ralstonia bacteria, which block the plant's water-conducting tissue.",
+  "to": "/glossary#bacterial-wilt",
+  "hay": "bacterial wilt ginger wilt a wilting disease of ginger caused by ralstonia bacteria, which block the plant's water-conducting tissue."
+ },
+ {
+  "kind": "term",
+  "id": "endophyte",
+  "title": "Endophyte",
+  "subtitle": "A microbe that lives inside a plant's tissues without harming it, and may help it grow.",
+  "to": "/glossary#endophyte",
+  "hay": "endophyte endophytes endophytic a microbe that lives inside a plant's tissues without harming it, and may help it grow."
+ },
+ {
+  "kind": "term",
+  "id": "essential-oil",
+  "title": "Essential oil",
+  "subtitle": "The volatile, aromatic fraction of a plant, distilled or extracted; in ginger it carries the citrus and woody aroma, not the heat.",
+  "to": "/glossary#essential-oil",
+  "hay": "essential oil essential oils the volatile, aromatic fraction of a plant, distilled or extracted; in ginger it carries the citrus and woody aroma, not the heat."
+ },
+ {
+  "kind": "term",
+  "id": "terpene-synthase",
+  "title": "Terpene synthase",
+  "subtitle": "An enzyme that makes the terpenes of a plant's essential oil.",
+  "to": "/glossary#terpene-synthase",
+  "hay": "terpene synthase terpene synthases sesquiterpene synthases an enzyme that makes the terpenes of a plant's essential oil."
+ },
+ {
+  "kind": "term",
+  "id": "citral",
+  "title": "Citral",
+  "subtitle": "The lemon-scented aroma compound of fresh ginger, a mixture of geranial and neral.",
+  "to": "/glossary#citral",
+  "hay": "citral geranial the lemon-scented aroma compound of fresh ginger, a mixture of geranial and neral."
+ },
+ {
+  "kind": "term",
+  "id": "hyperemesis-gravidarum",
+  "title": "Hyperemesis gravidarum",
+  "subtitle": "Severe, persistent vomiting in pregnancy, beyond ordinary morning sickness, often needing hospital care.",
+  "to": "/glossary#hyperemesis-gravidarum",
+  "hay": "hyperemesis gravidarum severe, persistent vomiting in pregnancy, beyond ordinary morning sickness, often needing hospital care."
+ },
+ {
+  "kind": "term",
+  "id": "crossover-trial",
+  "title": "Crossover trial",
+  "subtitle": "A trial in which each participant receives both treatments in turn, so that each acts as their own comparison.",
+  "to": "/glossary#crossover-trial",
+  "hay": "crossover trial crossover double-blind crossover a trial in which each participant receives both treatments in turn, so that each acts as their own comparison."
+ },
+ {
+  "kind": "term",
+  "id": "placebo",
+  "title": "Placebo",
+  "subtitle": "An inactive dummy given to the comparison group in a trial so that participants cannot tell which treatment they have.",
+  "to": "/glossary#placebo",
+  "hay": "placebo placebo-controlled an inactive dummy given to the comparison group in a trial so that participants cannot tell which treatment they have."
+ },
+ {
+  "kind": "term",
+  "id": "standardised-extract",
+  "title": "Standardised extract",
+  "subtitle": "A ginger preparation made to contain a set amount of named compounds, unlike plain powdered rhizome.",
+  "to": "/glossary#standardised-extract",
+  "hay": "standardised extract standardised extracts a ginger preparation made to contain a set amount of named compounds, unlike plain powdered rhizome."
+ },
+ {
+  "kind": "term",
+  "id": "pharmacokinetics",
+  "title": "Pharmacokinetics",
+  "subtitle": "How a substance is absorbed, changed, distributed and removed by the body over time.",
+  "to": "/glossary#pharmacokinetics",
+  "hay": "pharmacokinetics pharmacokinetic how a substance is absorbed, changed, distributed and removed by the body over time."
+ },
+ {
+  "kind": "term",
+  "id": "well-established-use",
+  "title": "Well-established use",
+  "subtitle": "In EU herbal law, a use accepted on published clinical evidence, as against traditional use, accepted on long-standing use.",
+  "to": "/glossary#well-established-use",
+  "hay": "well-established use in eu herbal law, a use accepted on published clinical evidence, as against traditional use, accepted on long-standing use."
+ },
+ {
+  "kind": "term",
+  "id": "materia-medica",
+  "title": "Materia medica",
+  "subtitle": "A reference work listing medicinal substances and their uses; also the body of knowledge such books record.",
+  "to": "/glossary#materia-medica",
+  "hay": "materia medica a reference work listing medicinal substances and their uses; also the body of knowledge such books record."
+ },
+ {
+  "kind": "term",
+  "id": "thromboxane",
+  "title": "Thromboxane",
+  "subtitle": "A compound released by platelets that makes them clump; lower levels suggest reduced platelet activity.",
+  "to": "/glossary#thromboxane",
+  "hay": "thromboxane a compound released by platelets that makes them clump; lower levels suggest reduced platelet activity."
+ },
+ {
+  "kind": "term",
+  "id": "lipoxygenase",
+  "title": "5-Lipoxygenase",
+  "subtitle": "The enzyme that starts the making of leukotrienes, inflammatory signals; ginger compounds inhibit it in the laboratory.",
+  "to": "/glossary#lipoxygenase",
+  "hay": "5-lipoxygenase lipoxygenase the enzyme that starts the making of leukotrienes, inflammatory signals; ginger compounds inhibit it in the laboratory."
+ },
+ {
+  "kind": "term",
+  "id": "gastric-emptying",
+  "title": "Gastric emptying",
+  "subtitle": "The rate at which the stomach passes its contents on to the intestine, usually given as a half-emptying time.",
+  "to": "/glossary#gastric-emptying",
+  "hay": "gastric emptying the rate at which the stomach passes its contents on to the intestine, usually given as a half-emptying time."
+ },
+ {
+  "kind": "term",
+  "id": "vitamin-b6",
+  "title": "Vitamin B6",
+  "subtitle": "Pyridoxine, a vitamin used as a first treatment for pregnancy sickness and as the comparison in several ginger trials.",
+  "to": "/glossary#vitamin-b6",
+  "hay": "vitamin b6 pyridoxine, a vitamin used as a first treatment for pregnancy sickness and as the comparison in several ginger trials."
+ },
+ {
+  "kind": "term",
+  "id": "metoclopramide",
+  "title": "Metoclopramide",
+  "subtitle": "A standard anti-sickness drug used as the comparison in early ginger trials.",
+  "to": "/glossary#metoclopramide",
+  "hay": "metoclopramide a standard anti-sickness drug used as the comparison in early ginger trials."
+ },
+ {
+  "kind": "term",
+  "id": "warfarin",
+  "title": "Warfarin",
+  "subtitle": "An anticoagulant whose effect is easily changed by other substances, so it is used to test for interactions.",
+  "to": "/glossary#warfarin",
+  "hay": "warfarin an anticoagulant whose effect is easily changed by other substances, so it is used to test for interactions."
+ },
+ {
+  "kind": "term",
+  "id": "hba1c",
+  "title": "HbA1c",
+  "subtitle": "Glycated haemoglobin, a blood test reflecting average blood sugar over the previous two to three months.",
+  "to": "/glossary#hba1c",
+  "hay": "hba1c glycated haemoglobin glycated haemoglobin, a blood test reflecting average blood sugar over the previous two to three months."
+ },
+ {
   "kind": "concept",
   "id": "ginger-in-the-record",
   "title": "Ginger in the historical record",
@@ -153,11 +417,51 @@
  },
  {
   "kind": "concept",
+  "id": "growing-under-glass",
+  "title": "Growing ginger under glass",
+  "subtitle": "Day length, substrate, clean planting stock and the diseases that follow rhizomes.",
+  "to": "/concepts/growing-under-glass",
+  "hay": "growing ginger under glass day length, substrate, clean planting stock and the diseases that follow rhizomes. growing-under-glass"
+ },
+ {
+  "kind": "concept",
   "id": "how-ginger-might-work",
   "title": "How ginger might work",
   "subtitle": "Receptors in the gut, and the problem of what reaches the blood.",
   "to": "/concepts/how-ginger-might-work",
   "hay": "how ginger might work receptors in the gut, and the problem of what reaches the blood. how-ginger-might-work"
+ },
+ {
+  "kind": "concept",
+  "id": "how-regulators-judge-herbs",
+  "title": "How a regulator judges a herbal medicine",
+  "subtitle": "Well-established use, traditional use, and why the two are not the same claim.",
+  "to": "/concepts/how-regulators-judge-herbs",
+  "hay": "how a regulator judges a herbal medicine well-established use, traditional use, and why the two are not the same claim. how-regulators-judge-herbs"
+ },
+ {
+  "kind": "concept",
+  "id": "humoral-medicine",
+  "title": "Hot and dry in the third degree",
+  "subtitle": "How medieval and early modern medicine classified ginger, and why it was valued.",
+  "to": "/concepts/humoral-medicine",
+  "hay": "hot and dry in the third degree how medieval and early modern medicine classified ginger, and why it was valued. humoral-medicine"
+ },
+ {
+  "kind": "concept",
+  "id": "making-gingerols",
+  "title": "How the plant makes gingerols",
+  "subtitle": "From an amino acid to ginger's pungent compound, step by step, and which steps are proven.",
+  "to": "/concepts/making-gingerols",
+  "hay": "how the plant makes gingerols from an amino acid to ginger's pungent compound, step by step, and which steps are proven. making-gingerols"
+ },
+ {
+  "kind": "concept",
+  "id": "reading-old-recipes",
+  "title": "Reading a historical recipe",
+  "subtitle": "Measures, forms of ginger and what the cook did to it, read with the chemistry in mind.",
+  "to": "/concepts/reading-old-recipes",
+  "hay": "reading a historical recipe measures, forms of ginger and what the cook did to it, read with the chemistry in mind. reading-old-recipes"
  },
  {
   "kind": "concept",
@@ -185,33 +489,57 @@
  },
  {
   "kind": "figure",
+  "id": "fig-drying",
+  "title": "Figure 1: What drying does to ginger's pungent compounds",
+  "subtitle": "table · synthesised from data",
+  "to": "/figures/fig-drying",
+  "hay": "figure 1 what drying does to ginger's pungent compounds fig-drying"
+ },
+ {
+  "kind": "figure",
+  "id": "fig-timeline",
+  "title": "Figure 2: The documentary record of ginger, by date",
+  "subtitle": "table · synthesised from data",
+  "to": "/figures/fig-timeline",
+  "hay": "figure 2 the documentary record of ginger, by date fig-timeline"
+ },
+ {
+  "kind": "figure",
+  "id": "fig-evidence",
+  "title": "Figure 3: What the human evidence shows, question by question",
+  "subtitle": "table · synthesised from data",
+  "to": "/figures/fig-evidence",
+  "hay": "figure 3 what the human evidence shows, question by question fig-evidence"
+ },
+ {
+  "kind": "figure",
   "id": "fig-gastric",
-  "title": "Figure 1: Gastric half-emptying time after ginger or placebo, in two small studies",
+  "title": "Figure 4: Gastric half-emptying time after ginger or placebo, in two small studies",
   "subtitle": "chart · synthesised from data",
   "to": "/figures/fig-gastric",
-  "hay": "figure 1 gastric half-emptying time after ginger or placebo, in two small studies fig-gastric"
+  "hay": "figure 4 gastric half-emptying time after ginger or placebo, in two small studies fig-gastric"
  },
  {
   "kind": "figure",
   "id": "fig-cmax",
-  "title": "Figure 2: Peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose",
+  "title": "Figure 5: Peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose",
   "subtitle": "chart · synthesised from data",
   "to": "/figures/fig-cmax",
-  "hay": "figure 2 peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose fig-cmax"
+  "hay": "figure 5 peak plasma concentration of ginger compounds, as conjugates, after a 2.0 g oral dose fig-cmax"
  },
  {
   "kind": "figure",
-  "id": "fig-drying",
-  "title": "Figure 3: What drying does to ginger's pungent compounds",
-  "subtitle": "table · synthesised from data",
-  "to": "/figures/fig-drying",
-  "hay": "figure 3 what drying does to ginger's pungent compounds fig-drying"
+  "id": "fig-pathway",
+  "title": "Figure 6: How ginger makes 6-gingerol: what is shown and what is proposed",
+  "subtitle": "pathway · synthesised from sources",
+  "to": "/figures/fig-pathway",
+  "hay": "figure 6 how ginger makes 6-gingerol: what is shown and what is proposed fig-pathway"
  },
  {
   "kind": "section",
   "id": "abstract",
   "title": "Abstract",
-  "subtitle": "168 words",
+  "subtitle": "208 words",
   "to": "/read#abstract",
   "hay": "abstract abstract"
  },
@@ -219,7 +547,7 @@
   "kind": "section",
   "id": "1-why-three-records",
   "title": "1. Why ginger, and why three records at once",
-  "subtitle": "113 words",
+  "subtitle": "131 words",
   "to": "/read#1-why-three-records",
   "hay": "1. why ginger, and why three records at once 1-why-three-records"
  },
@@ -227,7 +555,7 @@
   "kind": "section",
   "id": "2-the-plant-in-brief",
   "title": "2. The plant in brief",
-  "subtitle": "309 words",
+  "subtitle": "634 words",
   "to": "/read#2-the-plant-in-brief",
   "hay": "2. the plant in brief 2-the-plant-in-brief"
  },
@@ -235,7 +563,7 @@
   "kind": "section",
   "id": "3-the-chemistry-in-brief",
   "title": "3. The chemistry in brief",
-  "subtitle": "354 words",
+  "subtitle": "528 words",
   "to": "/read#3-the-chemistry-in-brief",
   "hay": "3. the chemistry in brief 3-the-chemistry-in-brief"
  },
@@ -243,7 +571,7 @@
   "kind": "section",
   "id": "4-origin-and-dispersal",
   "title": "4. Origin and dispersal",
-  "subtitle": "188 words",
+  "subtitle": "494 words",
   "to": "/read#4-origin-and-dispersal",
   "hay": "4. origin and dispersal 4-origin-and-dispersal"
  },
@@ -251,7 +579,7 @@
   "kind": "section",
   "id": "5-the-old-world-record",
   "title": "5. The old-world record",
-  "subtitle": "283 words",
+  "subtitle": "702 words",
   "to": "/read#5-the-old-world-record",
   "hay": "5. the old-world record 5-the-old-world-record"
  },
@@ -259,7 +587,7 @@
   "kind": "section",
   "id": "6-europe-to-the-americas",
   "title": "6. Europe to the Americas",
-  "subtitle": "374 words",
+  "subtitle": "882 words",
   "to": "/read#6-europe-to-the-americas",
   "hay": "6. europe to the americas 6-europe-to-the-americas"
  },
@@ -267,7 +595,7 @@
   "kind": "section",
   "id": "7-why-people-spice-food",
   "title": "7. Why people spice food",
-  "subtitle": "197 words",
+  "subtitle": "219 words",
   "to": "/read#7-why-people-spice-food",
   "hay": "7. why people spice food 7-why-people-spice-food"
  },
@@ -275,7 +603,7 @@
   "kind": "section",
   "id": "8-nausea-and-vomiting",
   "title": "8. Nausea and vomiting",
-  "subtitle": "612 words",
+  "subtitle": "1029 words",
   "to": "/read#8-nausea-and-vomiting",
   "hay": "8. nausea and vomiting 8-nausea-and-vomiting"
  },
@@ -283,7 +611,7 @@
   "kind": "section",
   "id": "9-pain-inflammation-and-metabolic-outcomes",
   "title": "9. Pain, inflammation and metabolic outcomes",
-  "subtitle": "545 words",
+  "subtitle": "585 words",
   "to": "/read#9-pain-inflammation-and-metabolic-outcomes",
   "hay": "9. pain, inflammation and metabolic outcomes 9-pain-inflammation-and-metabolic-outcomes"
  },
@@ -291,7 +619,7 @@
   "kind": "section",
   "id": "10-safety-interactions-and-pregnancy",
   "title": "10. Safety, interactions and pregnancy",
-  "subtitle": "394 words",
+  "subtitle": "502 words",
   "to": "/read#10-safety-interactions-and-pregnancy",
   "hay": "10. safety, interactions and pregnancy 10-safety-interactions-and-pregnancy"
  },
@@ -299,23 +627,23 @@
   "kind": "section",
   "id": "11-how-it-might-work-and-the-bioavailability-problem",
   "title": "11. How it might work, and the bioavailability problem",
-  "subtitle": "466 words",
+  "subtitle": "564 words",
   "to": "/read#11-how-it-might-work-and-the-bioavailability-problem",
   "hay": "11. how it might work, and the bioavailability problem 11-how-it-might-work-and-the-bioavailability-problem"
  },
  {
   "kind": "section",
   "id": "12-the-genome-and-the-making-of-gingerols",
-  "title": "12. The genome and the making of gingerols",
-  "subtitle": "490 words",
+  "title": "12. The making of gingerols",
+  "subtitle": "479 words",
   "to": "/read#12-the-genome-and-the-making-of-gingerols",
-  "hay": "12. the genome and the making of gingerols 12-the-genome-and-the-making-of-gingerols"
+  "hay": "12. the making of gingerols 12-the-genome-and-the-making-of-gingerols"
  },
  {
   "kind": "section",
   "id": "13-what-the-compounds-do-for-the-plant",
   "title": "13. What the compounds do for the plant",
-  "subtitle": "433 words",
+  "subtitle": "449 words",
   "to": "/read#13-what-the-compounds-do-for-the-plant",
   "hay": "13. what the compounds do for the plant 13-what-the-compounds-do-for-the-plant"
  },
@@ -323,7 +651,7 @@
   "kind": "section",
   "id": "14-growing-ginger-under-glass",
   "title": "14. Growing ginger under glass",
-  "subtitle": "337 words",
+  "subtitle": "391 words",
   "to": "/read#14-growing-ginger-under-glass",
   "hay": "14. growing ginger under glass 14-growing-ginger-under-glass"
  },
@@ -331,7 +659,7 @@
   "kind": "section",
   "id": "15-from-rhizome-to-kitchen",
   "title": "15. From rhizome to kitchen",
-  "subtitle": "290 words",
+  "subtitle": "691 words",
   "to": "/read#15-from-rhizome-to-kitchen",
   "hay": "15. from rhizome to kitchen 15-from-rhizome-to-kitchen"
  },
@@ -339,7 +667,7 @@
   "kind": "section",
   "id": "16-methods-of-the-field",
   "title": "16. Methods of the field",
-  "subtitle": "201 words",
+  "subtitle": "300 words",
   "to": "/read#16-methods-of-the-field",
   "hay": "16. methods of the field 16-methods-of-the-field"
  },
@@ -347,7 +675,7 @@
   "kind": "section",
   "id": "17-open-questions",
   "title": "17. Open questions",
-  "subtitle": "161 words",
+  "subtitle": "185 words",
   "to": "/read#17-open-questions",
   "hay": "17. open questions 17-open-questions"
  },
@@ -355,24 +683,264 @@
   "kind": "section",
   "id": "18-how-to-read-this-literature",
   "title": "18. How to read this literature",
-  "subtitle": "128 words",
+  "subtitle": "130 words",
   "to": "/read#18-how-to-read-this-literature",
   "hay": "18. how to read this literature 18-how-to-read-this-literature"
  },
  {
   "kind": "recipe",
+  "id": "apicius-spiced-salts",
+  "title": "Spiced salts 'for many purposes' (sales conditi)",
+  "subtitle": "medicinal · Roman; the Apicius collection was compiled in late antiquity · Roman Empire",
+  "to": "/recipes/apicius-spiced-salts",
+  "hay": "spiced salts 'for many purposes' (sales conditi) medicinal roman empire roasted common salt roasted 'ammoniac' salt white pepper ginger ajowan thyme celery seed or parsley oregano rocket seed black pepper saffron hyssop malabathrum leaf parsley dill"
+ },
+ {
+  "kind": "recipe",
+  "id": "apicius-oxyporum",
+  "title": "A digestive relish (oxyporum)",
+  "subtitle": "culinary · Roman; late antique compilation · Roman Empire",
+  "to": "/recipes/apicius-oxyporum",
+  "hay": "a digestive relish (oxyporum) culinary roman empire cumin ginger fresh rue natron dates pepper honey vinegar"
+ },
+ {
+  "kind": "recipe",
   "id": "gyngener",
   "title": "Gyngener (a ginger sauce)",
-  "subtitle": "culinary · about 1390 · England, the royal household of Richard II",
+  "subtitle": "culinary · about 1390 · England, the household of Richard II",
   "to": "/recipes/gyngener",
-  "hay": "gyngener (a ginger sauce) culinary england, the royal household of richard ii white bread (payndemayn) vinegar powdered ginger salt"
+  "hay": "gyngener (a ginger sauce) culinary england, the household of richard ii white bread (payndemayn) vinegar powdered ginger salt"
+ },
+ {
+  "kind": "recipe",
+  "id": "ypocras",
+  "title": "Hippocras powder and spiced wine",
+  "subtitle": "culinary · about 1393 · Paris",
+  "to": "/recipes/ypocras",
+  "hay": "hippocras powder and spiced wine culinary paris cinnamon cinnamon flower white mecca ginger grains of paradise nutmeg galingale sugar wine"
+ },
+ {
+  "kind": "recipe",
+  "id": "gyngerbrede",
+  "title": "Gyngerbrede (a gingerbread without ginger)",
+  "subtitle": "culinary · about 1430 · England",
+  "to": "/recipes/gyngerbrede",
+  "hay": "gyngerbrede (a gingerbread without ginger) culinary england honey saffron pepper grated bread cinnamon cloves box leaves (decoration) red sandalwood (optional)"
  },
  {
   "kind": "recipe",
   "id": "irish-materia-medica-zinciber",
   "title": "Ginger boiled in wine or ale, for the stomach",
-  "subtitle": "medicinal · medieval; date of the text to be confirmed from the edition · Ireland",
+  "subtitle": "medicinal · medieval (date of the text to be confirmed) · Ireland",
   "to": "/recipes/irish-materia-medica-zinciber",
   "hay": "ginger boiled in wine or ale, for the stomach medicinal ireland ginger wine or ale"
+ },
+ {
+  "kind": "recipe",
+  "id": "antilles-ginger-salad",
+  "title": "Fresh ginger as a salad, in the Antilles",
+  "subtitle": "culinary · 1745 (English translation of a French work of 1702) · the Antilles",
+  "to": "/recipes/antilles-ginger-salad",
+  "hay": "fresh ginger as a salad, in the antilles culinary the antilles young fresh ginger vinegar oil salt"
+ },
+ {
+  "kind": "recipe",
+  "id": "ginger-comfit-at-sea",
+  "title": "Preserved ginger carried at sea",
+  "subtitle": "medicinal · 1745 · Europe and the Atlantic",
+  "to": "/recipes/ginger-comfit-at-sea",
+  "hay": "preserved ginger carried at sea medicinal europe and the atlantic fresh ginger water sugar"
+ },
+ {
+  "kind": "recipe",
+  "id": "soft-gingerbread",
+  "title": "Soft gingerbread to be baked in pans",
+  "subtitle": "culinary · 1796 · Hartford, Connecticut",
+  "to": "/recipes/soft-gingerbread",
+  "hay": "soft gingerbread to be baked in pans culinary hartford, connecticut sugar butter flour eggs ginger rose water"
+ },
+ {
+  "kind": "recipe",
+  "id": "molasses-gingerbread",
+  "title": "Molasses gingerbread (with no ginger)",
+  "subtitle": "culinary · 1796 · Hartford, Connecticut",
+  "to": "/recipes/molasses-gingerbread",
+  "hay": "molasses gingerbread (with no ginger) culinary hartford, connecticut cinnamon coriander or allspice pearl ash water flour molasses butter egg whites and sugar (glaze)"
+ },
+ {
+  "kind": "recipe",
+  "id": "virginia-ginger-beer",
+  "title": "Ginger beer",
+  "subtitle": "culinary · 1824 (text of the 1830 edition) · Virginia",
+  "to": "/recipes/virginia-ginger-beer",
+  "hay": "ginger beer culinary virginia boiling water brown sugar or molasses cream of tartar pounded dried ginger yeast lemons (optional)"
+ },
+ {
+  "kind": "recipe",
+  "id": "plebeian-gingerbread",
+  "title": "Plebeian gingerbread",
+  "subtitle": "culinary · 1824 (text of the 1830 edition) · Virginia",
+  "to": "/recipes/plebeian-gingerbread",
+  "hay": "plebeian gingerbread culinary virginia pounded ginger flour pearl ash water butter molasses"
+ },
+ {
+  "kind": "recipe",
+  "id": "madras-ginger-beer",
+  "title": "Ginger beer, Madras style",
+  "subtitle": "culinary · 1850 · Madras Presidency, India",
+  "to": "/recipes/madras-ginger-beer",
+  "hay": "ginger beer, madras style culinary madras presidency, india water ginger cream of tartar sugar candy lime sweet toddy (palm sap)"
+ },
+ {
+  "kind": "recipe",
+  "id": "beeton-ginger-beer",
+  "title": "Ginger beer",
+  "subtitle": "culinary · 1861 (text of the 1869 edition) · London",
+  "to": "/recipes/beeton-ginger-beer",
+  "hay": "ginger beer culinary london loaf sugar bruised ginger cream of tartar lemons boiling water brewer's yeast"
+ },
+ {
+  "kind": "recipe",
+  "id": "beeton-ginger-wine",
+  "title": "Ginger wine",
+  "subtitle": "culinary · 1861 (text of the 1869 edition) · London",
+  "to": "/recipes/beeton-ginger-wine",
+  "hay": "ginger wine culinary london water loaf sugar lemons bruised ginger yeast raisins brandy"
+ },
+ {
+  "kind": "recipe",
+  "id": "ginger-pudding",
+  "title": "Ginger pudding",
+  "subtitle": "culinary · 1861 (text of the 1869 edition) · London",
+  "to": "/recipes/ginger-pudding",
+  "hay": "ginger pudding culinary london flour suet moist sugar grated ginger"
+ },
+ {
+  "kind": "recipe",
+  "id": "old-time-ginger-cake",
+  "title": "Old-time ginger cake",
+  "subtitle": "culinary · 1881 · San Francisco, from a South Carolina cook",
+  "to": "/recipes/old-time-ginger-cake",
+  "hay": "old-time ginger cake culinary san francisco, from a south carolina cook molasses flour brown sugar butter cinnamon ginger sour milk baking soda eggs"
+ },
+ {
+  "kind": "recipe",
+  "id": "ginger-tea-1898",
+  "title": "Ginger tea, for colds",
+  "subtitle": "medicinal · 1898 · Cincinnati",
+  "to": "/recipes/ginger-tea-1898",
+  "hay": "ginger tea, for colds medicinal cincinnati powdered or bruised dried ginger boiling water"
+ },
+ {
+  "kind": "recipe",
+  "id": "ginger-juice-and-honey",
+  "title": "Fresh ginger juice and honey, for cough",
+  "subtitle": "medicinal · recorded 1893 · India",
+  "to": "/recipes/ginger-juice-and-honey",
+  "hay": "fresh ginger juice and honey, for cough medicinal india fresh ginger juice honey garlic juice (optional) lime juice (variant)"
+ },
+ {
+  "kind": "recipe",
+  "id": "trikatu",
+  "title": "Trikatu, the three pungents",
+  "subtitle": "medicinal · classical (Suśruta Saṃhitā; English translation 1907) · India",
+  "to": "/recipes/trikatu",
+  "hay": "trikatu, the three pungents medicinal india long pepper (pippali) black pepper (maricha) ginger (shringavera)"
+ },
+ {
+  "kind": "recipe",
+  "id": "chinese-preserved-ginger",
+  "title": "Preserved ginger in syrup, Chinese method",
+  "subtitle": "culinary · recorded 1891 (in the 1893 Indian pharmacographia) · southern China",
+  "to": "/recipes/chinese-preserved-ginger",
+  "hay": "preserved ginger in syrup, chinese method culinary southern china young ginger water rice flour lime water sugar egg white"
+ },
+ {
+  "kind": "recipe",
+  "id": "chinese-pickled-turnips",
+  "title": "Chinese pickled yellow turnips",
+  "subtitle": "culinary · 1914 · United States",
+  "to": "/recipes/chinese-pickled-turnips",
+  "hay": "chinese pickled yellow turnips culinary united states yellow turnip vinegar cayenne garlic salt ginger"
+ },
+ {
+  "kind": "recipe",
+  "id": "ginger-with-salt",
+  "title": "Ginger with salt before meals",
+  "subtitle": "medicinal · classical (compiled in English 1877) · India",
+  "to": "/recipes/ginger-with-salt",
+  "hay": "ginger with salt before meals medicinal india ginger salt"
+ },
+ {
+  "kind": "recipe",
+  "id": "samasarkara-churna",
+  "title": "Samaśarkarā cūrṇa, a spice powder for the digestion",
+  "subtitle": "medicinal · classical (compiled in English 1877) · India",
+  "to": "/recipes/samasarkara-churna",
+  "hay": "samaśarkarā cūrṇa, a spice powder for the digestion medicinal india cardamom cinnamon nāgakesara flowers (mesua ferrea) black pepper long pepper dried ginger sugar"
+ },
+ {
+  "kind": "recipe",
+  "id": "saubhagya-sunthi",
+  "title": "Saubhāgya śuṇṭhī, a ginger confection after childbirth",
+  "subtitle": "medicinal · classical (compiled in English 1877) · India",
+  "to": "/recipes/saubhagya-sunthi",
+  "hay": "saubhāgya śuṇṭhī, a ginger confection after childbirth medicinal india clarified butter milk sugar dry ginger coriander fennel seed cumin nigella long pepper black pepper cyperus tubers tejapatra leaves nāgakesara flowers cinnamon cardamom"
+ },
+ {
+  "kind": "recipe",
+  "id": "ginger-as-corrector",
+  "title": "A little ginger to correct a purge",
+  "subtitle": "medicinal · 1650s (text of the 1835 edition) · England",
+  "to": "/recipes/ginger-as-corrector",
+  "hay": "a little ginger to correct a purge medicinal england polypody of the oak (or another purging herb) fennel seed, aniseed or ginger"
+ },
+ {
+  "kind": "recipe",
+  "id": "glasse-gingerbread-cakes",
+  "title": "Gingerbread cakes",
+  "subtitle": "culinary · 1747 (text of the 1751 edition) · London",
+  "to": "/recipes/glasse-gingerbread-cakes",
+  "hay": "gingerbread cakes culinary london flour sugar butter beaten ginger nutmeg treacle cream"
+ },
+ {
+  "kind": "recipe",
+  "id": "glasse-gingerbread",
+  "title": "Gingerbread with candied peel",
+  "subtitle": "culinary · 1747 (text of the 1751 edition) · London",
+  "to": "/recipes/glasse-gingerbread",
+  "hay": "gingerbread with candied peel culinary london flour beaten ginger nutmeg, cloves and mace sugar treacle butter candied lemon and orange peel"
+ },
+ {
+  "kind": "recipe",
+  "id": "acton-thick-light-gingerbread",
+  "title": "Thick, light gingerbread",
+  "subtitle": "culinary · 1845 · London",
+  "to": "/recipes/acton-thick-light-gingerbread",
+  "hay": "thick, light gingerbread culinary london butter flour brown sugar powdered ginger ground caraway seed treacle eggs carbonate of soda warm water"
+ },
+ {
+  "kind": "recipe",
+  "id": "acton-ginger-biscuits",
+  "title": "Cheap ginger biscuits",
+  "subtitle": "culinary · 1845 · London",
+  "to": "/recipes/acton-ginger-biscuits",
+  "hay": "cheap ginger biscuits culinary london butter flour pounded sugar powdered ginger new milk"
+ },
+ {
+  "kind": "recipe",
+  "id": "acton-ginger-candy",
+  "title": "Ginger candy",
+  "subtitle": "culinary · 1845 · London",
+  "to": "/recipes/acton-ginger-candy",
+  "hay": "ginger candy culinary london refined sugar spring water powdered ginger lemon rind"
+ },
+ {
+  "kind": "recipe",
+  "id": "acton-ginger-wine",
+  "title": "Very good ginger wine",
+  "subtitle": "culinary · 1845 · London",
+  "to": "/recipes/acton-ginger-wine",
+  "hay": "very good ginger wine culinary london water sugar bruised ginger lemons raisins yeast isinglass brandy"
  }
 ]

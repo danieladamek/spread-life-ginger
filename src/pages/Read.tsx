@@ -32,7 +32,7 @@ function Banner() {
         <p className="flex-1">
           Written by {manifest.authors[0].replace(/\s*\(.*$/, '')} from {manifest.counts.references} sources, current as of {AS_OF}. Every claim is cited; passages
           marked <span className="font-semibold uppercase tracking-wider text-[11px]">synthesis</span> draw conclusions the cited works do not individually state.
-          The sources were read at the level of abstracts and record pages, not full texts — <Link className="underline" to="/methods">see Methods</Link>.
+          Most sources were read from their abstracts; each reference says how far it was read — <Link className="underline" to="/methods#verification">see Methods</Link>.
         </p>
         <button type="button" className="bx-btn !py-0.5 !px-2 text-xs shrink-0" onClick={() => { setGone(true); try { localStorage.setItem(BANNER_KEY, '1'); } catch { /* ignore */ } }} aria-label="Dismiss this banner">Dismiss</button>
       </div>
@@ -68,11 +68,20 @@ export default function Read() {
     const target = section ?? loc.hash.slice(1);
     if (!target) return;
     const go = () => { const el = document.getElementById(decodeURIComponent(target)); if (el) { el.scrollIntoView({ block: target.startsWith('syn-') ? 'center' : 'start' }); return el; } return null; };
+    // Inline figures are drawn as they near the viewport, so the page grows while it settles. Keep the target in
+    // place each time it does, for a few seconds or until the reader scrolls on their own.
+    let done = false;
+    const stop = () => { done = true; ro.disconnect(); ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach((t) => window.removeEventListener(t, stop)); };
+    const ro = new ResizeObserver(() => { if (!done) go(); });
     requestAnimationFrame(() => {
       const el = go();
       if (el && target.startsWith('syn-')) { el.classList.add('bx-flash'); setTimeout(() => el.classList.remove('bx-flash'), 1800); }
-      setTimeout(go, 600); // inline figures above load late and shift the page
+      const article = document.querySelector('article.bx-reader');
+      if (article) ro.observe(article);
+      ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach((t) => window.addEventListener(t, stop, { passive: true }));
     });
+    const t = setTimeout(stop, 3000);
+    return () => { clearTimeout(t); stop(); };
   }, [loc.search, loc.hash]);
 
   // active section + progress

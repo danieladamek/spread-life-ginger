@@ -3,6 +3,7 @@ import type { Explain } from '@/types';
 import { getConcept } from '@/lib/data';
 import { loadTerms, useAsync } from '@/lib/heavy';
 import Popover from '@/components/ui/Popover';
+import Markdown, { inlineComponents } from '@/components/reader/Markdown';
 
 /**
  * ⓘ popovers written from the pack's `explain:` block, each linking its 101 or glossary term. This pack's entries
@@ -20,7 +21,7 @@ export default function ExplainChips({ items, figure }: { items: Explain[]; figu
             content={(
               <div>
                 <p className="font-semibold">{name(e)}</p>
-                <p className="mt-1 leading-6">{e.text}</p>
+                <div className="mt-1 leading-6">{e.text_md ? <Markdown md={e.text_md} components={inlineComponents} /> : e.text}</div>
                 <p className="mt-2 text-xs flex flex-wrap gap-3">
                   {e.concept && <Link className="underline" to={`/concepts/${e.concept}`}>101: {getConcept(e.concept)?.title ?? e.concept} →</Link>}
                   {e.term && <Link className="underline" to={`/glossary#${e.term}`}>Glossary: {terms?.get(e.term)?.term ?? e.term} →</Link>}

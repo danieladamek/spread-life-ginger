@@ -14,17 +14,18 @@ test('term popover opens by keyboard and closes with Esc, focus returning', asyn
 
 test('a citation opens a fold-out under its paragraph, with the summary and the level it was read at', async ({ page }) => {
   await page.goto('/read#2-the-plant-in-brief');
-  await page.locator('section[id="2-the-plant-in-brief"]').getByTestId('cite-10').first().click();
+  await page.locator('section[id="2-the-plant-in-brief"]').getByTestId('cite-14').first().click();
   const fo = page.getByTestId('citation-foldout');
   await expect(fo).toBeVisible();
-  await expect(fo).toContainText('[10]');
-  await expect(fo.getByTestId('verified-level')).toContainText('read:');
+  await expect(fo).toContainText('[14]');
+  await expect(fo.getByTestId('verified-level')).toHaveAttribute('data-level', /^(full-text|abstract|partial)$/);
+  await expect(fo.getByTestId('verified-level')).toHaveText(/^read (in full|from the abstract|in part)$/);
 });
 
 test('the commissioned-review banner is dismissible, stays dismissed, and the as_of chip stays', async ({ page }) => {
   await page.goto('/read');
   const banner = page.getByTestId('review-banner');
-  await expect(banner).toContainText('from 76 sources, current as of 24 November 2026');
+  await expect(banner).toContainText('from 162 sources, current as of 24 November 2026');
   await banner.getByRole('button', { name: 'Dismiss this banner' }).click();
   await page.reload();
   await expect(page.getByTestId('review-banner')).toHaveCount(0);
@@ -33,11 +34,11 @@ test('the commissioned-review banner is dismissible, stays dismissed, and the as
 
 test('every synthesis passage is visibly marked, and /methods links each one to its sentence', async ({ page }) => {
   await page.goto('/read');
-  await expect(page.getByTestId('synthesis-block')).toHaveCount(14);
-  await expect(page.locator('.bx-syn')).toHaveCount(14);
+  await expect(page.getByTestId('synthesis-block')).toHaveCount(17);
+  await expect(page.locator('.bx-syn')).toHaveCount(17);
   await expect(page.getByTestId('synthesis-block').first().locator('.bx-synthesis-label')).toHaveText('synthesis');
   await page.goto('/methods#synthesis');
-  await expect(page.getByTestId('synthesis-link')).toHaveCount(14);
+  await expect(page.getByTestId('synthesis-link')).toHaveCount(17);
   const link = page.getByTestId('synthesis-link').nth(5);
   const href = (await link.getAttribute('href'))!;
   await link.click();

@@ -27,7 +27,7 @@ export interface Concept extends ConceptMeta {
   words: number; sections: ConceptSection[]; summary_md: string; from_terms: string[]; from_figures: string[]; cites: number[]; has_diagram: boolean;
 }
 
-export interface Explain { on?: string; text: string; concept?: string; term?: string }
+export interface Explain { on?: string; text: string; text_md?: string; concept?: string; term?: string }
 export interface Axis { field: string; label: string; unit?: string }
 export interface FigureMeta { id: string; label: string; title: string; kind: string; synthesis: 'data' | 'conceptual'; refs: number[]; concepts: string[]; discussed_in: string[]; row_labels: string[] }
 export type Cell = string | number | null;
@@ -36,18 +36,26 @@ export interface Figure extends Omit<FigureMeta, 'row_labels'> {
   data: string | null; caption: string; how_to_read: string; explain: Explain[]; source: string;
   caption_md: string; how_md: string; source_md: string;
   rows: Record<string, Cell>[]; fields: string[];
+  columns?: { field: string; label: string }[];
+  graph?: PathwayGraph;
   image?: string; hotspots?: { x: number; y: number; w: number; h: number; text: string; term?: string }[];
 }
 
+export interface PathwayNode { id: string; kind: string; label: string; col: number; row: number; refs: number[]; detail?: string; detail_md?: string; term?: string }
+export interface PathwayEdge { from: string; to: string; kind: 'shown' | 'proposed' | 'chemical'; label?: string; refs: number[] }
+export interface PathwayGraph { id: string; note?: string; nodes: PathwayNode[]; edges: PathwayEdge[] }
+
+export type VerifiedLevel = 'full-text' | 'abstract' | 'partial';
 export interface Reference {
   n: number; tier: 'seminal' | 'classic' | 'current' | 'background'; anchor: boolean; citation: string; year: number;
   doi?: string; url?: string; summary: string; why_it_mattered?: string; role_here: string; role_note: string;
-  cited_in: string[]; cited_in_actual: string[]; verified: boolean; verified_level?: string;
+  cited_in: string[]; cited_in_actual: string[]; verified: boolean; verified_level?: VerifiedLevel;
+  key?: string; read_note?: string | null; primary_source?: boolean; year_note?: string;
   in_review: boolean; in_concepts: string[]; in_glossary: string[]; in_figures: string[]; in_recipes: string[];
 }
 
 export interface Recipe {
-  id: string; title: string; kind: 'culinary' | 'medicinal'; date: string; place: string; source_ref: number; source_note: string;
+  id: string; title: string; kind: 'culinary' | 'medicinal'; tradition: string; date: string; date_sort: number; date_year: number | null; place: string; source_ref: number; source_note?: string;
   original_text: string | null; original_language?: string; gloss: string; gloss_by: string; ingredients: string[];
   ginger_form: string; heated: boolean; links: { sections: string[]; compounds: string[]; terms: string[] };
   science_note: string; safety_note: string; science_md: string; safety_md: string; gloss_md: string;

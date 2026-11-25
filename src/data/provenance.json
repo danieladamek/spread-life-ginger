@@ -11,24 +11,20 @@
  "as_of": "2026-11-24",
  "safety_profile": "health",
  "review": {
-  "sha256": "6f620bff5af7c94dcb0eb512a63cc96bbceda2828533748b563b9bbcc270458d",
-  "words": 6193,
+  "sha256": "323f2a06540d81e02588aeaba61182ea178b34cd54313e17d58a7e7c4b326b5a",
+  "words": 9250,
   "sections": 24,
-  "figure_markers": 3
+  "figure_markers": 7
  },
  "blocks": {
-  "total": 87,
-  "cited": 61,
-  "framing": 26,
-  "synthesis": 14,
+  "total": 95,
+  "cited": 73,
+  "framing": 33,
+  "synthesis": 17,
   "uncited": 0,
-  "uncited_outside_review": 2
+  "uncited_outside_review": 1
  },
  "synthesis": [
-  {
-   "id": "syn-2-the-plant-in-brief-1",
-   "section": "2-the-plant-in-brief"
-  },
   {
    "id": "syn-3-the-chemistry-in-brief-1",
    "section": "3-the-chemistry-in-brief"
@@ -38,12 +34,16 @@
    "section": "4-origin-and-dispersal"
   },
   {
-   "id": "syn-4-origin-and-dispersal-2",
-   "section": "4-origin-and-dispersal"
+   "id": "syn-6-europe-to-the-americas-1",
+   "section": "6-europe-to-the-americas"
   },
   {
    "id": "syn-7-why-people-spice-food-1",
    "section": "7-why-people-spice-food"
+  },
+  {
+   "id": "syn-8-nausea-and-vomiting-1",
+   "section": "8-nausea-and-vomiting"
   },
   {
    "id": "syn-9-pain-inflammation-and-metabolic-outcomes-1",
@@ -66,6 +66,10 @@
    "section": "13-what-the-compounds-do-for-the-plant"
   },
   {
+   "id": "syn-13-what-the-compounds-do-for-the-plant-2",
+   "section": "13-what-the-compounds-do-for-the-plant"
+  },
+  {
    "id": "syn-15-from-rhizome-to-kitchen-1",
    "section": "15-from-rhizome-to-kitchen"
   },
@@ -74,8 +78,16 @@
    "section": "15-from-rhizome-to-kitchen"
   },
   {
-   "id": "syn-16-methods-of-the-field-1",
-   "section": "16-methods-of-the-field"
+   "id": "syn-15-from-rhizome-to-kitchen-3",
+   "section": "15-from-rhizome-to-kitchen"
+  },
+  {
+   "id": "syn-15-from-rhizome-to-kitchen-4",
+   "section": "15-from-rhizome-to-kitchen"
+  },
+  {
+   "id": "syn-15-from-rhizome-to-kitchen-5",
+   "section": "15-from-rhizome-to-kitchen"
   },
   {
    "id": "syn-18-how-to-read-this-literature-1",
@@ -83,83 +95,84 @@
   }
  ],
  "terms": {
-  "total": 17,
-  "in_review": 17,
-  "linked": 17,
+  "total": 50,
+  "in_review": 50,
+  "linked": 50,
   "unmatched": 0,
   "unmatched_ids": [],
   "occurring_unlinked": [],
   "linked_pct_of_occurring": 100,
-  "linked_in_concepts": 12,
+  "linked_in_concepts": 20,
   "ambiguous_variants": []
  },
  "references": {
-  "total": 76,
-  "with_summary": 76,
-  "verified": 76,
+  "total": 162,
+  "with_summary": 162,
+  "verified": 162,
   "unverified": [],
   "unverified_but_cited": [],
   "by_tier": {
-   "current": 25,
-   "classic": 32,
-   "seminal": 11,
-   "background": 8
+   "current": 33,
+   "seminal": 50,
+   "classic": 70,
+   "background": 9
   },
   "by_verified_level": {
-   "abstract": 61,
-   "web page or record fragment": 6,
-   "opening of full text only": 1,
-   "page fragments": 1,
-   "abstract fragment": 3,
-   "record page or abstract fragment": 4
+   "abstract": 121,
+   "full-text": 23,
+   "partial": 18
   },
   "anchors": [
    1,
-   2,
    5,
    7,
-   39
+   8,
+   16
   ],
-  "cited_in_review": 76,
-  "cited_anywhere": 76,
+  "cited_in_review": 162,
+  "cited_anywhere": 162,
   "never_cited": [],
   "year_range": [
-   1780,
+   1597,
    2026
   ],
   "by_role": {
-   "support": 45,
-   "review": 22,
-   "background": 7,
-   "guideline": 2
+   "support": 98,
+   "data-source": 24,
+   "review": 29,
+   "guideline": 1,
+   "method": 2,
+   "background": 8
   }
  },
  "figures": {
-  "total": 3,
+  "total": 6,
   "by_kind": {
+   "table": 3,
    "chart": 2,
-   "table": 1
+   "pathway": 1
   },
   "by_synthesis": {
-   "data": 3
+   "data": 5,
+   "conceptual": 1
   }
  },
  "recipes": {
-  "total": 2,
+  "total": 32,
   "by_kind": {
-   "culinary": 1,
-   "medicinal": 1
+   "medicinal": 10,
+   "culinary": 22
   }
  },
- "todo": 14,
+ "todo": 19,
  "todo_markers": 3,
  "concepts": {
-  "total": 6,
+  "total": 11,
   "self_checks": false,
-  "reachable_from_term_or_figure": 5
+  "reachable_from_term_or_figure": 10
  },
  "build": {
   "errors": 0,
-  "warnings": 3
+  "warnings": 2
  }
 }

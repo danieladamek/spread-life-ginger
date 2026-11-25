@@ -98,15 +98,15 @@ test('inside a term popover: the popover stays open, the note hangs on the term,
 
 test('inside a citation fold-out: the fold-out stays open and the note hangs on the reference; coming back reopens it', async ({ page }) => {
   await page.goto('/read#2-the-plant-in-brief');
-  await page.locator('section[id="2-the-plant-in-brief"]').getByTestId('cite-10').first().click();
+  await page.locator('section[id="2-the-plant-in-brief"]').getByTestId('cite-14').first().click();
   const fo = page.getByTestId('citation-foldout');
   await expect(fo).toBeVisible();
   const quote = await selectIn(page, '[data-testid="citation-foldout"] p.text-sm.leading-6', 20);
   await addFromSelection(page);
   await expect(fo).toBeVisible();
   const n = (await notes(page)).find((x) => x.quote === quote.trim())!;
-  expect(n.anchor).toEqual({ type: 'ref', id: '10' });
-  expect(n.within).toMatchObject({ kind: 'foldout', opener: 'cite:10' });
+  expect(n.anchor).toEqual({ type: 'ref', id: '14' });
+  expect(n.within).toMatchObject({ kind: 'foldout', opener: 'cite:14' });
   expect(n.within!.host).toBe('section:2-the-plant-in-brief');
   await page.goto('/notes');
   await page.getByTestId('note').filter({ hasText: quote.trim() }).getByTestId('note-link').click();

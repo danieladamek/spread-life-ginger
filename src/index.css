@@ -147,3 +147,6 @@ h2.bx-arc::before { content: ''; display: block; width: 3.25rem; height: .9rem; 
 
 /* The wordmark, in the app's own lettering (KICKOFF §8.7): a rounded sans, not an imitation of the logo's script */
 .bx-wordmark { font-family: ui-rounded, "SF Pro Rounded", "Avenir Next Rounded Std", "Nunito", "Varela Round", "Avenir Next", system-ui, sans-serif; font-weight: 700; letter-spacing: 0.01em; }
+
+/* pack 0.2: the review's own ### subheadings inside a numbered section */
+.bx-reader [data-block] h3 { @apply font-display text-xl mt-8 mb-1 font-semibold leading-snug; }

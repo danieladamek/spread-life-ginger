@@ -1,5 +1,5 @@
 # scope.yaml — Spread Life: Ginger (mode: topic). Ratified by Daniel in the T0–T2 interview, 2026-11-24.
-# search_strategy and corpus_profile below are from the T3 query pass (2026-11-24); both are provisional until verification.
+# search_strategy is from the T3 query pass and the pack 0.2 seminal and primary-source passes (2026-11-24); corpus_profile is the cited corpus of pack 0.2.
 topic: "an academic treatment of the history and lore of ginger, the health and medical research and the ecological, botanical and molecular level research about the plant itself"   # Daniel's words, verbatim
 question: >
   What is known about ginger (Zingiber officinale) across its documented history and lore, the human
@@ -25,7 +25,7 @@ boundary:
 level: "whole plant and its compounds; human organism and clinical evidence; the documentary record"
 time_window: { current_from: 2021, seminal: "any age if load-bearing" }
 stance: primer-with-controversies
-depth: deep                 # ~12,000 words · 12+ sections · 60–80 references · multi-session
+depth: deep                 # ~12,000 words · 12+ sections · 60–80 references · multi-session; pack 0.2 widened the corpus to all seminal studies found (Daniel, 2026-11-24: 'authoritative in every area')
 anchors:
   - { citation: "McGee H. On Food and Cooking: The Science and Lore of the Kitchen. Rev. ed. Scribner; 2004.", why: "Daniel named it to the team as the model for this project" }
   - { citation: "Crichton M, et al. Orally consumed ginger and human health: an umbrella review. Am J Clin Nutr 2022;115(6):1511-1527.", doi: "10.1093/ajcn/nqac035", why: "the highest-level synthesis of the human evidence" }
@@ -630,22 +630,28 @@ search_strategy:
   - OpenAlex ran on the shared unauthenticated budget, so each query returned its 9 most cited and, for 26 queries, its 6 most cited since 2021 — recent low-citation work is under-sampled
   - the history strand is book-based and poorly indexed; see todo.yaml
 corpus_profile:
-  status: provisional — candidates, not the verified corpus
+  status: verified corpus of pack 0.2 (cited references only); candidates not cited are in source/registry.yaml
   by_tier:
-    current: 27
-    classic: 46
-    seminal: 14
-    background: 3
+    background: 9
+    classic: 70
+    current: 33
+    seminal: 50
   by_strand:
-    health: 31
-    mechanism: 10
-    plant: 25
-    kitchen: 10
-    history: 14
-  year_range:
-  - 1973
-  - 2026
-  concentration: to be assessed after verification
-  dissent_represented: true
+    chem: 11
+    health: 59
+    history: 41
+    kitchen: 8
+    mechanism: 8
+    plant: 35
+  primary_historical_sources: 24
 outline_approved: 2026-11-24
 history_sources_rule: "Daniel, 2026-11-24: work with what is openly available. A book or text that could not be read is not cited; it is listed in todo.yaml and named on /methods as not consulted."
+pack_0_2_passes:            # added 2026-11-24 for pack 0.2 (A6.2)
+  - pass: seminal
+    method: "Named seminal and landmark studies for every strand (source/sweep/seminal_targets.tsv), each resolved by title search in OpenAlex and read as an abstract (Europe PMC, PubMed or publisher page); unresolvable items are listed in todo.yaml"
+  - pass: primary-history
+    method: "Public-domain primary texts read from archive.org scans (djvu text) and transcriptions through the web reader: herbals, materia medica, dispensatories, classical texts in translation and cookbooks to 1914. Gutenberg was unreachable during the pass."
+  - pass: regulatory
+    method: "EU herbal monograph on Zingiber officinale rhizoma, Revision 1 (2025), read in full"
+  - pass: rule
+    method: "A text that could not be opened is not cited; it is listed in todo.yaml."

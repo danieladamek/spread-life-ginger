@@ -3,10 +3,11 @@ import type { Figure } from '@/types';
 import DataTable from './DataTable';
 import ExplainChips from './ExplainChips';
 import Todo from '@/components/ui/Todo';
+import Pathway from './Pathway';
 import { assetUrl } from '@/lib/data';
 const Chart = lazy(() => import('./Chart'));
 
-/** One component per figure kind (APP-SPEC §4). This pack has charts and a table; ⓘs come from explain[]. */
+/** One component per figure kind (APP-SPEC §4). This pack has charts, tables and a pathway; ⓘs come from explain[]. */
 export default function FigureBody({ f, compact = false }: { f: Figure; compact?: boolean }) {
   return (
     <div className="grid gap-3">
@@ -24,7 +25,8 @@ export default function FigureBody({ f, compact = false }: { f: Figure; compact?
           {(f.hotspots ?? []).map((h, i) => <span key={i} className="absolute border-2 border-[color:var(--bx-accent)] rounded" style={{ left: `${h.x}%`, top: `${h.y}%`, width: `${h.w}%`, height: `${h.h}%` }} title={h.text} />)}
         </div>
       )}
-      {(f.kind === 'network' || f.kind === 'pathway') && <Todo>figure kind {f.kind}: no such figure in this pack</Todo>}
+      {f.kind === 'pathway' && <Pathway f={f} compact={compact} />}
+      {f.kind === 'network' && <Todo>figure kind network: no such figure in this pack</Todo>}
     </div>
   );
 }

@@ -19,7 +19,7 @@ further_reading:
 ---
 
 ## What it is
-Ginger is grown from pieces of its rhizome, an underground stem, and is described as a sterile cultigen: it is not known to set seed in cultivation and has no known wild population [3, 18].
+Ginger is grown from pieces of its rhizome, an underground stem, and is described as a sterile cultigen: it is not known to set seed in cultivation and has no known wild population [17, 40].
 
 ## How this guide uses it
-Because every ginger plant is a cutting of an earlier one, its origin cannot be read from wild relatives, and questions about its history turn to documents and, since 2021, to its genome [2].
+Because every ginger plant is a cutting of an earlier one, its origin cannot be read from wild relatives, and questions about its history turn to documents and, since 2021, to its genome [1].

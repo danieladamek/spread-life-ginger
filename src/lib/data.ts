@@ -15,7 +15,8 @@ export const provenance = provenanceJson;
 export const conceptsIndex = conceptsIndexJson as unknown as ConceptMeta[];
 export const figuresIndex = figuresIndexJson as unknown as FigureMeta[];
 export const sectionsIndex = sectionsIndexJson as unknown as SectionMeta[];
-export const recipesIndex = recipesIndexJson as unknown as { id: string; title: string; kind: 'culinary' | 'medicinal'; date: string; place: string }[];
+export interface RecipeMeta { id: string; title: string; kind: 'culinary' | 'medicinal'; tradition: string; date: string; date_sort: number; place: string; original_language: string | null; has_original: boolean }
+export const recipesIndex = recipesIndexJson as unknown as RecipeMeta[];
 
 const conceptById = new Map(conceptsIndex.map((c) => [c.id, c]));
 const figureById = new Map(figuresIndex.map((f) => [f.id, f]));
@@ -63,3 +64,14 @@ export const TIER_LABEL: Record<string, string> = { seminal: 'Seminal', classic:
 
 /** The strand a section belongs to, for the palette chips (manifest.palette.groups). */
 export const GROUP_COLOURS: Record<string, string> = manifest.palette.groups;
+
+/** How far each reference was read (pack 0.2 `verified_level`), in the order /methods and /references list them. */
+export const LEVEL_ORDER = ['full-text', 'abstract', 'partial'] as const;
+export const LEVEL_LABEL: Record<string, string> = { 'full-text': 'read in full', abstract: 'read from the abstract', partial: 'read in part' };
+export const LEVEL_NOTE: Record<string, string> = {
+  'full-text': 'The whole text was read: a scanned public-domain edition, or the full regulatory document.',
+  abstract: 'The abstract was read, not the full paper. Findings that appear only in the methods, tables or caveats may be missing here.',
+  partial: 'Only a record page, a fragment, or a secondary tabulation was read.',
+};
+/** Per-level counts, from the shipped data (never hard-coded). */
+export const LEVEL_COUNTS: Record<string, number> = (provenance.references as { by_verified_level: Record<string, number> }).by_verified_level;

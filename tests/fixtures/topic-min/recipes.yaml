@@ -6,6 +6,7 @@ recipes:
     kind: culinary
     date: "about 1390"
     place: "England"
+    tradition: "English, medieval"
     source_ref: 1
     source_note: "Public domain edition."
     original_text: "Take gyngur and salt."
@@ -25,6 +26,7 @@ recipes:
     kind: medicinal
     date: "medieval"
     place: "Ireland"
+    tradition: "Irish, medieval"
     source_ref: 1
     source_note: "Modern translation, in copyright; paraphrased."
     original_text: null

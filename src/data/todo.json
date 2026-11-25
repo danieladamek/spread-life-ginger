@@ -1,65 +1,85 @@
 {
  "pack": [
   {
-   "where": "kitchen/history",
-   "what": "McGee H. On Food and Cooking (2004) — anchor; book, needs a copy in hand — Daniel owns it"
+   "where": "recipes/beeton-ginger-beer, beeton-ginger-wine, ginger-pudding",
+   "what": "Quantities read from an archive.org scan with imperfect OCR (fractions especially); check against a clean copy of the 1869 edition before the texts are treated as exact."
+  },
+  {
+   "where": "recipes/ypocras",
+   "what": "Le Ménagier de Paris read through imperfect OCR of Pichon's 1846 edition; check the French text and the measures against a clean copy."
+  },
+  {
+   "where": "recipes/apicius-spiced-salts",
+   "what": "The quantity of ginger (two or three ounces) is uncertain in the scanned Latin text; check against the printed Giarratano–Vollmer edition."
+  },
+  {
+   "where": "recipes/old-time-ginger-cake",
+   "what": "Confirm the description of Abby Fisher (a cook from South Carolina publishing in San Francisco) from the book's own preface."
+  },
+  {
+   "where": "recipes/ginger-tea-1898",
+   "what": "King's American Dispensatory 1898 — the full wording of the infusion and of the ginger beer and wine preparations was not captured; the recipe is a summary."
+  },
+  {
+   "where": "recipes/irish-materia-medica-zinciber",
+   "what": "Date of the Irish materia medica (Ó Cuinn) to be confirmed from the CELT front matter."
+  },
+  {
+   "where": "references/mowrey1982",
+   "what": "Mowrey and Clayson 1982 (Lancet) read only through its PubMed record and a BestBETs tabulation; full text not read."
+  },
+  {
+   "where": "references/metabolites2023",
+   "what": "First author and exact title of the 2023 Metabolites paper on high temperature and intense light still to be confirmed."
+  },
+  {
+   "where": "references/suhaimi2012",
+   "what": "Published 2015 (Malaysian Applied Biology 44(3)); the key keeps the sweep's 2012 stamp. Rename at the next pack."
   },
   {
    "where": "health",
-   "what": "EMA/HMPC EU herbal monograph on Zingiber officinale rhizoma, Rev. 1 (2025) and its assessment report — anchor; PDFs on ema.europa.eu, to be read in full"
+   "what": "Seminal or landmark items not obtainable this session: Yu 2011 (CINV); Zarate and Yeoman 1994 (gingerol biosynthesis in culture). Not cited."
   },
   {
-   "where": "mixed",
-   "what": "Crichton 2019 (J Acad Nutr Diet) CINV meta-analysis; Koo 2013 (BMC Plant Biol) ginger/turmeric ESTs; Jung 2018 heat-induced gingerol-to-shogaol conversion; Yoshida 2015 cooking conditions; Dedov 2002 gingerols as vanilloid agonists — seen in the T1 pre-sweep, not returned in the top results of the T3 queries; add by DOI"
+   "where": "health",
+   "what": "The EMA assessment report that accompanies the 2025 monograph was not read; the monograph itself was."
   },
   {
    "where": "history",
-   "what": "History monographs: Dalby, Dangerous Tastes (2000); Turner, Spice (2004); Freedman, Out of the East (2008); Miller, The Spice Trade of the Roman Empire (1969); Schivelbusch, Tastes of Paradise (1992) — the history strand rests on books that the databases index only as reviews; each needs a copy or a substantial preview before it can be cited"
+   "what": "Not consulted (no open copy reached): Charaka Saṃhitā in translation (Sanskrit formulas are cited through Dutt 1877); Bencao Gangmu; Ibn Sina; Dioscorides in a direct translation (quoted here only through Dymock 1893); Marco Polo in Yule's edition beyond the Hobson-Jobson quotations."
   },
   {
-   "where": "history/recipes",
-   "what": "Primary historical texts in published translation: Dioscorides De materia medica; Pliny; Apicius; Charaka/Sushruta; Shennong Bencao Jing / Bencao Gangmu; Ibn Sina; The Forme of Cury; Le Viandier; Gerard; Culpeper — sources for both the history sections and the recipes; edition and translation to be fixed per text"
+   "where": "history",
+   "what": "History monographs not read: Dalby, Dangerous Tastes (2000); Turner, Spice (2004); Freedman, Out of the East (2008); Miller, The Spice Trade of the Roman Empire (1969). Aram 2015 read as an abstract only."
   },
   {
-   "where": "plant/history",
-   "what": "Origin and dispersal of ginger: no primary study found by the sweep — queries p06 and y04 returned nothing that tests the Austronesian or Indian origin accounts directly; snowball from Cheng 2021 and from Kew/POWO next"
+   "where": "kitchen",
+   "what": "McGee, On Food and Cooking (2004) — an anchor named by Daniel; needs a copy in hand. Not cited."
   },
   {
-   "where": "plant",
-   "what": "What gingerols do for the plant — only indirect evidence found (Ficker 2003, Dang 2023, Wang 2024, Zhang 2022); the section will be short and labelled as a gap unless the snowball finds more"
+   "where": "kitchen",
+   "what": "No study read measures what a household infusion of fresh ginger extracts (section 15 says so)."
   },
   {
-   "where": "health",
-   "what": "Bartels EM, et al. Efficacy and safety of ginger in osteoarthritis patients: a meta-analysis. Osteoarthritis Cartilage 2015;23(1):13-21. — returned by query h06 but not matched by the selection script; add by DOI"
+   "where": "concepts",
+   "what": "Two 101s (the-ginger-plant, growing-under-glass) have no diagram; a conceptual figure of the rhizome and its oil cells, drawn from Liu 2020, is the next candidate."
   },
   {
-   "where": "all",
-   "what": "Trim the candidate list from 90 to the 60-80 band during verification — deep depth band; the health strand is the heaviest (41 of 90 with mechanism)"
+   "where": "builder",
+   "what": "The MI validator miscounts the second number of a paired citation such as [58, 59] as never cited (warnings for 4 references); the citations are present."
   },
   {
-   "where": "health",
-   "what": "Unread health and mechanism candidates: Ernst 2000, Heitmann 2012, Tiran 2011, Zhao 2023, Mowrey 1982, Yu 2011, Abdel-Aziz 2006, Bartels 2015 — no abstract obtainable this session (Europe PMC down); not cited. Heitmann and Tiran bear directly on pregnancy safety and should be read before section 10 is final"
+   "where": "recipes/glasse-gingerbread, glasse-gingerbread-cakes",
+   "what": "Glasse 1751 read through OCR with long-s errors, normalised by the builder; check against a clean copy."
   },
   {
-   "where": "health",
-   "what": "EMA monograph and assessment report, full text — section 10 relies on fragments of the public summary for the pregnancy, breast-feeding and under-six cautions; confirm exact wording"
-  },
-  {
-   "where": "plant",
-   "what": "Reference 92 (Metabolites 2023;13(9):992): first author and title — cited in section 14 from fragments"
-  },
-  {
-   "where": "pack",
-   "what": "All 76 references were verified from abstracts, record pages or fragments only; no full text was read. Summaries are one line each and seminal 'why_it_mattered' entries are placeholders."
-  },
-  {
-   "where": "recipes",
-   "what": "Only two recipes so far; add more from public-domain editions (Forme of Cury, Austin 1888) and fix the date of the Irish materia medica."
+   "where": "recipes/samasarkara-churna",
+   "what": "The source gives a dose; it is deliberately not reproduced (health profile)."
   }
  ],
  "markers": [
   {
-   "where": "concepts/ginger-in-the-record",
+   "where": "concepts/growing-under-glass",
    "what": "No diagram supplied in the pack for \"the key idea in one picture\"; none is drawn by the build."
   },
   {

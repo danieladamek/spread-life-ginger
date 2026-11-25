@@ -7,6 +7,7 @@ prerequisites: []
 terms:
 - gingerol
 - rhizome
+- root-exudate
 figures: []
 further_reading:
 - title: Root Exudates of Ginger Induced by Ralstonia solanacearum Infection Could Inhibi
@@ -18,7 +19,7 @@ further_reading:
 ---
 
 ## What it is
-Ginger's compounds inhibit fungi and bacteria in laboratory tests, and infected ginger releases root exudates that suppress bacterial wilt [8, 9].
+Ginger's compounds inhibit fungi and bacteria in laboratory tests, and infected ginger releases root exudates that suppress bacterial wilt [134, 137].
 
 ## How this guide uses it
-Showing that a compound defends a plant requires testing it in the living plant against the organisms that attack it. The sources read for this review do not report that test for gingerols.
+Showing that a compound defends a plant requires testing it in the living plant against the organisms that attack it. The sources read for this review do not report that test for gingerols. <!-- framing -->
